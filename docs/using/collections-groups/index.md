@@ -10,4 +10,4 @@ Private by default
 
 ## Limitations
 - You can have unlimited collections and groups count, even in Free plan.
-- Only [Pro users](../billing/premium-features.md) can create nested collections
+- Only [Pro users](../../billing/premium-features.md) can create nested collections
