@@ -1,0 +1,7 @@
+---
+title: Automation
+---
+
+## IFTTT
+
+## Zapier
