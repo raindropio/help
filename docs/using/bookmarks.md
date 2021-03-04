@@ -8,6 +8,10 @@ Private by default
 
 ## How to Sort
 
+## Adding a description
+
+## Changing thumbnail
+
 ## Preview
 
 ## Bulk Actions
