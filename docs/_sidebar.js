@@ -8,7 +8,8 @@ module.exports = {docs: [
 			'getting-started/install-extension/index',
 			'getting-started/download-app/index',
 			'getting-started/import',
-			'getting-started/account-basics'
+			'getting-started/account-basics',
+			'getting-started/account-settings'
 		]
 	},
 

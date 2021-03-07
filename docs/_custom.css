@@ -8,7 +8,6 @@
 /* You can override the default Infima variables here. */
 :root {
 	--ifm-color-primary: #1988E0;
-	--ifm-toc-border-color: rgba(0,0,0,.1);
 	--ifm-code-font-size: 95%;
 	--ifm-menu-color-background-active: transparent;
 	--ifm-navbar-link-color: var(--ifm-toc-link-color);
@@ -88,4 +87,24 @@ article header h1 {
 
 .markdown > h3 {
 	font-size: 1.2rem !important
+}
+
+/* Collapsible */
+details {
+	padding: .7rem 1.2rem;
+    box-shadow: inset 0 0 0 1px var(--ifm-toc-border-color);
+    border-radius: 6px;
+	margin-bottom: calc( var(--ifm-heading-vertical-rhythm-bottom) * var(--ifm-leading) );
+}
+details:not([open]):hover {
+	background: var(--docsearch-searchbox-background);
+	cursor: pointer;
+}
+
+details summary > * {
+	display: inline-block;
+}
+
+details:not([open]) summary > * {
+	margin: 0;
 }

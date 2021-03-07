@@ -7,7 +7,7 @@ if (typeof window != 'undefined') {
         display: {
             style: 'iconAndText',
             text: 'Send a message',
-            position: 'left'
+            position: 'right'
         }
     })
 

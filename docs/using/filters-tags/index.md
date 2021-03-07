@@ -11,3 +11,5 @@ slug: ../filters-tags
 ![](duplicates.png)
 
 When you click on Duplicates filter you will see only duplicate bookmarks. This list will not contain originals. So it's safe to remove them all
+
+## Autosuggested tags

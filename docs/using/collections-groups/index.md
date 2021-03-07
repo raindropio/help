@@ -6,6 +6,8 @@ slug: ../collections-groups
 ![](./collections.jpg)
 Private by default
 
+## "Unsorted" Collection
+
 ## Nested Collections
 
 ## Merge Collections

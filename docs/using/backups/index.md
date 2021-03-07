@@ -6,7 +6,12 @@ The bookmarks and files you save to your Raindrop.io are stored on Raindrop.io's
 
 This means that your collection will be available on any computer or mobile device (phone or tablet) that is connected to your Raindrop.io account.
 
+<details><summary>
+
 ## Permanent Copies
+
+</summary>
+
 Raindrop.io automatically creates copies of all web-pages and files in your collection. That way, even if an item changes or is taken offline, you will be able to open the version that you have saved in Raindrop.io.
 
 ![](copy.jpg)
@@ -23,7 +28,7 @@ Space for your copies is unlimited. Link to your copy is private and can't be ma
 When PRO subscription is expired, permanent copies become unaccessible and could be removed in future.
 
 ### How long it takes to copy all of my bookmarks?
-It's depends on count of your bookmarks and global queue. Usually 1000 bookmarks will be copied in half an hour. If it takes a lot longer, please contact with us at info@raindrop.io.
+It's depends on count of your bookmarks and global queue. Usually 1000 bookmarks will be copied in half an hour. If it takes a lot longer, <a onClick={()=>Beacon('open')} target="_self">let us know</a>.
 :::note
 Be sure that after upgrade to PRO, copies will not appear immediately. We need some time to copy each of your bookmarks, as described above.
 :::
@@ -48,11 +53,16 @@ When this happen you will see a special icon <img src={require('./icon.png').def
 - Web-pages with fancy animations based on scroll position could not be saved correctly
 - Links that require login or not publicly accessible could not be saved
 - Small amount can't be saved due to script failure, those will be automatically retried
-- If you found bookmark that marked as "failed to copy" by mistake, please send this link to info@raindrop.io
+- If you found bookmark that marked as "failed to copy" by mistake, <a onClick={()=>Beacon('open')} target="_self">please send</a> this link
 
----
+</details>
+
+<details><summary>
 
 ## Export to File
+
+</summary>
+
 Because your collections is stored in the cloud, you do not need to create special backups of your saved Raindrop.io items.
 However, If you wish to download your bookmarks for other uses you can use our export tool which creates a downloadable HTML file.
 
@@ -64,9 +74,14 @@ HTML file will contain:
 - Links
 - Tags
 
----
+</details>
+
+<details><summary>  
 
 ## Automatic Backups
+
+</summary>
+
 If you want to be even more confident, just use our automatic backup solution that supports Dropbox and Google Drive at the moment.
 Backups are made automatically shortly after you make any change in Raindrop.io.
 :::note
@@ -83,3 +98,5 @@ You can find your backup in `/Apps/Raindrop.io` folder
 
 ### Backup to Google Drive
 Backup will be saved to `Raindrop.io-Export.html` file
+
+</details>
