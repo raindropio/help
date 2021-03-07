@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "scope": "raindrop-io",
+  "redirects": [
+    { "source": "/open-multiple-links", "destination": "/using/bookmarks#open-multiple-links-at-once" },
+    { "source": "/permanent-copy",      "destination": "/using/backups#permanent-library" },
+    { "source": "/full-text-search",    "destination": "/using/search#full-text-search" },
+    { "source": "/search",              "destination": "/using/search" },
+    { "source": "/broken",              "destination": "/using/filters-tags#broken-links" },
+    { "source": "/mac-safari",          "destination": "/using/browser-extension" },
+    { "source": "/pro-faq",             "destination": "/billing/faq" }
+  ]
+}

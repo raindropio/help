@@ -33,7 +33,8 @@ module.exports = {docs: [
 			'using/public-page',
 			'using/embed',
 			
-			'using/backups/index'
+			'using/backups/index',
+			'using/limitations'
 		]
 	},
 
@@ -55,6 +56,7 @@ module.exports = {docs: [
 		items: [
 			'billing/premium-features',
 			'billing/faq',
+			'billing/change-payment-method',
 			'billing/change-billing-cycle',
 			'billing/cancel',
 			'billing/refund',

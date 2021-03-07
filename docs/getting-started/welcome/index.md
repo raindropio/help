@@ -7,7 +7,8 @@ Congratulations on your new Raindrop.io account!
 Click **Search** at the top right of this page to find what you're looking for
 
 Not sure what to do first? Start here:
-1. Automate saving from ...
+
+**Step 1: Migrate to Raindrop.io** - [import your old bookmarks](../import.md) and [automate saving](../../integrations/automation.md) of your new favorites/likes from Youtube, Twitter and other sites 
 
 **Step 2: Take your bookmarks anywhere** – download free Raindrop.io [apps](../download-app/index.md) and [extensions](../install-extension/index.md) for 10+ platforms including web, desktop, mobile, and more.
 

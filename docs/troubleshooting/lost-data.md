@@ -1,5 +1,5 @@
 ---
-title: Lost All My Bookmarks
+title: Lost All Bookmarks
 ---
 Calm down. All you data safely stored in our servers. Seems you have logged to a different or new account.
 

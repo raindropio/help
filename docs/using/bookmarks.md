@@ -18,6 +18,3 @@ Private by default
 ### Open Multiple Links at Once
 
 ## Customize appearance
-
-## Limitations
-You can have unlimited bookmarks count, even in Free plan.
