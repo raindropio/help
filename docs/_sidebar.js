@@ -22,9 +22,9 @@ module.exports = {docs: [
 			
 			'using/collections-groups/index',
 			'using/bookmarks',
+			'using/files/index',
 			'using/tags-filters/index',
 			'using/search/index',
-			'using/files/index',
 
 			'using/collaboration/index',
 			'using/public-page',
