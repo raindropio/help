@@ -2,7 +2,7 @@
 title: Backups
 slug: ../backups
 ---
-The bookmarks and files you save to your Raindrop.io are stored on Raindrop.io's servers. In other words, they’re stored “in the cloud”.
+The bookmarks and files you save to your Raindrop.io are stored on Raindrop.io's servers. In other words, they’re stored "in the cloud”.
 
 This means that your collection will be available on any computer or mobile device (phone or tablet) that is connected to your Raindrop.io account.
 

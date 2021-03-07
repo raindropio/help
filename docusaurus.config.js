@@ -29,7 +29,8 @@ module.exports = {
 				},
 				{
 					href: 'https://blog.raindrop.io',
-					label: 'Blog'
+					label: 'Blog',
+					target: '_self'
 				},
 				{
 					label: 'Community',
@@ -50,7 +51,8 @@ module.exports = {
 				},
 				{
 					href: 'https://raindrop.io/about',
-					label: 'About'
+					label: 'About',
+					target: '_self'
 				}
 			],
 		},
@@ -67,7 +69,11 @@ module.exports = {
 			searchParameters: {},
 	  
 			//... other Algolia params
-		  }
+		},
+		googleAnalytics: {
+			trackingID: 'UA-45127971-1',
+			anonymizeIP: true
+		}
 	},
 
 	presets: [

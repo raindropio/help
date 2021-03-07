@@ -19,8 +19,6 @@ You can use our iOS app if your device is running iOS / iPadOS 11 or higher.
 You can use our Android app if your device is running Android 5.0 or higher.
 
 ## Desktop App
-Desktop app is useful for navigate through links......
-
 ### macOS
 - [**Download for Intel chip**](https://raindrop.io/r/app/macos) *(use this if you not sure)*
 - [**Download for Apple chip**](https://raindrop.io/r/app/macos-arm)

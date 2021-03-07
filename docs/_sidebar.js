@@ -19,19 +19,19 @@ module.exports = {docs: [
 		collapsed: true,
 		items: [
 			'using/ui/index',
-
-			'using/bookmarks',
+			
 			'using/collections-groups/index',
-			'using/filters-tags/index',
+			'using/bookmarks',
+			'using/tags-filters/index',
 			'using/search/index',
 			'using/files/index',
+
 			'using/collaboration/index',
+			'using/public-page',
+			'using/embed',
 
 			'using/browser-extension/index',
 			'using/mobile-app',
-
-			'using/public-page',
-			'using/embed',
 			
 			'using/backups/index',
 			'using/limitations'

@@ -4,7 +4,7 @@ title: Import Data
 You can [transfer your bookmarks](https://app.raindrop.io/settings/import) from browser or other services to Raindrop.io
 
 ## How to?
-1. Grab export file. Check supported formats and limitations below
+1. Grab export file. Check [supported formats](#supported-formats) and limitations below
 2. Upload this file to our [**import tool**](https://app.raindrop.io/settings/import)
 3. Change settings (optional)
 4. Click **Start import** and wait until it completes.
@@ -16,8 +16,8 @@ Do not close browser tab until import is complete
 Thumbnails and search filters will be updated shortly after import is complete. You will receive an email notification.
 :::
 
-## Supported File Types
-### 📄 HTML
+## Supported Formats
+### `HTML`
 Almost any service or browser can generate this file for you. Here how to get it from popular browsers and services:
 - [Chrome](https://www.wikihow.com/Export-Bookmarks-from-Chrome)
 - [Safari](https://www.ionos.com/digitalguide/websites/web-development/export-safari-bookmarks/)
@@ -25,16 +25,16 @@ Almost any service or browser can generate this file for you. Here how to get it
 - [Pocket](https://help.getpocket.com/article/1015-exporting-your-pocket-list)
 - [Pinboard](https://pinboard.in/export/)
 
-### 📋 CSV
+### `CSV`
 Before uploading you need to convert this file into format suitable for Raindrop.  
 [Follow the instructions here](https://csv-to-bookmarks.glitch.me/)
 
-### 🟥 Pinterest
+### `Pinterest`
 Pinterest itself doesn't have any tools to export your data. But you can try to use great third-party app called [Pinback](https://pinbackit.github.io/) that can help you download export file.
 Just follow instructions on [Pinback](https://pinbackit.github.io/) site.
 
 ## Settings
-Befor you start import you will be prompted of how much data you want to transfer. Select appropriate mode:
+Before you start import, please select how much data you want to transfer:
 
 Mode | Description
 ---- | -----------
