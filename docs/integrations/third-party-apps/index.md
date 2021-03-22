@@ -2,6 +2,8 @@
 title: Third-Party Apps
 slug: ../third-party-apps
 ---
+## Introduction
+Raindrop.io can be easly integrated to other apps you use.
 
 ## RSS Readers
 ### One Click Save to Raindrop.io

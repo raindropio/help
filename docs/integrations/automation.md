@@ -1,10 +1,12 @@
 ---
 title: Automation
 ---
+## Introduction
+
 You can add new items from different services like Youtube, Twitter, Google Docs, etc to Raindrop.io and vise-verca in automated way.
 To achive this you need to use glue-app: one of a two below:
 
-## IFTTT
+## IFTTT (Recommended)
 IFTTT (If This Then That) allows you to link one service with another and come up with automated actions.
 
 Naturally, when you combine these two, the end result is awesomeness. 
@@ -18,7 +20,10 @@ If you add a lot of stuff to Raindrop.io or even if you’re just getting starte
 You can even [create your own integrations](https://ifttt.com/create)! Just select Raindrop.io from apps list.
 
 ## Zapier
-Zapier is very similar to IFTTT, but have a lot more configuration and flexibility.
+Zapier is very similar to IFTTT, but have a lot more functionality and flexibility.
 Usually it used in companies to automate they workflows. Grab one of the predifined reciepts below or create custom to improve your team productivity:
 
-<script src="https://zapier.com/apps/embed/widget.js?services=raindropio&limit=10"></script>
+- [Save favorite Github repositories](https://zapier.com/apps/github/integrations/raindropio/231017/create-new-global-events-in-github-as-raindropio-items)
+- [Save favorite Slack links](https://zapier.com/apps/raindropio/integrations/slack/110589/save-new-links-from-slack-messages-to-raindropio)
+- [Save RSS](https://zapier.com/apps/raindropio/integrations/rss/205642/save-new-rss-items-to-raindropio)
+- [**Check all reciepts**](https://zapier.com/apps/raindropio) or make your own

@@ -1,19 +1,19 @@
 ---
 title: Import Data
 ---
-You can [transfer your bookmarks](https://app.raindrop.io/settings/import) from browser or other services to Raindrop.io
+You can easily [transfer bookmarks](https://app.raindrop.io/settings/import) from browser or other services to Raindrop.io
 
 ## How to?
-1. Grab export file. Check [supported formats](#supported-formats) and limitations below
-2. Upload this file to our [**import tool**](https://app.raindrop.io/settings/import)
-3. Change settings (optional)
-4. Click **Start import** and wait until it completes.
+1. Grab export file. Check [supported formats](#supported-formats) and [limitations](#limitations) below
+2. Upload this file [**here**](https://app.raindrop.io/settings/import)
+3. Fine tune [import settings](#settings) (optional)
+4. Click **Start import** and wait until it completes
 
 :::note
 Do not close browser tab until import is complete
 :::
 :::note
-Thumbnails and search filters will be updated shortly after import is complete. You will receive an email notification.
+Bookmark thumbnails and search filters will be fetched shortly after import is complete. You will receive an email notification.
 :::
 
 ## Supported Formats
@@ -26,7 +26,7 @@ Almost any service or browser can generate this file for you. Here how to get it
 - [Pinboard](https://pinboard.in/export/)
 
 ### `CSV`
-Before uploading you need to convert this file into format suitable for Raindrop.  
+Before uploading you need to convert CSV file into format suitable for Raindrop.  
 [Follow the instructions here](https://csv-to-bookmarks.glitch.me/)
 
 ### `Pinterest`

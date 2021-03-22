@@ -7,28 +7,28 @@ Check guide how to fix this for your browser below:
 
 <details><summary>
 
-## Chrome
+### Chrome
 
 </summary>
 Right after you try to open multiple tabs at once, you will see icon in address bar. Click on it and enable this functionality for raindrop.io domain
 
 ![](./chrome.png)
 
-### Other solution:
+#### Other solution:
 Paste this URL ``chrome://settings/content/popups`` to address bar and press enter. In "Allow" section click "Add" and paste this string ``[*.]raindrop.io``
 
 </details>
 
 <details><summary>
 
-## Firefox
+### Firefox
 
 </summary>
 Right after you try to open multiple tabs at once, you will see panel like in screenshot below. Click "Preferences" and "Allow pop-ups for app.raindrop.io" in context menu:
 
 ![](./firefox1.png)
 
-## Other solution:
+#### Other solution:
 Paste this URL ``about:preferences#privacy`` to address bar and press enter.
 
 Scroll to "Permissions" section and click "Exceptions..." button near "Block pop-up windows" checkbox:

@@ -4,9 +4,17 @@ slug: ../install-extension
 ---
 When you install the Raindrop.io extension in your browser, you can easily save any page or link by simply clicking the Raindrop.io button.
 
-![](hero.jpg)
+<div className='carousel'>
 
-:::info
+![](clipper.jpg)
+![](mini_app.jpg)
+
+</div>
+
+Collect and browse bookmarks without leaving the current tab. Our browser extension have the same features as web app, but in small form factor.
+No more jumping throught tabs, your bookmarks always at hand.
+
+:::note
 Be sure to check [**this article**](../../using/browser-extension/index.md) to know how to use our extension.
 :::
 

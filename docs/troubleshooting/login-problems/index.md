@@ -1,33 +1,79 @@
 ---
 title: Login Problems
 ---
+If you’re having login problems with Raindrop.io, here are a few ways to solve common issues.
 
-## Solutions
 ### Reset your password
 First of try to [reset your password](../forgot-password.md). If this doesn't help try other solutions below.
 
-### Add Raindrop.io to cookies exception list
-If you need to login everytime you reopen browser or login just doesn't work.
-Seems your browser blocking our cookies. Try to add our domain to list of exceptions:
+---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+### Clear the browser cache
+If you’re having a problem with Raindrop.io, you can try clearing your browser cookies. 
+Here's how you can clear your Raindrop.io cookies on various browsers:
 
-<Tabs
-    defaultValue="chrome"
-    values={[
-        {label: 'Chrome', value: 'chrome'},
-        {label: 'Firefox', value: 'firefox'}
-    ]}>
-    <TabItem value="chrome">
-        Paste this URL <b>chrome://settings/content/cookies</b> to address bar and press enter.
-        In the bottom of the page click "Add" and paste this string <b>[*.]raindrop.io</b>
-    </TabItem>
-    <TabItem value="firefox">
-        Open settings. Go to "Privacy & Security" section. 
-        Scroll to "Cookies and Site Data" and click "Manage Permissions..."  
-        <img src={require('./firefox1.png').default} />
-        Manually add all described domains and save changes.
-        <img src={require('./firefox2.png').default} />
-    </TabItem>
-</Tabs>
+<details><summary>
+
+#### Chrome, Opera, Edge, Brave
+
+</summary>
+
+1. Visit https://app.raindrop.io/
+2. Open developer console (press `Control+Shift+I` on windows, or `Command+Option+I` on mac)
+3. Open **Application** tab, then click **Clear site data** (be sure to check "Including third-party cookies")
+4. Refresh the page and login again
+
+![](clear-chrome.png)
+
+</details>
+
+
+<details><summary>
+
+#### Firefox
+
+</summary>
+
+1. Open Firefox Preferences
+2. Go to `Privacy & Security`
+3. Scroll down page and click `Manage Data...` in `Cookies and Site Data` section
+4. Type **raindrop.io** in `Search websites field`
+5. Click `Remove All Shown`
+
+![](clear-firefox.png)
+
+</details>
+
+---
+
+### Add Raindrop.io to your browser's whitelist
+To ensure that Raindrop.io cookies work properly on your browser, add Raindrop.io to your browser's whitelist.
+
+<details><summary>
+
+#### Chrome, Opera, Edge, Brave
+
+</summary>
+
+Paste this URL `chrome://settings/content/cookies` to address bar and press enter.
+In the bottom of the page click `Add` (in `Allow` section) and paste this string **`[*.]raindrop.io`**
+</details>
+
+
+<details><summary>
+
+#### Firefox
+
+</summary>
+
+Open settings. Go to `Privacy & Security` section. 
+Scroll to `Cookies and Site Data` and click `Manage Permissions...`
+
+![](cookie-firefox.png)
+
+In `Address of website` put `https://api.raindrop.io` and click `Allow`.
+Then click `Save Changes`
+
+Also try to disable any privacy/blocking extensions you have.
+
+</details>

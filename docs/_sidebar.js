@@ -73,6 +73,7 @@ module.exports = {docs: [
 			'troubleshooting/lost-data',
 			'troubleshooting/doesnt-sync',
 			'troubleshooting/open-multiple-links/index',
+			'troubleshooting/false-broken-links',
 		]
 	},
 
