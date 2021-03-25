@@ -7,7 +7,7 @@ Raindrop.io can search by bookmark title, description, URL, tag, type or entire 
 
 Small spelling mistakes in search queries are auto-corrected.
 
-We apply some language-specific optimizations like: Stemming (words like «drives», «drove», «driven» for example are perceived as same word) and plural insensitive search is supported for English, Russian, Mandarin, Spanish, Portuguese, Italian, French, German, Japanese, Polish, Korean, Finnish, Turkish, Dutch, Swedish and Danish languages.
+We apply some language-specific optimizations like: Stemming (words like «drives», «drove», «driven» for example are perceived as same word) and plural insensitive search for English, Russian, Mandarin, Spanish, Portuguese, Italian, French, German, Japanese, Polish, Korean, Finnish, Turkish, Dutch, Swedish and Danish languages.
 
 ## Full-Text Search
 Raindrop can search through the entire content of every bookmark and PDF you’ve saved, making it extremely easy to find what you’re looking for. It's like your personal Google!

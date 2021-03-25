@@ -1,3 +1,3 @@
 ---
-title: App & Extension
+title: Web, Desktop App & Extension
 ---

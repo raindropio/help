@@ -21,13 +21,13 @@ module.exports = {docs: [
 			'using/ui/index',
 			
 			'using/collections-groups/index',
-			'using/bookmarks',
+			'using/bookmarks/index',
 			'using/files/index',
 			'using/tags-filters/index',
 			'using/search/index',
 
 			'using/collaboration/index',
-			'using/public-page',
+			'using/public-page/index',
 			'using/embed',
 
 			'using/browser-extension/index',
@@ -68,6 +68,7 @@ module.exports = {docs: [
 		label: '🔨 Troubleshooting',
 		collapsed: true,
 		items: [
+			'troubleshooting/known-issues',
 			'troubleshooting/login-problems/index',
 			'troubleshooting/forgot-password',
 			'troubleshooting/lost-data',

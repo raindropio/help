@@ -1,3 +1,3 @@
 ---
-title: iOS & Android App
+title: Mobile App
 ---

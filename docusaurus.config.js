@@ -14,6 +14,9 @@ module.exports = {
 	titleDelimiter: '―',
 
 	themeConfig: {
+		colorMode: {
+			respectPrefersColorScheme: true
+		},
 		navbar: {
 			title: 'Raindrop.io',
 			hideOnScroll: true,
