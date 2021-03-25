@@ -12,5 +12,5 @@ To be more familiar with Raindrop.io let's check the main parts of a user interf
 4. [Bookmarks](../bookmarks/index.md) & [Files](../files/index.md) &mdash; mix-and-match different content
 5. [Search](../search/index.md)
 6. [Add new item](../bookmarks/index.md#add-new-bookmark), [Share](../public-page/index.md) and [Collaborate](../collaboration/index.md) &mdash; 
-7. [Collection appearance](../bookmarks.md) &mdash; 
+7. [Collection appearance](../bookmarks/index.md) &mdash; 
 8. [Profile & settings](../../getting-started/account-settings.md) &mdash; 
