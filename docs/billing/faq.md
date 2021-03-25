@@ -22,8 +22,20 @@ Yes! We offer either monthly or yearly billing options. The yearly billing optio
 We handle billing via FastSpring. It's the same payment provider used in companies such as Adobe, Sketch, DaisyDisk and other. We do not handle your credit card information directly.
 Paypal is fully supported, select it as your payment method on checkout.
 
+### Are there any discounts?
+We offer a 20% discount if you choose yearly subscription.
+
 ### What happens if I cancel my paid plan?
 When you cancel your plan, you will remain on the plan until the end of your billing cycle, at which time the plan will be canceled.
+
+### What happens at the end of the paid period?
+When the subscription ends you automatically switch to the free plan. All your collections (including nested) will remain accessible, you will still have an ability to add new bookmarks in it, but if you want to create more nested collections you will have to switch to paid plan.
+
+Also:
+- Cloud backup will be stopped
+- New file uploads limited to 60 Mb per month
+- Permanent copies become unaccessible and could be removed in future
+- Full-text search stop working
 
 ### Do you offer refunds?
 30-day [money back guarantee](./refund.md).

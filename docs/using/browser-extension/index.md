@@ -20,13 +20,12 @@ See if a page already saved. Special [✔] indicator will be showed when you vis
 <img src={require('./highlight.jpg').default} height='100' />
 
 ## Use Hotkeys
-Chrome and Firefox extension support hotkeys for quick save of bookmarks.
-To access list of available hotkeys or change them:
+To access a list of all available hotkeys:
 1. Click on a extension button
 2. Click on your profile name
 3. Click Settings
-4. Scroll down Settings page
-5. Click "Change hotkeys" to rebind them (optional)
+4. Scroll down Settings page and notice "Hotkeys" section
+5. Click "Change hotkeys" to rebind them (optional, only available in Chrome & Firefox)
 
 ## Search in Address Bar
 You can search your bookmarks right from browser address bar by typing special keyword before your query.
