@@ -139,14 +139,16 @@ If you want to create a nested collection for currently active just `Shift+click
 
 </summary>
 
-Just drag a collection to reorder
+1. Just drag a collection to reorder
 <p><img src={require('./drag.png').default} height='340' /></p>
 
-Drop it in desired location or move over another collection to make it parent
+2. Drop it in desired location or move over another collection to make it parent
 <p><img src={require('./move.png').default} height='340' /></p>
 
+---
+
 You can even sort all collections at once by name (ascending):
-1. Mouse over any group then click "..." button
+1. Mouse over "My collections" label in sidebar and click "..." button
 2. In context menu that appear click "Sort all collections by name"
 
 <img src={require('./groups-context-menu.png').default} height='472' />
@@ -163,9 +165,9 @@ You can even sort all collections at once by name (ascending):
 </summary>
 
 1. Right click on a collection
-2. Click "Change icon"
 <img src={require('./context-menu.png').default} height='309' />
 
+2. Click "Change icon"
 3. Icon selector window will appear. Here you can select a predefined icon or search any specific. Click "Remove" in top right corner to unset icon for a collection.
 <img src={require('./icon-search.png').default} height='569' />
 

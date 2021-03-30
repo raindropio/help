@@ -23,15 +23,21 @@ Raindrop.io generates handy thumbnails and extracts all relevant info about each
 Raindrop.io makes it easy to save interesting content you find on the web.
 This page outlines the methods you can use to save any link to your List.
 
+---
+
 #### Saving with the Browser Extension
 The [Raindrop.io extension](../../getting-started/install-extension/index.md) is a small button that sits in your browser toolbar.
 It's available for many browsers. When clicked, it will save the current page to Raindrop.io.
+
+---
 
 #### Manually Saving to a link to Raindrop.io
 1. Visit [Raindrop.io App](https://app.raindrop.io)
 2. Click the + button in the top toolbar
 3. Insert the URL you’d like to save. Don’t forget the http://
 4. Click Save
+
+![](web-add.png)
 
 </details>
 
@@ -61,11 +67,22 @@ You can change the order by changing sort option or by manually dragging and dro
 #### Drag n drop
 You can transfer an item to a different collection by dragging it from its current collection onto the menu item of the collection you’d like to transfer it to.
 
+![](move-drag.png)
+
+---
+
 #### Move multiple items
 Start by highlighting the items that you want to copy by hovering over the items and clicking the tick mark that appears in the top left corner.
-Once you have selected the items you wish to move, select ‘Move’ from the toolbar at the top of the screen. 
+
+![](bulk.png)
+
+Once you have selected the items you wish to move, select ‘Move’ from the toolbar at the top of the screen.
+
+![](bulk-move.png)
+
 A window will ask which collection you want to move the items into, select or type the collection’s name into the text box.
 Your items will now be moved into the second collection!
+
 </details>
 
 
@@ -82,7 +99,12 @@ Either way, it’s easy to change an image you hate.
 
 To change a thumbnail of an item click on `Edit` button and then click on a thumbnail. 
 
+![](buttons.png)
+
 If there are other images on the bookmarked webpage that Raindrop.io can pull from the site, they will be showed in grid.
+
+![](cover.png)
+
 Alternatively, you can upload an image that you like from your desktop by clicking on 'upload'.
 
 </details>
@@ -96,6 +118,9 @@ Alternatively, you can upload an image that you like from your desktop by clicki
 </summary>
 
 You can add descriptions to your items already uploaded to Raindrop.io by clicking onto the `Edit` button.
+
+![](description.png)
+
 You can also add descriptions when adding items directly to Raindrop.io using the [browser extension](/install-extension) or [mobile app](../../getting-started/download-app/index.md).
 
 </details>
@@ -112,15 +137,23 @@ You can also add descriptions when adding items directly to Raindrop.io using th
 If you want to add tags to a single item, click `Edit` button.
 Now you will see the option to tag underneath 'Tags', here type in as many tags as you like separated by commas.
 
+![](tags.png)
+
 Tip: you can tag your items when you add them to Raibdrio,ui when you use one of our [browser extension](/install-extension) or using [mobile app](../../getting-started/download-app/index.md).
 
 #### Add tags to multiple items
 You can add tags to multiple items in your collection too.
 First highlight the items you want to tag by hovering over the items until the tick appears in the left corner, and then click on the tick.
+
+![](bulk.png)
+
 Highlight as many items as you like, then click `Add tags` in the menu bar at the top. When the pop-up appears, type in your tags separated by commas. 
 
 #### Remove tags from multiple items
 First highlight the items you want to tag by hovering over the items until the tick appears in the left corner, and then click on the tick.
+
+![](bulk.png)
+
 Highlight as many items as you like, then click `More...` / `Remove tags` in the menu bar at the top. 
 </details>
 
@@ -132,8 +165,18 @@ Highlight as many items as you like, then click `More...` / `Remove tags` in the
 
 </summary>
 
+#### Remove single item
+Mouse over any item and click "trash" icon
+
+![](buttons.png)
+
+---
+
 #### Remove multiple items
 First highlight the items you want to remove by hovering over the items until the tick appears in the left corner, and then click on the tick.
+
+![](bulk.png)
+
 Highlight as many items as you like, then click `Remove` in the menu bar at the top. 
 
 </details>
@@ -147,6 +190,9 @@ Highlight as many items as you like, then click `Remove` in the menu bar at the 
 </summary>
 
 First highlight the items you want to open by hovering over the items until the tick appears in the left corner, and then click on the tick.
+
+![](bulk.png)
+
 Highlight as many items as you like, then click `Open` in the menu bar at the top.
 
 [Check this article](../../troubleshooting/open-multiple-links/index.md) if you have any troubles with this feature.
@@ -154,7 +200,7 @@ Highlight as many items as you like, then click `Open` in the menu bar at the to
 </details>
 
 
-## View
+## Look & Feel
 
 <!------------------------------>
 <details><summary>
@@ -167,10 +213,20 @@ If you just want to quickly check a link, you don't need to open it in new tab.
 Raindrop.io features a special viewer (and reader for articles) that allows you to have seamless experience.
 Very useful in the case of videos or music.
 
+![](preview-video.png)
+
+Just click on an item, if preview is available it will be showed in right panel.
+
 #### Articles
 Raindrop.io extracts the article text and removes web advertisements and other distractions to provide a wonderful reading experience.
 
+![](preview-article.png)
+
 #### Refresh preview
+If preview is not available, incorrect or outdated you can ask Raindrop.io to extract it again.   
+Just right click on an item and select `Refresh preview` option.
+
+![](context-menu.png)
 
 </details>
 
@@ -262,7 +318,8 @@ Masonry assembles your items like a jigsaw puzzle. This view is an excellent way
 
 </summary>
 
-Also, you can choose to hide labels (because sometimes images speak louder than words).
+Also, you can choose to hide labels (because sometimes images speak louder than words).   
+Click `List` button in top right corner
 
 ![](view.png)
 
@@ -279,6 +336,8 @@ Also, you can choose to hide labels (because sometimes images speak louder than 
 </summary>
 
 Adjust what buttons appear when you mouse over on each bookmark, change click behavior, and more. Tailor Raindrop.io to fit your style.
+
+![](buttons.png)
 
 1. Visit [settings page](https://app.raindrop.io/settings/app)
 2. Change `Click on a bookmark` behaviour
