@@ -10,12 +10,50 @@ Whether you’re planning a presentation, preparing for an event or creating a w
 ![](./collections.jpg)
 
 Each collection have a unique icon selected from thousands [searchable icons library](#change-icon).
-You can choose [view modes](../bookmarks/index.md#customize-appearance) to fit your needs better and make your content shine: list, grid, headlines or masonry.
+You can choose [view modes](../bookmarks/index.md#appearance) to fit your needs better and make your content shine: list, grid, headlines or masonry.
 
-Also, you can choose to [hide labels](../bookmarks/index.md#customize-appearance) (because sometimes images speak louder than words), 
-[drag to reorder](#change-order) your items, or [sort your items](#change-order) by date, title, and kind.
+Also, you can choose to [hide labels](../bookmarks/index.md#appearance) (because sometimes images speak louder than words), 
+[drag to reorder](../bookmarks/index.md#sort) your items, or [sort your items](../bookmarks/index.md#sort) by date, title, and kind.
 
-Collections and items are **private by default**. It means only you can access them, until you decide to make them [public](#public-collections).
+Collections and items are **private by default**.
+It means only you can access them.
+
+Make it [public](#public-collections) or [shared](#shared-collections) to enable access for other people.
+
+
+<!------------------------------>
+<details><summary>
+
+### Shared collections
+
+</summary>
+
+You can enable access to your collection(s) by team members or friends. Permissions let you control who can access each of your collections.
+You will notice a special "user" icon next to the name of a collection:
+
+![](shared.png)
+
+Learn more about sharing and collaboration [here](../collaboration/index.md).
+
+</details>
+
+
+<!------------------------------>
+<details><summary>
+
+### Public collections
+
+</summary>
+
+You can share individual collections with the entire web. Sign-up is not required.
+You will notice a special "globe" icon next to the name of a collection:
+
+![](public.png)
+
+Learn more about public collections [here](../public-page/index.md).
+
+</details>
+
 
 <!------------------------------>
 <details><summary>
@@ -52,40 +90,6 @@ This helps to focus on the right collections at the right time, without getting 
 
 Nested collections are also a great way to share multiple collections at once. 
 When you share a "parent" all of it sub-collections become accessible by collaborators automatically.
-
-</details>
-
-
-<!------------------------------>
-<details><summary>
-
-### Shared collections
-
-</summary>
-
-You can enable access to your collection(s) by team members or friends. Permissions let you control who can access each of your collections.
-You will notice a special "user" icon next to the name of a collection:
-
-![](shared.png)
-
-Learn more about sharing and collaboration [here](../collaboration/index.md).
-
-</details>
-
-
-<!------------------------------>
-<details><summary>
-
-### Public collections
-
-</summary>
-
-You can share individual collections with the entire web. Sign-up is not required.
-You will notice a special "globe" icon next to the name of a collection:
-
-![](public.png)
-
-Learn more about public collections [here](../public-page/index.md).
 
 </details>
 

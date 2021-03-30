@@ -104,6 +104,11 @@ article header h1 {
 	font-size: 1.2rem !important;
 }
 
+.markdown img {
+	border: 1px solid var(--ifm-toc-border-color);
+	display: block;
+}
+
 h4 {
 	margin-bottom: .5rem
 }

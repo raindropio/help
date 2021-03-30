@@ -9,7 +9,7 @@ From images to maps, videos to websites, Raindrop.io lets you save everything in
 
 ![](items.png)
 
-Raindrop.io generates handy thumbnails and extracts all relevant info about each link.
+Raindrop.io generates handy thumbnails and extracts all relevant info about each link for you.
 
 ## Manage
 
@@ -39,12 +39,14 @@ It's available for many browsers. When clicked, it will save the current page to
 <!------------------------------>
 <details><summary>
 
-### Change order
+### Change order {#sort}
 
 </summary>
 
 By default, bookmarks are shown in the order in which they were added (new on top).
 You can change the order by changing sort option or by manually dragging and dropping your bookmarks.
+
+![](sorting.png)
 
 </details>
 
@@ -94,7 +96,7 @@ Alternatively, you can upload an image that you like from your desktop by clicki
 </summary>
 
 You can add descriptions to your items already uploaded to Raindrop.io by clicking onto the `Edit` button.
-You can also add descriptions when adding items directly to Raindrop.io using the [browser extension](../../getting-started/install-extension/index.md) or [mobile app](../../getting-started/download-app/index.md).
+You can also add descriptions when adding items directly to Raindrop.io using the [browser extension](/install-extension) or [mobile app](../../getting-started/download-app/index.md).
 
 </details>
 
@@ -110,7 +112,7 @@ You can also add descriptions when adding items directly to Raindrop.io using th
 If you want to add tags to a single item, click `Edit` button.
 Now you will see the option to tag underneath 'Tags', here type in as many tags as you like separated by commas.
 
-Tip: you can tag your items when you add them to Raibdrio,ui when you use one of our [browser extension](../../getting-started/install-extension/index.md) or using [mobile app](../../getting-started/download-app/index.md).
+Tip: you can tag your items when you add them to Raibdrio,ui when you use one of our [browser extension](/install-extension) or using [mobile app](../../getting-started/download-app/index.md).
 
 #### Add tags to multiple items
 You can add tags to multiple items in your collection too.
@@ -176,44 +178,95 @@ Raindrop.io extracts the article text and removes web advertisements and other d
 <!------------------------------>
 <details><summary>
 
-### Customize appearance
+### Customize appearance {#appearance}
 
 </summary>
 
 Every Raindrop.io collection is unique. Whether you add videos, images, bookmarks, files, or a combination of all of these, your collection should be easy to navigate, feel organized, and look beautiful.
 
-On any plan you can choose view modes to fit your needs better and make your content shine: list, grid, headlines and masonry.
+<!------------------------------>
+<details><summary>
 
-#### Change view mode
+#### How to change view mode
 
----
+</summary>
 
-#### List
+Click `List` button in top right corner
+
+![](view.png)
+
+</details>
+
+<!------------------------------>
+<details><summary>
+
+#### List view
+
+</summary>
+
 You might recognize `list`, our default view mode.
 Useful information is surfaced (including who, what, and when the item was created), making it a great fit for alphabetical and date sorting.
 Ideal for bookmarks, files, and list building.
 
----
+![](list.png)
 
-#### Grid
+</details>
+
+<!------------------------------>
+<details><summary>
+
+#### Grid view
+
+</summary>
+
 Ideal for the grid-obsessed, items get cropped to clean and tidy squares. 
 See your content on a level playing field (regardless of type), and drag to reorder your collection with ease. 
 For the visually inclined, toggle labels off and let the thumbnails stand out.
 
----
+![](grid.png)
 
-#### Headlines
+</details>
+
+<!------------------------------>
+<details><summary>
+
+#### Headlines view
+
+</summary>
+
 When thumbnails aren’t a priority, Headlines mode gives you a quick and simple way to scan your items at a glance.
 
----
+![](headlines.png)
 
-#### Masonry
+</details>
+
+<!------------------------------>
+<details><summary>
+
+#### Masonry view
+
+</summary>
+
 Masonry assembles your items like a jigsaw puzzle. This view is an excellent way to view mood boards or content streams where a strict order is not relevant.
 
+![](masonry.png)
+
+</details>
+
 ---
 
+<!------------------------------>
+<details><summary>
+
 #### Hide labels
+
+</summary>
+
 Also, you can choose to hide labels (because sometimes images speak louder than words).
+
+![](view.png)
+
+</details>
 
 </details>
 
