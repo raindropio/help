@@ -1,5 +1,6 @@
 ---
 title: Mobile App
+slug: /mobile-app
 ---
 
 <details><summary>
@@ -15,7 +16,7 @@ To use the Raindrop.io Share Extension, you’ll need to enable it first:
 
 <details><summary>
 
-### iOS & iPadOS
+### iOS & iPadOS {#share-ios}
 
 </summary>
 
@@ -33,7 +34,7 @@ Enabling the Raindrop.io Share Extension is easy, and only takes a moment. Here'
 
 <details><summary>
 
-### Android
+### Android {#share-android}
 
 </summary>
 

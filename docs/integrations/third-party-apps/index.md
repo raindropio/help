@@ -1,6 +1,6 @@
 ---
 title: Third-Party Apps
-slug: ../third-party-apps
+slug: /third-party-apps
 ---
 ## Introduction
 Raindrop.io can be easly integrated to other apps you use.

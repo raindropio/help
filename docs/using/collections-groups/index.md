@@ -1,6 +1,6 @@
 ---
 title: Collections & Groups
-slug: ../collections-groups
+slug: /collections
 ---
 
 ## Introduction
@@ -37,6 +37,8 @@ This collection is useful to temporarly put new items in it and sort them later.
 ### Nested collections
 
 </summary>
+
+Nested collections give your an extra level of flexibility and power.
 
 Keep your ever-growing collections list neat and organized with nested collections.
 For example, you might create "parent" collection called "Music" and put "Pop", "Rock" and "Electronic" underneath.
@@ -189,7 +191,7 @@ So please don't send requests to add any new icons to our email.
 <!------------------------------>
 <details><summary>
 
-### Delete
+### Relete
 
 </summary>
 

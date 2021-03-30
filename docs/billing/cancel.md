@@ -1,5 +1,6 @@
 ---
 title: Cancel Subscription
+slug: /cancel
 ---
 
 In order to cancel your Pro subscription, simply stop your Pro plan from automatically renewing itself.

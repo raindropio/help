@@ -1,11 +1,14 @@
 ---
 title: Tags & Filters
-slug: ../tags-filters
+slug: /tags-filters
 ---
 
 ## Tags
 Tags are a great way of being able to find items when you need them & with our search tool, you can find all things tagged in one place, no matter what collection they are in.
 You can search individual collections or globally, and — here’s where it gets fun — try filtering with #multiple #tags to discover interesting intersections among your items.
+
+Raindrop.io tags are special. They allow you to name them using any characters, in any language and most importantly – with spaces.
+You_wont_need_to_name_your_tags_like_that_anymore.
 
 All of your tags are visible in the sidebar on the left of your browser.
 You can click one of these and Raindrop.io will bring up all items tagged with that tag, much like a global search.
@@ -13,7 +16,7 @@ You can click one of these and Raindrop.io will bring up all items tagged with t
 <!------------------------------>
 <details><summary>
 
-### Autosuggested tags
+### Search by tag
 
 </summary>
 
@@ -23,9 +26,22 @@ You can click one of these and Raindrop.io will bring up all items tagged with t
 <!------------------------------>
 <details><summary>
 
-### Items without tags
+### Find items without tags
 
 </summary>
+
+</details>
+
+
+<!------------------------------>
+<details><summary>
+
+### Suggested tags
+
+</summary>
+
+Suggested Tags takes the work out of keeping your list organized.
+After upgrading to [Pro plan](../../billing/premium-features.md), you’ll see a list of Suggested Tags whenever you tag an item, and can add them with just a click.
 
 </details>
 

@@ -1,13 +1,19 @@
 ---
 title: Search
-slug: ../search
+slug: /using-search
 ---
 ## Introduction
-Raindrop.io can search by bookmark title, description, URL, tag, type or entire content of a web-page or PDF (only in [Pro](../../billing/premium-features.md)).
+![](top.png)
 
-Small spelling mistakes in search queries are auto-corrected.
+To use Search in Raindrop.io on your computer, click the search field shown above (the magnifying glass icon), then type in your search and click the Enter button.
 
-We apply some language-specific optimizations like: Stemming (words like «drives», «drove», «driven» for example are perceived as same word) and plural insensitive search for English, Russian, Mandarin, Spanish, Portuguese, Italian, French, German, Japanese, Polish, Korean, Finnish, Turkish, Dutch, Swedish and Danish languages.
+When searching in Raindrop.io with a free account, you can find items in your collections by Title, Description, Tag, Type and URL.
+[Raindrop.io Pro](../../billing/premium-features.md) plan offers a [full-text search](#full-text-search) feature
+
+### Why Raindrop.io search is so awesome?
+- Small spelling mistakes in search queries are auto-corrected.
+- We apply some language-specific optimizations like: Stemming (words like «drives», «drove», «driven» for example are perceived as same word) and plural insensitive search for English, Russian, Mandarin, Spanish, Portuguese, Italian, French, German, Japanese, Polish, Korean, Finnish, Turkish, Dutch, Swedish and Danish languages.
+- Search results are sorted by relevancy by default
 
 ## Full-Text Search
 Raindrop can search through the entire content of every bookmark and PDF you’ve saved, making it extremely easy to find what you’re looking for. It's like your personal Google!

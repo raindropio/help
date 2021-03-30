@@ -1,9 +1,9 @@
 ---
 title: Download App
-slug: ../download-app
+slug: /download-app
 ---
 
-You can access your bookmarks even outside of a browser.
+Use our Windows and Mac app from your desktop, or carry Raindrop.io around in your pocket with our iOS and Android app.
 Everything stays in sync and accessible across every platform so you’ll never lose track of anything.
 
 ![](devices.png)

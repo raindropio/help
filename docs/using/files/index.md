@@ -1,8 +1,10 @@
 ---
 title: Files
-slug: ../files
+slug: /files
 ---
-Besides storing your bookmarks in Raindrop.io you can upload many files types right from your desktop (or mobile app)
+
+With Raindrop.io you can store files and locate previous inspiration easily. Upload your documents to Raindrop.io instead of creating never-ending email trails.
+
 ## Supported File Types
 - Images (``jpeg``, ``gif`` or ``png``)
 - Videos

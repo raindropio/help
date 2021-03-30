@@ -1,5 +1,6 @@
 ---
 title: Change Payment Method
+slug: /change-payment-method
 ---
 How to change the payment method, will depend on whether you upgraded through the Raindrop.io website or via a third-party store.
 

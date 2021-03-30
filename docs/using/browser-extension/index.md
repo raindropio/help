@@ -1,18 +1,41 @@
 ---
 title: Browser Extension
-slug: ../browser-extension
+slug: /browser-extension
 ---
 
+Using our browser extension is the quickest way to add links, images, and stuff to your Raindrop.io collections straight from your favorite web browser.
+
 ## Appearance
+
+<!------------------------------>
+<details><summary>
+
 ### Clipper
+
+</summary>
+
 Clipper is the most simple and fastest way to save new bookmarks.
 
 ![](clipper.jpg)
 
+</details>
+
+<!------------------------------>
+<details><summary>
+
 ### Mini App
+
+</summary>
+
 Mini App gives you the same experience as our web site but in compact size. You can browse, search, organize and add new bookmarks.
 
 ![](mini_app.jpg)
+
+</details>
+
+## Save Page
+
+## Save Link or Image
 
 ## Highlight Saved Pages
 See if a page already saved. Special [✔] indicator will be showed when you visit already saved page
@@ -39,9 +62,6 @@ This feature only available in Chrome, Opera and Firefox browser
 :::note
 
 ## Privacy & FAQ
-### What permissions does the browser extension need?
-Our browser extension will ask you for a few permissions after you installed it. The permissions we ask for are default permissions by your browser so we can make sure the extension works the way it should be.
-
 ### What data does the extension collect?
 The browser extension does not do or collect anything unless you tell it to. It sits quietly in the background, waiting for you to interact with it.
 

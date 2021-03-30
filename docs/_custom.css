@@ -104,6 +104,10 @@ article header h1 {
 	font-size: 1.2rem !important;
 }
 
+h4 {
+	margin-bottom: .5rem
+}
+
 /* Collapsible */
 details {
 	padding: .7rem 1.2rem;

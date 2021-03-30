@@ -1,6 +1,6 @@
 ---
 title: Backups
-slug: ../backups
+slug: /backups
 ---
 The bookmarks and files you save to your Raindrop.io are stored on Raindrop.io's servers. In other words, they’re stored "in the cloud”.
 
@@ -78,7 +78,7 @@ HTML file will contain:
 
 <details><summary>  
 
-## Automatic Backups
+## Automatic Backups {#automatic}
 
 </summary>
 

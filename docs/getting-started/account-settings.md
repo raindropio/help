@@ -1,5 +1,6 @@
 ---
 title: Account Settings
+slug: /account-settings
 ---
 
 ## Change languages

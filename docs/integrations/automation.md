@@ -1,5 +1,6 @@
 ---
 title: Automation
+slug: /automation
 ---
 ## Introduction
 

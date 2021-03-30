@@ -1,5 +1,6 @@
 ---
 title: Change Billing Cycle
+slug: /change-billing-cycle
 ---
 
 The Pro plan is available on a monthly or a yearly basis, and you can change your billing cycle at any time. However, how to change the billing cycle, as well as the implications of the change, will depend on whether you upgraded through the Raindrop.io website or via a third-party store.

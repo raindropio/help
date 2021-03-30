@@ -1,5 +1,6 @@
 ---
 title: FAQ
+slug: /billing-faq
 ---
 
 ### Can I use Raindrop.io for free?
@@ -12,7 +13,7 @@ In short you will have full-text search, permanent copies of your bookmarks, nes
 ### Can I collaborate with other people without paying?
 Of course!
 
-### Do I have to pay for my nested collections to keep them accessible?
+### Do I've to pay for my nested collections to keep them accessible?
 No. Don’t worry, we won’t charge you for hosting your nested collections. The great news is that all your nested collections remain accessible even if your subscription ends or you’ve switched to the Free plan. But on Free plan you can't create any new nested collections.
 
 ### Do you have monthly and yearly billing options?

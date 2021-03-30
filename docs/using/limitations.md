@@ -1,5 +1,6 @@
 ---
 title: Limitations
+slug: /limitations
 ---
 
 Number of | Free | Pro

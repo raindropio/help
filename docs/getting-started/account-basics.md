@@ -1,5 +1,6 @@
 ---
 title: Account Basics
+slug: /account-basics
 ---
 
 ## Change Email Address
@@ -19,24 +20,24 @@ You can connect your Apple, Google, Facebook or Twitter account to be able to lo
 2. Turn on or turn off services in "Sign in with" section
 
 ## Reset Account
-If you want to start from scratch and delete all data:
+If you want to start from scratch and remove all data:
 1. Visit [Account Settings](https://app.raindrop.io/settings/account)
 2. Click "Remove all my bookmarks and collections"
-3. Confirm delete
+3. Confirm remove
 
 :::note
 This action will remove all your bookmarks and collections!  
 Bookmarks can be restored later from Trash.
 :::
 
-## Delete Account
+## Remove Account
 We’re sorry to hear that you’re considering deleting your Raindrop.io account.
 
-Please note that deleting your account will delete all the data in your Raindrop.io including bookmarks, collections, files, filters, tags, etc. If you delete your account, you will not be able to restore it or any data associated with the account.
+Please note that deleting your account will remove all the data in your Raindrop.io including bookmarks, collections, files, filters, tags, etc. If you remove your account, you will not be able to restore it or any data associated with the account.
 
 1. Visit [Account Settings](https://app.raindrop.io/settings/account)
 2. Click "Remove account"
-3. Confirm delete
+3. Confirm remove
 
 :::note
 **For Premium users**: If you've signed up for Pro, please make sure to [cancel](../billing/cancel.md) your Raindrop.io subscription first.

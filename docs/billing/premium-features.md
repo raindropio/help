@@ -1,5 +1,6 @@
 ---
 title: Premium Features
+slug: /premium-features
 ---
 While Raindrop.io can be used for free, [Raindrop.io Pro](https://raindrop.io/pro/buy) is a worthwhile upgrade that adds powerful features and functionality to help you do more with the content you save. 
 

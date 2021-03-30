@@ -15,7 +15,7 @@ module.exports = {
 
 	themeConfig: {
 		colorMode: {
-			respectPrefersColorScheme: true
+			respectPrefersColorScheme: false
 		},
 		navbar: {
 			title: 'Raindrop.io',
@@ -53,8 +53,8 @@ module.exports = {
 					],
 				},
 				{
-					href: 'https://raindrop.io/about',
-					label: 'About',
+					href: 'javascript:Beacon(\'open\')',
+					label: 'Contact',
 					target: '_self'
 				}
 			],
@@ -63,15 +63,9 @@ module.exports = {
 		footer: {},
 		algolia: {
 			apiKey: 'YOUR_API_KEY',
-			indexName: 'YOUR_INDEX_NAME',
-	  
-			// Optional: see doc section bellow
-			contextualSearch: true,
-	  
-			// Optional: Algolia search parameters
-			searchParameters: {},
-	  
-			//... other Algolia params
+			indexName: 'YOUR_INDEX_NAME',	  
+			contextualSearch: false,
+			searchParameters: {}
 		},
 		googleAnalytics: {
 			trackingID: 'UA-45127971-1',

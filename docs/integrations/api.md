@@ -1,5 +1,6 @@
 ---
 title: API
+slug: /api
 ---
 
 If you're a developer and interested in building a Raindrop.io integration, visit our [Raindrop.io API documentation](https://developer.raindrop.io) to get started.

@@ -5,6 +5,7 @@ module.exports = {docs: [
 		collapsed: true,
 		items: [
 			'getting-started/welcome/index',
+			'getting-started/about/index',
 			'getting-started/install-extension/index',
 			'getting-started/download-app/index',
 			'getting-started/import',

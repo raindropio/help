@@ -1,7 +1,11 @@
 ---
 title: Import Data
+slug: /import
 ---
-You can easily [transfer bookmarks](https://app.raindrop.io/settings/import) from browser or other services to Raindrop.io
+Raindrop.io supports importing bookmarks from web browsers and services which support the Netscape Bookmark ([HTML](#html)) format (and [few other](#supported-formats)). 
+Visit [settings](https://app.raindrop.io/settings/import) to use our import tool.
+
+You can also export your Raindrop.io content in the same file format.
 
 ## How to?
 1. Grab export file. Check [supported formats](#supported-formats) and [limitations](#limitations) below
