@@ -9,6 +9,11 @@ First of try to [reset your password](../forgot-password.md). If this doesn't he
 
 ---
 
+### Disable VPN / Proxy
+VPN or Proxy can be a problem, try to disable them temporarly
+
+---
+
 ### Clear the browser cache
 If you’re having a problem with Raindrop.io, you can try clearing your browser cookies. 
 Here's how you can clear your Raindrop.io cookies on various browsers:
