@@ -9,6 +9,7 @@
     { "source": "/broken",                          "destination": "/tags-filters#broken-links" },
     { "source": "/mac-safari",                      "destination": "/browser-extension" },
     { "source": "/pro-faq",                         "destination": "/billing-faq" },
+    { "source": "/contact",                         "destination": "/?open-contact-form" },
 
     { "source": "/article/41-broken-links-finder",  "destination": "/tags-filters#broken-links" },
     { "source": "/article/50-zapier",               "destination": "/automation#zapier" },

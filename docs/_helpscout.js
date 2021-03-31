@@ -23,4 +23,10 @@ if (typeof window != 'undefined') {
             })
         })
         .catch(e=>{})
+
+    //open form automatically
+    window.addEventListener('load', function(){
+        if (new URLSearchParams(location.search).get('open-contact-form') !== null)
+            Beacon('open')
+    })
 }
