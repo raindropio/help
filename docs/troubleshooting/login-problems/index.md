@@ -1,5 +1,6 @@
 ---
 title: Login Problems
+slug: /login-problems
 ---
 If you’re having login problems with Raindrop.io, here are a few ways to solve common issues.
 

@@ -3,8 +3,10 @@ title: Public Page
 slug: /public-page
 ---
 
-Share individual collections with the entire web. No login required for viewing.
-Just note that this only makes your collection visible, and the ability to add/edit/delete items is still limited to [collaborators](../collaboration/index.md) you specifically added.
+Your collections are private by default, but with one click, you can generate a public link for your collection to share it with anyone.
+Anyone with the link will be able to view your wall but not edit it.
+
+If you need to collaborate with your work colleagues or clients, you can [invite them to your collection](../collaboration/index.md).
 
 ![](page.png)
 

@@ -240,7 +240,8 @@ Highlight as many items as you like, then click `Open` in the menu bar at the to
 
 </summary>
 
-Every Raindrop.io collection is unique. Whether you add videos, images, bookmarks, files, or a combination of all of these, your collection should be easy to navigate, feel organized, and look beautiful.
+Raindrop.io fully embraces flexibility and understands that no one wants a one size fits all approach.
+With the layout and appearance settings - which can be found in the View settings, you can customize the way your collection look and how your items are organized.
 
 <!------------------------------>
 <details><summary>

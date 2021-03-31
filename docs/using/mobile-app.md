@@ -3,9 +3,10 @@ title: Mobile App
 slug: /mobile-app
 ---
 
+<!---------------------->
 <details><summary>
 
-## Share Extension
+## Save from browser
 
 </summary>
 
@@ -42,5 +43,33 @@ Look for the Share button. It can usually be found in your device’s menu, or w
 When you tap Share, you’ll be presented with a list of share options, and you will find <b>Raindrop.io</b> which is usually at the top of the list.
 
 </details>
+
+</details>
+
+
+<!---------------------->
+<details><summary>
+
+## Import from mobile Safari
+
+</summary>
+
+You can't import bookmarks from Safari using our mobile app.
+
+Instead open Safari on your Mac, then click `File / Export bookmarks...` menu item and follow instructions [here](../getting-started/import.md).
+
+</details>
+
+
+<!---------------------->
+<details><summary>
+
+## Import from mobile Chrome
+
+</summary>
+
+You can't import bookmarks from Chrome using our mobile app.
+
+Instead open Chrome on your Mac or Windows, then [export bookmarks](https://www.wikihow.com/Export-Bookmarks-from-Chrome) and follow instructions [here](../getting-started/import.md).
 
 </details>
