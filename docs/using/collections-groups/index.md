@@ -97,6 +97,20 @@ When you share a "parent" all of it sub-collections become accessible by collabo
 <!------------------------------>
 <details><summary>
 
+### Trash collection
+
+</summary>
+
+When you remove an bookmark or file, they are moved to the `Trash` special collection.
+You can restore an item from the `Trash` to your library by moving it to any other collection.
+You can delete an item permanently by clicking the trash icon (or by right-clicking and choosing `Remove`).
+
+</details>
+
+
+<!------------------------------>
+<details><summary>
+
 ### Groups
 
 </summary>
@@ -120,14 +134,17 @@ Learn more about groups [here](#create-rename-or-remove-group).
 </summary>
 
 When you log in to Raindrop.io and you’ll see the dashboard.   
-There’s a button `+` located in left side of a screen, click on it and a field will appear right above currently active collection.
+There’s a button `+` located in left side of a screen, click on it and a new collection field will appear right above currently active collection.
+
+You can also right-click on `My collections` or the name of a group and choose `Create collection`
 
 <p><img src={require('./create-collection.png').default} height='370' /></p>
 
 Type a name then press `Enter`.  
 Or if you not happy with a location of new collection just drag and drop it to any other level/location.
 
-If you want to create a nested collection for currently active just `Shift+click` on `+` or drag and drop a field to desired level/location. 
+Nested collections can be created by dragging and dropping an existing collection onto another collection or by right-clicking a collection and choosing `Create nested collection`.
+You can convert a nested collection into a top-level collection by dragging it out of the collection and dropping it into empty space in the left Raindrop.io pane.
 
 </details>
 
@@ -186,10 +203,9 @@ So please don't send requests to add any new icons to our email.
 
 </summary>
 
-1. Right click on a collection
-<img src={require('./context-menu.png').default} height='309' />
+Right-click on the collection and choose `Rename` to give a collection a new name
 
-2. Then click "Rename"
+<img src={require('./context-menu.png').default} height='309' />
 
 </details>
 
@@ -197,17 +213,16 @@ So please don't send requests to add any new icons to our email.
 <!------------------------------>
 <details><summary>
 
-### Relete
+### Remove
 
 </summary>
 
-Collection itself and all nested collections will be removed.
-Bookmarks will be moved to "Trash"
+Right-click on the collection and choose `Remove` to remove a collection from your library.
+Deleting a collection does not delete the items in the collection. Items will be moved to `Trash`.
 
-1. Right click on a collection
+Deleting a collection will also delete its subcollections (but not the items in them).
+
 <img src={require('./context-menu.png').default} height='309' />
-
-2. Then click "Remove"
 
 </details>
 

@@ -129,7 +129,7 @@ You can also add descriptions when adding items directly to Raindrop.io using th
 <!------------------------------>
 <details><summary>
 
-### Manage tags
+### Manage tags {#tags}
 
 </summary>
 
@@ -182,25 +182,7 @@ Highlight as many items as you like, then click `Remove` in the menu bar at the 
 </details>
 
 
-<!------------------------------>
-<details><summary>
-
-### Open Multiple Links at Once
-
-</summary>
-
-First highlight the items you want to open by hovering over the items until the tick appears in the left corner, and then click on the tick.
-
-![](bulk.png)
-
-Highlight as many items as you like, then click `Open` in the menu bar at the top.
-
-[Check this article](../../troubleshooting/open-multiple-links/index.md) if you have any troubles with this feature.
-
-</details>
-
-
-## Look & Feel
+## Navigate
 
 <!------------------------------>
 <details><summary>
@@ -230,6 +212,26 @@ Just right click on an item and select `Refresh preview` option.
 
 </details>
 
+
+<!------------------------------>
+<details><summary>
+
+### Open Multiple Links at Once
+
+</summary>
+
+First highlight the items you want to open by hovering over the items until the tick appears in the left corner, and then click on the tick.
+
+![](bulk.png)
+
+Highlight as many items as you like, then click `Open` in the menu bar at the top.
+
+[Check this article](../../troubleshooting/open-multiple-links/index.md) if you have any troubles with this feature.
+
+</details>
+
+
+## Customize
 
 <!------------------------------>
 <details><summary>
