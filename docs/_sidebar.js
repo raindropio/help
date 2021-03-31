@@ -69,11 +69,15 @@ module.exports = {docs: [
 		label: '🔨 Troubleshooting',
 		collapsed: true,
 		items: [
-			'troubleshooting/known-issues',
 			'troubleshooting/login-problems/index',
 			'troubleshooting/forgot-password',
 			'troubleshooting/lost-data',
 			'troubleshooting/doesnt-sync',
+
+			'troubleshooting/ios-app',
+			'troubleshooting/mac-safari-extension',
+			'troubleshooting/firefox-extension',
+			
 			'troubleshooting/open-multiple-links/index',
 			'troubleshooting/false-broken-links',
 		]
