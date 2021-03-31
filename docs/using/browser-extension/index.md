@@ -6,6 +6,7 @@ slug: /browser-extension
 Using our browser extension is the quickest way to add links, images, and stuff to your Raindrop.io collections straight from your favorite web browser.
 
 ## Appearance
+When you first time install our extension you will be promted to select prefered look and feel of an extension:
 
 <!------------------------------>
 <details><summary>
@@ -34,8 +35,14 @@ Mini App gives you the same experience as our web site but in compact size. You 
 </details>
 
 ## Save Page
+1. Browse to a website or video you would like to save to Raindrop.io 
+2. Click the Raindrop.io extension icon to launch the Clipper or Mini App (depends on your settings)
+3. Click the `Save` button to send the content to the `Unsorted` or chosen collection
+
 
 ## Save Link or Image
+1. Right-click on a link or image
+2. Select `Save link` or `Save image`
 
 ## Highlight Saved Pages
 See if a page already saved. Special [✔] indicator will be showed when you visit already saved page
