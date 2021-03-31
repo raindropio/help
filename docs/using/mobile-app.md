@@ -30,6 +30,12 @@ Enabling the Raindrop.io Share Extension is easy, and only takes a moment. Here'
 5. (Optional) Move Raindrop.io to the top of the list
 6. Tap Done
 
+:::caution
+**Notice for iOS 14 users**: we are receiving reports of iOS users noting that Raindrop.io and other iOS apps are missing from the Share Menu.
+This is an iOS issue, but thankfully has a simple fix. 
+Please restart your device to see Raindrop.io and any other missing apps reappear in the Share Menu.
+:::
+
 </details>
 
 
