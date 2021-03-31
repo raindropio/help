@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "local": "docusaurus start --port 3129",
-    "build": "docusaurus build"
+    "build": "docusaurus build",
+    "deploy:prod": "git branch -f release/production master && git push --force origin release/production"
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-alpha.72",
