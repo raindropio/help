@@ -4,17 +4,7 @@ slug: /login-problems
 ---
 If you’re having login problems with Raindrop.io, here are a few ways to solve common issues.
 
-### Reset your password
-First of try to [reset your password](../forgot-password.md). If this doesn't help try other solutions below.
-
----
-
-### Disable VPN / Proxy
-VPN or Proxy can be a problem, try to disable them temporarly
-
----
-
-### Clear the browser cache
+### 🔥 Clear the browser cache {#clear-cache}
 If you’re having a problem with Raindrop.io, you can try clearing your browser cookies. 
 Here's how you can clear your Raindrop.io cookies on various browsers:
 
@@ -49,6 +39,16 @@ Here's how you can clear your Raindrop.io cookies on various browsers:
 ![](clear-firefox.png)
 
 </details>
+
+---
+
+### Reset your password
+First of try to [reset your password](../forgot-password.md). If this doesn't help try other solutions below.
+
+---
+
+### Disable VPN / Proxy / Adblock
+VPN, Proxy or Adblock can be a problem, try to disable them temporarly
 
 ---
 
