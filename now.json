@@ -21,6 +21,10 @@
     { "source": "/article/25-add-bookmark-ios",     "destination": "/mobile-app#share-ios" },
     { "source": "/article/26-add-bookmark-android", "destination": "/mobile-app#share-android" },
     { "source": "/category/24-mobile-app",          "destination": "/mobile-app" },
-    { "source": "/article/35-web-and-desktop-app",  "destination": "/download-app#desktop-app" }
+    { "source": "/article/35-web-and-desktop-app",  "destination": "/download-app#desktop-app" },
+    { "source": "/article/18-export-your-data",     "destination": "/backups#export-to-file" },
+    { "source": "/article/31-privacy-policy",       "destination": "/privacy" },
+    { "source": "/article/32-terms-of-service",     "destination": "/terms" },
+    { "source": "/article/37-safari-extension",     "destination": "/browser-extension" }
   ]
 }
