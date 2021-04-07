@@ -197,7 +197,7 @@ Very useful in the case of videos or music.
 
 ![](preview-video.png)
 
-Just click on an item, if preview is available it will be showed in right panel.
+Just right-click on an item and select `Preview` (if available).
 
 #### Articles
 Raindrop.io extracts the article text and removes web advertisements and other distractions to provide a wonderful reading experience.
