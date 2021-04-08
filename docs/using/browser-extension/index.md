@@ -39,10 +39,12 @@ Mini App gives you the same experience as our web site but in compact size. You 
 2. Click the Raindrop.io extension icon to launch the Clipper or Mini App (depends on your settings)
 3. Click the `Save` button to send the content to the `Unsorted` or chosen collection
 
-
 ## Save Link or Image
 1. Right-click on a link or image
 2. Select `Save link` or `Save image`
+
+## Save All Tabs
+This feature not ready yet. Hope to release it later this year.
 
 ## Highlight Saved Pages
 See if a page already saved. Special [✔] indicator will be showed when you visit already saved page
