@@ -61,12 +61,12 @@ module.exports = {
 		},
 		//sidebarCollapsible: false,
 		footer: {},
-		// algolia: {
-		// 	apiKey: 'YOUR_API_KEY',
-		// 	indexName: 'YOUR_INDEX_NAME',	  
-		// 	contextualSearch: false,
-		// 	searchParameters: {}
-		// },
+		algolia: {
+			apiKey: process.env.ALGOLIA_API_KEY,
+			indexName: 'raindrop',	  
+			contextualSearch: false,
+			searchParameters: {}
+		},
 		googleAnalytics: {
 			trackingID: 'UA-45127971-1',
 			anonymizeIP: true
