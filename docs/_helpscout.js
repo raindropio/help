@@ -17,6 +17,7 @@ if (typeof window != 'undefined') {
             const { user } = await res.json()
 
             window.Beacon('identify', {
+                id: user._id,
                 name: user.fullName,
                 email: user.email,
                 plan: user.pro ? 'pro' : 'free'
