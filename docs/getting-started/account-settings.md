@@ -2,6 +2,10 @@
 title: Account Settings
 slug: /account-settings
 ---
+## Change your avatar photo
+Keep your Raindrop.io up to date by changing your name or profile photo. Here’s how:
+1. Visit [account settings](https://app.raindrop.io/settings/account)
+2. Click `Upload` next to `Avatar`
 
 ## Change languages
 When you set up an account, Raindrop.io will automatically detect your system's default language. 
@@ -43,10 +47,3 @@ import TabItem from '@theme/TabItem';
         Not possible yet to change language in Android app :(
     </TabItem>
 </Tabs>
-
-## Change your avatar photo
-At the moment we use external service for avatars called Gravatar.
-To change your avatar go to https://en.gravatar.com/ login or register, then follow instruction.
-Avatar on Raindrop will update automatically.
-
-In future updates we will implement avatar uploading on Raindrop itself. Sorry for inconvenience
