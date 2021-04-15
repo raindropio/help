@@ -3,6 +3,10 @@ title: Web, Desktop App & Extension
 slug: /changelog
 ---
 
+### 5.3.31
+- Improve search
+- If don't like default sorting `by relevance` for search you can change it now in [settings](https://app.raindrop.io/settings/app)
+
 ### 5.3.30
 - Now you can upload your own avatar in [settings](https://app.raindrop.io/settings/account)
 - Login or register with username
