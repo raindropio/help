@@ -33,14 +33,17 @@ It's depends on count of your bookmarks and global queue. Usually 1000 bookmarks
 Be sure that after upgrade to PRO, copies will not appear immediately. We need some time to copy each of your bookmarks, as described above.
 :::
 
-### How to access permanent copy?
+### How to access permanent copy? {#open-permanent-copy}
 :::note Web app, desktop app or browser extension
 Right click on a bookmark and select "Open permanent copy"
 :::
 
 :::note Mobile app
-Right click on a bookmark and select "Open permanent copy"
+Tap "..." next to bookmark, then tap "Open permanent copy"
 :::
+
+### How to download a permanent copy?
+[Open permanent copy](#open-permanent-copy), then click `Download` and follow the intructions
 
 ### Limitations
 Some bookmarks or files can't be saved by several reasons described below. 
