@@ -32,11 +32,11 @@ If you need to embed bookmarks to your website or blog read [this article](../em
 ## Customize
 You can change appearance of your public page by appending special parameters at the end of a URL.
 
-Imagine you have such public page URL: `https://raindrop.io/exentrich/design-66`, just add `/view/...parameters-here...` at the end, so final URL will be for example `https://raindrop.io/exentrich/design-66/view/theme=dark&sort=-title`
+Imagine you have such public page URL: `https://raindrop.io/exentrich/design-66`, just add `/view/...parameters-here...` at the end, so final URL will be for example `https://raindrop.io/exentrich/design-66/view/theme=dark&sort=-title&page=3`
 
-Notice that parameter and value is divided by `=`, and each parameter divided by `&`.
+Notice that parameter and value is divided by `=`, and there `&` between each parameter-value group.
 
-Parameter | Possible values | Default | Description
+Parameter | Possible values | Default value | Description
 --- | --- | --- | ---
 `sort` | `-created`, `created`, `-title`, `title` | `-created` | Bookmarks order
 `search` | `#tag` or `apple`, etc... | none | Search query
