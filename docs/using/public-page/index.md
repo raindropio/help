@@ -5,27 +5,28 @@ slug: /public-page
 
 ## Introduction
 
-Your collections are private by default, but with one click, you can generate a public link for your collection to share it with anyone.
+Your bookmarks and collections are private by default, but with one click, you can generate a public link to share them with entire web.
 Anyone with the link will be able to view your wall but not edit it (sign-up is not required).
 
 ![](page.png)
 
 :::note
-If you need to enable edit access just [configure access level](../collaboration/index.md).
+[Read this article](../collaboration/index.md) if you want to give an edit access to your collection.
 :::
 
 ## Enable Public Page
 
-1. Open the collection, then click the `Share` in top right corner of the screen.
+1. Go to [web app](https://app.raindrop.io/)
+2. Open the collection you want to share, then click the `Share` button in top right corner of the screen.
 
 ![](share.png)
 
-2. From here just turn on `Public Page` and copy your public page URL
+3. From here just turn on `Public Page` and copy URL
 
 <p><img src={require('./bylink.png').default} height='496' /></p>
 
 :::note
-If you want to embed bookmarks to your website or blog read [this article](../embed/index.md)
+If you need to embed bookmarks to your website or blog read [this article](../embed/index.md)
 :::
 
 ## Customize
