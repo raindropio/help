@@ -29,7 +29,7 @@ module.exports = {docs: [
 
 			'using/collaboration/index',
 			'using/public-page/index',
-			'using/embed',
+			'using/embed/index',
 
 			'using/browser-extension/index',
 			'using/mobile-app',
