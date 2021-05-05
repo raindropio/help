@@ -182,6 +182,22 @@ Highlight as many items as you like, then click `Remove` in the menu bar at the 
 </details>
 
 
+<!------------------------------>
+<details><summary>
+
+### Create a copy / save into multiple collections {#copy}
+
+</summary>
+
+You can't put same page into multiple collections in easy way. But here workaround you can use to do so:
+- Visit [web app](https://app.raindrop.io)
+- Go to desired collection you want to put a copy
+- Click `Add` in top right corner
+- Paste `URL` of a page and click `Save`
+
+</details>
+
+
 ## Navigate
 
 <!------------------------------>

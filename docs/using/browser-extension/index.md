@@ -52,7 +52,7 @@ See if a page already saved. Special [✔] indicator will be showed when you vis
 <img src={require('./highlight.jpg').default} height='100' />
 
 ## Use Hotkeys
-To access a list of all available hotkeys:
+To access a list of all available hotkeys (keyboard shortcuts):
 1. Click on a extension button
 2. Click on your profile name
 3. Click Settings
