@@ -217,12 +217,31 @@ Right-click on the collection and choose `Rename` to give a collection a new nam
 
 </summary>
 
+#### Remove single collection
 Right-click on the collection and choose `Remove` to remove a collection from your library.
 Deleting a collection does not delete the items in the collection. Items will be moved to `Trash`.
 
 Deleting a collection will also delete its subcollections (but not the items in them).
 
 <img src={require('./context-menu.png').default} height='309' />
+
+---
+
+#### Remove multiple collections
+1. Right click on a collection
+2. Then click "Select"
+3. Keep selecting other collections you want to merge
+4. Click "Merge" and wait for action to complete
+<img src={require('./bulk.png').default} height='350' />
+
+---
+
+#### Remove all empty collections {#remove-all-empty}
+1. Mouse over `My collections` label and click `...` next to it:
+
+<img src={require('./groups-context-menu.png').default} height='472' />
+
+2. Click "Remove all empty collections"
 
 </details>
 

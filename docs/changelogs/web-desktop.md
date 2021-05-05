@@ -3,9 +3,20 @@ title: Web, Desktop App & Extension
 slug: /changelog
 ---
 
+### 5.3.34
+- New Share window
+    - Now you can add description and embed to website/blog
+- New [Remove all empty collections](../using/collections-groups/index.md#remove-all-empty) action
+- Fix tags autocomplete, do not submit form when some tag is highlighted
+- Fix bug when all new tags are lowercase by default
+- Fix gap between bookmarks buttons in Safari
+- Fix Maximum call stack size exceeded error for some users
+- Fix search bug when query have a percent symbol
+- Improve translation
+
 ### 5.3.31
 - Improve search
-- If don't like default sorting `by relevance` for search you can change it now in [settings](https://app.raindrop.io/settings/app)
+- If you don't like default sorting `by relevance` for search you can change it now in [settings](https://app.raindrop.io/settings/app)
 
 ### 5.3.30
 - Now you can upload your own avatar in [settings](https://app.raindrop.io/settings/account)
