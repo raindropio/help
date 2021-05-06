@@ -27,11 +27,19 @@ Almost any service or browser can generate this file for you. Here how to get it
 - [Safari](https://www.ionos.com/digitalguide/websites/web-development/export-safari-bookmarks/)
 - [Firefox](https://support.mozilla.org/en-US/kb/export-firefox-bookmarks-to-backup-or-transfer)
 - [Pocket](https://help.getpocket.com/article/1015-exporting-your-pocket-list)
-- [Pinboard](https://pinboard.in/export/)
 
 ### `CSV`
-Before uploading you need to convert CSV file into format suitable for Raindrop.  
+We support CSV files from those services:
+- [Diigo](https://www.diigo.com/tools/export)
+- [Instapaper](https://www.instapaper.com/user)
+- [My Mind](https://access.mymind.com/account)
+- [Notion Links](https://www.notion.so/Export-a-database-as-CSV-89654fbb61264d5eb2025a7606a8e3d4) (be sure that file should be named as `my links`)
+
+If you have other CSV file, we made a simple tool that will help you convert it to format suitable for Raindrop.
 [Follow the instructions here](https://csv-to-bookmarks.glitch.me/)
+
+### `JSON`
+- [Pinboard](https://pinboard.in/export/)
 
 ### `Pinterest`
 Pinterest itself doesn't have any tools to export your data. But you can try to use great third-party app called [Pinback](https://pinbackit.github.io/) that can help you download export file.
