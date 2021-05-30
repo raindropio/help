@@ -46,15 +46,20 @@ Mini App gives you the same experience as our web site but in compact size. You 
 ## Save All Tabs
 This feature not ready yet. Hope to release it later this year.
 
-## Highlight Saved Pages
-See if a page already saved. Special [✔] indicator will be showed when you visit already saved page
+## Saved Page Indicator {#saved-indicator}
+See if a page already saved: special [✔] indicator will be showed when you visit already saved page
 
-<img src={require('./highlight.jpg').default} height='100' />
+<p><img src={require('./highlight.jpg').default} height='100' /></p>
+
+1. Click on a extension button
+2. Click on your profile avatar
+3. Click Settings
+4. Enable "Highlight saved pages"
 
 ## Use Hotkeys
 To access a list of all available hotkeys (keyboard shortcuts):
 1. Click on a extension button
-2. Click on your profile name
+2. Click on your profile avatar
 3. Click Settings
 4. Scroll down Settings page and notice "Hotkeys" section
 5. Click "Change hotkeys" to rebind them (optional, only available in Chrome & Firefox)
