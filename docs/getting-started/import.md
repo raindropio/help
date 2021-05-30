@@ -37,6 +37,9 @@ If you want to upload your own CSV file just make sure:
 - `url` column is required, other are optional
 - Column order doesn't matter
 
+### `TXT`
+Txt file should have a url per row
+
 ### `Pinterest`
 Pinterest itself doesn't have any tools to export your data. But you can try to use great third-party app called [Pinback](https://pinbackit.github.io/) that can help you download export file.
 Just follow instructions on [Pinback](https://pinbackit.github.io/) site.
