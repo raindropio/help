@@ -3,9 +3,14 @@ title: Account Basics
 slug: /account-basics
 ---
 
-## Change Email Address
+## Change Email Address {#email}
 1. Visit [Account Settings](https://app.raindrop.io/settings/account)
 2. Enter email into "Email" field
+3. Save changes
+
+## Change Username {#username}
+1. Visit [Account Settings](https://app.raindrop.io/settings/account)
+2. Enter username into "Username" field
 3. Save changes
 
 ## Change Password
