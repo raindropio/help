@@ -26,6 +26,21 @@ Here's how you can clear your Raindrop.io cookies on various browsers:
 
 <details><summary>
 
+#### Safari
+
+</summary>
+
+1. Open the Safari Browser.
+2. From the Menu go to **Preferences**.
+3. Go to **Privacy** then click on **Manage Website Data**.
+4. Type `raindrop.io` in the search box.
+5. Select the website and click on **Remove**.
+
+</details>
+
+
+<details><summary>
+
 #### Firefox
 
 </summary>
