@@ -98,3 +98,31 @@ Then click `Save Changes`
 Also try to disable any privacy/blocking extensions you have.
 
 </details>
+
+---
+
+### Logout me everytime I close a browser {#logoutme}
+You probably enabled an option to clear data on browser close
+
+<details><summary>
+
+#### Chrome, Opera, Brave {#logoutme-chrome}
+
+</summary>
+
+1. Paste this url into address bar `chrome://settings/cookies`
+2. Turn off `Clear cookies and site data when you quit Chrome`
+
+</details>
+
+<details><summary>
+
+#### Edge {#logoutme-edge}
+
+</summary>
+
+1. Paste this url into address bar `edge://settings/clearBrowsingDataOnClose`
+2. Click `Add` button in `Do not clear` list of `Cookies and other site data`
+3. Paste **`[*.]raindrop.io`** and click `Add`
+
+</details>
