@@ -49,20 +49,55 @@ This feature not ready yet. Hope to release it later this year.
 ## Saved Page Indicator {#saved-indicator}
 See if a page already saved: special [✔] indicator will be showed when you visit already saved page
 
-<p><img src={require('./highlight.jpg').default} height='100' /></p>
+<p style={{display: 'grid', gridGap: 8, gridAutoFlow: 'column'}}>
+    <img src={require('./highlight.jpg').default} height='100' style={{display:'inline'}} />
+    <img src={require('./highlight-safari.jpg').default} height='100' style={{display:'inline'}} />
+</p>
 
-1. Click on a extension button
+1. Click on a Raindrop.io extension button
 2. Click on your profile avatar
-3. Click Settings
-4. Enable "Highlight saved pages"
+3. Click `Settings`
+4. Enable `Highlight saved pages`
 
 ## Use Hotkeys
-To access a list of all available hotkeys (keyboard shortcuts):
-1. Click on a extension button
+Here how to access a list of all available hotkeys (keyboard shortcuts):
+
+<details><summary>
+
+#### Chrome, Opera, Edge, Brave
+
+</summary>
+
+1. Paste `chrome://extensions/shortcuts` URL into browser address bar and press Enter
+2. Find `Raindrop.io`
+
+</details>
+
+<details><summary>
+
+#### Firefox
+
+</summary>
+
+1. Paste `about:addons` URL into browser address bar and press Enter
+2. Click on a cog icon
+3. Click `Manage Extension Shortcuts`
+4. Find `Raindrop.io`
+
+</details>
+
+<details><summary>
+
+#### Safari
+
+</summary>
+
+1. Click on a Raindrop.io extension button
 2. Click on your profile avatar
-3. Click Settings
-4. Scroll down Settings page and notice "Hotkeys" section
-5. Click "Change hotkeys" to rebind them (optional, only available in Chrome & Firefox)
+3. Click `Settings`
+4. Scroll down Settings page and notice `Hotkeys` section
+
+</details>
 
 ## Search in Address Bar
 You can search your bookmarks right from browser address bar by typing special keyword before your query.
