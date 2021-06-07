@@ -6,7 +6,7 @@ slug: /browser-extension
 Using our browser extension is the quickest way to add links, images, and stuff to your Raindrop.io collections straight from your favorite web browser.
 
 ## Appearance
-When you first time install our extension you will be promted to select prefered look and feel of an extension:
+When you first time install our extension you will be promted to select preferred look and feel of an extension:
 
 <!------------------------------>
 <details><summary>
@@ -33,6 +33,12 @@ Mini App gives you the same experience as our web site but in compact size. You 
 ![](mini_app.jpg)
 
 </details>
+
+Here how to change appearance in settings:
+1. Click on a Raindrop.io extension button
+2. Click on your profile avatar
+3. Click `Settings`
+4. Select preferred `Appearance`
 
 ## Save Page
 1. Browse to a website or video you would like to save to Raindrop.io 
