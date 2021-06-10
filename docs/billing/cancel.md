@@ -6,7 +6,7 @@ slug: /cancel
 In order to cancel your Pro subscription, simply stop your Pro plan from automatically renewing itself.
 To do this, you need to turn it off based on the payment method you used:
 
-## Card Payments
+## Card Payments / Paypal {#web}
 Credit card payments made through Raindrop.io will be set to auto-renew by default. Here’s how to turn it off:
 
 1. Log in to your Raindrop.io account on https://app.raindrop.io.
@@ -15,10 +15,10 @@ Credit card payments made through Raindrop.io will be set to auto-renew by defau
 4. Click the **Change subscription**
 4. Click the blue **Manage** button and confirm you want to cancel the subscription by clicking **Cancel subscription**.
 
-## App Store
+## App Store (macOS, iOS, iPadOS) {#app-store}
 App Store subscriptions auto-renew by default, so you need to manually cancel them. You can find the option to cancel the auto-renew by viewing your Apple ID in iTunes or the App Store and then selecting the “Subscriptions” option.
 
-## Google Play Store
+## Google Play Store (Android) {#google-play}
 Google Play Store subscriptions may or may not auto-renew depending on many factors. Please check your Google Play Store account and verify if there is a recurring Raindrop.io subscription there. If there is, remove it directly.
 
 ## FAQ
