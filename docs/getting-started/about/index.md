@@ -110,8 +110,8 @@ It features a dedicated firewall, key-based SSH login, and extensive monitoring 
 The hosting system is kept up to date perpetually and monitored against intrusion. All Raindrop.io user connections are encrypted using HTTPS using state of the art RSA 2048 bits keys. Its configuration supports current security features such as PFS and SHA256 digests. Its Qualys SSL Rating is «A».
 
 Direct file access is protected behind the following security measures:
-- Obfuscation of the file path. It’s impossible to guess specific file URL of specific user
-- In future we will use an access tokens to access the files directly, and they will be refreshed frequently
+- Direct file URL is temporary and expire after 10 minutes
+- Unauthorized access is prohibited unless you make a parent collection public
 
 </details>
 
