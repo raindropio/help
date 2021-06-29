@@ -40,16 +40,18 @@ Here how to change appearance in settings:
 3. Click `Settings`
 4. Select preferred `Appearance`
 
-## Save Page
+## Features
+
+### Save Page
 1. Browse to a website or video you would like to save to Raindrop.io 
 2. Click the Raindrop.io extension icon to launch the Clipper or Mini App (depends on your settings)
 3. Click the `Save` button to send the content to the `Unsorted` or chosen collection
 
-## Save Link or Image
+### Save Link or Image
 1. Right-click on a link or image
 2. Select `Save link` or `Save image`
 
-## Save All Tabs {#save-tabs}
+### Save All Tabs {#save-tabs}
 When you have many tabs open, saving them one at a time is a bit tedious. Instead you can save them at once.
 <p><img src={require('./tabs.jpg').default} height='496' /></p>
 
@@ -59,7 +61,19 @@ When you have many tabs open, saving them one at a time is a bit tedious. Instea
 
 By default saved tabs will have a tag with a date. That way you can find them easly later.
 
-## Saved Page Indicator {#saved-indicator}
+### Search in Address Bar
+You can search your bookmarks right from browser address bar by typing special keyword before your query.
+
+![](./omnibox.png)
+
+Just type ``rd`` and then your search query. For example rd design
+
+:::note
+This feature only available in Chrome, Opera and Firefox browser
+:::note
+
+## Customize
+### Enable Saved Page Indicator {#saved-indicator}
 See if a page already saved: special [✔] indicator will be showed when you visit already saved page
 
 <p style={{display: 'grid', gridGap: 8, gridAutoFlow: 'column'}}>
@@ -72,7 +86,14 @@ See if a page already saved: special [✔] indicator will be showed when you vis
 3. Click `Settings`
 4. Enable `Highlight saved pages`
 
-## Use Hotkeys
+### Save New Bookmarks Automatically
+1. Click on a Raindrop.io extension button
+2. Click on your profile avatar
+3. Click `Settings`
+4. Select `Clipper` in `Appearance` section
+5. Enable `Save automatically` in `New bookmark` section
+
+### Hotkeys {#hotkeys}
 Here how to access a list of all available hotkeys (keyboard shortcuts):
 
 <details><summary>
@@ -111,17 +132,6 @@ Here how to access a list of all available hotkeys (keyboard shortcuts):
 4. Scroll down Settings page and notice `Hotkeys` section
 
 </details>
-
-## Search in Address Bar
-You can search your bookmarks right from browser address bar by typing special keyword before your query.
-
-![](./omnibox.png)
-
-Just type ``rd`` and then your search query. For example rd design
-
-:::note
-This feature only available in Chrome, Opera and Firefox browser
-:::note
 
 ## Privacy & FAQ
 ### What data does the extension collect?
