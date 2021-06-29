@@ -11,10 +11,10 @@ You can also export your Raindrop.io content in the same file format.
 1. Grab export file. Check [supported formats](#supported-formats) and [limitations](#limitations) below
 2. Upload this file [**here**](https://app.raindrop.io/settings/import)
 3. Fine tune [import settings](#settings) (optional)
-4. Click **Start import** and wait until it completes
+4. Click **Start import** and wait for upload is complete
 
 :::note
-Do not close browser tab until import is complete
+Do not close browser tab until upload is complete
 :::
 :::note
 Bookmark thumbnails and search filters will be fetched shortly after import is complete. You will receive an email notification.
@@ -35,6 +35,8 @@ If you want to upload your own CSV file just make sure:
 - Comma delimited
 - Supported columns: `url`, `folder`, `title`, `description`, `tags`, `created`
 - `url` column is required, other are optional
+- to have multiple `tags` just put them in quotes, like `"tag1, tag2"`
+- `created` column should have Unix timestamp or date in ISO 8601 format
 - Column order doesn't matter
 
 ### `TXT`

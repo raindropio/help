@@ -49,8 +49,15 @@ Here how to change appearance in settings:
 1. Right-click on a link or image
 2. Select `Save link` or `Save image`
 
-## Save All Tabs
-This feature not ready yet. Hope to release it later this year.
+## Save All Tabs {#save-tabs}
+When you have many tabs open, saving them one at a time is a bit tedious. Instead you can save them at once.
+<p><img src={require('./tabs.jpg').default} height='496' /></p>
+
+**How to use?**
+- If you have `Clipper` appearance just click `Tabs…` in bottom left corner of a window.
+- If you have `Mini App` appearance just mouse over `Save` and select `Save tabs…`.
+
+By default saved tabs will have a tag with a date. That way you can find them easly later.
 
 ## Saved Page Indicator {#saved-indicator}
 See if a page already saved: special [✔] indicator will be showed when you visit already saved page

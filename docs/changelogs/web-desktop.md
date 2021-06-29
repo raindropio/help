@@ -3,6 +3,11 @@ title: Web, Desktop App & Extension
 slug: /changelog
 ---
 
+### 5.4.0
+- Save all tabs
+    - Click `Tabs...` in bottom right corner if you have `Clipper` extension mode
+    - Mouse over `Save` button and click `Save tabs` if you have `Mini App` extension mode
+
 ### 5.3.34
 - New Share window
     - Now you can add description and embed to website/blog
