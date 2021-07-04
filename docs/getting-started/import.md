@@ -56,4 +56,4 @@ Mode | Description
 **Start from scratch** | This mode is the best way to clean your account data completely and replace it with data from import file. Be sure if you already have any data in Raindrop it will be removed and replaced.
 
 ## Limitations
-- We support files up to 50Mb in size. If you have a larger file please use [our optimization tool](https://optimize-bookmarks-html.glitch.me/) first, it can dramatically reduce file size without any data lose.
+- We support files up to 50Mb in size. If you have a larger file just archive it (as ZIP file)
