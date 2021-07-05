@@ -42,6 +42,10 @@ If you want to upload your own CSV file just make sure:
 ### `TXT`
 Txt file should have a url per row
 
+### `ENEX` (Evernote)
+You can transfer all your web-clips (bookmarks) from Evernote to Raindrop.io, description and tags will be imported as well.
+Be sure to select `ENEX` as a file format of [export in Evernote](https://help.evernote.com/hc/en-us/articles/209005557-Export-notes-and-notebooks).
+
 ### `Pinterest`
 Pinterest itself doesn't have any tools to export your data. But you can try to use great third-party app called [Pinback](https://pinbackit.github.io/) that can help you download export file.
 Just follow instructions on [Pinback](https://pinbackit.github.io/) site.
@@ -57,3 +61,4 @@ Mode | Description
 
 ## Limitations
 - We support files up to 50Mb in size. If you have a larger file just archive it (as ZIP file)
+- Evernote attachments are not supported yet
