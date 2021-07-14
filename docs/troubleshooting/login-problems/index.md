@@ -63,7 +63,7 @@ First of try to [reset your password](../forgot-password.md). If this doesn't he
 ---
 
 ### Disable VPN / Proxy / Adblock
-VPN, Proxy or Adblock can be a problem, try to disable them temporarly
+VPN, Proxy or Adblock can be a problem, try to disable them temporarily
 
 ---
 

@@ -64,7 +64,7 @@ Learn more about public collections [here](../public-page/index.md).
 
 The `Unsorted` is your default collection in Raindrop.io. When you add an item, it goes straight to your Unsorted unless you specify that the item goes into a specific collection.
 
-This collection is useful to temporarly put new items in it and sort them later.
+This collection is useful to temporarily put new items in it and sort them later.
 
 </details>
 
