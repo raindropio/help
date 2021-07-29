@@ -4,7 +4,8 @@ if (typeof window != 'undefined') {
 
         const details = anchor.closest("details")
         if (details){
-            details.querySelector('summary').click()
+            if (!details.open)
+                details.querySelector('summary').click()
             expand(details.parentNode)
         }
 

@@ -71,7 +71,7 @@ Operator | Example | Explanation
 `created:YYYY-MM-DD` <br/> `created:YYYY-MM` <br/> `created:YYYY` | created:2021-07-15 <br/> created:2021-07 <br/> created:2021 <br /> created:>2021-07-15 <br /> created:<2021-07-15 | Search for items created in specific date. <br/> Put < or > in front of a date to find before or after specific date respectively
 `lastUpdate:YYYY-MM-DD` | lastUpdate:2021-07-15     | Search for items updated in specific date
 `link:sample`           | link:drop <br/> link:"crunch base" | Find by any part of an URL of a bookmark
-`important:true`        | important:true            | Find all favorites
+`❤️`                     | ❤️                         | Find all favorites
 `type:sample`           | type:link <br/> type:article <br/> type:image <br/> type:video <br/> type:document <br/> type:audio | Find by type
 `notag:true`            | notag:true                | Find items without tags
 `cache.status:sample`   | cache.status:ready <br/> -cache.status:ready | Find items that have (or not) a [permanent copy](../backups/index.md#permanent-library)
