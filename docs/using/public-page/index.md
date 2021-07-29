@@ -6,7 +6,7 @@ slug: /public-page
 Your bookmarks and collections are private by default, but with one click, you can generate a public link to share them with entire web.
 Anyone with the link will be able to view your wall but not edit it (sign-up is not required).
 
-![](page.png)
+![](page.jpg)
 
 :::note
 [Read this article](../collaboration/index.md) if you want to give an edit access to your collection.
