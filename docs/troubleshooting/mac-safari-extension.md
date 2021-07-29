@@ -18,11 +18,6 @@ One of our users found easy workaround:
 2. Open and close Safari Technology Preview
 3. Now our extension should show up in regular Safari
 
-:::note
-Be sure that you have [**Save to Raindrop.io**](https://raindrop.io/r/extension/safari) app in **Applications** folder.   
-Not *Raindrop.io for Safari*, it's the old one that not supported anymore.
-:::
-
 </details>
 
 <!------------------------------>

@@ -34,6 +34,10 @@ html[data-theme='dark'] {
 	--ifm-heading-vertical-rhythm-bottom: .6;
 }
 
+aside {
+	background: var(--alternative-background);
+}
+
 .footer {
 	display: none
 }
@@ -41,6 +45,10 @@ html[data-theme='dark'] {
 .docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocPage- {
 	border: 0 !important;
 	background: rgba(0,0,0,.02);
+}
+
+.alert--secondary {
+	background: var(--alternative-background);
 }
 
 /* Navbar */
@@ -115,19 +123,19 @@ h4 {
 
 /* Collapsible */
 details {
-	padding: .7rem 1.2rem;
-    box-shadow: inset 0 0 0 1px var(--ifm-toc-border-color);
-    border-radius: 6px;
+	border: 1px solid var(--ifm-toc-border-color) !important;
 	overflow: hidden;
 	margin-bottom: calc( var(--ifm-heading-vertical-rhythm-bottom) * var(--ifm-leading) );
-	transition: border-radius .2s ease-in-out, background .2s ease-in-out;
-}
-details:not([open]):hover {
-	background: var(--docsearch-searchbox-background);
+	transition: background .2s ease-in-out;
 }
 
 details summary {
 	cursor: pointer;
+	margin-left: 1rem !important;
+}
+
+details summary:before {
+	border-left-color: var(--ifm-menu-color) !important
 }
 
 details summary > * {
@@ -140,7 +148,6 @@ details[open] > :last-child {
 
 details:not([open]) {
 	background-color: var(--alternative-background);
-	border-radius: 60px;
 	user-select: none;
 }
 
@@ -191,4 +198,14 @@ details:not([open]) summary a[href^="#"] {
 .admonition, .admonition * {
 	color: rgba(0,0,0,.9) !important;
 	fill: rgba(0,0,0,.9) !important;
+}
+
+/* Tables */
+td {
+	white-space: nowrap;
+	vertical-align: top;
+}
+
+td:last-child {
+	white-space: initial;
 }

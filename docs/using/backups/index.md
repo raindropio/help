@@ -8,7 +8,7 @@ This means that your collection will be available on any computer or mobile devi
 
 <details><summary>
 
-## Permanent Library
+## Permanent Library {#permanent-library}
 
 </summary>
 

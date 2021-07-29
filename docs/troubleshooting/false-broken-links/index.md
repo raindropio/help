@@ -1,5 +1,6 @@
 ---
 title: Broken Links Troubleshooting
+slug: /troubleshooting/false-broken-links
 ---
 
 ## Local resources
@@ -17,6 +18,7 @@ If URL is incorrect such bookmark will be marked as broken. Just fix URL and wai
 
 ## Modes
 To prevent false positives you can [configure](https://app.raindrop.io/settings/app) how strictly we should check your bookmarks.
+
 We have few different modes to choose from:
 
 ### Basic mode
@@ -31,3 +33,5 @@ We have few different modes to choose from:
 - Origin response is timed out (more than 13 sec)
 - Server is down or send error (408, 500, 521, 523, 524 HTTP status)
 - A lot of redirects
+
+<p><img src={require('./modes.jpg').default} height='333' /></p>

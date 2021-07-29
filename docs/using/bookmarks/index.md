@@ -3,7 +3,6 @@ title: Bookmarks
 slug: /bookmarks
 ---
 
-## Introduction
 See the big picture by bringing all your materials together
 From images to maps, videos to websites, Raindrop.io lets you save everything in a centralized and searchable place.
 

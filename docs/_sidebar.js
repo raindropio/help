@@ -24,15 +24,15 @@ module.exports = {docs: [
 			'using/collections-groups/index',
 			'using/bookmarks/index',
 			'using/files/index',
-			'using/tags-filters/index',
 			'using/search/index',
+			'using/tags/index',
 
 			'using/collaboration/index',
 			'using/public-page/index',
 			'using/embed/index',
 
 			'using/browser-extension/index',
-			'using/mobile-app',
+			'using/mobile-app/index',
 			
 			'using/backups/index',
 			'using/limitations'
@@ -79,7 +79,7 @@ module.exports = {docs: [
 			'troubleshooting/firefox-extension',
 			
 			'troubleshooting/open-multiple-links/index',
-			'troubleshooting/false-broken-links',
+			'troubleshooting/false-broken-links/index',
 		]
 	},
 

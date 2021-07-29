@@ -19,7 +19,7 @@ You can use our iOS app if your device is running iOS / iPadOS 11 or higher.
 You can use our Android app if your device is running Android 5.0 or higher.
 
 :::note
-Be sure to check [**this article**](../../using/mobile-app.md) to know how to use mobile app.
+Be sure to check [**this article**](../../using/mobile-app/index.md) to know how to use mobile app.
 :::
 
 ## Desktop App

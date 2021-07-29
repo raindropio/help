@@ -3,6 +3,8 @@ title: Mobile App
 slug: /mobile-app
 ---
 
+![](intro.jpg)
+
 <!---------------------->
 <details><summary>
 
@@ -62,7 +64,7 @@ When you tap Share, you’ll be presented with a list of share options, and you 
 
 You can't import bookmarks from Safari using our mobile app.
 
-Instead open Safari on your Mac, then click `File / Export bookmarks...` menu item and follow instructions [here](../getting-started/import.md).
+Instead open Safari on your Mac, then click `File / Export bookmarks...` menu item and follow instructions [here](../../getting-started/import.md).
 
 </details>
 
@@ -76,6 +78,6 @@ Instead open Safari on your Mac, then click `File / Export bookmarks...` menu it
 
 You can't import bookmarks from Chrome using our mobile app.
 
-Instead open Chrome on your Mac or Windows, then [export bookmarks](https://www.wikihow.com/Export-Bookmarks-from-Chrome) and follow instructions [here](../getting-started/import.md).
+Instead open Chrome on your Mac or Windows, then [export bookmarks](https://www.wikihow.com/Export-Bookmarks-from-Chrome) and follow instructions [here](../../getting-started/import.md).
 
 </details>
