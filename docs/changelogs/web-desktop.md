@@ -11,7 +11,7 @@ slug: /changelog
 ### 5.3.34
 - New Share window
     - Now you can add description and embed to website/blog
-- New [Remove all empty collections](../using/collections-groups/index.md#remove-all-empty) action
+- New [Remove all empty collections](../using/collections/index.md#remove-all-empty) action
 - Fix tags autocomplete, do not submit form when some tag is highlighted
 - Fix bug when all new tags are lowercase by default
 - Fix gap between bookmarks buttons in Safari

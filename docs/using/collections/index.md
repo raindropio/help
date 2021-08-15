@@ -1,5 +1,5 @@
 ---
-title: Collections & Groups
+title: Collections
 slug: /collections
 ---
 

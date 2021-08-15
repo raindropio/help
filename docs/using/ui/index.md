@@ -6,8 +6,8 @@ To be more familiar with Raindrop.io let's check the main parts of a user interf
 
 ![](ui.jpg)
 
-1. [Collections](../collections-groups/index.md) &mdash; are essentially just folders
-2. [Create new collection](../collections-groups/index.md#create-a-collection)
+1. [Collections](../collections/index.md) &mdash; are essentially just folders
+2. [Create new collection](../collections/index.md#create-a-collection)
 3. [Tags](../tags/index.md) &mdash; your items are classified automatically or manually
 4. [Bookmarks](../bookmarks/index.md) & [Files](/files) &mdash; mix-and-match different content
 5. [Search](../search/index.md)
