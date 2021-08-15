@@ -7,7 +7,7 @@ Best in class support for 16 languages. Find precisely by crafting advanced sear
 
 ![](intro.png)
 
-## Recent Searches
+## Recent Searches {#recent}
 Raindrop will remember your ten most recent searches so you can easily return to the list of results.
 Plus, these recent searches will sync across your apps so you can continue a search on another device or computer.
 

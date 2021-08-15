@@ -3,6 +3,35 @@ title: Web, Desktop App & Extension
 slug: /changelog
 ---
 
+### 5.4.2
+- Search
+    - New [advanced search operators](../using-search/index.md#operators)
+        - Find exact phrase
+        - Exclude conditions
+        - Match any condition
+        - Search for items created/updated in specific date
+        - Find by any part of an URL
+        - Find items that have (or not) a permanent copy
+        - Find only in title/description (turn off full-text search)
+    - Now it's possible to search by a part of a word
+    - [Recent searches](../using-search/index.md#recent)
+- Extension
+    - New overlay save page/link dialog (when you save by hotkey or a context menu)
+        - Now it opened inline on a page unlike old window that you need manually close all the time
+        - It automatically closes after a few seconds
+    - Cover selector now shows 10 images from web-page
+    - Significantly improve initial load time of a extension popover
+    - Significantly improved parser (especially for Youtube)
+    - Safari specific
+        - Fix annoing permissions dialog
+        - Show [✔] as badge
+        - Fix hotkeys visibility in settings
+        - Hide omnibox option (not available in Safari)
+- Overall
+    - New settings page design
+    - New sepia theme
+    - Improve translation for almost all languages
+
 ### 5.4.0
 - Save all tabs
     - Click `Tabs...` in bottom right corner if you have `Clipper` extension mode
