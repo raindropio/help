@@ -193,4 +193,4 @@ All garbage from URL like different protocol, WWW, trailing slashes, useless que
 - Full-text search
     - Indexing is happen with slight delay, usually few minutes
     - Fuzzy search is not supported in full-text search
-    - Bookmark should have a [permanent copy](../backups/index.html#permanent-library) to support full-text search
+    - Bookmark should have a [permanent copy](../backups/index.md#permanent-library) to support full-text search
