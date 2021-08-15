@@ -111,10 +111,14 @@ You can search your bookmarks right from browser address bar by typing special k
 
 ![](./omnibox.png)
 
-Just type ``rd`` and then your search query. For example rd design
+Just type ``rd`` and then your search query. For example `rd design`.
 
-:::note
-This feature only available in Chrome, Opera and Firefox browser
+:::tip
+Feel free to use [advanced search operators](../search/index.md#operators) to find precisely
+:::
+
+:::caution
+This feature is not available in Safari browser due to Apple limitations
 :::note
 
 </details>
