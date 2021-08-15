@@ -6,7 +6,7 @@ slug: /changelog
 ### 5.4.2
 - Search
     - Now 5x time faster
-    - New [advanced search operators](../using-search/index.md#operators)
+    - New [advanced search operators](../using/search/index.md#operators)
         - Find exact phrase
         - Exclude conditions
         - Match any condition
@@ -15,7 +15,7 @@ slug: /changelog
         - Find items that have (or not) a permanent copy
         - Find only in title/description (turn off full-text search)
     - Now it's possible to search by a part of a word
-    - [Recent searches](../using-search/index.md#recent)
+    - [Recent searches](../using/search/index.md#recent)
 - Extension
     - New overlay save page/link dialog (when you save by hotkey or a context menu)
         - Now it opened inline on a page unlike old window that you need manually close all the time
