@@ -5,6 +5,7 @@ slug: /changelog
 
 ### 5.4.2
 - Search
+    - Now 5x time faster
     - New [advanced search operators](../using-search/index.md#operators)
         - Find exact phrase
         - Exclude conditions
