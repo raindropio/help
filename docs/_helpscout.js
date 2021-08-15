@@ -19,8 +19,11 @@ if (typeof window != 'undefined') {
             window.Beacon('identify', {
                 id: user._id,
                 name: user.name,
-                email: user.email,
                 plan: user.pro ? 'pro' : 'free'
+            })
+
+            window.Beacon('prefill', {
+                email: user.email
             })
         })
         .catch(e=>{})

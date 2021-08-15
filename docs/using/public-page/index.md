@@ -4,7 +4,7 @@ slug: /public-page
 ---
 
 Your bookmarks and collections are private by default, but with one click, you can generate a public link to share them with entire web.
-Anyone with the link will be able to view your wall but not edit it (sign-up is not required).
+Anyone with the link (sign-up is not required) will be able to view your wall but not edit it.
 
 ![](page.jpg)
 
