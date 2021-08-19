@@ -37,9 +37,6 @@ When you use our Services, we and our third party service providers may collect 
 We may use both session cookies and persistent cookies. 
 If you disable cookies on your browser, some parts of the Services may not work fully.
 
-We work with analytics provider called Google Analytics, which use cookies and similar technologies to collect and analyze information about use of the Services and report on activities and trends. Google Analytics may also collect information regarding the use of other websites, apps and online resources.
-You can learn about Google’s practices by going to https://policies.google.com/privacy, and opt out of them by downloading the Google Analytics opt-out browser add-on, available at https://tools.google.com/dlpage/gaoptout.
-
 Be sure that when you add links to a Youtube videos you also accept a Youtube Terms of Service, learn more here https://www.youtube.com/static?template=terms
 
 #### Additional data gathered from our browser extension
