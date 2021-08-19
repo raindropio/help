@@ -66,10 +66,6 @@ module.exports = {
 			indexName: 'raindrop',	  
 			contextualSearch: false,
 			searchParameters: {}
-		},
-		googleAnalytics: {
-			trackingID: 'UA-45127971-1',
-			anonymizeIP: true
 		}
 	},
 
@@ -88,9 +84,18 @@ module.exports = {
 			}
 		],
 	],
-
+	
 	clientModules: [
 		require.resolve('./docs/_helpscout.js'),
 		require.resolve('./docs/_details_anchor.js')
+	],
+
+	scripts: [
+		{
+			src: '/pb/s.js',
+			defer: true,
+			'data-domain': 'help.raindrop.io',
+			'data-api': '/pb/api/event'
+		}
 	]
 };

@@ -1,6 +1,10 @@
 {
   "version": 2,
   "scope": "raindrop-io",
+  "rewrites": [
+    { "source": "/pb/s.js",                         "destination": "https://plausible.io/js/plausible.js" },
+    { "source": "/pb/api/event",                    "destination": "https://plausible.io/api/event" }
+  ],
   "redirects": [
     { "source": "/open-multiple-links",             "destination": "/bookmarks#open-multiple-links-at-once" },
     { "source": "/permanent-copy",                  "destination": "/backups#permanent-library" },
