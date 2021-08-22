@@ -3,6 +3,14 @@ title: Web, Desktop App & Extension
 slug: /changelog
 ---
 
+### 5.4.5
+- Remove Google Analytics
+- No more ask for save unsaved changes when you just navigate to other screen inside of an app
+- When you press `Tab` in tags field, highlighted tag will be selected instead of creating new one
+- Remove auto-close from add bookmark window
+- Fix add bookmark window in Brave browser
+- Fix Safari extension in-app purchase window when you click on any link
+
 ### 5.4.2
 - Search
     - Now 5x time faster
