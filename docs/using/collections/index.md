@@ -78,14 +78,16 @@ This collection is useful to temporarily put new items in it and sort them later
 
 Nested collections give your an extra level of flexibility and power.
 
-Keep your ever-growing collections list neat and organized with nested collections.
-For example, you might create "parent" collection called "Music" and put "Pop", "Rock" and "Electronic" underneath.
+<p><img src={require('./nested.png').default} height='289' /></p>
 
-:::note
+Keep your ever-growing collections list neat and organized with nested collections.
+For example, you might create "parent" collection called `Music` and put `Pop`, `Rock` and `Electronic` underneath.
+
+:::info
 Nested collections are only available in [Pro plan](../../billing/premium-features.md)
 :::
 
-You can collapse sub-collections under their “parent” to temporarily hide them from view.
+You can collapse sub-collections under their "parent" to temporarily hide them from view.
 This helps to focus on the right collections at the right time, without getting distracted by everything else.
 
 Nested collections are also a great way to share multiple collections at once. 

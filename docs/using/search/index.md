@@ -93,7 +93,7 @@ If any URL hit dead you will notice a special 'ghost' icon next to bookmark doma
 
 Select `Broken links` filter from search field suggestions.
 
-:::note
+:::info
 Only available in [Pro plan](../../billing/premium-features.md)
 :::
 
@@ -146,7 +146,7 @@ Raindrop.io can help you locate and remove duplicates bookmarks.
 
 Select `Duplicates` filter from search field suggestions.
 
-:::note
+:::info
 Only available in [Pro plan](../../billing/premium-features.md)
 :::
 

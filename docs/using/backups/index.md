@@ -16,7 +16,7 @@ Raindrop.io automatically creates copies of all web-pages and files in your coll
 
 ![](copy.jpg)
 
-:::note
+:::info
 Only available in [Pro plan](../../billing/premium-features.md)
 :::
 
@@ -87,7 +87,7 @@ HTML file will contain:
 
 If you want to be even more confident, just use our automatic backup solution that supports Dropbox and Google Drive at the moment.
 Backups are made automatically shortly after you make any change in Raindrop.io.
-:::note
+:::info
 Only available in [Pro plan](../../billing/premium-features.md)
 :::
 
