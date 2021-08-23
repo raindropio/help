@@ -52,7 +52,7 @@ Here how to change appearance in settings:
 </details>
 
 
-## Features
+## How to
 
 <!------------------------------>
 <details><summary>
@@ -62,7 +62,7 @@ Here how to change appearance in settings:
 </summary>
 
 1. Browse to a website or video you would like to save to Raindrop.io 
-2. Click the Raindrop.io extension icon to launch the Clipper or Mini App (depends on your settings)
+2. Click the Raindrop.io extension button or press `⌘+⇪+S` (on a Mac), `Ctrl+Shift+S` (on a Windows)
 3. Click the `Save` button to send the content to the `Unsorted` or chosen collection
 
 </details>
@@ -123,7 +123,6 @@ This feature is not available in Safari browser due to Apple limitations
 
 </details>
 
-## Customize
 
 <!------------------------------>
 <details><summary>
@@ -146,6 +145,9 @@ See if a page already saved: special [✔] indicator will be showed when you vis
 
 </details>
 
+
+## Customize
+
 <!------------------------------>
 <details><summary>
 
@@ -163,43 +165,31 @@ See if a page already saved: special [✔] indicator will be showed when you vis
 
 
 ## Hotkeys {#hotkeys}
-Here how to access a list of all available hotkeys (keyboard shortcuts):
+Command | macOS | Windows / Linux
+------- | ------ | --------------
+Save current page | ⌘+⇪+S | Ctrl+Shift+S
+Open browser extension | ⌘+⇪+E | Ctrl+Shift+E
 
 <details><summary>
 
-### Chrome, Opera, Edge, Brave, Vivaldi
+### Change hotkey
 
 </summary>
 
+Here how to access and change all available hotkeys (keyboard shortcuts):
+
+#### Chrome, Opera, Edge, Brave, Vivaldi
 1. Paste `chrome://extensions/shortcuts` URL into browser address bar and press Enter
 2. Find `Raindrop.io`
 
-</details>
-
-<details><summary>
-
-### Firefox
-
-</summary>
-
+#### Firefox
 1. Paste `about:addons` URL into browser address bar and press Enter
 2. Click on a cog icon
 3. Click `Manage Extension Shortcuts`
 4. Find `Raindrop.io`
 
-</details>
-
-<details><summary>
-
-### Safari
-
-</summary>
-
-1. Click on a Raindrop.io extension button
-2. Click on your profile avatar
-3. Click `Settings`
-4. Scroll down Settings page and notice `Hotkeys` section
-
+#### Safari
+Not supported to change hotkeys
 </details>
 
 ## Privacy & FAQ
