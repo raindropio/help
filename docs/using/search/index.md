@@ -63,14 +63,15 @@ Mix-and-match to find exactly what you're looking for.
 
 Operator | Example | Explanation
 - | - | -
-`"sample"`              | "superman vs. batman"     | Find the exact phrase
+`apple iphone`          | apple iphone              | Find items that contains such words in title, description, domain or in web page content
+`"sample"`              | "superman vs. batman"     | Find items that contains exact phrase in title, description, domain or in web page content
 `-sample`               | -superman <br/> -#coffee  | Requires that the search results do not include this word or condition
 `#tag`                  | #coffee                   | Find items that have a certain tag
 `#"one tag"`            | #"coffee beans"           | Find items that have a certain multi-word tag
 `match:OR`              | superman batman match:OR  | Find items with either search term
 `created:YYYY-MM-DD` <br/> `created:YYYY-MM` <br/> `created:YYYY` | created:2021-07-15 <br/> created:2021-07 <br/> created:2021 <br /> created:>2021-07-15 <br /> created:<2021-07-15 | Search for items created in specific date. <br/> Put < or > in front of a date to find before or after specific date respectively
 `lastUpdate:YYYY-MM-DD` | lastUpdate:2021-07-15     | Search for items updated in specific date
-`link:sample`           | link:drop <br/> link:"crunch base" | Find by any part of an URL of a bookmark
+`link:sample`           | link:drop <br/> link:"crunch base" | Find items with a certain word (or words) in the URL
 `❤️`                     | ❤️                         | Find all favorites
 `type:sample`           | type:link <br/> type:article <br/> type:image <br/> type:video <br/> type:document <br/> type:audio | Find by type
 `notag:true`            | notag:true                | Find items without tags

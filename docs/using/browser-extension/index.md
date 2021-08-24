@@ -118,7 +118,7 @@ Feel free to use [advanced search operators](../search/index.md#operators) to fi
 :::
 
 :::caution
-This feature is not available in Safari browser due to Apple limitations
+This feature is not available in Safari and Vivaldi browser
 :::note
 
 </details>
