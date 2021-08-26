@@ -74,6 +74,7 @@ Operator | Example | Explanation
 `link:sample`           | link:drop <br/> link:"crunch base" | Find items with a certain word (or words) in the URL
 `❤️`                     | ❤️                         | Find all favorites
 `type:sample`           | type:link <br/> type:article <br/> type:image <br/> type:video <br/> type:document <br/> type:audio | Find by type
+`file:true`             | file:true                 | Find files
 `notag:true`            | notag:true                | Find items without tags
 `cache.status:sample`   | cache.status:ready <br/> -cache.status:ready | Find items that have (or not) a [permanent copy](../backups/index.md#permanent-library)
 
