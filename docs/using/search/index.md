@@ -14,7 +14,7 @@ Plus, these recent searches will sync across your apps so you can continue a sea
 ## Full-Text Search {#full-text-search}
 Raindrop can search through the entire content of every bookmark and PDF you’ve saved, making it extremely easy to find what you’re looking for. It's like your personal Google!
 
-Your bookmarks are indexed automatically, no need to do anything. Usually only meaningful content of web-page is indexed. Ads, navigation, comments and so on are stripped if possible. Plus Raindrop is only one bookmark manager that could index JS-heavy web-pages!
+Your bookmarks are indexed automatically, no need to do anything. Usually only meaningful content of web-page is indexed. Ads, navigation, comments and so on are stripped if possible.
 
 <!------------------------------>
 <details><summary>

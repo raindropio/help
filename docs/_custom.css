@@ -130,8 +130,7 @@ details {
 }
 
 details summary {
-	cursor: pointer;
-	margin-left: 1rem !important;
+	cursor: pointer
 }
 
 details summary:before {

@@ -20,7 +20,8 @@ Raindrop.io automatically creates copies of all web-pages and files in your coll
 Only available in [Pro plan](../../billing/premium-features.md)
 :::
 
-Web-pages are saved entirely with CSS, fonts and images. Raindrop is only one bookmark manager that can save JS-heavy (SPA) web-pages. Permanent copy is fully portable, static and doesn't have any external data source dependencies or scripts. All ads and tracking scripts are stripped away!
+Web-pages are saved entirely with styles, fonts and images.
+Permanent copy is fully portable (single file), static and doesn't have any external data source dependencies or scripts. All ads and tracking scripts are stripped away!
 
 Content of web-pages and PDF's is fully searchable as described in [full-text search documentation](../search/index.md).
 
