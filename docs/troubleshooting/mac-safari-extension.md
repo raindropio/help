@@ -3,6 +3,12 @@ title: Safari Extension (macOS)
 slug: /safari-mac-problems
 ---
 
+:::caution System requirements
+- macOS 10.14 Mojave or newer
+- Safari 14 or newer
+- [Save to Raindrop.io](https://raindrop.io/r/extension/safari) 5.4.5 or newer
+:::
+
 <!------------------------------>
 <details><summary>
 
