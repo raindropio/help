@@ -18,4 +18,9 @@ If the extension does not show up in Safari, try **running the below command** i
 /System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -f /Applications/Safari.app
 ```
 
+If command above doesn't help, try another workaround:
+1. Download and install [**Safari Technology Preview**](https://developer.apple.com/safari/download/)
+2. Open and close Safari Technology Preview
+3. Now extensions should appear in regular Safari
+
 </details>
