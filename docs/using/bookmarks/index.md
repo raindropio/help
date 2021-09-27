@@ -138,7 +138,7 @@ Now you will see the option to tag underneath 'Tags', here type in as many tags 
 
 ![](tags.png)
 
-Tip: you can tag your items when you add them to Raibdrio,ui when you use one of our [browser extension](/install-extension) or using [mobile app](../../getting-started/download-app/index.md).
+Tip: you can tag your items when you add them to Raindrop.io when you use one of our [browser extension](/install-extension) or using [mobile app](../../getting-started/download-app/index.md).
 
 #### Add tags to multiple items
 You can add tags to multiple items in your collection too.
