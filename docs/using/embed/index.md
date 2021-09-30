@@ -16,8 +16,8 @@ This is how your embed might look:
 <iframe style={{border: 0, width: '100%', height: 450}} allowfullscreen frameborder="0" src="https://raindrop.io/press/movies-2199085/embed" allowfullscreen />
 
 ### Hide some elements
-You can hide for example description or tags from embeded view.  
-Just put any of keyword(s) below (separated by comma) to `Hide` field in embed settings:
+You can hide for example description or tags from embeded view.
+Follow the same stepts [described above](#collection), then put any keyword(s) below (separated by comma) to `Hide` field in embed settings:
 
 Element | keyword
 ------- | -------
