@@ -3,6 +3,22 @@ title: Mobile App
 slug: /changelog-mobile
 ---
 
+### 4.3.1
+- New
+    - Safari extension, same as we have for desktop browsers! (iOS/iPadOS only)
+    - Search screen with new filters:
+        - Match any condition
+        - Exclude conditions
+        - Search for items created/updated in specific date
+        - Find by any part of an URL
+        - Find only in title/description (turn off full-text search)
+        - Learn more: https://help.raindrop.io/using-search#operators
+    - Recent searches
+- Bug fixes
+    - Support saving links from some problematic apps (Amazon)
+- Improvements
+    - Performance and stability improvements
+
 ### 4.2.31
 - Login or register with username
 - Separate setting for auto save for mobile

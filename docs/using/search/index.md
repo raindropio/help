@@ -194,5 +194,5 @@ All garbage from URL like different protocol, WWW, trailing slashes, useless que
 ## Limitations
 - Full-text search
     - Indexing is happen with slight delay, usually few minutes
-    - Fuzzy search is not supported in full-text search
+    - We can index up to 300,000 characters in one document/page
     - Bookmark should have a [permanent copy](../backups/index.md#permanent-library) to support full-text search
