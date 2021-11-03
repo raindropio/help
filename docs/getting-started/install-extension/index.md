@@ -24,8 +24,8 @@ All three, Chrome, Brave & Vivaldi all run on the same Chromium technology which
     <img src={require('./chrome.png').default} height='50' />
 </a></p>
 
-## Safari 14
-To use our Safari 14 extension, you need to download and install a small Mac app which will activate your extension.
+## Safari
+To use our Safari extension, you need to download and install a small Mac app which will activate your extension.
 
 [![](mac.svg)](https://raindrop.io/r/extension/safari)
 
