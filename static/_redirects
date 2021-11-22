@@ -1,0 +1,27 @@
+/pb/s.js            https://plausible.io/js/plausible.js  200
+/pb/api/event       https://plausible.io/api/event 200
+
+/open-multiple-links                  /bookmarks#open-multiple-links-at-once
+/permanent-copy                       /backups#permanent-library
+/full-text-search                     /using-search#full-text-search
+/search                               /using-search
+/broken                               /tags-filters#broken-links
+/mac-safari                           /browser-extension
+/pro-faq                              /billing-faq
+/contact                              /?open-contact-form
+
+/article/41-broken-links-finder       /tags-filters#broken-links
+/article/50-zapier                    /automation#zapier
+/article/17-importing-bookmarks       /import
+/article/55-omnibox                   /browser-extension#search-in-address-bar
+/article/10-login-problems            /login-problems
+/article/51-change-billing-cycle      /change-billing-cycle
+/category/11-pro-account              /billing-faq
+/article/25-add-bookmark-ios          /mobile-app#share-ios
+/article/26-add-bookmark-android      /mobile-app#share-android
+/category/24-mobile-app               /mobile-app
+/article/35-web-and-desktop-app       /download-app#desktop-app
+/article/18-export-your-data          /backups#export-to-file
+/article/31-privacy-policy            /privacy
+/article/32-terms-of-service          /terms
+/article/37-safari-extension          /browser-extension

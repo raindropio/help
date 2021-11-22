@@ -5,6 +5,7 @@
   "scripts": {
     "local": "env $(cat .env|xargs) docusaurus start --port 3129",
     "local:build": "env $(cat .env|xargs) yarn build",
+    "local:prod": "yarn local:build && wrangler pages dev ./build",
     "build": "docusaurus build",
     "deploy:prod": "git branch -f release/production master && git push --force origin release/production",
     "postinstall": "sync-dotenv || true"
@@ -30,6 +31,7 @@
     ]
   },
   "devDependencies": {
-    "sync-dotenv": "^2.6.2"
+    "sync-dotenv": "^2.6.2",
+    "wrangler": "^0.0.0-fsw-beta.5"
   }
 }
