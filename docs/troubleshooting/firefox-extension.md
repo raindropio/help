@@ -16,3 +16,8 @@ This is a known issue specific only to Firefox.
 We have discussed the problem with Mozilla, however, they seem unable to fix it so that extensions like Raindrop.io can function entirely in private mode.
 
 Firefox Bugzilla report: https://bugzilla.mozilla.org/show_bug.cgi?id=1329304
+
+### Extension keeps asking for login
+There could be several reasons why this happen:
+1. Be sure that `privacy.firstparty.isolate` is disabled
+2. If you using Firefox Containers try workaround mentioned above

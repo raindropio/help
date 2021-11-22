@@ -62,6 +62,7 @@ module.exports = {
 		//sidebarCollapsible: false,
 		footer: {},
 		algolia: {
+			appId: '2CO1DLSOWC',
 			apiKey: process.env.ALGOLIA_API_KEY,
 			indexName: 'raindrop',	  
 			contextualSearch: false,

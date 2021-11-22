@@ -151,9 +151,12 @@ See if a page already saved: special [✔] indicator will be showed when you vis
 <!------------------------------>
 <details><summary>
 
-### Save New Bookmarks Automatically
+### One Click Save
 
 </summary>
+
+Do you prefer to save new bookmarks as fast as possible and organize them later?
+Follow few simple steps to enable one click save mode:
 
 1. Click on a Raindrop.io extension button
 2. Click on your profile avatar
