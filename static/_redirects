@@ -1,6 +1,3 @@
-/pb/s.js            https://plausible.io/js/plausible.js  200
-/pb/api/event       https://plausible.io/api/event 200
-
 /open-multiple-links                  /bookmarks#open-multiple-links-at-once
 /permanent-copy                       /backups#permanent-library
 /full-text-search                     /using-search#full-text-search
