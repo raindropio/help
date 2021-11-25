@@ -99,4 +99,4 @@ module.exports = {
 			'data-api': '/pb/api/event'
 		}
 	]
-};
+}
