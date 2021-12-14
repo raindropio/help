@@ -1,5 +1,6 @@
 ---
 title: Can't Open Multiple Links at Once
+slug: /troubleshooting/open-multiple-links
 ---
 If nothing happen (or only one link is open) after you click on "Open in browser", probably your browser is blocking opening multiple tabs at once. 
 
