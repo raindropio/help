@@ -3,6 +3,10 @@ title: Mobile App
 slug: /changelog-mobile
 ---
 
+### 4.3.5
+- Fix Facebook login
+- Fix crash in search screen on Android
+
 ### 4.3.1
 - New
     - Safari extension, same as we have for desktop browsers! (iOS/iPadOS only)

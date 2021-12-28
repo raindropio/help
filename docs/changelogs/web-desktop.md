@@ -3,6 +3,13 @@ title: Web, Desktop App & Extension
 slug: /changelog
 ---
 
+### 5.4.16
+- Scroll to active collection in sidebar on initial open
+- Support `Tab` navigation in collection selector
+- Fix `X` button in extension Add window
+- Fix long collection name in Add window
+- Improve local web-page parser
+
 ### 5.4.5
 - Remove Google Analytics
 - No more ask for save unsaved changes when you just navigate to other screen inside of an app
