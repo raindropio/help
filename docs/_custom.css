@@ -47,9 +47,6 @@ aside {
 	background: rgba(0,0,0,.02);
 }
 
-.alert--secondary {
-	background: var(--alternative-background);
-}
 
 /* Navbar */
 .navbar__brand {
@@ -68,7 +65,6 @@ aside {
 /* section */
 .menu__link--sublist {
 	display: block;
-	margin-top: 1rem;
 	font-weight: 500;
 }
 .menu__link--sublist::first-letter {
@@ -194,10 +190,6 @@ details:not([open]) summary a[href^="#"] {
 }
 
 
-.admonition, .admonition * {
-	color: rgba(0,0,0,.9) !important;
-	fill: rgba(0,0,0,.9) !important;
-}
 
 /* Tables */
 td {
