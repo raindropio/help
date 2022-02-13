@@ -75,6 +75,8 @@ Mode | Description
 **Start from scratch** | This mode is the best way to clean your account data completely and replace it with data from import file. <br/> Be sure if you already have any data in Raindrop it will be removed and replaced.
 
 ## Limitations
-- We support files up to 50Mb in size. If you have a larger file just archive it (as ZIP file)
+- We support files up to 50Mb in size. If you have a larger file:
+    1. [Optimize](https://optimize-bookmarks-html.glitch.me/)
+    2. And upload to Raindrop as ZIP archive
 - Evernote attachments are not supported yet
-- Google Bookmarks file should have a `GoogleBookmarks.html` file name to properly import it
+- Google Bookmarks file should have a `GoogleBookmarks.html` file name to be properly imported
