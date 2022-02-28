@@ -199,4 +199,4 @@ Not supported to change hotkeys
 ### What data does the extension collect?
 The browser extension does not do or collect anything unless you tell it to. It sits quietly in the background, waiting for you to interact with it.
 
-What that means is, only if you press a button (for example: Raindrop.io) will it send a URL, or an image to the Raindrop.io servers so we can bookmark it for you. We will NEVER access anything else in your browser withour your permission and explicit action.
+What that means is, only if you press a button (for example: Raindrop.io) will it send a URL, or an image to the Raindrop.io servers so we can bookmark it for you. We will NEVER access anything else in your browser without your permission and explicit action.
