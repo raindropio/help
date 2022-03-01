@@ -89,7 +89,7 @@ Here how to change appearance in settings:
 </summary>
 
 When you have many tabs open, saving them one at a time is a bit tedious. Instead you can save them at once.
-<p><img src={require('./tabs.jpg').default} height='496' /></p>
+<p><img src={require('./tabs.jpg').default} style={{maxHeight:496}} /></p>
 
 **How to use?**
 - If you have `Clipper` appearance just click `Tabs…` in bottom left corner of a window.
@@ -134,8 +134,8 @@ This feature is not available in Safari and Vivaldi browser
 See if a page already saved: special [✔] indicator will be showed when you visit already saved page
 
 <p style={{display: 'grid', gridGap: 8, gridAutoFlow: 'column'}}>
-    <img src={require('./highlight.jpg').default} height='100' style={{display:'inline'}} />
-    <img src={require('./highlight-safari.jpg').default} height='100' style={{display:'inline'}} />
+    <img src={require('./highlight.jpg').default} style={{maxHeight:100,display:'inline'}} />
+    <img src={require('./highlight-safari.jpg').default} style={{maxHeight:100,display:'inline'}} />
 </p>
 
 1. Click on a Raindrop.io extension button

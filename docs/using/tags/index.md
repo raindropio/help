@@ -8,7 +8,7 @@ You can tag items based on their topics, methods, status, ratings, or even based
 
 Items can have as many tags as you like, and you can [filter your library](#by-tag) (or a specific collection) to show items having a specific set of one or more tags.
 
-<p><img src={require('./intro.png').default} height='490' /></p>
+<p><img src={require('./intro.png').default} style={{maxHeight:490}} /></p>
 
 Raindrop.io tags are special. They allow you to name them using any characters, in any language and most importantly – with spaces.
 
@@ -52,7 +52,7 @@ Type `#` the search box to see all tags.
 
 To find items that doesn't have some specific tag just put - (dash) in front of a tag you want exclude. For example `-#exclude`
 
-<img src={require('./exclude-tag.png').default} height='208' />
+<img src={require('./exclude-tag.png').default} style={{maxHeight:208}} />
 
 </details>
 

@@ -21,7 +21,7 @@ Be sure to check [**this article**](../../using/browser-extension/index.md) to k
 ## Chrome, Brave & Vivaldi
 All three, Chrome, Brave & Vivaldi all run on the same Chromium technology which means you can use the same extension in all browsers.
 <p><a href="https://raindrop.io/r/extension/chrome">
-    <img src={require('./chrome.png').default} height='50' />
+    <img src={require('./chrome.png').default} style={{maxHeight:50}} />
 </a></p>
 
 ## Safari
@@ -38,7 +38,7 @@ To use our Safari extension, you need to download and install a small Mac app wh
 
 ## Opera
 <p><a href="https://raindrop.io/r/extension/opera">
-    <img src={require('./opera.png').default} height='58' />
+    <img src={require('./opera.png').default} style={{maxHeight:58}} />
 </a></p>
 
 ## Bookmarklet (Universal)

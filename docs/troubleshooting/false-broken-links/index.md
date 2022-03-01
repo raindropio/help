@@ -34,4 +34,4 @@ We have few different modes to choose from:
 - Server is down or send error (408, 500, 521, 523, 524 HTTP status)
 - A lot of redirects
 
-<p><img src={require('./modes.jpg').default} height='333' /></p>
+<p><img src={require('./modes.jpg').default} style={{maxHeight:333}} /></p>

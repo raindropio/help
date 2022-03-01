@@ -21,7 +21,7 @@ Anyone with the link (sign-up is not required) will be able to view your wall bu
 
 3. From here just turn on `Public Page` and copy URL
 
-<p><img src={require('./bylink.png').default} height='496' /></p>
+<p><img src={require('./bylink.png').default} style={{maxHeight:496}} /></p>
 
 :::note
 If you need to embed bookmarks to your website or blog read [this article](../embed/index.md)

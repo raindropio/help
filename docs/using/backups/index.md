@@ -48,7 +48,7 @@ Tap "..." next to bookmark, then tap "Open permanent copy"
 
 ### Limitations
 Some bookmarks or files can't be saved by several reasons described below. 
-When this happen you will see a special icon <img src={require('./icon.png').default} height='20' />
+When this happen you will see a special icon <img src={require('./icon.png').default} style={{maxHeight:20}} />
 
 #### Known limitations:
 - Bookmarks in "Trash" are ignored and not saved

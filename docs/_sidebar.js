@@ -24,6 +24,7 @@ module.exports = {docs: [
 			'using/collections/index',
 			'using/bookmarks/index',
 			'using/files/index',
+			//'using/highlights/index',
 			'using/search/index',
 			'using/tags/index',
 

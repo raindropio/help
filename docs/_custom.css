@@ -135,6 +135,7 @@ details summary:before {
 
 details summary > * {
 	display: inline-block;
+	margin-bottom: 0;
 }
 
 details[open] > :last-child {

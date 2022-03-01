@@ -15,13 +15,13 @@ Don’t want the person to be able to add / edit / delete items, but do want the
 To invite someone to collaborate on your collection, open the collection, then click the `Share` in top right corner of the screen. 
 From here, you can manage existing collaborators or invite new ones.
 
-<p><img src={require('./invite.png').default} height='555' /></p>
+<p><img src={require('./invite.png').default} style={{maxHeight:555}} /></p>
 
 To invite a new collaborator, click `Invite more people` and then enter their email address.
 
 After you click a `Send invites` button, persons you added will receive an email notification:
 
-<p><img src={require('./email.png').default} height='412' /></p>
+<p><img src={require('./email.png').default} style={{maxHeight:412}} /></p>
 
 They need to click a link from email and after a moment shared collection become available in they account.
 
@@ -30,4 +30,4 @@ By default, every Raindrop.io collection you create is private and only visible 
 You have the option to change this privacy setting to whatever suits your collection best.
 You can change the privacy settings from the collection screen by clicking the `Share` button in the top right corner of your collection. 
 
-<p><img src={require('./access.png').default} height='388' /></p>
+<p><img src={require('./access.png').default} style={{maxHeight:388}} /></p>

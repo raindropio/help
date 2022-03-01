@@ -27,7 +27,7 @@ Your bookmarks are indexed automatically, no need to do anything. Usually only m
 2. Focus on a search field, type your request and press Enter
 3. Found parts will be highlighted in search results along with other details:
 
-<p><img src={require('./full1.png').default} height='313' /></p>
+<p><img src={require('./full1.png').default} style={{maxHeight:313}} /></p>
 
 :::note
 Be sure that newly added bookmark will not appear in search results immediately. We need some time as described in [this article](../backups/index.md#how-long-it-takes-to-copy-all-of-my-bookmarks) to copy and index each bookmark.

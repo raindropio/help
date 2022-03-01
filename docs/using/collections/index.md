@@ -78,7 +78,7 @@ This collection is useful to temporarily put new items in it and sort them later
 
 Nested collections give your an extra level of flexibility and power.
 
-<p><img src={require('./nested.png').default} height='289' /></p>
+<p><img src={require('./nested.png').default} style={{maxHeight:289}} /></p>
 
 Keep your ever-growing collections list neat and organized with nested collections.
 For example, you might create "parent" collection called `Music` and put `Pop`, `Rock` and `Electronic` underneath.
@@ -120,7 +120,7 @@ You can delete an item permanently by clicking the trash icon (or by right-click
 Groups help you split your collections list into smaller chunks. 
 For example, you might create "Work" and "Home" groups and then organize various collections underneath each one.
 
-<p><img src={require('./groups.png').default} height='475' /></p>
+<p><img src={require('./groups.png').default} style={{maxHeight:475}} /></p>
 
 Learn more about groups [here](#create-rename-or-remove-group).
 
@@ -140,7 +140,7 @@ There’s a button `+` located in left side of a screen, click on it and a new c
 
 You can also right-click on `My collections` or the name of a group and choose `Create collection`
 
-<p><img src={require('./create-collection.png').default} height='370' /></p>
+<p><img src={require('./create-collection.png').default} style={{maxHeight:370}} /></p>
 
 Type a name then press `Enter`.  
 Or if you not happy with a location of new collection just drag and drop it to any other level/location.
@@ -159,10 +159,10 @@ You can convert a nested collection into a top-level collection by dragging it o
 </summary>
 
 1. Just drag a collection to reorder
-<p><img src={require('./drag.png').default} height='340' /></p>
+<p><img src={require('./drag.png').default} style={{maxHeight:340}} /></p>
 
 2. Drop it in desired location or move over another collection to make it parent
-<p><img src={require('./move.png').default} height='340' /></p>
+<p><img src={require('./move.png').default} style={{maxHeight:340}} /></p>
 
 ---
 
@@ -170,7 +170,7 @@ You can even sort all collections at once by name (ascending):
 1. Mouse over "My collections" label in sidebar and click "..." button
 2. In context menu that appear click "Sort all collections by name"
 
-<img src={require('./groups-context-menu.png').default} height='472' />
+<img src={require('./groups-context-menu.png').default} style={{maxHeight:472}} />
 
 
 </details>
@@ -184,11 +184,11 @@ You can even sort all collections at once by name (ascending):
 </summary>
 
 1. Right click on a collection
-<img src={require('./context-menu.png').default} height='309' />
+<img src={require('./context-menu.png').default} style={{maxHeight:309}} />
 
 2. Click "Change icon"
 3. Icon selector window will appear. Here you can select a predefined icon or search any specific. Click "Remove" in top right corner to unset icon for a collection.
-<img src={require('./icon-search.png').default} height='569' />
+<img src={require('./icon-search.png').default} style={{maxHeight:569}} />
 
 :::caution
 We use external sites ([Icons8](https://icons8.com/icons) and [Iconsfinder](https://www.iconfinder.com/)) to fetch icons.  
@@ -207,7 +207,7 @@ So please don't send requests to add any new icons to our email.
 
 Right-click on the collection and choose `Rename` to give a collection a new name
 
-<img src={require('./context-menu.png').default} height='309' />
+<img src={require('./context-menu.png').default} style={{maxHeight:309}} />
 
 </details>
 
@@ -225,7 +225,7 @@ Deleting a collection does not delete the items in the collection. Items will be
 
 Deleting a collection will also delete its subcollections (but not the items in them).
 
-<img src={require('./context-menu.png').default} height='309' />
+<img src={require('./context-menu.png').default} style={{maxHeight:309}} />
 
 ---
 
@@ -234,14 +234,14 @@ Deleting a collection will also delete its subcollections (but not the items in 
 2. Then click "Select"
 3. Keep selecting other collections you want to merge
 4. Click "Merge" and wait for action to complete
-<img src={require('./bulk.png').default} height='350' />
+<img src={require('./bulk.png').default} style={{maxHeight:350}} />
 
 ---
 
 #### Remove all empty collections {#remove-all-empty}
 1. Mouse over `My collections` label and click `...` next to it:
 
-<img src={require('./groups-context-menu.png').default} height='472' />
+<img src={require('./groups-context-menu.png').default} style={{maxHeight:472}} />
 
 2. Click "Remove all empty collections"
 
@@ -259,14 +259,14 @@ You can merge all items from one collection into another from your dashboard.
 Sharing and collaboration settings will also be merged.
 
 1. Right click on a collection
-<img src={require('./context-menu.png').default} height='309' />
+<img src={require('./context-menu.png').default} style={{maxHeight:309}} />
 
 2. Then click "Select"
 
 3. Keep selecting other collections you want to merge
 
 4. Click "Merge" and wait for action to complete
-<img src={require('./bulk.png').default} height='350' />
+<img src={require('./bulk.png').default} style={{maxHeight:350}} />
 
 </details>
 
@@ -280,7 +280,7 @@ Sharing and collaboration settings will also be merged.
 
 Mouse over `My collections` label and click `...` next to it:
 
-<img src={require('./groups-context-menu.png').default} height='472' />
+<img src={require('./groups-context-menu.png').default} style={{maxHeight:472}} />
 
 </details>
 
@@ -298,6 +298,6 @@ This feature especially useful when you have very deep expanded structure and do
 1. Mouse over any group then click "..." button
 2. In context menu that appear click "Collapse all collections"
 
-<img src={require('./groups-context-menu.png').default} height='472' />
+<img src={require('./groups-context-menu.png').default} style={{maxHeight:472}} />
 
 </details>
