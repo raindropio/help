@@ -70,7 +70,6 @@ That’s why it’s possible to develop and maintain an app like this alone.
 </summary>
 
 Hi! My name is Rustem Mussabekov.
-I’m originally from the Kazakhstan, now living in Russia.
 I have a computer science degree and nine years of experience as UI/UX designer in commercial products.
 
 My passion for building apps began to blossom when I discovered Visual Basic 6. The idea that I could draw an elements and then translate them into a working app was blew my mind. Now, this is what I doing in daily basis.
