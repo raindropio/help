@@ -3,6 +3,21 @@ title: Firefox Extension
 slug: /firefox-extension-problems
 ---
 
+### Extension keeps asking for login
+This happen when Firefox have aggressive privacy settings. 
+Raindrop.io extension using cookies to persist authentication state. 
+Firefox can intentionally block our cookies if any of the settings different from recommended below:
+
+1. Be sure that `Browser Privacy` setting is `Standard`
+    1. Go to `Settings` -> `Privacy & Security`
+    2. Select `Standard` for `Browser Privacy` setting
+2. Be sure that Firstparty Isolate Mode is turned off
+    1. Open new tab and paste `about:config` into address bar and press `Enter`
+    2. Paste `privacy.firstparty.isolate` into search field
+    3. Set value `false` for `privacy.firstparty.isolate`
+    4. Restart Firefox
+3. If you using Firefox Containers try workaround mentioned below
+
 ### I'm using Firefox Containers {#containers}
 Raindrop.io can't run from inside containers. To get around of this limitation try this solution:
 - Unassign `raindrop.io` from permanent container (which will allow you to use the site outside of any container)
@@ -16,8 +31,3 @@ This is a known issue specific only to Firefox.
 We have discussed the problem with Mozilla, however, they seem unable to fix it so that extensions like Raindrop.io can function entirely in private mode.
 
 Firefox Bugzilla report: https://bugzilla.mozilla.org/show_bug.cgi?id=1329304
-
-### Extension keeps asking for login
-There could be several reasons why this happen:
-1. Be sure that `privacy.firstparty.isolate` is disabled
-2. If you using Firefox Containers try workaround mentioned above
