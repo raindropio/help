@@ -3,6 +3,13 @@ title: Mobile App
 slug: /changelog-mobile
 ---
 
+### 4.3.6
+- New: 
+    - Read articles, watch videos and images without leaving an app
+- Bug fixes
+    - Fix bug when app goes background list scroll position is reseted
+    - More reliable Google Signin
+
 ### 4.3.5
 - Fix Facebook login
 - Fix crash in search screen on Android

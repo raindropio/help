@@ -102,7 +102,7 @@ You can apply the `Highlights` filter to see all of your highlights across all o
 
 ## FAQ
 ### Why you need additional browser extension permission? {#extension-permission}
-To be able to see highlights next time you visit same page we need additional permission called `Read browsing history`.
+To be able to see highlights next time you visit same page we need additional permission called `Access browser tabs`.
 This permission gives a specific extension ability to know URL of visited web-page.
 Don't worry we not track you or send this info to third-parties. This info only used to load saved highlights to specific web-page.
 
