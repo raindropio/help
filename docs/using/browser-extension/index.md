@@ -154,7 +154,7 @@ See if a page already saved: special [✔] indicator will be showed when you vis
 1. Click on a Raindrop.io extension button
 2. Click on your profile avatar
 3. Click `Settings`
-4. Enable `Highlight saved pages`
+4. Enable `Tabs access` in `Permissions` section
 
 </details>
 
