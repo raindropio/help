@@ -12,7 +12,7 @@ You can create highlights in Raindrop.io [Browser extension](../../getting-start
 
 :::note
 Highlighting is available for all users. There's no limit on total number of pages and highlights.  
-But notes for highlights (annotations) is [premium feature](../../billing/premium-features.md).
+But notes (annotations) is [premium feature](../../billing/premium-features.md).
 :::
 
 
@@ -36,6 +36,8 @@ When you highlight a passage, the text background will turn yellow so it stands 
 
 </details>
 
+
+
 <details><summary>
 
 ### Web & desktop app {#add-web}
@@ -43,7 +45,7 @@ When you highlight a passage, the text background will turn yellow so it stands 
 </summary>
 
 1. Click on a bookmark, then go to `Web` or `Preview` tab
-2. Click & drag your mouse across the text that you would like to highlight
+2. Click & drag your mouse across the text that you would like to highlight, Markdown is supported
 3. Select desired highlight color and/or add notes
 
 <img src={require('./web.png').default} style={{maxHeight: 417}} />
@@ -52,10 +54,32 @@ When you highlight a passage, the text background will turn yellow so it stands 
 
 
 
+<details><summary>
+
+### iOS {#add-ios}
+
+</summary>
+
+Soon
+
+</details>
+
+
+
+<details><summary>
+
+### Android {#add-android}
+
+</summary>
+
+Soon
+
+</details>
+
 
 
 ## Change Color, Annotate or Delete Highlight {#edit}
-When you click on a highlight, it takes you to the additional actions. From here, you can take further action on your highlighted passages, including:
+When you click (or tap) on a highlight, it takes you to the additional actions. From here, you can take further action on your highlighted passages, including:
 - **Change color**
 - **Add note (Annotate)**: leave your instant thoughts on your highlight
 - **Delete**: Remove the highlight from the page
@@ -94,6 +118,33 @@ You can see all of your highlights of particular page in one place
 
 </details>
 
+
+
+<details><summary>
+
+### iOS {#add-ios}
+
+</summary>
+
+Soon
+
+</details>
+
+<details><summary>
+
+### Android {#add-android}
+
+</summary>
+
+Soon
+
+</details>
+
+
+
+
+
+
 ## Search Highlighs {#search}
 You can apply the `Highlights` filter to see all of your highlights across all of your bookmarks in one place.
 
@@ -104,8 +155,7 @@ You can apply the `Highlights` filter to see all of your highlights across all o
 
 ## FAQ
 ### Why you need additional browser extension permission? {#extension-permission}
-To be able to see highlights next time you visit same page we need additional permission called `Access browser tabs`.
-This permission gives a specific extension ability to know URL of visited web-page.
-Don't worry we not track you or send this info to third-parties. This info only used to load saved highlights to specific web-page.
+To be able to see highlights next time you visit same page we need additional permission called `Access data on websites`.
+Don't worry we not track you or send data to third-parties. We just check URL of a page and then load your saved highlights.
 
 Many extensions have this permission by default. But not ours. We decided to ask you explicitly.

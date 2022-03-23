@@ -81,6 +81,19 @@ Here how to change appearance in settings:
 </details>
 
 
+
+<!------------------------------>
+<details><summary>
+
+### Add highlight
+
+</summary>
+
+[Learn more](../highlights/index.md#add-extension)
+
+</details>
+
+
 <!------------------------------>
 <details><summary>
 
@@ -146,7 +159,7 @@ See if a page already saved: special [✔] indicator will be showed when you vis
 </details>
 
 
-## Customize
+## Tips & tricks
 
 <!------------------------------>
 <details><summary>
