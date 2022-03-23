@@ -45,7 +45,7 @@ When you highlight a passage, the text background will turn yellow so it stands 
 </summary>
 
 1. Click on a bookmark, then go to `Web` or `Preview` tab
-2. Click & drag your mouse across the text that you would like to highlight, Markdown is supported
+2. Click & drag your mouse across the text that you would like to highlight
 3. Select desired highlight color and/or add notes
 
 <img src={require('./web.png').default} style={{maxHeight: 417}} />
@@ -81,7 +81,7 @@ Soon
 ## Change Color, Annotate or Delete Highlight {#edit}
 When you click (or tap) on a highlight, it takes you to the additional actions. From here, you can take further action on your highlighted passages, including:
 - **Change color**
-- **Add note (Annotate)**: leave your instant thoughts on your highlight
+- **Add note (Annotate)**: leave your instant thoughts on your highlight, Markdown is supported
 - **Delete**: Remove the highlight from the page
 
 <img src={require('./edit.png').default} style={{maxHeight: 224}} />
