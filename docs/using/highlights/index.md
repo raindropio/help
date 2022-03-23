@@ -6,6 +6,8 @@ slug: /highlights
 Highlighting while reading has enormous benefits.
 It helps you engage more deeply with the text, comprehend dense subjects, and easily revisit key passages in the future.
 
+![](intro.png)
+
 You can create highlights in Raindrop.io [Browser extension](../../getting-started/install-extension/index.md), [Desktop](https://raindrop.io/download), [Web](https://app.raindrop.io) and Mobile app (soon).
 
 :::note

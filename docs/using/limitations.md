@@ -13,6 +13,6 @@ Levels of sub-collections | **0** | **Unlimited**
 Permanent copies | **0** | **Unlimited**
 Single file size | 100 mb | 100 mb
 Sync devices | Unlimited | Unlimited
-Highlights (soon) | Unlimited | Unlimited
-Annotations (soon) | **0** | **Unlimited**
+Highlights | Unlimited | Unlimited
+Annotations | **0** | **Unlimited**
 Tags | Unlimited | Unlimited

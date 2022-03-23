@@ -3,6 +3,10 @@ title: Web, Desktop App & Extension
 slug: /changelog
 ---
 
+### 5.4.21
+- New feature: [Highlights](../using/highlights/index.md)
+- Fix login issue in Add bookmark dialog in Firefox extension
+
 ### 5.4.16
 - Scroll to active collection in sidebar on initial open
 - Support `Tab` navigation in collection selector
