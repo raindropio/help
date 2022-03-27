@@ -87,7 +87,7 @@ You are able to collaborate with your colleague in one collection, an external c
 
 No ads and tracking. You have enough websites tracking you all over the internet and trying to get you to buy their stuff, on Raindrop.io you can cut through all that noise and focus on getting stuff done.
 
-Source code of all of our apps is open source. Anyone can examine code and know what exactly happen behind the scene. Check our [Github repositories](https://github.com/raindropio).
+Source code of all of our apps is open source. Anyone can examine code and know what exactly happen behind the scene. Check our [GitHub repositories](https://github.com/raindropio).
 
 
 ## Security
