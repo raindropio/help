@@ -8,11 +8,13 @@ It helps you engage more deeply with the text, comprehend dense subjects, and ea
 
 ![](intro.png)
 
-You can create highlights in Raindrop.io [Browser extension](../../getting-started/install-extension/index.md), [Desktop](https://raindrop.io/download), [Web](https://app.raindrop.io) and Mobile app (soon).
+You can create highlights in Raindrop.io [Browser extension](../../getting-started/install-extension/index.md), [Desktop](https://raindrop.io/download), [Web](https://app.raindrop.io) and [Mobile](https://raindrop.io/download) app.
 
 :::note
 Highlighting is available for all users. There's no limit on total number of pages and highlights.  
 But annotations (notes) is [premium feature](../../billing/premium-features.md).
+
+PDF files not supported yet.
 :::
 
 
@@ -21,6 +23,8 @@ But annotations (notes) is [premium feature](../../billing/premium-features.md).
 ## Create highlight {#add}
 Creating a highlight is as simple as selecting text.
 When you highlight a passage, the text background will turn yellow so it stands out from the rest of the page.
+
+
 
 <details><summary>
 
@@ -32,7 +36,13 @@ When you highlight a passage, the text background will turn yellow so it stands 
 2. Press `Shift+Alt+H` or select `Save highlight` from context menu
 3. *Only once*: Accept permission request. [Why?](#extension-permission)
 
-<img src={require('./extension.png').default} style={{maxHeight: 155}} />
+<p><img src={require('./extension.png').default} style={{maxHeight: 155}} /></p>
+
+:::caution Very important!
+In Safari (macOS) be sure to click **Always Allow on Every Website** when it ask for permission
+
+<img src={require('./safari-macos-permissions.jpg').default} style={{maxHeight: 312}} />
+:::
 
 </details>
 
@@ -40,7 +50,55 @@ When you highlight a passage, the text background will turn yellow so it stands 
 
 <details><summary>
 
-### Web & desktop app {#add-web}
+### Safari iOS extension {#add-extension-safari-ios}
+
+</summary>
+
+Select the text you would like to highlight, then tap the color button
+
+<p><img src={require('./safari-ios-select.png').default} style={{maxHeight: 180}} /></p>
+
+----
+
+#### Only once:
+
+1. Tap `Puzzle` icon, then `Manage extensions` and enable `Raindrop.io`
+2. Tap `Puzzle` icon, tap `Raindrop.io` and go to `Highlights`
+3. Give asked permissions
+
+<p><img src={require('./safari-ios.png').default} style={{maxHeight: 355}} /></p>
+
+Be sure to tap **Always Allow on Every Website** when it ask for permission
+<p><img src={require('./safari-ios-permissions.jpg').default} style={{maxHeight: 292}} /></p>
+
+</details>
+
+
+
+<details><summary>
+
+### iOS & Android app {#add-mobile}
+
+</summary>
+
+1. Tap on a bookmark
+2. Select the text you would like to highlight, then tap the color button
+
+:::note
+On iOS you can add highlights in Safari browser. [**Learn more**](#add-extension-safari-ios)   
+:::
+
+:::note
+Unfortunately Chrome on Android doesn't support such functionality yet
+:::
+
+</details>
+
+
+
+<details><summary>
+
+### Web & Desktop app {#add-web}
 
 </summary>
 
@@ -53,28 +111,6 @@ When you highlight a passage, the text background will turn yellow so it stands 
 </details>
 
 
-
-<details><summary>
-
-### iOS {#add-ios}
-
-</summary>
-
-Soon
-
-</details>
-
-
-
-<details><summary>
-
-### Android {#add-android}
-
-</summary>
-
-Soon
-
-</details>
 
 
 
@@ -104,10 +140,21 @@ You can see all of your highlights of particular page in one place
 </details>
 
 
+<details><summary>
+
+### iOS & Android app {#manage-mobile}
+
+</summary>
+
+1. Go to edit bookmark screen
+2. Tap `Highlights`
+
+</details>
+
 
 <details><summary>
 
-### Web & desktop app {#manage-web}
+### Web & Desktop app {#manage-web}
 
 </summary>
 
@@ -117,31 +164,6 @@ You can see all of your highlights of particular page in one place
 <img src={require('./manage.png').default} style={{maxHeight: 583}} />
 
 </details>
-
-
-
-<details><summary>
-
-### iOS {#add-ios}
-
-</summary>
-
-Soon
-
-</details>
-
-<details><summary>
-
-### Android {#add-android}
-
-</summary>
-
-Soon
-
-</details>
-
-
-
 
 
 
