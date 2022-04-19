@@ -6,9 +6,9 @@ slug: /files
 With Raindrop.io you can store files and locate previous inspiration easily. Upload your documents to Raindrop.io instead of creating never-ending email trails.
 
 ## Supported File Types
-- Images (``jpeg``, ``gif`` or ``png``)
-- Videos
-- Documents (``pdf``, ``doc``, ``xls``, and more)
+- Images (`jpeg`, `gif`, `png`)
+- Videos (`mp4`, `mov`, `wmv`, `webm`)
+- Documents (``pdf``, ``doc``, `docx`, ``xls``, `xlsx`, `txt`)
 
 ## Drag and drop
 To upload items from your computer, drag items from your desktop into a Raindrop.io collection on your browser.
