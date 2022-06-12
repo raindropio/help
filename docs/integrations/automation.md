@@ -4,7 +4,7 @@ slug: /automation
 ---
 ## Introduction
 
-You can add new items from different services like Youtube, Twitter, Google Docs, etc to Raindrop.io and vise-verca in automated way.
+You can add new items from different services like Youtube, Twitter, Google Docs, etc to Raindrop.io and vise-versa in automated way.
 To achive this you need to use glue-app: one of a two below:
 
 ## IFTTT (Recommended)

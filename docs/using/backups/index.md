@@ -52,6 +52,7 @@ When this happen you will see a special icon <img src={require('./icon.png').def
 
 #### Known limitations:
 - Bookmarks in "Trash" are ignored and not saved
+- Some websites block automated bots, we can't save such webpages yet
 - Maximum size of entire web-page/file is limited by 70 Mb
 - Video, audio and iframes included in web-page could not be saved
 - Web-pages with fancy animations based on scroll position could not be saved correctly

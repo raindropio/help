@@ -78,7 +78,7 @@ Raindrop.io is my main job and a single source of income.
 
 </details>
 
-## What about privacy?
+## What about privacy? {#privacy}
 I don’t sell data, I sell software. The only way I make money is through direct sales of the app to you. This revenue is enough to stay independent, ignore funding and focus on product, instead of finding more ways to monetize.
 
 Raindrop.io is designed to be a private workspace. 
