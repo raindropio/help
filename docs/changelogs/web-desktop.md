@@ -3,6 +3,19 @@ title: Web, Desktop App & Extension
 slug: /changelog
 ---
 
+### 5.5.5
+- [Export highlights](../using/highlights/index.md#export)
+- [Automatic daily backups](../using/backups/index.md#automatic)
+- Support import of highlights in CSV / HTML format (Raindrop and Diigo files)
+- New extension welcome page
+- Now you can use the same hotkey (Ctrl+Shift+S) to save highlights
+- Fix extension popover speed on some edge cases
+- Fix copy highlight button for some web-pages
+- Fix `Create collection` button
+- Fix `Open all bookmarks` feature. Previously order of opened tabs have been incorrect
+- Fix restore of last opened collection
+- Fix collection search
+
 ### 5.4.21
 - New feature: [Highlights](../using/highlights/index.md)
 - Fix login issue in Add bookmark dialog in Firefox extension

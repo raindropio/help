@@ -3,6 +3,13 @@ title: Mobile App
 slug: /changelog-mobile
 ---
 
+### 4.4.4
+- New feature: [Highlights](../using/highlights/index.md)
+- Remove Facebook SDK (hugely improve privacy)
+- Bug fixes
+    - Fix preview of HTTP (non-secure) links on iOS
+    - Fix reorder
+
 ### 4.3.6
 - New: 
     - Read articles, watch videos and images without leaving an app

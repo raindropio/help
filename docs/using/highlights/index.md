@@ -135,7 +135,7 @@ You can see all of your highlights of particular page in one place
 </summary>
 
 1. Click Raindrop.io extension icon in a browser toolbar
-2. Click on `Highlights` button
+2. Click `Highlights` button
 
 </details>
 
@@ -159,9 +159,50 @@ You can see all of your highlights of particular page in one place
 </summary>
 
 1. Click on a bookmark
-2. Click on `Highlights` button in the bottom of the page
+2. Click `Highlights` button in the bottom of the page
 
 <img src={require('./manage.png').default} style={{maxHeight: 583}} />
+
+</details>
+
+
+
+## Export Highlights {#export}
+You can export highlights of particular page as `text` or `CSV` file
+
+<details><summary>
+
+### Browser extension {#export-extension}
+
+</summary>
+
+1. Click Raindrop.io extension icon in a browser toolbar
+2. Click `Highlights` button
+3. Click `Export` icon
+
+</details>
+
+
+<details><summary>
+
+### iOS & Android app {#export-mobile}
+
+</summary>
+
+Not implemented yet
+
+</details>
+
+
+<details><summary>
+
+### Web & Desktop app {#export-web}
+
+</summary>
+
+1. Click on a bookmark
+2. Click `Highlights` button in the bottom of the page
+3. Click `Export` icon
 
 </details>
 

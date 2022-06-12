@@ -6,6 +6,42 @@ The bookmarks and files you save to your Raindrop.io are stored on Raindrop.io's
 
 This means that your collection will be available on any computer or mobile device (phone or tablet) that is connected to your Raindrop.io account.
 
+
+
+
+<details><summary>  
+
+## Automatic Backups {#automatic}
+
+</summary>
+
+Never worry about losing your collections, bookmarks, tags and highlights.
+
+If you’re a [Pro user](../../billing/premium-features.md), your Raindrop automatically creates backup files for the all of your collections. 
+You can easily [restore a data](../../getting-started/import.md) at any time.
+
+:::note
+[Automatic backups](https://app.raindrop.io/settings/backups) are created once a day on days you made any changes.
+:::
+
+Automated backups are enabled for all Pro users by default.
+
+In addition you can enable backups to your `Dropbox` and `Google Drive` account:
+1. Visit [settings page](https://app.raindrop.io/settings/backups)
+2. Turn on/off particular account in `Cloud backup` section
+3. Shortly after first backup will be made
+
+### Backup to Dropbox
+You can find your backup in `/Apps/Raindrop.io` folder
+
+### Backup to Google Drive
+Backup will be saved to `Raindrop.io-Export.html` file
+
+</details>
+
+
+
+
 <details><summary>
 
 ## Permanent Library {#permanent-library}
@@ -68,40 +104,12 @@ When this happen you will see a special icon <img src={require('./icon.png').def
 
 </summary>
 
-Because your collections is stored in the cloud, you do not need to create special backups of your saved Raindrop.io items.
-However, If you wish to download your bookmarks for other uses you can use our export tool which creates a downloadable HTML file.
+Because your data is stored in the cloud, you do not need to create any special backups of your saved Raindrop.io items.
+However, If you wish to download your bookmarks for other uses you can use our export tool which creates a downloadable `HTML` & `CSV` file.
 
-To access our export tool, visit [settings page](https://app.raindrop.io/settings/backups) and click **Export .html file**.   
+To access our export tool, visit [settings page](https://app.raindrop.io/settings/backups) and click **Create new**.
 You will receive an email shortly. 
 
-HTML file will contain:
-- Collections
-- Links
-- Tags
-
-</details>
-
-<details><summary>  
-
-## Automatic Backups {#automatic}
-
-</summary>
-
-If you want to be even more confident, just use our automatic backup solution that supports Dropbox and Google Drive at the moment.
-Backups are made automatically shortly after you make any change in Raindrop.io.
-:::info
-Only available in [Pro plan](../../billing/premium-features.md)
-:::
-
-Here how to enable automatic backup:
-1. Visit [settings page](https://app.raindrop.io/settings/backups)
-2. Turn on/off particular account in `Cloud backup` section
-3. Shortly after first backup will be made
-
-### Backup to Dropbox
-You can find your backup in `/Apps/Raindrop.io` folder
-
-### Backup to Google Drive
-Backup will be saved to `Raindrop.io-Export.html` file
+`HTML` & `CSV` file will contain: Collections, Links, Tags & Highlights
 
 </details>
