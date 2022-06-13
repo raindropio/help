@@ -11,13 +11,15 @@ This means that your collection will be available on any computer or mobile devi
 
 <details><summary>  
 
-## Automatic Backups {#automatic}
+## Automatic / Manual Backups {#automatic}
 
 </summary>
 
 Never worry about losing your collections, bookmarks, tags and highlights.
 
+Anytime you create a new backup and store up to 30 last on your account.
 If you’re a [Pro user](../../billing/premium-features.md), your Raindrop automatically creates backup files for the all of your collections. 
+
 You can easily [restore a data](../../getting-started/import.md) at any time.
 
 :::note
@@ -35,7 +37,7 @@ In addition you can enable backups to your `Dropbox` and `Google Drive` account:
 You can find your backup in `/Apps/Raindrop.io` folder
 
 ### Backup to Google Drive
-Backup will be saved to `Raindrop.io-Export.html` file
+Backup will be saved to `Raindrop.io-Export.html` and `Raindrop.io-Export.csv` file
 
 </details>
 
