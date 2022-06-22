@@ -8,7 +8,8 @@ How to change the payment method, will depend on whether you upgraded through th
 1. Visit [subscription settings](https://app.raindrop.io/settings/pro) page
 2. Click `Change subscription` button 
 3. Click blue `Manage` button and select `Update payment method`
-4. Click `Add Payment Method`
+4. Click `Add Payment Method` and fill in all the required details
+5. To mark new payment method as default make sure to click `Use This` button next to new payment method
 
 ## App Store (macOS, iOS, iPadOS) {#app-store}
 1. On your iPhone or iPad, open the Settings app
