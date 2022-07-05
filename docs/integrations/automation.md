@@ -19,12 +19,3 @@ If you add a lot of stuff to Raindrop.io or even if you’re just getting starte
 - [**Check all recipes**](https://ifttt.com/raindrop)
 
 You can even [create your own integrations](https://ifttt.com/create)! Just select Raindrop.io from apps list.
-
-## Zapier
-Zapier is very similar to IFTTT, but have a lot more functionality and flexibility.
-Usually it used in companies to automate they workflows. Grab one of the predefined recipes below or create custom to improve your team productivity:
-
-- [Save favorite Github repositories](https://zapier.com/apps/github/integrations/raindropio/231017/create-new-global-events-in-github-as-raindropio-items)
-- [Save favorite Slack links](https://zapier.com/apps/raindropio/integrations/slack/110589/save-new-links-from-slack-messages-to-raindropio)
-- [Save RSS](https://zapier.com/apps/raindropio/integrations/rss/205642/save-new-rss-items-to-raindropio)
-- [**Check all recipes**](https://zapier.com/apps/raindropio) or make your own
