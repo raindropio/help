@@ -114,10 +114,11 @@ Unfortunately Chrome on Android doesn't support such functionality yet
 
 
 
-## Change Color, Annotate or Delete Highlight {#edit}
+## Change Color, Annotate, Copy or Delete Highlight {#edit}
 When you click (or tap) on a highlight, it takes you to the additional actions. From here, you can take further action on your highlighted passages, including:
 - **Change color**
 - **Annotate (add note)**: leave your instant thoughts on your highlight, Markdown is supported
+- **Copy** to clipboard
 - **Delete**: Remove the highlight from the page
 
 <img src={require('./edit.png').default} style={{maxHeight: 224}} />
