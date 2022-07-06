@@ -33,7 +33,7 @@ When you highlight a passage, the text background will turn yellow so it stands 
 </summary>
 
 1. Click & drag your mouse across the text that you would like to highlight
-2. Press `Shift+Alt+H` or select `Save highlight` from context menu
+2. Press `Ctrl+Shift+S` (or `Cmd+Shift+S` on a Mac) or select `Save highlight` from context menu
 3. *Only once*: Accept permission request. [Why?](#extension-permission)
 
 <p><img src={require('./extension.png').default} style={{maxHeight: 155}} /></p>
