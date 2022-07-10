@@ -118,7 +118,7 @@ If you want to be even more confident, just use our [automatic backup solution](
 
 
 ## How long project been around?
-I've been working on Raindrop.io since 2013, which is a long time for a bookmarking site, and I've learned a lot in the past eight years.
+I've been working on Raindrop.io since 2013, which is a long time for a bookmarking site, and I've learned a lot in the past nine years.
 
 You can trust Raindrop.io will be around for years to come because I always working behind the scenes.
 When you save something to Raindrop.io, you will be able to access it whenever you need. Whether that’s five minutes later, or five years later.

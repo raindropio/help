@@ -34,6 +34,9 @@ You can use our macOS app if your device is running macOS 10.11 or higher.
 
 You can use our Windows app if your device is running Windows 7 (64bit) or higher.
 
+### Linux
+[**Download**](https://raindrop.io/r/app/linux)
+
 ### Universal (Progressive Web App)
 1. Open our [web app](https://app.raindrop.io)
 2. [Install Progressive Web App](https://support.google.com/chrome/answer/9658361?co=GENIE.Platform%3DDesktop&hl=en)
