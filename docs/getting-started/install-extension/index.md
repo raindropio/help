@@ -30,7 +30,7 @@ To use our Safari extension, you need to download and install a small Mac app wh
 [![](mac.svg)](https://raindrop.io/r/extension/safari)
 
 ## Edge
-[**Install for Edge**](https://raindrop.io/r/extension/safari)
+[**Install for Edge**](https://raindrop.io/r/extension/edge)
 
 
 ## Firefox
