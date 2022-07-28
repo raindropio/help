@@ -3,6 +3,14 @@ title: Web, Desktop App & Extension
 slug: /changelog
 ---
 
+### 5.5.9
+- Improve highlighting
+- Copy highlights button
+- Fix issue when extension save dialog just close automatically on some linux distros
+- Fix hotkey visibility for extension welcome page
+- Fix long collection names truncation
+- Improve dark theme colors
+
 ### 5.5.5
 - [Export highlights](../using/highlights/index.md#export)
 - [Automatic daily backups](../using/backups/index.md#automatic)

@@ -3,6 +3,10 @@ title: Mobile App
 slug: /changelog-mobile
 ---
 
+### 4.4.6
+- Improve highlights
+- Fix audio filter icon
+
 ### 4.4.4
 - New feature: [Highlights](../using/highlights/index.md)
 - Remove Facebook SDK (hugely improve privacy)
