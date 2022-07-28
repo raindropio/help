@@ -25,18 +25,28 @@ To use the Raindrop.io Share Extension, you’ll need to enable it first:
 
 Enabling the Raindrop.io Share Extension is easy, and only takes a moment. Here's how:
 
-1. Open Safari on your iPhone, iPad or iPod touch
-2. Tap the Share button
-3. Swipe the top row (with the colored icons) and tap More
-4. Enable Raindrop.io
-5. (Optional) Move Raindrop.io to the top of the list
-6. Tap Done
+1. Tap the Share button in Safari or any other app
+2. Swipe the top row (with the colored icons) and tap More
+3. Enable Raindrop.io
+4. (Optional) Move Raindrop.io to the top of the list
+5. Tap Done
 
-:::caution
-**Notice for iOS 14 users**: we are receiving reports of iOS users noting that Raindrop.io and other iOS apps are missing from the Share Menu.
-This is an iOS issue, but thankfully has a simple fix. 
-Please restart your device to see Raindrop.io and any other missing apps reappear in the Share Menu.
-:::
+</details>
+
+
+<details><summary>
+
+### Safari Extension {#share-ios-safari}
+
+</summary>
+
+To install an extension, you need to [download our app from the ‌App Store‌](https://raindrop.io/r/app/ios) first. 
+
+1. Launch Safari on your iPhone or iPad.
+2. Tap the Reader/Extensions button in the toolbar. It looks like "AA" with a puzzle piece next to it.
+3. In the menu that pops up, tap Manage Extensions.
+4. Turn the toggle to ON (green) for Raindrop.io.
+5. Next time you need Raindrop.io extension just tap puzzle icon again
 
 </details>
 
