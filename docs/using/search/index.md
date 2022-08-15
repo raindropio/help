@@ -2,7 +2,7 @@
 title: Search
 slug: /using-search
 ---
-Raindrop can search by bookmark details, URL, tag, type, date or [entire content](#full-text-search) of web-page or PDF.   
+Raindrop can search by bookmark details, URL, tag, type, date or [entire content](#full-text-search) of web-page or PDF (no OCR).   
 Best in class support for 16 languages. Find precisely by crafting advanced searches with our [super power operators](#operators).
 
 ![](intro.png)
@@ -12,7 +12,7 @@ Raindrop will remember your ten most recent searches so you can easily return to
 Plus, these recent searches will sync across your apps so you can continue a search on another device or computer.
 
 ## Full-Text Search {#full-text-search}
-Raindrop can search through the entire content of every bookmark and PDF you’ve saved, making it extremely easy to find what you’re looking for. It's like your personal Google!
+Raindrop can search through the entire content of every bookmark and PDF (no OCR) you’ve saved, making it extremely easy to find what you’re looking for. It's like your personal Google!
 
 Your bookmarks are indexed automatically, no need to do anything. Usually only meaningful content of web-page is indexed. Ads, navigation, comments and so on are stripped if possible.
 

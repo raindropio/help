@@ -216,6 +216,18 @@ You can apply the `Highlights` filter to see all of your highlights across all o
 
 
 
+## Sync {#sync}
+
+<details><summary>
+
+### Readwise {#sync-readwise}
+
+</summary>
+
+[Connect your Raindrop account](https://readwise.io/welcome/sync#raindrop)
+
+</details>
+
 
 ## FAQ
 ### Why you need additional browser extension permission? {#extension-permission}
