@@ -7,7 +7,7 @@ Raindrop.io supports importing bookmarks from web browsers and services in [vari
 ## How to import?
 1. Grab export file. Check [supported formats](#supported-formats) and [limitations](#limitations) below
 2. Upload this file [**here**](https://app.raindrop.io/settings/import)
-3. Fine tune [import settings](#settings) (optional)
+3. *Optional: Fine tune [import settings](#settings)*
 4. Click **Start import** and wait for upload is complete
 
 :::note
@@ -16,7 +16,7 @@ Raindrop.io supports importing bookmarks from web browsers and services in [vari
 :::
 
 ## Supported Formats
-### Netscape HTML
+### Browsers / Services (HTML)
 Almost any service or browser can generate this file for you. Here how to get it from popular browsers and services:
 [Chrome](https://www.wikihow.com/Export-Bookmarks-from-Chrome),
 [Safari](https://www.ionos.com/digitalguide/websites/web-development/export-safari-bookmarks/),
@@ -78,4 +78,3 @@ Mode | Description
     1. [Optimize](https://optimize-bookmarks-html.glitch.me/)
     2. And upload to Raindrop as ZIP archive
 - Evernote attachments are not supported yet
-- Google Bookmarks file should have a `GoogleBookmarks.html` file name to be properly imported
