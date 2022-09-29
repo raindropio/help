@@ -5,7 +5,7 @@ slug: /about
 
 import Header from './header.svg';
 
-In our fast-moving world, bookmarks bar no longer the best place for ideas, inspiration and knowledge. Your browser doesn’t give you tools to organize and resurface things you’ve saved. Even worse, you can’t access them outside of a particular ecosystem.
+In our fast-moving world, bookmarks bar is no longer the best place for ideas, inspiration and knowledge. Your browser doesn’t give you tools to organize and resurface things you’ve saved. Even worse, you can’t access them outside of a particular ecosystem.
 
 Our goal is to improve how teams and individuals deal with their bookmarks. We want to bring back a passion for collecting!
 
