@@ -101,7 +101,7 @@ At any given time, there are three copies of your data in globally distributed d
 
 </summary>
 
-Raindrop.io have Serverless Architecture. This modern approach creates highly available services that automatically scale with zero administration. This way you can expect almost zero downtimes.
+Raindrop.io has Serverless Architecture. This modern approach creates highly available services that automatically scale with zero administration. This way you can expect almost zero downtimes.
 
 Raindrop.io uses Amazon Web Services for processing and storage, and thus inherits their state of the art security levels.
 It features a dedicated firewall, key-based SSH login, and extensive monitoring features. Only I have direct access to the hosting machines and their logins are secured using two factor authentication.
