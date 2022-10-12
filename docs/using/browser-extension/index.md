@@ -8,6 +8,7 @@ slug: /browser-extension
 Using our browser extension is the quickest way to add links, images, and stuff to your Raindrop.io collections straight from your favorite web browser.
 
 ## Appearance
+
 When you first time install our extension you will be promted to select preferred look and feel of an extension:
 
 <!------------------------------>
@@ -44,13 +45,13 @@ Mini App gives you the same experience as our web site but in compact size. You 
 </summary>
 
 Here how to change appearance in settings:
+
 1. Click on a Raindrop.io extension button
 2. Click on your profile avatar
 3. Click `Settings`
 4. Select preferred `Appearance`
 
 </details>
-
 
 ## How to
 
@@ -61,12 +62,11 @@ Here how to change appearance in settings:
 
 </summary>
 
-1. Browse to a website or video you would like to save to Raindrop.io 
+1. Browse to a website or video you would like to save to Raindrop.io
 2. Click the Raindrop.io extension button or press `⌘+⇪+S` (on a Mac), `Ctrl+Shift+S` (on a Windows)
 3. Click the `Save` button to send the content to the `Unsorted` or chosen collection
 
 </details>
-
 
 <!------------------------------>
 <details><summary>
@@ -80,8 +80,6 @@ Here how to change appearance in settings:
 
 </details>
 
-
-
 <!------------------------------>
 <details><summary>
 
@@ -93,7 +91,6 @@ Here how to change appearance in settings:
 
 </details>
 
-
 <!------------------------------>
 <details><summary>
 
@@ -102,16 +99,17 @@ Here how to change appearance in settings:
 </summary>
 
 When you have many tabs open, saving them one at a time is a bit tedious. Instead you can save them at once.
+
 <p><img src={require('./tabs.jpg').default} style={{maxHeight:496}} /></p>
 
 **How to use?**
+
 - If you have `Clipper` appearance just click `Tabs…` in bottom left corner of a window.
 - If you have `Mini App` appearance just mouse over `Save` and select `Save tabs…`.
 
 By default saved tabs will have a tag with a date. That way you can find them easly later.
 
 </details>
-
 
 <!------------------------------>
 <details><summary>
@@ -124,7 +122,7 @@ You can search your bookmarks right from browser address bar by typing special k
 
 ![](./omnibox.png)
 
-Just type ``rd`` and then your search query. For example `rd design`.
+Just type `rd` and then your search query. For example `rd design`.
 
 :::tip
 Feel free to use [advanced search operators](../search/index.md#operators) to find precisely
@@ -135,7 +133,6 @@ This feature is not available in Safari and Vivaldi browser
 :::note
 
 </details>
-
 
 <!------------------------------>
 <details><summary>
@@ -158,7 +155,6 @@ See if a page already saved: special [✔] indicator will be showed when you vis
 
 </details>
 
-
 ## Tips & tricks
 
 <!------------------------------>
@@ -179,12 +175,12 @@ Follow few simple steps to enable one click save mode:
 
 </details>
 
-
 ## Hotkeys {#hotkeys}
-Command | macOS | Windows / Linux
-------- | ------ | --------------
-Save current page | ⌘+⇪+S | Ctrl+Shift+S
-Open browser extension | ⌘+⇪+E | Ctrl+Shift+E
+
+| Command                | macOS | Windows / Linux |
+| ---------------------- | ----- | --------------- |
+| Save current page      | ⌘+⇪+S | Ctrl+Shift+S    |
+| Open browser extension | ⌘+⇪+E | Ctrl+Shift+E    |
 
 <details><summary>
 
@@ -195,21 +191,27 @@ Open browser extension | ⌘+⇪+E | Ctrl+Shift+E
 Here how to access and change all available hotkeys (keyboard shortcuts):
 
 #### Chrome, Opera, Edge, Brave, Vivaldi
+
 1. Paste `chrome://extensions/shortcuts` URL into browser address bar and press Enter
 2. Find `Raindrop.io`
 
 #### Firefox
+
 1. Paste `about:addons` URL into browser address bar and press Enter
 2. Click on a cog icon
 3. Click `Manage Extension Shortcuts`
 4. Find `Raindrop.io`
 
 #### Safari
+
 Not supported to change hotkeys
+
 </details>
 
 ## Privacy & FAQ
+
 ### What data does the extension collect?
+
 The browser extension does not do or collect anything unless you tell it to. It sits quietly in the background, waiting for you to interact with it.
 
 What that means is, only if you press a button (for example: Raindrop.io) will it send a URL, or an image to the Raindrop.io servers so we can bookmark it for you. We will NEVER access anything else in your browser without your permission and explicit action.

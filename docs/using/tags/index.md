@@ -12,7 +12,6 @@ Items can have as many tags as you like, and you can [filter your library](#by-t
 
 Raindrop.io tags are special. They allow you to name them using any characters, in any language and most importantly – with spaces.
 
-
 <!------------------------------>
 <details><summary>
 
@@ -23,7 +22,6 @@ Raindrop.io tags are special. They allow you to name them using any characters, 
 Read more in [bookmarks article](../bookmarks/index.md#tags)
 
 </details>
-
 
 <!------------------------------>
 <details><summary>
@@ -42,7 +40,6 @@ Type `#` the search box to see all tags.
 
 </details>
 
-
 <!------------------------------>
 <details><summary>
 
@@ -55,7 +52,6 @@ To find items that doesn't have some specific tag just put - (dash) in front of 
 <img src={require('./exclude-tag.png').default} style={{maxHeight:208}} />
 
 </details>
-
 
 <!------------------------------>
 <details><summary>
@@ -70,7 +66,6 @@ You can merge tags by selecting them and then click `Merge`.
 
 </details>
 
-
 <!------------------------------>
 <details><summary>
 
@@ -83,7 +78,6 @@ Focus on a search field and then click `Without tags` filter
 ![](filters.png)
 
 </details>
-
 
 <!------------------------------>
 <details><summary>

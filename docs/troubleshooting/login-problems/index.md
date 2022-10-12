@@ -2,10 +2,12 @@
 title: Login Problems
 slug: /login-problems
 ---
+
 If you’re having login problems with Raindrop.io, here are a few ways to solve common issues.
 
 ### 🔥 Clear the browser cache {#clear-cache}
-If you’re having a problem with Raindrop.io, you can try clearing your browser cookies. 
+
+If you’re having a problem with Raindrop.io, you can try clearing your browser cookies.
 Here's how you can clear your Raindrop.io cookies on various browsers:
 
 <details><summary>
@@ -23,7 +25,6 @@ Here's how you can clear your Raindrop.io cookies on various browsers:
 
 </details>
 
-
 <details><summary>
 
 #### Safari {#safari}
@@ -37,7 +38,6 @@ Here's how you can clear your Raindrop.io cookies on various browsers:
 5. Select the website and click on **Remove**.
 
 </details>
-
 
 <details><summary>
 
@@ -58,16 +58,19 @@ Here's how you can clear your Raindrop.io cookies on various browsers:
 ---
 
 ### Reset your password
+
 First of try to [reset your password](../forgot-password.md). If this doesn't help try other solutions below.
 
 ---
 
 ### Disable VPN / Proxy / Adblock
+
 VPN, Proxy or Adblock can be a problem, try to disable them temporarily
 
 ---
 
 ### Add Raindrop.io to your browser's whitelist
+
 To ensure that Raindrop.io cookies work properly on your browser, add Raindrop.io to your browser's whitelist.
 
 <details><summary>
@@ -78,8 +81,8 @@ To ensure that Raindrop.io cookies work properly on your browser, add Raindrop.i
 
 Paste this URL `chrome://settings/content/cookies` to address bar and press enter.
 In the bottom of the page click `Add` (in `Allow` section) and paste this string **`[*.]raindrop.io`**
-</details>
 
+</details>
 
 <details><summary>
 
@@ -87,7 +90,7 @@ In the bottom of the page click `Add` (in `Allow` section) and paste this string
 
 </summary>
 
-Open settings. Go to `Privacy & Security` section. 
+Open settings. Go to `Privacy & Security` section.
 Scroll to `Cookies and Site Data` and click `Manage Permissions...`
 
 ![](cookie-firefox.png)
@@ -102,6 +105,7 @@ Also try to disable any privacy/blocking extensions you have.
 ---
 
 ### Logout me everytime I close a browser {#logoutme}
+
 You probably enabled an option to clear data on browser close
 
 <details><summary>

@@ -2,6 +2,7 @@
 title: User Interface
 slug: /ui
 ---
+
 To be more familiar with Raindrop.io let's check the main parts of a user interface. Deep dive to learn more about each feature.
 
 ![](ui.jpg)

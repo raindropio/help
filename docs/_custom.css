@@ -7,197 +7,196 @@
 
 /* You can override the default Infima variables here. */
 :root {
-	--ifm-color-primary: #1988E0;
-	--ifm-code-font-size: 95%;
-	--ifm-menu-color-background-active: transparent;
-	--ifm-navbar-link-color: var(--ifm-toc-link-color);
-	--ifm-navbar-link-hover-color: var(--ifm-heading-color);
-	--ifm-color-warning: #faeabf;
+  --ifm-color-primary: #1988e0;
+  --ifm-code-font-size: 95%;
+  --ifm-menu-color-background-active: transparent;
+  --ifm-navbar-link-color: var(--ifm-toc-link-color);
+  --ifm-navbar-link-hover-color: var(--ifm-heading-color);
+  --ifm-color-warning: #faeabf;
 
-	--ifm-font-size-base: 18px;
-	--ifm-menu-link-padding-vertical: 6px;
+  --ifm-font-size-base: 18px;
+  --ifm-menu-link-padding-vertical: 6px;
 
-	--ifm-navbar-height: 60px;
-	--ifm-spacing-horizontal: 30px;
+  --ifm-navbar-height: 60px;
+  --ifm-spacing-horizontal: 30px;
 
-	--ifm-toc-border-color: rgba(0,0,0,.1);
+  --ifm-toc-border-color: rgba(0, 0, 0, 0.1);
 
-	--alternative-background: rgba(0,0,0,.03);
+  --alternative-background: rgba(0, 0, 0, 0.03);
 }
 
 html[data-theme='dark'] {
-	--ifm-toc-border-color: rgba(255,255,255,.2);
-	--alternative-background: rgba(255,255,255,.05);
+  --ifm-toc-border-color: rgba(255, 255, 255, 0.2);
+  --alternative-background: rgba(255, 255, 255, 0.05);
 }
 
 .markdown {
-	--ifm-heading-vertical-rhythm-bottom: .6;
+  --ifm-heading-vertical-rhythm-bottom: 0.6;
 }
 
 aside {
-	background: var(--alternative-background);
+  background: var(--alternative-background);
 }
 
 .footer {
-	display: none
+  display: none;
 }
 
 .docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocPage- {
-	border: 0 !important;
-	background: rgba(0,0,0,.02);
+  border: 0 !important;
+  background: rgba(0, 0, 0, 0.02);
 }
-
 
 /* Navbar */
 .navbar__brand {
-	color: var(--ifm-heading-color) !important
+  color: var(--ifm-heading-color) !important;
 }
 
 /* Menu */
 .menu {
-	font-weight: normal;
+  font-weight: normal;
 }
 
 .menu__link {
-	border-radius: 0
+  border-radius: 0;
 }
 
 /* section */
 .menu__link--sublist {
-	display: block;
-	font-weight: 500;
+  display: block;
+  font-weight: 500;
 }
 .menu__link--sublist::first-letter {
-	margin-right: 6px;
+  margin-right: 6px;
 }
 .menu__link--sublist:after {
-	display: none
+  display: none;
 }
 
 /* doc */
 .menu__link:not(.menu__link--sublist) {
-	padding-left: 29px;
+  padding-left: 29px;
 }
 
 .menu__link--active {
-	color: var(--ifm-heading-color);
+  color: var(--ifm-heading-color);
 }
 
 .menu__link--active:not(.menu__link--sublist) {
-	box-shadow: inset 2px 0 var(--ifm-color-primary);
+  box-shadow: inset 2px 0 var(--ifm-color-primary);
 }
 
 /* Mobile menu */
 .menu--responsive .menu__button {
-	right: auto;
-    left: -10px;
-    top: 11px;
-    bottom: auto;
+  right: auto;
+  left: -10px;
+  top: 11px;
+  bottom: auto;
 }
 
 /* Article */
 article header h1 {
-	font-size: 2.1rem !important
+  font-size: 2.1rem !important;
 }
 
 .markdown > h2 {
-	font-size: 1.7rem !important
+  font-size: 1.7rem !important;
 }
 
 .markdown h3 {
-	font-size: 1.2rem !important;
+  font-size: 1.2rem !important;
 }
 
 .markdown img {
-	border: 1px solid var(--ifm-toc-border-color);
-	display: block;
+  border: 1px solid var(--ifm-toc-border-color);
+  display: block;
 }
 
 h4 {
-	margin-bottom: .5rem
+  margin-bottom: 0.5rem;
 }
 
 /* Collapsible */
 details {
-	border: 1px solid var(--ifm-toc-border-color) !important;
-	overflow: hidden;
-	margin-bottom: calc( var(--ifm-heading-vertical-rhythm-bottom) * var(--ifm-leading) );
-	transition: background .2s ease-in-out;
+  border: 1px solid var(--ifm-toc-border-color) !important;
+  overflow: hidden;
+  margin-bottom: calc(
+    var(--ifm-heading-vertical-rhythm-bottom) * var(--ifm-leading)
+  );
+  transition: background 0.2s ease-in-out;
 }
 
 details summary {
-	cursor: pointer
+  cursor: pointer;
 }
 
 details summary:before {
-	border-left-color: var(--ifm-menu-color) !important
+  border-left-color: var(--ifm-menu-color) !important;
 }
 
 details summary > * {
-	display: inline-block;
-	margin-bottom: 0;
+  display: inline-block;
+  margin-bottom: 0;
 }
 
 details[open] > :last-child {
-	margin-bottom: .2rem
+  margin-bottom: 0.2rem;
 }
 
 details:not([open]) {
-	background-color: var(--alternative-background);
-	user-select: none;
+  background-color: var(--alternative-background);
+  user-select: none;
 }
 
 details:not([open]) summary > * {
-	margin: 0;
+  margin: 0;
 }
 
-details:not([open]) summary a[href^="#"] {
-	display: none
+details:not([open]) summary a[href^='#'] {
+  display: none;
 }
 
 /* carousel */
 .carousel {
-	border-radius: 3px;
-	overflow: hidden;
+  border-radius: 3px;
+  overflow: hidden;
 }
 
 .carousel p {
-	text-align: left;
-	display: flex;
-	overflow-x: auto;
-	scroll-snap-type: x mandatory;
-	scroll-behavior: smooth;
-	-webkit-overflow-scrolling: touch;
-	user-select: none;
+  text-align: left;
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  user-select: none;
 }
 .carousel p::-webkit-scrollbar {
-	width: 16px;
-	height: 16px;
+  width: 16px;
+  height: 16px;
 }
 .carousel p::-webkit-scrollbar-thumb {
-	background: var(--ifm-menu-color);
-	border-radius: 10px;
-	border: 4px solid var(--ifm-toc-border-color);
+  background: var(--ifm-menu-color);
+  border-radius: 10px;
+  border: 4px solid var(--ifm-toc-border-color);
 }
 .carousel p::-webkit-scrollbar-track {
-	background: var(--ifm-toc-border-color);
+  background: var(--ifm-toc-border-color);
 }
 
 .carousel p > * {
-	display: block;
-	width: 100%;
-	scroll-snap-align: start;
-	flex-shrink: 0;
+  display: block;
+  width: 100%;
+  scroll-snap-align: start;
+  flex-shrink: 0;
 }
-
-
 
 /* Tables */
 td {
-	white-space: nowrap;
-	vertical-align: top;
+  white-space: nowrap;
+  vertical-align: top;
 }
 
 td:last-child {
-	white-space: initial;
+  white-space: initial;
 }
