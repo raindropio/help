@@ -7,7 +7,9 @@
     "local:build": "env $(cat .env|xargs) yarn build",
     "build": "docusaurus build",
     "deploy:prod": "git branch -f release/production master && git push --force origin release/production",
-    "postinstall": "sync-dotenv || true"
+    "postinstall": "sync-dotenv || true",
+    "precommit": "lint-staged",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@docusaurus/core": "2.1.x",
@@ -30,6 +32,18 @@
     ]
   },
   "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
     "sync-dotenv": "2.7.x"
+  },
+  "lint-staged": {
+    "*.{md,mdx}": "prettier --write",
+    "*.css": "prettier --write",
+    "*.js": "prettier --write",
+    "*.json": "prettier --write"
+  },
+  "prettier": {
+    "singleQuote": true
   }
 }

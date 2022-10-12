@@ -33,14 +33,13 @@ Enabling the Raindrop.io Share Extension is easy, and only takes a moment. Here'
 
 </details>
 
-
 <details><summary>
 
 ### Safari Extension {#share-ios-safari}
 
 </summary>
 
-To install an extension, you need to [download our app from the ‌App Store‌](https://raindrop.io/r/app/ios) first. 
+To install an extension, you need to [download our app from the ‌App Store‌](https://raindrop.io/r/app/ios) first.
 
 1. Launch Safari on your iPhone or iPad.
 2. Tap the Reader/Extensions button in the toolbar. It looks like "AA" with a puzzle piece next to it.
@@ -49,7 +48,6 @@ To install an extension, you need to [download our app from the ‌App Store‌]
 5. Next time you need Raindrop.io extension just tap puzzle icon again
 
 </details>
-
 
 <details><summary>
 
@@ -64,7 +62,6 @@ When you tap Share, you’ll be presented with a list of share options, and you 
 
 </details>
 
-
 <!---------------------->
 <details><summary>
 
@@ -77,7 +74,6 @@ You can't import bookmarks from Safari using our mobile app.
 Instead open Safari on your Mac, then click `File / Export bookmarks...` menu item and follow instructions [here](../../getting-started/import.md).
 
 </details>
-
 
 <!---------------------->
 <details><summary>

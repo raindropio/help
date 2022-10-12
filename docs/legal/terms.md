@@ -10,6 +10,7 @@ Raindrop.io reserves the right to update and change the Terms of Service from ti
 Violation of any of the terms below will result in the termination of your Account. While Raindrop.io prohibits such conduct and Content on the Service, you understand and agree that Raindrop.io cannot be responsible for the Content posted on the Service and you nonetheless may be exposed to such materials. You agree to use the Service at your own risk.
 
 ## Account Terms
+
 1. You must be 16 years or older to use this Service.
 2. You must be a human. Accounts registered by "bots” or other automated methods are not permitted.
 3. You must provide your username (aka nickname) and a valid email address in order to complete the signup process.
@@ -19,6 +20,7 @@ Violation of any of the terms below will result in the termination of your Accou
 7. You may not use the Service for any illegal or unauthorized purpose. You must not, in the use of the Service, violate any laws in your jurisdiction (including but not limited to copyright or trademark laws).
 
 ## API Terms
+
 Customers may access their Raindrop.io account data via an API (Application Program Interface).
 Any use of the API, including use of the API through a third-party product that accesses Raindrop.io, is bound by these Terms of Service plus the following specific terms:
 
@@ -27,28 +29,32 @@ Any use of the API, including use of the API through a third-party product that 
 3. Raindrop.io reserves the right at any time to modify or discontinue, temporarily or permanently, your access to the API (or any part thereof) with or without notice.
 
 ## Payment, Refunds, Upgrading and Downgrading Terms
+
 1. All paid plans must enter a valid credit card. Free accounts are not required to provide a credit card number.
 2. An upgrade from the free plan to any paying plan will immediately bill you.
-3. The Service is billed in advance on a monthly or annual basis and is non-refundable after the initial 30 day period. 
-New users may cancel their account and request a refund within 30 days of first signing up by e-mailing [info@raindrop.io](mailto:info@raindrop.io).
-After this period, there will be no refunds or credits for partial months of service, upgrade/downgrade refunds, or refunds for months unused with an open account.
+3. The Service is billed in advance on a monthly or annual basis and is non-refundable after the initial 30 day period.
+   New users may cancel their account and request a refund within 30 days of first signing up by e-mailing [info@raindrop.io](mailto:info@raindrop.io).
+   After this period, there will be no refunds or credits for partial months of service, upgrade/downgrade refunds, or refunds for months unused with an open account.
 4. All fees are exclusive of all taxes, levies, or duties imposed by taxing authorities, and you shall be responsible for payment of all such taxes, levies, or duties, excluding only United States (federal or state) taxes.
 5. Downgrading your Service may cause the loss of features, or capacity of your Account. Raindrop.io does not accept any liability for such loss.
 
 ## Cancellation and Termination
+
 1. You are solely responsible for properly canceling your service.
-An email or phone request to cancel your service is not considered cancellation.
-You can cancel your service subscription at any time by clicking on the [Subscription link](https://app.raindrop.io/settings/pro) in the settings. The Subscription screen provides shows a `Change subscription` link where you can cancel your subscription.
+   An email or phone request to cancel your service is not considered cancellation.
+   You can cancel your service subscription at any time by clicking on the [Subscription link](https://app.raindrop.io/settings/pro) in the settings. The Subscription screen provides shows a `Change subscription` link where you can cancel your subscription.
 2. To permanently terminate your account, click "Remove account” from the [Account](https://app.raindrop.io/settings/account) screen. All of your Content will be immediately deleted from the Service upon termination. This information can not be recovered once your account is terminated.
 3. If you cancel the Service before the end of your current paid up period, your benefits will remain active for the entire time that you purchased and you will not be charged again. Should you wish to terminate your account before the end of your current paid up period, your termination will take effect immediately.
 4. Raindrop.io, in its sole discretion, has the right to suspend or terminate your account and refuse any and all current or future use of the Service, or any other Raindrop.io service, for any reason at any time. Such termination of the Service will result in the deactivation or deletion of your Account or your access to your Account, and the forfeiture and relinquishment of all Content in your Account. Raindrop.io reserves the right to refuse service to anyone for any reason at any time.
 
 ## Copyright and Content Ownership
+
 1. We claim no intellectual property rights over the material you provide to the Service. Your profile and materials uploaded remain yours. However, by setting your pages to be viewed publicly, you agree to allow others to view your Content. By setting your items to be viewed publicly, you agree to allow others to view and/or download your items.
 2. Raindrop.io does not pre-screen Content, but Raindrop.io and its designee have the right (but not the obligation) in their sole discretion to refuse or remove any Content that is available via the Service.
 3. You shall defend Raindrop.io against any claim, demand, suit or proceeding made or brought against Raindrop.io by a third party alleging that Your Content, or Your use of the Service in violation of this Agreement, infringes or misappropriates the intellectual property rights of a third party or violates applicable law, and shall indemnify Raindrop.io for any damages finally awarded against, and for reasonable attorney’s fees incurred by, Raindrop.io in connection with any such claim, demand, suit or proceeding; provided, that Raindrop.io (a) promptly gives You written notice of the claim, demand, suit or proceeding; (b) gives You sole control of the defense and settlement of the claim, demand, suit or proceeding (provided that You may not settle any claim, demand, suit or proceeding unless the settlement unconditionally releases Raindrop.io of all liability); and © provides to You all reasonable assistance, at Your expense.
 
 ## General Conditions
+
 1. Your use of the Service is at your sole risk. The service is provided on an "as is” and "as available” basis.
 2. Support is only available in English.
 3. You understand that Raindrop.io uses third party vendors and hosting partners to provide the necessary hardware, software, networking, storage, and related technology required to run the Service.

@@ -25,12 +25,14 @@ This page outlines the methods you can use to save any link to your List.
 ---
 
 #### Saving with the Browser Extension
+
 The [Raindrop.io extension](../../getting-started/install-extension/index.md) is a small button that sits in your browser toolbar.
 It's available for many browsers. When clicked, it will save the current page to Raindrop.io.
 
 ---
 
 #### Manually Saving to a link to Raindrop.io
+
 1. Visit [Raindrop.io App](https://app.raindrop.io)
 2. Click the + button in the top toolbar
 3. Insert the URL you’d like to save. Don’t forget the http://
@@ -39,7 +41,6 @@ It's available for many browsers. When clicked, it will save the current page to
 ![](web-add.png)
 
 </details>
-
 
 <!------------------------------>
 <details><summary>
@@ -55,7 +56,6 @@ You can change the order by changing sort option or by manually dragging and dro
 
 </details>
 
-
 <!------------------------------>
 <details><summary>
 
@@ -64,6 +64,7 @@ You can change the order by changing sort option or by manually dragging and dro
 </summary>
 
 #### Drag n drop
+
 You can transfer an item to a different collection by dragging it from its current collection onto the menu item of the collection you’d like to transfer it to.
 
 ![](move-drag.png)
@@ -71,6 +72,7 @@ You can transfer an item to a different collection by dragging it from its curre
 ---
 
 #### Move multiple items
+
 Start by highlighting the items that you want to copy by hovering over the items and clicking the tick mark that appears in the top left corner.
 
 ![](bulk.png)
@@ -84,7 +86,6 @@ Your items will now be moved into the second collection!
 
 </details>
 
-
 <!------------------------------>
 <details><summary>
 
@@ -96,7 +97,7 @@ When you add something, Raindrop.io will try to pull in an image from the site.
 Sometimes that image doesn’t work for you; it might be a shot generated from a video that is too grainy or an image of your old boss you never want to see again.
 Either way, it’s easy to change an image you hate.
 
-To change a thumbnail of an item click on `Edit` button and then click on a thumbnail. 
+To change a thumbnail of an item click on `Edit` button and then click on a thumbnail.
 
 ![](buttons.png)
 
@@ -107,7 +108,6 @@ If there are other images on the bookmarked webpage that Raindrop.io can pull fr
 Alternatively, you can upload an image that you like from your desktop by clicking on 'upload'.
 
 </details>
-
 
 <!------------------------------>
 <details><summary>
@@ -124,7 +124,6 @@ You can also add descriptions when adding items directly to Raindrop.io using th
 
 </details>
 
-
 <!------------------------------>
 <details><summary>
 
@@ -133,6 +132,7 @@ You can also add descriptions when adding items directly to Raindrop.io using th
 </summary>
 
 #### Adding a tag
+
 If you want to add tags to a single item, click `Edit` button.
 Now you will see the option to tag underneath 'Tags', here type in as many tags as you like separated by commas.
 
@@ -141,21 +141,23 @@ Now you will see the option to tag underneath 'Tags', here type in as many tags 
 Tip: you can tag your items when you add them to Raindrop.io when you use one of our [browser extension](/install-extension) or using [mobile app](../../getting-started/download-app/index.md).
 
 #### Add tags to multiple items
+
 You can add tags to multiple items in your collection too.
 First highlight the items you want to tag by hovering over the items until the tick appears in the left corner, and then click on the tick.
 
 ![](bulk.png)
 
-Highlight as many items as you like, then click `Add tags` in the menu bar at the top. When the pop-up appears, type in your tags separated by commas. 
+Highlight as many items as you like, then click `Add tags` in the menu bar at the top. When the pop-up appears, type in your tags separated by commas.
 
 #### Remove tags from multiple items
+
 First highlight the items you want to tag by hovering over the items until the tick appears in the left corner, and then click on the tick.
 
 ![](bulk.png)
 
-Highlight as many items as you like, then click `More...` / `Remove tags` in the menu bar at the top. 
-</details>
+Highlight as many items as you like, then click `More...` / `Remove tags` in the menu bar at the top.
 
+</details>
 
 <!------------------------------>
 <details><summary>
@@ -165,6 +167,7 @@ Highlight as many items as you like, then click `More...` / `Remove tags` in the
 </summary>
 
 #### Remove single item
+
 Mouse over any item and click "trash" icon
 
 ![](buttons.png)
@@ -172,14 +175,14 @@ Mouse over any item and click "trash" icon
 ---
 
 #### Remove multiple items
+
 First highlight the items you want to remove by hovering over the items until the tick appears in the left corner, and then click on the tick.
 
 ![](bulk.png)
 
-Highlight as many items as you like, then click `Remove` in the menu bar at the top. 
+Highlight as many items as you like, then click `Remove` in the menu bar at the top.
 
 </details>
-
 
 <!------------------------------>
 <details><summary>
@@ -189,13 +192,13 @@ Highlight as many items as you like, then click `Remove` in the menu bar at the 
 </summary>
 
 You can't put same page into multiple collections in easy way. But here workaround you can use to do so:
+
 - Visit [web app](https://app.raindrop.io)
 - Go to desired collection you want to put a copy
 - Click `Add` in top right corner
 - Paste `URL` of a page and click `Save`
 
 </details>
-
 
 ## Navigate
 
@@ -215,18 +218,19 @@ Very useful in the case of videos or music.
 Just right-click on an item and select `Preview` (if available).
 
 #### Articles
+
 Raindrop.io extracts the article text and removes web advertisements and other distractions to provide a wonderful reading experience.
 
 ![](preview-article.png)
 
 #### Refresh preview
-If preview is not available, incorrect or outdated you can ask Raindrop.io to extract it again.   
+
+If preview is not available, incorrect or outdated you can ask Raindrop.io to extract it again.  
 Just right click on an item and select `Refresh preview` option.
 
 ![](context-menu.png)
 
 </details>
-
 
 <!------------------------------>
 <details><summary>
@@ -244,7 +248,6 @@ Highlight as many items as you like, then click `Open` in the menu bar at the to
 [Check this article](../../troubleshooting/open-multiple-links/index.md) if you have any troubles with this feature.
 
 </details>
-
 
 ## Customize
 
@@ -293,8 +296,8 @@ Ideal for bookmarks, files, and list building.
 
 </summary>
 
-Ideal for the grid-obsessed, items get cropped to clean and tidy squares. 
-See your content on a level playing field (regardless of type), and drag to reorder your collection with ease. 
+Ideal for the grid-obsessed, items get cropped to clean and tidy squares.
+See your content on a level playing field (regardless of type), and drag to reorder your collection with ease.
 For the visually inclined, toggle labels off and let the thumbnails stand out.
 
 ![](grid.png)
@@ -336,7 +339,7 @@ Masonry assembles your items like a jigsaw puzzle. This view is an excellent way
 
 </summary>
 
-Also, you can choose to hide labels (because sometimes images speak louder than words).   
+Also, you can choose to hide labels (because sometimes images speak louder than words).  
 Click `List` button in top right corner
 
 ![](view.png)
@@ -344,7 +347,6 @@ Click `List` button in top right corner
 </details>
 
 </details>
-
 
 <!------------------------------>
 <details><summary>

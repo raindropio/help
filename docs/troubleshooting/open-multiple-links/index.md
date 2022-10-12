@@ -2,7 +2,8 @@
 title: Can't Open Multiple Links at Once
 slug: /troubleshooting/open-multiple-links
 ---
-If nothing happen (or only one link is open) after you click on "Open in browser", probably your browser is blocking opening multiple tabs at once. 
+
+If nothing happen (or only one link is open) after you click on "Open in browser", probably your browser is blocking opening multiple tabs at once.
 
 Check guide how to fix this for your browser below:
 
@@ -16,7 +17,8 @@ Right after you try to open multiple tabs at once, you will see icon in address 
 ![](./chrome.png)
 
 #### Other solution:
-Paste this URL ``chrome://settings/content/popups`` to address bar and press enter. In "Allow" section click "Add" and paste this string ``[*.]raindrop.io``
+
+Paste this URL `chrome://settings/content/popups` to address bar and press enter. In "Allow" section click "Add" and paste this string `[*.]raindrop.io`
 
 </details>
 
@@ -30,13 +32,14 @@ Right after you try to open multiple tabs at once, you will see panel like in sc
 ![](./firefox1.png)
 
 #### Other solution:
-Paste this URL ``about:preferences#privacy`` to address bar and press enter.
+
+Paste this URL `about:preferences#privacy` to address bar and press enter.
 
 Scroll to "Permissions" section and click "Exceptions..." button near "Block pop-up windows" checkbox:
 
 ![](./firefox2.png)
 
-Enter ``https://app.raindrop.io`` to "Address of website" field, click "Allow" and "Save Changes"
+Enter `https://app.raindrop.io` to "Address of website" field, click "Allow" and "Save Changes"
 
 ![](./firefox3.png)
 

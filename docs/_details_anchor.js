@@ -1,30 +1,29 @@
 if (typeof window != 'undefined') {
-    function expand(anchor) {
-        if(!anchor) return
+  function expand(anchor) {
+    if (!anchor) return;
 
-        const details = anchor.closest("details")
-        if (details){
-            if (!details.open)
-                details.querySelector('summary').click()
-            expand(details.parentNode)
-        }
-
-        anchor.scrollIntoView({behavior: 'smooth'})
-
-        return true
+    const details = anchor.closest('details');
+    if (details) {
+      if (!details.open) details.querySelector('summary').click();
+      expand(details.parentNode);
     }
 
-    function openTarget() {
-        var hash = location.hash.substring(1);
-        if(!hash) return
+    anchor.scrollIntoView({ behavior: 'smooth' });
 
-        if (!expand(document.getElementById(hash)))
-            setTimeout(() => {
-                expand(document.getElementById(hash))
-            })
-    }
+    return true;
+  }
 
-    window.addEventListener('hashchange', openTarget)
-    window.addEventListener('popstate', openTarget)
-    window.addEventListener('load', openTarget)
+  function openTarget() {
+    var hash = location.hash.substring(1);
+    if (!hash) return;
+
+    if (!expand(document.getElementById(hash)))
+      setTimeout(() => {
+        expand(document.getElementById(hash));
+      });
+  }
+
+  window.addEventListener('hashchange', openTarget);
+  window.addEventListener('popstate', openTarget);
+  window.addEventListener('load', openTarget);
 }
