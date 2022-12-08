@@ -14,4 +14,3 @@ Raindrop.io Pro is a subscription, and you can subscribe to Monthly and Yearly p
 - 🛁 Keep your bookmarks clean: find [broken](../using/search/index.md#broken-links) and [duplicate](../using/search/index.md#duplicates) links.
 - 🗃️ [Upload 10 Gb files](../using/files/index.md) each month.
 - 🦺 [Automatic backups](../using/backups/index.md#automatic) of your data. Never worry about accidentally deleting any of your collections, bookmarks, tags, or highlights.
-- 🏷️ Organize & filter your list with [intelligent tag suggestions](../using/tags/index.md#suggested-tags).
