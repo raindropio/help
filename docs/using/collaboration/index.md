@@ -23,7 +23,7 @@ After you click a `Send invites` button, persons you added will receive an email
 
 <p><img src={require('./email.png').default} style={{maxHeight:412}} /></p>
 
-They need to click a link from email and after a moment shared collection become available in they account.
+They need to click on the link from the email, and after a while, the shared collection will be available on their account.
 
 ## Permissions
 By default, every Raindrop.io collection you create is private and only visible to you.

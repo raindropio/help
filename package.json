@@ -10,8 +10,8 @@
     "postinstall": "sync-dotenv || true"
   },
   "dependencies": {
-    "@docusaurus/core": "2.1.x",
-    "@docusaurus/preset-classic": "2.1.x",
+    "@docusaurus/core": "2.2.x",
+    "@docusaurus/preset-classic": "2.2.x",
     "@mdx-js/react": "1.x",
     "clsx": "^1.1.1",
     "react": "17.x",
