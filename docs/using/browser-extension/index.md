@@ -183,8 +183,12 @@ Follow few simple steps to enable one click save mode:
 ## Hotkeys {#hotkeys}
 Command | macOS | Windows / Linux
 ------- | ------ | --------------
-Save current page | ⌘+⇪+S | Ctrl+Shift+S
+Save current page / highlight | ⌘+⇪+S | Ctrl+Shift+S
 Open browser extension | ⌘+⇪+E | Ctrl+Shift+E
+
+:::note
+**Firefox only**: the hotkey for save current page / highlight is `Alt+Shift+S`
+:::
 
 <details><summary>
 
