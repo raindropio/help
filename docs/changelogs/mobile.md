@@ -6,6 +6,7 @@ slug: /changelog-mobile
 ### 4.4.7
 - Support EPUB (uploading, reading, highlighting and full-text search)
 - New `book` type filter
+- Fix mouse support for highlighting on iPad
 
 ### 4.4.6
 - Improve highlights
