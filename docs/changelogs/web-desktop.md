@@ -3,6 +3,10 @@ title: Web, Desktop App & Extension
 slug: /changelog
 ---
 
+### 5.5.15
+- Support EPUB (uploading, reading and full-text search)
+- New `book` type filter
+
 ### 5.5.9
 - Improve highlighting
 - Copy highlights button

@@ -8,6 +8,7 @@ With Raindrop.io you can store files and locate previous inspiration easily. Upl
 ## Supported File Types
 - Images (`jpeg`, `gif`, `png`, `webp`, `heic`)
 - Videos (`mp4`, `mov`, `wmv`, `webm`)
+- Books (`epub`)
 - Documents (`pdf`, `md`, `txt`)
 
 ## Drag and drop
