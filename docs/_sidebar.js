@@ -10,7 +10,8 @@ module.exports = {docs: [
 			'getting-started/download-app/index',
 			'getting-started/import',
 			'getting-started/account-basics',
-			'getting-started/account-settings'
+			'getting-started/account-settings',
+			'getting-started/betas/index'
 		]
 	},
 
