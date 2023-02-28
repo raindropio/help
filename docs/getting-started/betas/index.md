@@ -6,7 +6,7 @@ slug: /betas
 Help us with testing beta versions of our apps. Follow our [Twitter](https://twitter.com/raindrop_io) to be notified when next beta test start.
 
 ## iOS app 5.0
-Brand new iOS app. Rewritten from scratch with native technology. Expect smooth, native performance with tighter intergration with iOS.
+Brand new iOS app. Rewritten from scratch with native technology. Expect smooth, native performance, low battery usage and tighter intergration with iOS.
 
 > [**Join Beta Test**](https://testflight.apple.com/join/Zbn9zjKk)
 
@@ -36,6 +36,7 @@ No widgets and shortcuts in this realease yet. But expect them in future updates
 - Open permanent copy button appear when page preview fail
 - 120fps on supported devices
 - SplitView support on iPhone Pro Max and Plus
+- Small memory footprint, low battery usage
 - 2 times smaller app size
 
 ### Incomplete
