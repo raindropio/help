@@ -31,6 +31,7 @@ No widgets and shortcuts in this realease yet. But expect them in future updates
 
 ### Improvements
 - **No more extension crashes** - heavy users have experienced crashes of Share extension (old version) due to strict Apple limits in terms of RAM usage
+- **Add to Unsorted extension** - additional extension that saves content to Unsorted in one tap. Just another way to quickly add a new content
 - **Add bookmark from Preview screen** - when you navigate further inside Preview screen you can add new bookmark/highlight's
 - **Dedicated Raindrop icon in Safari** - when you use Safari browser for opening pages (instead of Preview) there you will find a dedicated Raindrop icon in toolbar
 - Open permanent copy button appear when page preview fail
