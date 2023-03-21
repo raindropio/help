@@ -2,6 +2,7 @@
 title: Install Extension
 slug: /install-extension
 ---
+
 You can use Raindrop.io in your favorite browser and bookmark items using our browser extensions.
 
 <div className='carousel'>
@@ -11,37 +12,43 @@ You can use Raindrop.io in your favorite browser and bookmark items using our br
 
 </div>
 
-Collect and browse bookmarks without leaving the current tab. Our browser extension have the same features as web app, but in small form factor.
-No more jumping throught tabs, your bookmarks always at hand.
+Collect and browse bookmarks without leaving the current tab. Our browser extension has the same features as the web app, but in a smaller form factor.
+No more jumping through tabs, your bookmarks are always at hand.
 
 :::note
 Be sure to check [**this article**](../../using/browser-extension/index.md) to know how to use our extension.
 :::
 
 ## Chrome, Brave & Vivaldi
+
 All three, Chrome, Brave & Vivaldi all run on the same Chromium technology which means you can use the same extension in all browsers.
+
 <p><a href="https://raindrop.io/r/extension/chrome">
     <img src={require('./chrome.png').default} style={{maxHeight:50}} />
 </a></p>
 
 ## Safari
+
 To use our Safari extension, you need to download and install a small Mac app which will activate your extension.
 
 [![](mac.svg)](https://raindrop.io/r/extension/safari)
 
 ## Edge
+
 [**Install for Edge**](https://raindrop.io/r/extension/edge)
 
-
 ## Firefox
+
 [![](firefox.png)](https://raindrop.io/r/extension/firefox)
 
 ## Opera
+
 <p><a href="https://raindrop.io/r/extension/opera">
     <img src={require('./opera.png').default} style={{maxHeight:58}} />
 </a></p>
 
 ## Bookmarklet (Universal)
+
 Don’t see your browser in the list above? Install the Raindrop.io Bookmarklet by dragging the link below to your bookmarks/favorites toolbar:
 
 <p>
