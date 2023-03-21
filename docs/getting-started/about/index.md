@@ -30,7 +30,7 @@ Raindrop.io is the best place to keep all your favorite books, songs, articles o
 </summary>
 
 You can use Raindrop.io to plan anything; from photoshoots, to home renovation.
-We’ve even known people use Raindrop.io to plan their wedding.
+We’ve even known people who use Raindrop.io to plan their weddings.
 
 I’m planning a travel, and I’ve been mapping out where we are going to be sleeping, eating, dancing, and driving on Raindrop.io.
 
@@ -72,7 +72,7 @@ That’s why it’s possible to develop and maintain an app like this alone.
 Hi! My name is Rustem Mussabekov.
 I have a computer science degree and nine years of experience as UI/UX designer in commercial products.
 
-My passion for building apps began to blossom when I discovered Visual Basic 6. The idea that I could draw an elements and then translate them into a working app was blew my mind. Now, this is what I doing in daily basis.
+My passion for building apps began to blossom when I discovered Visual Basic 6. The idea that I could draw an elements and then translate them into a working app blew my mind. Now, this is what I do on a daily basis.
 
 Raindrop.io is my main job and a single source of income.
 
@@ -117,8 +117,8 @@ Direct file access is protected behind the following security measures:
 If you want to be even more confident, just use our [automatic backup solution](../../using/backups/index.md#automatic) that supports Dropbox or Google Drive at the moment.
 
 
-## How long project been around?
+## How long has Raindrop been around?
 I've been working on Raindrop.io since 2013, which is a long time for a bookmarking site, and I've learned a lot in the past nine years.
 
-You can trust Raindrop.io will be around for years to come because I always working behind the scenes.
+You can trust Raindrop.io will be around for years to come because I am always working behind the scenes.
 When you save something to Raindrop.io, you will be able to access it whenever you need. Whether that’s five minutes later, or five years later.
