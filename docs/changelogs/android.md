@@ -1,6 +1,6 @@
 ---
-title: Mobile App
-slug: /changelog-mobile
+title: Android App
+slug: /changelog-android
 ---
 
 ### 4.4.7

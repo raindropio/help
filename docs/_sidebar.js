@@ -91,7 +91,8 @@ module.exports = {docs: [
 		collapsed: true,
 		items: [
 			'changelogs/web-desktop',
-			'changelogs/mobile',
+			'changelogs/ios',
+			'changelogs/android',
 		]
 	},
 
