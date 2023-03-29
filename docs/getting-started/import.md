@@ -17,7 +17,8 @@ Raindrop.io supports importing bookmarks from web browsers and services in [vari
 
 ## Supported Formats
 ### Browsers / Services (HTML)
-Almost any service or browser can generate this file for you. Here how to get it from popular browsers and services:
+Almost any service or browser can generate this file for you.
+Here how to get it from popular browsers and services:
 [Chrome](https://www.wikihow.com/Export-Bookmarks-from-Chrome),
 [Safari](https://www.ionos.com/digitalguide/websites/web-development/export-safari-bookmarks/),
 [Firefox](https://support.mozilla.org/en-US/kb/export-firefox-bookmarks-to-backup-or-transfer),
@@ -63,6 +64,9 @@ Be sure to select `ENEX` as a file format of [export in Evernote](https://help.e
 ### Pinterest
 Pinterest itself doesn't have any tools to export your data. But you can try to use great third-party app called [Pinback](https://pinbackit.github.io/) that can help you download export file.
 Just follow instructions on [Pinback](https://pinbackit.github.io/) site.
+
+### Edge Collections
+Go to specific collection, click `... / Copy All` then create a `.txt` file and paste content of clipboard to it. Now you have a `.txt` file that can be imported to Raindrop. 
 
 ## Settings
 Before you start import, please select how much data you want to transfer:
