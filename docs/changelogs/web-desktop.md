@@ -3,6 +3,9 @@ title: Web, Desktop App & Extension
 slug: /changelog
 ---
 
+### 5.5.21
+- [Two-factor authentication](/tfa)
+
 ### 5.5.15
 - Support EPUB (uploading, reading, highlighting and full-text search)
 - New `book` type filter

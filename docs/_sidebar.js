@@ -11,6 +11,7 @@ module.exports = {docs: [
 			'getting-started/import',
 			'getting-started/account-basics',
 			'getting-started/account-settings',
+			'getting-started/tfa',
 			'getting-started/betas/index'
 		]
 	},

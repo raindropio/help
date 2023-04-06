@@ -3,6 +3,11 @@ title: Android App
 slug: /changelog-android
 ---
 
+### 4.4.11
+- [Two-factor authentication](/tfa)
+- Fix unresponsive bug
+- Improve performance
+
 ### 4.4.7
 - Support EPUB (uploading, reading, highlighting and full-text search)
 - New `book` type filter
