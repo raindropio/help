@@ -3,6 +3,9 @@ title: Android App
 slug: /changelog-android
 ---
 
+### 4.4.12
+- [Nested collections](../using/collections/index.md#nested-collections) now free
+
 ### 4.4.11
 - [Two-factor authentication](/tfa)
 - Fix unresponsive bug

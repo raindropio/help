@@ -3,6 +3,9 @@ title: iOS App
 slug: /changelog-ios
 ---
 
+### 5.0.31
+- [Nested collections](../using/collections/index.md#nested-collections) now free
+
 ### 5.0.30
 - [Two-factor authentication](/tfa)
 - Photos and files upload bug fix
