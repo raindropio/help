@@ -28,6 +28,7 @@ module.exports = {docs: [
 			'using/files/index',
 			'using/highlights/index',
 			'using/search/index',
+			'using/reminders/index',
 			'using/tags/index',
 
 			'using/collaboration/index',

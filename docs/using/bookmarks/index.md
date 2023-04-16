@@ -15,7 +15,7 @@ Raindrop.io generates handy thumbnails and extracts all relevant info about each
 <!------------------------------>
 <details><summary>
 
-### Add New Bookmark
+### Add new bookmark
 
 </summary>
 
@@ -121,6 +121,19 @@ You can add descriptions to your items already uploaded to Raindrop.io by clicki
 ![](description.png)
 
 You can also add descriptions when adding items directly to Raindrop.io using the [browser extension](/install-extension) or [mobile app](../../getting-started/download-app/index.md).
+
+</details>
+
+
+
+<!------------------------------>
+<details><summary>
+
+### Add reminder
+
+</summary>
+
+[Learn more](../reminders/index.md#add-bookmark)
 
 </details>
 
