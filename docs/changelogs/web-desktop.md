@@ -3,8 +3,9 @@ title: Web, Desktop App & Extension
 slug: /changelog
 ---
 
-### 5.5.22
+### 5.5.23
 - [Nested collections](../using/collections/index.md#nested-collections) now free
+- Suggested collections
 
 ### 5.5.21
 - [Two-factor authentication](/tfa)
