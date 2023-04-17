@@ -3,7 +3,8 @@ title: Android App
 slug: /changelog-android
 ---
 
-### 4.4.12
+### 4.4.13
+- [Reminders](../using/reminders/index.md)
 - [Nested collections](../using/collections/index.md#nested-collections) now free
 
 ### 4.4.11

@@ -3,7 +3,8 @@ title: iOS App
 slug: /changelog-ios
 ---
 
-### 5.0.31
+### 5.0.32
+- [Reminders](../using/reminders/index.md)
 - [Nested collections](../using/collections/index.md#nested-collections) now free
 
 ### 5.0.30
