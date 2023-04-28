@@ -5,7 +5,7 @@ slug: /automation
 ## Introduction
 
 You can add new items from different services like Youtube, Twitter, Google Docs, etc to Raindrop.io and vise-versa in automated way.
-To achive this you need to use glue-app: one of a two below:
+To achive this you need to use a glue-app:
 
 ## IFTTT (Recommended)
 IFTTT (If This Then That) allows you to link one service with another and come up with automated actions.
@@ -19,3 +19,18 @@ If you add a lot of stuff to Raindrop.io or even if you’re just getting starte
 - [**Check all recipes**](https://ifttt.com/raindrop)
 
 You can even [create your own integrations](https://ifttt.com/create)! Just select Raindrop.io from apps list.
+
+## n8n
+n8n has built-in support for a wide range of Raindrop features, including getting users, deleting tags, and creating, updating, deleting and getting collections and bookmarks.
+
+[Learn more](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.raindrop/)
+
+## Make.com
+Connect Raindrop.io with any of your favorite apps in just a few clicks
+
+[Learn more](https://www.make.com/en/integrations/raindrop-io)
+
+## Coda
+Connect Raindrop.io bookmarks with your documents
+
+[Learn more](https://coda.io/packs/raindrop-io-11475)
