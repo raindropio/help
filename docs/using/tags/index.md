@@ -83,18 +83,3 @@ Focus on a search field and then click `Without tags` filter
 ![](filters.png)
 
 </details>
-
-
-<!------------------------------>
-<details><summary>
-
-### Suggested tags
-
-</summary>
-
-Suggested Tags takes the work out of keeping your list organized.
-After upgrading to [Pro plan](../../billing/premium-features.md), you’ll see a list of Suggested Tags whenever you tag an item, and can add them with just a click.
-
-![](suggested.png)
-
-</details>
