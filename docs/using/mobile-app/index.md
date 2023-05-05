@@ -5,13 +5,6 @@ slug: /mobile-app
 
 ![](intro.jpg)
 
-<!---------------------->
-<details><summary>
-
-## Save from browser
-
-</summary>
-
 You can save pages and files directly from your mobile browser and from most apps that use the default share menu.
 When you tap Share, you’ll be presented with a list of share options, and you will find Raindrop.io.
 
@@ -19,7 +12,7 @@ To use the Raindrop.io Share Extension, you’ll need to enable it first:
 
 <details><summary>
 
-### iOS & iPadOS {#share-ios}
+### iOS Share Extension {#share-ios}
 
 </summary>
 
@@ -36,7 +29,24 @@ Enabling the Raindrop.io Share Extension is easy, and only takes a moment. Here'
 
 <details><summary>
 
-### Safari Extension {#share-ios-safari}
+### iOS Add to Unsorted Action {#action-ios}
+
+</summary>
+
+Enabling the `Add to Unsorted` Action is easy, and only takes a moment. Here's how:
+
+1. Tap the Share button in Safari or any other app
+2. Swipe list down and tap `Edit Actions...`
+3. Enable `Add to Unsorted` and tap `+`
+4. (Optional) Move `Add to Unsorted` to the top of the list
+5. Tap Done
+
+</details>
+
+
+<details><summary>
+
+### iOS Safari Extension {#share-ios-safari}
 
 </summary>
 
@@ -62,13 +72,11 @@ When you tap Share, you’ll be presented with a list of share options, and you 
 
 </details>
 
-</details>
-
 
 <!---------------------->
 <details><summary>
 
-## Import from mobile Safari
+### Import from mobile Safari
 
 </summary>
 
@@ -82,7 +90,7 @@ Instead open Safari on your Mac, then click `File / Export bookmarks...` menu it
 <!---------------------->
 <details><summary>
 
-## Import from mobile Chrome
+### Import from mobile Chrome
 
 </summary>
 
