@@ -137,27 +137,6 @@ This feature is not available in Safari and Vivaldi browser
 </details>
 
 
-<!------------------------------>
-<details><summary>
-
-### Enable Saved Page Indicator {#saved-indicator}
-
-</summary>
-
-See if a page already saved: special [✔] indicator will be showed when you visit already saved page
-
-<p style={{display: 'grid', gridGap: 8, gridAutoFlow: 'column'}}>
-    <img src={require('./highlight.jpg').default} style={{maxHeight:100,display:'inline'}} />
-    <img src={require('./highlight-safari.jpg').default} style={{maxHeight:100,display:'inline'}} />
-</p>
-
-1. Click on a Raindrop.io extension button
-2. Click on your profile avatar
-3. Click `Settings`
-4. Enable `Tabs access` in `Permissions` section
-
-</details>
-
 
 ## Tips & tricks
 

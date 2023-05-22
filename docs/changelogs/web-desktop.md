@@ -3,6 +3,15 @@ title: Web, Desktop App & Extension
 slug: /changelog
 ---
 
+### 5.6.0
+- Extension fixes
+    - Less annoying suggested collections strip
+    - Show saved page indicator by default (tabs permission is now required by default)
+    - Better handling of highlights permission
+    - Fix "last used collection" setting in clipper
+    - Fix reset system collections view setting
+    - Upgrade to manifest v3
+
 ### 5.5.23
 - [Reminders](../using/reminders/index.md)
 - [Nested collections](../using/collections/index.md#nested-collections) now free

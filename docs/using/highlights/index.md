@@ -62,14 +62,10 @@ Select the text you would like to highlight, then tap the color button
 
 #### Only once:
 
-1. Tap `Puzzle` icon, then `Manage extensions` and enable `Raindrop.io`
-2. Tap `Puzzle` icon, tap `Raindrop.io` and go to `Highlights`
-3. Give asked permissions
-
-<p><img src={require('./safari-ios.png').default} style={{maxHeight: 355}} /></p>
-
-Be sure to tap **Always Allow on Every Website** when it ask for permission
-<p><img src={require('./safari-ios-permissions.jpg').default} style={{maxHeight: 292}} /></p>
+1. Open iOS **Settings**
+2. Go to `Safari / Extensions / Raindrop.io`
+3. Tap `All Websites` or `Other Websites` and select **Allow**
+4. Restart Safari
 
 </details>
 
