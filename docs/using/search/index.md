@@ -30,7 +30,7 @@ Your bookmarks are indexed automatically, no need to do anything. Usually only m
 <p><img src={require('./full1.png').default} style={{maxHeight:313}} /></p>
 
 :::note
-Be sure that newly added bookmark will not appear in search results immediately. We need some time as described in [this article](../backups/index.md#how-long-it-takes-to-copy-all-of-my-bookmarks) to copy and index each bookmark.
+Be sure that newly added bookmark will not appear in search results immediately. We need some time as described in [this article](../permanent-copy/index.md#time) to copy and index each bookmark.
 :::
 
 </details>
@@ -195,4 +195,4 @@ All garbage from URL like different protocol, WWW, trailing slashes, useless que
 - Full-text search
     - Indexing is happen with slight delay, usually few minutes
     - We can index up to 300,000 characters in one document/page
-    - Bookmark should have a [permanent copy](../backups/index.md#permanent-library) to support full-text search
+    - Bookmark should have a [permanent copy](../permanent-copy/index.md) to support full-text search

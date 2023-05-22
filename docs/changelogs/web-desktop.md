@@ -3,6 +3,9 @@ title: Web, Desktop App & Extension
 slug: /changelog
 ---
 
+### 5.6.1
+- Export
+
 ### 5.6.0
 In this update Raindrop.io extension started to explicitly require `Browsing history access` (`tabs`) permission.
 Please do not be worried about, It's not as scary as it sounds.

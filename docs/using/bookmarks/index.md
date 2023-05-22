@@ -197,6 +197,18 @@ Highlight as many items as you like, then click `Remove` in the menu bar at the 
 <!------------------------------>
 <details><summary>
 
+### Export
+
+</summary>
+
+Learn more [here](../export/index.md)
+
+</details>
+
+
+<!------------------------------>
+<details><summary>
+
 ### Create a copy / save into multiple collections {#copy}
 
 </summary>

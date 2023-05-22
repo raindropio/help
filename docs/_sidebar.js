@@ -38,7 +38,10 @@ module.exports = {docs: [
 			'using/browser-extension/index',
 			'using/mobile-app/index',
 			
+			'using/permanent-copy/index',
+			'using/export/index',
 			'using/backups/index',
+			
 			'using/limitations'
 		]
 	},
