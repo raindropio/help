@@ -4,6 +4,17 @@ slug: /changelog
 ---
 
 ### 5.6.0
+In this update Raindrop.io extension started to explicitly require `Browsing history access` (`tabs`) permission.
+Please do not be worried about, It's not as scary as it sounds.
+
+Previously this permission have been opt-in to unlock features like "Save all tabs" and "Saved page indicator".
+But those features are esential and should be available right away, isn't? That's why I decided to require `tabs` permission by default.
+I have received dosens of emails from users complain about not working saved page indicator.
+
+In fact every other bookmarking/readlater/highlighting extension require this permission by default.
+
+Please do not worry, Raindrop.io remains as private place for your bookmarks. Anybody can check source code of extension here https://github.com/raindropio/app
+
 - Extension fixes
     - Less annoying suggested collections strip
     - Show saved page indicator by default (tabs permission is now required by default)
