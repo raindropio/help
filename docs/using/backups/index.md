@@ -16,7 +16,7 @@ Need to backup only some collections? Please use [export](../export/index.md) in
 ## Restoring a backup
 Just [import](../../getting-started/import.md) backup file
 
-## Automatic daily backups
+## Automatic daily backups {#automatic}
 If you’re a [Pro user](../../billing/premium-features.md), Raindrop creates backup files for you automatically.
 Automatic backups are created once a day on days you made any changes.
 
