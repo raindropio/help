@@ -3,6 +3,9 @@ title: Android App
 slug: /changelog-android
 ---
 
+### 4.5.0
+- New [note](../using/bookmarks/index.md#notes) field
+
 ### 4.4.13
 - [Reminders](../using/reminders/index.md)
 - [Nested collections](../using/collections/index.md#nested-collections) now free
