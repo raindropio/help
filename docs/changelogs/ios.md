@@ -3,6 +3,9 @@ title: iOS App
 slug: /changelog-ios
 ---
 
+### 5.1.0
+- New [note](../using/bookmarks/index.md#notes) field
+
 ### 5.0.32
 - [Reminders](../using/reminders/index.md)
 - [Nested collections](../using/collections/index.md#nested-collections) now free
