@@ -10,7 +10,7 @@ Here's how you can clear your Raindrop.io cookies on various browsers:
 
 <details><summary>
 
-#### Chrome, Opera, Edge, Brave, Vivaldi {#chrome-cache}
+#### Chrome, Opera, Edge, Brave {#chrome-cache}
 
 </summary>
 
@@ -72,7 +72,7 @@ To ensure that Raindrop.io cookies work properly on your browser, add Raindrop.i
 
 <details><summary>
 
-#### Chrome, Opera, Edge, Brave, Vivaldi {#chrome-whitelist}
+#### Chrome, Opera, Edge, Brave {#chrome-whitelist}
 
 </summary>
 

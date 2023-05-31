@@ -131,7 +131,7 @@ Feel free to use [advanced search operators](../search/index.md#operators) to fi
 :::
 
 :::caution
-This feature is not available in Safari and Vivaldi browser
+This feature is not available in Safari browser
 :::note
 
 </details>
@@ -177,7 +177,7 @@ Open browser extension | ⌘+⇪+E | Ctrl+Shift+E
 
 Here how to access and change all available hotkeys (keyboard shortcuts):
 
-#### Chrome, Opera, Edge, Brave, Vivaldi
+#### Chrome, Opera, Edge, Brave
 1. Paste `chrome://extensions/shortcuts` URL into browser address bar and press Enter
 2. Find `Raindrop.io`
 

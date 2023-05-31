@@ -18,8 +18,8 @@ No more jumping throught tabs, your bookmarks always at hand.
 Be sure to check [**this article**](../../using/browser-extension/index.md) to know how to use our extension.
 :::
 
-## Chrome, Brave & Vivaldi
-All three, Chrome, Brave & Vivaldi all run on the same Chromium technology which means you can use the same extension in all browsers.
+## Chrome, Brave
+All three, Chrome, Brave all run on the same Chromium technology which means you can use the same extension in all browsers.
 <p><a href="https://raindrop.io/r/extension/chrome">
     <img src={require('./chrome.png').default} style={{maxHeight:50}} />
 </a></p>

@@ -112,15 +112,22 @@ Alternatively, you can upload an image that you like from your desktop by clicki
 <!------------------------------>
 <details><summary>
 
-### Add description
+### Add note {#notes}
 
 </summary>
 
-You can add descriptions to your items already uploaded to Raindrop.io by clicking onto the `Edit` button.
+You can add notes to your items already uploaded to Raindrop.io by clicking onto the `Edit` button.
 
-![](description.png)
+![](note.png)
 
-You can also add descriptions when adding items directly to Raindrop.io using the [browser extension](/install-extension) or [mobile app](../../getting-started/download-app/index.md).
+You can also add notes when adding items directly to Raindrop.io using the [browser extension](/install-extension) or [mobile app](../../getting-started/download-app/index.md).
+
+:::note
+Limited [Markdown](https://daringfireball.net/projects/markdown/syntax) syntax is supported:
+- Links
+- Lists
+- Bold & italic emphasis
+:::
 
 </details>
 
