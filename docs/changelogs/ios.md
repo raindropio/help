@@ -3,6 +3,10 @@ title: iOS App
 slug: /changelog-ios
 ---
 
+### 5.1.1
+- Improve Share extension interface
+- Better tag suggestions look
+
 ### 5.1.0
 - New [note](../using/bookmarks/index.md#notes) field
 

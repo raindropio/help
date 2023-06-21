@@ -20,16 +20,31 @@ Sync and revisit your highlights in [Readwise](https://readwise.io/)
 
 [**Connect Raindrop**](https://readwise.io/sync#raindrop)
 
-## RSS Readers
-### One Click Save to Raindrop.io
+## Unread
+Just enable `Raindrop.io` in `Settings / Article Actions`
+
+## Feedbin
+Just enable `Raindrop.io` in [Share settings](https://feedbin.com/settings/sharing)
+
+## Innoreader
+Add custom site and provide special URL:   
+`https://app.raindrop.io/add?link=[URL]&title=[TITLE]`   
+Also make sure to **uncheck Shorten URLs before sharing**
+
+## Feedly
+Add a [custom sharing tool](https://feedly.com/i/account/saving-sharing) to your Feedly and provide special URL:   
+`https://app.raindrop.io/add?link=${url}&title=${title}`
+
+
+## One Click Save to Raindrop.io
 Many RSS Readers support configuring custom share option in they user-interface.
 You can configure one click save to Raindrop.io using this special URL:
 
-``https://app.raindrop.io/add?link=${url}&title=${title}``
+`https://app.raindrop.io/add?link=${url}&title=${title}`
 
 Please replace `${url}` and `${title}` part to appropriate as described in particular RSS reader documentation.
 
-### Read Your Bookmarks in your Favorite RSS Reader
+## Read Your RSS Feed
 Your Raindrop.io collections are accessible using built-in RSS feeds.
 With RSS, you can subscribe using your favorite reader and get notifications whenever new items are posted.
 
