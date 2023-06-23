@@ -3,61 +3,50 @@ title: Browser Extension
 slug: /browser-extension
 ---
 
-![](intro.jpg)
+:::info Important
+Please [install browser extension](../../getting-started/install-extension/index.md)
+:::
 
-Using our browser extension is the quickest way to add links, images, and stuff to your Raindrop.io collections straight from your favorite web browser.
 
-## Appearance
-When you first time install our extension you will be promted to select preferred look and feel of an extension:
+## Getting started
+With our browser extension, you can easily add new bookmarks and conveniently access them.   
+There are multiple ways to access the Raindrop.io extension in your browser:
 
-<!------------------------------>
-<details><summary>
+### Toolbar button
+When you're browsing the web and want to save your current web page to Raindrop.io, use the Raindrop.io toolbar button to do it in just a few clicks.
 
-### Clipper
+<p><img src={require('./intro.jpg').default} style={{width:'auto',maxHeight:300,display:'inline'}} /></p>
 
-</summary>
+If you cannot locate the Raindrop.io cloud toolbar button, please click on the "puzzle" icon first and then pin it for easy access.
 
-Clipper is the most simple and fastest way to save new bookmarks.
+<p><img src={require('./pintoolbar.jpg').default} style={{width:'auto', maxHeight:350,display:'inline'}} /></p>
 
-![](clipper.jpg)
+### Side panel
+In Chrome, Firefox, and Opera, you have the option to open the Raindrop.io side panel, providing you with constant and convenient access to your bookmarks.
+What's even cooler is that you can simply drag new links and images into the panel to save them.
 
-</details>
+![](sidebar.jpg)
 
-<!------------------------------>
-<details><summary>
+#### Chrome
+In a toolbar click `Sidepanel` icon, then make sure `Raindrop.io` is selected as current panel.
 
-### Mini App
+#### Firefox
+In main menu click `View / Sidebar / Raindrop.io`
 
-</summary>
+#### Opera
+You can find a Raindrop.io cloud icon in browser sidebar
 
-Mini App gives you the same experience as our web site but in compact size. You can browse, search, organize and add new bookmarks.
-
-![](mini_app.jpg)
-
-</details>
-
-<!------------------------------>
-<details><summary>
-
-### How to change appearance?
-
-</summary>
-
-Here how to change appearance in settings:
-1. Click on a Raindrop.io extension button
-2. Click on your profile avatar
-3. Click `Settings`
-4. Select preferred `Appearance`
-
-</details>
-
+### Context menu
+Right click anywhere on the page and select one of available Raindrop.io actions like:
+- [Save link, image, audio or video](#save-page)
+- [Save highlight](../highlights/index.md)
 
 ## How to
 
 <!------------------------------>
 <details><summary>
 
-### Save Page
+### Save Page {#save-page}
 
 </summary>
 
