@@ -123,6 +123,10 @@ Feel free to use [advanced search operators](../search/index.md#operators) to fi
 This feature is not available in Safari browser
 :::note
 
+:::caution
+Chrome only: Make sure that Chrome `Settings / Search engine / Keyboard shortcut` setting value is `Space or tab`
+:::
+
 </details>
 
 

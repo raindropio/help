@@ -41,12 +41,20 @@ Tap "..." next to bookmark, then tap "Open permanent copy"
 Some bookmarks or files can't be saved by several reasons described below. 
 When this happen you will see a special icon <img src={require('./icon.png').default} style={{maxHeight:20}} />
 
-### Known limitations:
+### Paywall content is not saved
+Unfortunately, we currently do not have the capability to save paid content.
+Many other services retrieve the entire content of a page from your browser and send it to their servers.
+However, this approach raises concerns regarding privacy. Do you really know how that data is used after save?
+
+To prioritize user privacy, Raindrop will not support saving paid content unless we find a more privacy-friendly solution.
+As a temporary workaround, you can save a page as a PDF and then upload it to Raindrop.
+
+### Other known limitations:
+- Links that require login or not publicly accessible could not be saved
 - Bookmarks in "Trash" are ignored and not saved
 - Some websites block automated bots, we can't save such webpages yet
 - Maximum size of entire web-page/file is limited by 70 Mb
 - Video, audio and iframes included in web-page could not be saved
 - Web-pages with fancy animations based on scroll position could not be saved correctly
-- Links that require login or not publicly accessible could not be saved
 - Small amount can't be saved due to script failure, those will be automatically retried
 - If you found bookmark that marked as "failed to copy" by mistake, <a onClick={()=>Beacon('open')} target="_self">please send</a> this link
