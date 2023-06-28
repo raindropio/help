@@ -35,6 +35,20 @@ This action will remove all your bookmarks and collections!
 Bookmarks can be restored later from Trash.
 :::
 
+## Transfer Account Data {#transfer}
+If you want to transfer all data from one account to another:
+1. Get backup file from first account
+    1. Login to first account and visit [Backup settings](https://app.raindrop.io/settings/backups)
+    2. Create a new backup, and wait for an email notification
+    3. Download first `HTML` file from [this page](https://app.raindrop.io/settings/backups)
+    4. Click `logout` [here](https://app.raindrop.io/settings/account)
+2. Restore backup to second account
+    1. Login to your second account and visit [Import page](https://app.raindrop.io/settings/import)
+    2. Upload file you generated previously and click `Start import`
+    3. Wait a minute
+    4. All your collections, bookmarks, tags, highlights, notes now transfered to a second account
+    5. In next few hours our server download thumbnails and additional meta data for uploaded bookmarks
+
 ## Remove Account
 We’re sorry to hear that you’re considering deleting your Raindrop.io account.
 
