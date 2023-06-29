@@ -87,7 +87,7 @@ module.exports = {
 	],
 	
 	clientModules: [
-		require.resolve('./docs/_helpscout.js'),
+		require.resolve('./docs/_intercom.js'),
 		require.resolve('./docs/_details_anchor.js')
 	],
 
