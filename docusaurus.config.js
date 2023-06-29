@@ -15,11 +15,11 @@ module.exports = {
 
 	themeConfig: {
 		colorMode: {
-			respectPrefersColorScheme: false
+			respectPrefersColorScheme: true
 		},
 		navbar: {
 			title: 'Raindrop.io',
-			hideOnScroll: true,
+			hideOnScroll: false,
 			logo: {
 				src: 'brand/icon_raw.svg',
 				href: 'https://app.raindrop.io',
@@ -53,9 +53,8 @@ module.exports = {
 					],
 				},
 				{
-					href: 'javascript:Intercom(\'show\')',
-					label: 'Contact',
-					target: '_self'
+					type: 'html',
+					value: '<button class="contact clean-btn" href="javascript:Intercom(\'showNewMessage\')">Contact us</button>',
 				}
 			],
 		},

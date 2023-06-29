@@ -30,6 +30,6 @@ if (typeof window != 'undefined') {
     //open form automatically
     window.addEventListener('load', function(){
         if (new URLSearchParams(location.search).get('open-contact-form') !== null)
-            window.Intercom('show')
+            window.Intercom('showNewMessage')
     })
 }

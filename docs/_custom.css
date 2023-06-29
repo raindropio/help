@@ -201,3 +201,13 @@ td {
 td:last-child {
 	white-space: initial;
 }
+
+.contact {
+	font-size: inherit;
+	font-weight: var(--ifm-font-weight-semibold);
+	background: var(--ifm-color-emphasis-200);
+	color: var(--ifm-navbar-link-color);
+    height: 2rem;
+	padding: 0 1rem;
+	border-radius: 2rem;
+}
