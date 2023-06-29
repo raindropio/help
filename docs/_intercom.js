@@ -12,7 +12,7 @@ if (typeof window != 'undefined') {
         .then(async res=>{
             const { user } = await res.json()
 
-            Intercom('update', {
+            window.Intercom('update', {
                 user_id: user._id,
                 name: user.name,
                 email: user.email,

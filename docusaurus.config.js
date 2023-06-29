@@ -53,7 +53,7 @@ module.exports = {
 					],
 				},
 				{
-					href: 'javascript:Beacon(\'open\')',
+					href: 'javascript:Intercom(\'show\')',
 					label: 'Contact',
 					target: '_self'
 				}

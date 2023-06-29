@@ -20,7 +20,7 @@ Space for your copies is unlimited. Link to your copy is private and can't be ma
 When PRO subscription is expired, permanent copies become unaccessible and could be removed in future.
 
 ## How long it takes to copy all of my bookmarks? {#time}
-It's depends on count of your bookmarks and global queue. Usually 1000 bookmarks will be copied in half an hour. If it takes a lot longer, <a onClick={()=>Beacon('open')} target="_self">let us know</a>.
+It's depends on count of your bookmarks and global queue. Usually 1000 bookmarks will be copied in half an hour. If it takes a lot longer, <a onClick={()=>Intercom('show')} target="_self">let us know</a>.
 :::note
 Be sure that after upgrade to PRO, copies will not appear immediately. We need some time to copy each of your bookmarks, as described above.
 :::
@@ -57,4 +57,4 @@ As a temporary workaround, you can save a page as a PDF and then upload it to Ra
 - Video, audio and iframes included in web-page could not be saved
 - Web-pages with fancy animations based on scroll position could not be saved correctly
 - Small amount can't be saved due to script failure, those will be automatically retried
-- If you found bookmark that marked as "failed to copy" by mistake, <a onClick={()=>Beacon('open')} target="_self">please send</a> this link
+- If you found bookmark that marked as "failed to copy" by mistake, <a onClick={()=>Intercom('show')} target="_self">please send</a> this link
