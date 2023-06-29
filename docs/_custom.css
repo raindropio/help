@@ -210,4 +210,13 @@ td:last-child {
     height: 2rem;
 	padding: 0 1rem;
 	border-radius: 2rem;
+	transition: background .15s ease-in-out;
+}
+
+.contact:hover {
+	background: var(--ifm-color-emphasis-300);
+}
+
+.contact:active {
+	background: var(--ifm-color-emphasis-100);
 }

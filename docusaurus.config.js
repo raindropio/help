@@ -54,7 +54,7 @@ module.exports = {
 				},
 				{
 					type: 'html',
-					value: '<button class="contact clean-btn" href="javascript:Intercom(\'showNewMessage\')">Contact us</button>',
+					value: '<button class="contact clean-btn" onclick="Intercom(\'showNewMessage\')">Contact us</button>',
 				}
 			],
 		},
