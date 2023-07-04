@@ -92,7 +92,7 @@ However, Raindrop.io cannot guarantee the security of your Information.
 
 ## 7. Children’s Privacy
 We do not knowingly collect, maintain, or use Personal Information from children under 16 years of age, and no part of the Service is directed to children under the age of 16. 
-If you learn that your child has provided us with personal information without your consent, then you may alert us at info@raindrop.io. 
+If you learn that your child has provided us with personal information without your consent, then you may alert us at info@raindrop.io
 If we learn that we have collected any Personal Information from children under 16, then we will promptly take steps to delete such information.
 
 ## 8. Do Not Track
