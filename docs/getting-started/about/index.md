@@ -3,10 +3,12 @@ title: About Raindrop.io
 slug: /about
 ---
 
-Raindrop.io is a modern bookmarking app. Save, resurface and manage your collection privately from any browser and any device.
+Raindrop.io is a modern bookmarking app.
+Save, resurface and manage your collection privately from any browser and any device.
 
 ## What can I do with Raindrop.io?
 - [Collect links, images, videos and books](../../using/bookmarks/index.md) - save anything you come across while browsing or upload from a device
+- [Tag](../../using/tags/index.md) and organize items into [collections](../../using/collections/index.md) (with help of AI)
 - [Highlight and annotate the web](../../using/highlights/index.md) - save important passages
 - [Search by page content and PDF's](../../using/search/index.md) - look deeper beyond titles and tags, it's like your personal Google
 - [Never worry about losing saved content](../../using/permanent-copy/index.md) - even if original web page is deleted or restricted

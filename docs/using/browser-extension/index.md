@@ -31,7 +31,8 @@ What's even cooler is that you can simply drag new links and images into the pan
 In a toolbar click `Sidepanel` icon, then make sure `Raindrop.io` is selected as current panel.
 
 #### Firefox
-In main menu click `View / Sidebar / Raindrop.io`
+In main menu click `View / Sidebar / Raindrop.io`.   
+Or <a href="https://support.mozilla.org/kb/use-firefox-sidebar-access-bookmarks-history-synced" target="_blank">pin sidebar button in a toolbar</a> to have a quick access
 
 #### Opera
 You can find a Raindrop.io cloud icon in browser sidebar
