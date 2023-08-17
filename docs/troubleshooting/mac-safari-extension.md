@@ -30,3 +30,22 @@ If command above doesn't help, try another workaround:
 3. Now extensions should appear in regular Safari
 
 </details>
+
+<!------------------------------>
+<details><summary>
+
+### Permissions reset on Safari restart {#permissions-reset}
+
+</summary>
+
+Apologies for the inconvenience. 
+Unfortunately, I don't currently have a solution for Safari. 
+They have changed their permissions policy, causing extensions that specify certain permissions as optional to lose them whenever the user restarts the browser.
+
+There only two options at the moment:
+1. Follow all the steps to give permission each time you restart Safari
+2. Use our desktop app instead to add highlights https://raindrop.io/download
+
+Hope to find better solution in the future
+
+</details>
