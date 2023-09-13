@@ -7,8 +7,6 @@ The Pro plan is available on a monthly or a yearly basis, and you can change you
 
 ## Card Payments / Paypal {#web}
 Please drop us an email to info@raindrop.io with new desired billing cycle (monthly or yearly).
-
-Your account will be charged or credited based on the percentage of the billing cycle left at the time the change is happen.
 We will update your current subscription, so do not cancel it manually
 
 ## App Store (macOS, iOS, iPadOS) {#app-store}
