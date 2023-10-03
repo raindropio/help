@@ -23,7 +23,9 @@ module.exports = {
 			logo: {
 				src: 'brand/icon_raw.svg',
 				href: 'https://app.raindrop.io',
-				target: '_self'
+				target: '_self',
+				width: 32,
+				height: 32
 			},
 			items: [
 				{

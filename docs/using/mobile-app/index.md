@@ -8,7 +8,7 @@ slug: /mobile-app
 You can save pages and files directly from your mobile browser and from most apps that use the default share menu.
 When you tap Share, you’ll be presented with a list of share options, and you will find Raindrop.io.
 
-To use the Raindrop.io Share Extension, you’ll need to enable it first:
+To use the Raindrop.io Share Extension, you’ll need to [install our mobile app](../../getting-started/download-app/index.md#mobile) and enable extension:
 
 <details><summary>
 

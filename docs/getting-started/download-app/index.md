@@ -8,7 +8,7 @@ Everything stays in sync and accessible across every platform so you’ll never 
 
 ![](devices.png)
 
-## Mobile App
+## Mobile App {#mobile}
 
 ### iOS / iPadOS
 [![](ios.svg)](https://raindrop.io/r/app/ios)  
