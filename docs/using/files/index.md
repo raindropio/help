@@ -30,6 +30,6 @@ Choose ‘link’ to add links by pasting in the URLs.
 Click ‘file’ to upload files and then choose the files from your computer using the file picker.
 
 ## Limitations
-- Each file can't be larger than ``100mb``
-- In Free plan you can upload up to ``100mb`` in total per month
-- In Pro plan you can upload up to ``10gb`` in total per month (each month)
+- Each file can't be larger than ``100 MB``
+- In Free plan you can upload up to ``100 MB`` in total per month
+- In Pro plan you can upload up to ``10 GB`` in total per month (each month)

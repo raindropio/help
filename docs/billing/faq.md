@@ -28,7 +28,7 @@ When you cancel your plan, you will remain on the plan until the end of your bil
 
 ### What happens at the end of the paid period?
 - Cloud backup will be stopped
-- New file uploads limited to 100 Mb per month
+- New file uploads limited to 100 MB per month
 - Permanent copies become unaccessible and could be removed in future
 - Full-text search stop working
 

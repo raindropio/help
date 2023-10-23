@@ -53,7 +53,7 @@ As a temporary workaround, you can save a page as a PDF and then upload it to Ra
 - Links that require login or not publicly accessible could not be saved
 - Bookmarks in "Trash" are ignored and not saved
 - Some websites block automated bots, we can't save such webpages yet
-- Maximum size of entire web-page/file is limited by 70 Mb
+- Maximum size of entire web-page/file is limited by 70 MB
 - Video, audio and iframes included in web-page could not be saved
 - Web-pages with fancy animations based on scroll position could not be saved correctly
 - Small amount can't be saved due to script failure, those will be automatically retried
