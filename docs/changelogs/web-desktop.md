@@ -3,6 +3,20 @@ title: Web, Desktop App & Extension
 slug: /changelog
 ---
 
+### 5.6.16 (Oct 24, 2023)
+- The quality of permanent copies has been significantly improved, particularly for webpages with heavy JavaScript. Webpage copies from Twitter now work perfectly as well. We have implemented more reliable servers to enhance the overall experience.
+- Dates format has been fixed to use the 24-hour format based on the system settings.
+- The collaboration join link has been fixed.
+- Facebook, Twitter, and VK login options have been removed.
+- The hotkey for the sidebar extension in Firefox has been added.
+- The welcome screen of the extension has been improved.
+- The non-functioning share target webmanifest has been removed.
+- Relevant search functionality has been fixed.
+- Collections search has been fixed.
+- Better markdown support
+- Resize uploaded collection covers and user avatars
+- Fix HTML export format
+
 ### 5.6.4
 - New [note](../using/bookmarks/index.md#notes) field
 :::note

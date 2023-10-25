@@ -3,6 +3,10 @@ title: iOS App
 slug: /changelog-ios
 ---
 
+### 5.1.14 (Sep 19, 2023)
+- Resolve the issue of being unable to change the view mode
+- Implement fixes specific to iOS 17
+
 ### 5.1.1
 - Improve Share extension interface
 - Better tag suggestions look

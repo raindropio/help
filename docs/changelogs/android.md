@@ -3,6 +3,12 @@ title: Android App
 slug: /changelog-android
 ---
 
+### 4.5.6 (Oct 25, 2023)
+- Android 13 and later versions now include thematic icons
+- Resolved the double tap issue
+- Fixed the toolbar highlighting problem on certain devices
+- Performance improvements
+
 ### 4.5.0
 - New [note](../using/bookmarks/index.md#notes) field
 
