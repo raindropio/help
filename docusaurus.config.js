@@ -1,4 +1,4 @@
-module.exports = {
+export default {
 	title: 'Raindrop.io Help',
 	tagline: 'All-in-one bookmark manager',
 	url: 'https://help.raindrop.io',
@@ -12,6 +12,11 @@ module.exports = {
 	projectName: 'help',
 
 	titleDelimiter: '―',
+
+	i18n: {
+		defaultLocale: 'en',
+		locales: ['en'],
+	},
 
 	themeConfig: {
 		colorMode: {
@@ -73,7 +78,7 @@ module.exports = {
 
 	presets: [
 		[
-			'@docusaurus/preset-classic',
+			'classic',
 			{
 				docs: {
 					routeBasePath: '/',

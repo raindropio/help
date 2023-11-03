@@ -9,7 +9,7 @@ Raindrop.io Pro is a subscription, and you can subscribe to Monthly and Yearly p
 #### Here is what you’ll be able to do:
 - 🔍 [Search through the entire content](../using/search/index.md#full-text-search) of every bookmark, PDF and EPUB you’ve saved, making it extremely easy to find what you’re looking for. It's like having your personal Google.
 - 💾 Create forever copies of your saved items with [Permanent Library](../using/permanent-copy/index.md) so you can always return to them.
-- 🔔 Add [reminders](../using/reminders/index.md#) and notifications to your bookmarks
+- 🔔 Add [reminders](../using/reminders/index.md) and notifications to your bookmarks
 - 💬 [Annotate](../using/highlights/index.md#edit) your highlights
 - 🛁 Keep your bookmarks clean: find [broken](../using/search/index.md#broken-links) and [duplicate](../using/search/index.md#duplicates) links.
 - 🗃️ [Upload 10 GB files](../using/files/index.md) each month.
