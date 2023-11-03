@@ -186,7 +186,7 @@ You can even sort all collections at once by name (ascending):
 3. Icon selector window will appear. Here you can select a predefined icon or search any specific. Click "Remove" in top right corner to unset icon for a collection.
 <img src={require('./icon-search.png').default} style={{maxHeight:569}} />
 
-:::caution
+:::warning
 We use external sites ([Icons8](https://icons8.com/icons) and [Iconsfinder](https://www.iconfinder.com/)) to fetch icons.  
 So please don't send requests to add any new icons to our email.
 :::

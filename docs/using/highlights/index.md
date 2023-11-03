@@ -38,7 +38,7 @@ When you highlight a passage, the text background will turn yellow so it stands 
 
 <p><img src={require('./extension.png').default} style={{maxHeight: 155}} /></p>
 
-:::caution Very important!
+:::warning Very important!
 In Safari (macOS) be sure to click **Always Allow on Every Website** when it ask for permission
 
 <img src={require('./safari-macos-permissions.jpg').default} style={{maxHeight: 312}} />

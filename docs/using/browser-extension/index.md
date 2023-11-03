@@ -120,11 +120,11 @@ Just type ``rd`` and then your search query. For example `rd design`.
 Feel free to use [advanced search operators](../search/index.md#operators) to find precisely
 :::
 
-:::caution
+:::warning
 This feature is not available in Safari browser
 :::note
 
-:::caution
+:::warning
 Chrome only: Make sure that Chrome `Settings / Search engine / Keyboard shortcut` setting value is `Space or tab`
 :::
 

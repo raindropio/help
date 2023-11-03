@@ -21,7 +21,7 @@ In order to use 2FA on your account, you’ll need to turn on the setting first.
 5. Click `Continue` in the bottom-right corner
 6. Save your recovery codes
 
-:::caution Required
+:::warning Required
 It’s very important that you save recovery code in a secure place. If you ever get logged out of your account, you may need it to get back in.
 :::
 

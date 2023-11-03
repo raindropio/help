@@ -3,6 +3,11 @@ title: Web, Desktop App & Extension
 slug: /changelog
 ---
 
+### 5.6.17 (Nov 3, 2023)
+- Fix note field, now it never be altered (saved as is)
+- New hotkey: Open sidepanel in Chrome (Alt+Shift+B)
+- Save tabs and open the side panel, app, or settings by right-clicking on the Raindrop extension button and selecting the desired option from the context menu
+
 ### 5.6.16 (Oct 24, 2023)
 - The quality of permanent copies has been significantly improved, particularly for webpages with heavy JavaScript. Webpage copies from Twitter now work perfectly as well. We have implemented more reliable servers to enhance the overall experience.
 - Dates format has been fixed to use the 24-hour format based on the system settings.
