@@ -24,12 +24,6 @@ slug: /changelog
 
 ### 5.6.4
 - New [note](../using/bookmarks/index.md#notes) field
-:::note
-In the past you may have used the `description` field for your notes. Don't worry, they're not going anywhere.
-The `description` field is still displayed under the title of a bookmark and now main use-case for it to preserve short description about bookmark (usually automatically generated).   
-It's just that you now have a **new full-fledged note** field with links, lists, and markup support.   
-Please copy and paste your old notes from `description` field to the new note field. It's not required by highly recommended.   
-:::
 
 ### 5.6.1
 - Extension
