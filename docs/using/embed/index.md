@@ -26,6 +26,7 @@ Element | keyword
 Top header | `header`
 Description | `excerpt`
 Description | `note`
+Tags | `tags`
 Domain & date | `info`
 Add to Raindrop button | `add`
 
