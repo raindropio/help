@@ -121,11 +121,11 @@ Feel free to use [advanced search operators](../search/index.md#operators) to fi
 :::
 
 :::warning
-This feature is not available in Safari browser
-:::note
+This feature is not available in Safari, Vivaldi
+:::
 
-:::warning
-Chrome only: Make sure that Chrome `Settings / Search engine / Keyboard shortcut` setting value is `Space or tab`
+:::note
+**Chrome only**: Make sure that Chrome `Settings / Search engine / Keyboard shortcut` setting value is `Space or tab`
 :::
 
 </details>
