@@ -3,6 +3,25 @@ title: Web, Desktop App & Extension
 slug: /changelog
 ---
 
+### 5.6.20 (Feb 16, 2024)
+- Fix scroll jumping bug
+- Fix icon picker crash in some cases
+- 🚀 Faster thumbnail generation
+    - Additional servers in North America, Europe and Japan
+    - Almost instant thumbnail generation
+    - Speed up website screenshot generation
+- Public page improvements
+    - Support open in new tab setting
+    - Support view customizations
+- Permanent copy improvements
+    - Use [web archive](https://web.archive.org/) copy when origin is not reachable
+    - Support some paywall websites
+    - Better website popups removal logic
+- Export / backup improvements
+    - New 'id' and 'favorite' tabs in CSV
+- Desktop app
+    - Fix issue when close, maximize and minimize buttons overlap content
+
 ### 5.6.17 (Nov 3, 2023)
 - Fix note field, now it never be altered (saved as is)
 - New hotkey: Open sidepanel in Chrome (Alt+Shift+B)

@@ -3,6 +3,9 @@ title: iOS App
 slug: /changelog-ios
 ---
 
+### 5.1.15 (Jan 24, 2024)
+- Fix tags screen input bug
+
 ### 5.1.14 (Sep 19, 2023)
 - Resolve the issue of being unable to change the view mode
 - Implement fixes specific to iOS 17

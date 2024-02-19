@@ -3,6 +3,10 @@ title: Android App
 slug: /changelog-android
 ---
 
+### 4.5.11 (Jan 23, 2024)
+- Fix "Add collaborator" button
+- Fix PDF preview
+
 ### 4.5.6 (Oct 25, 2023)
 - Android 13 and later versions now include thematic icons
 - Resolved the double tap issue
