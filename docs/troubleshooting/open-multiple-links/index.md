@@ -6,11 +6,9 @@ If nothing happen (or only one link is open) after you click on "Open in browser
 
 Check guide how to fix this for your browser below:
 
-<details><summary>
 
-### Chrome
+## Chrome
 
-</summary>
 Right after you try to open multiple tabs at once, you will see icon in address bar. Click on it and enable this functionality for raindrop.io domain
 
 ![](./chrome.png)
@@ -18,13 +16,18 @@ Right after you try to open multiple tabs at once, you will see icon in address 
 #### Other solution:
 Paste this URL ``chrome://settings/content/popups`` to address bar and press enter. In "Allow" section click "Add" and paste this string ``[*.]raindrop.io``
 
-</details>
+## Safari
 
-<details><summary>
+1. Right click on a URL bar and click `Settings for app.raindrop.io`
 
-### Firefox
+![](./safari1.png)
 
-</summary>
+2. Set `Allow` for `Pop-up Windows`
+
+![](./safari2.png)
+
+## Firefox
+
 Right after you try to open multiple tabs at once, you will see panel like in screenshot below. Click "Preferences" and "Allow pop-ups for app.raindrop.io" in context menu:
 
 ![](./firefox1.png)
@@ -40,4 +43,4 @@ Enter ``https://app.raindrop.io`` to "Address of website" field, click "Allow" a
 
 ![](./firefox3.png)
 
-</details>
+
