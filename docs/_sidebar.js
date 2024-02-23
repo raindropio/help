@@ -82,6 +82,7 @@ module.exports = {docs: [
 			'troubleshooting/doesnt-sync',
 
 			'troubleshooting/ios-app',
+			'troubleshooting/mac-os-app',
 			'troubleshooting/mac-safari-extension',
 			'troubleshooting/firefox-extension',
 			
