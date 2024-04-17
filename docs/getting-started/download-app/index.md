@@ -38,5 +38,9 @@ You can use our Windows app if your device is running Windows 7 (64bit) or highe
 [**Download**](https://raindrop.io/r/app/linux)
 
 ### Universal (Progressive Web App)
-1. Open our [web app](https://app.raindrop.io)
-2. [Install Progressive Web App](https://support.google.com/chrome/answer/9658361?co=GENIE.Platform%3DDesktop&hl=en)
+First open our [web app](https://app.raindrop.io). Then follow steps depending on your browser:
+- **Chrome**: click `⁞` in Chrome toolbar, then `Save and Share / Install Raindrop.io…`
+- **Edge**: click `···` in Edge toolbar, then `Apps / Install Raindrop.io…`
+- **Firefox** do not support PWA apps
+- **Brave**: click `≡` in Brave toolbar, then `Install Raindrop.io…`
+- Other browsers do not support PWA apps yet

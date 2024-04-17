@@ -73,7 +73,7 @@ Mix-and-match to find exactly what you're looking for.
 | `type:sample`           | type:link <br/> type:article <br/> type:image <br/> type:video <br/> type:document <br/> type:audio | Find by type |
 | `file:true`             | file:true                 | Find files |
 | `notag:true`            | notag:true                | Find items without tags |
-| `cache.status:sample`   | cache.status:ready <br/> -cache.status:ready | Find items that have (or not) a [permanent copy](../backups/index.md#permanent-library) |
+| `cache.status:sample`   | cache.status:ready <br/> -cache.status:ready | Find items that have (or not) a [permanent copy](../permanent-copy/index.md) |
 
 
 ## Broken links
