@@ -7,7 +7,9 @@ While Raindrop.io can be used for free, [Raindrop.io Pro](https://raindrop.io/pr
 Raindrop.io Pro is a subscription, and you can subscribe to Monthly and Yearly plans. You can cancel anytime, and save money by choosing a yearly plan! 
 
 #### Here is what you’ll be able to do:
-- ✨ [Search in natural language](../using/search/index.md), don't need to remember exact keywords—simply type your question as you would normally speak
+- ✨ [Semantic search](../using/search/index.md) — no need to remember exact keywords, just type your query in natural language
+- 🌐 [Better multi-lang support](../using/search/index.md) — allowing you to search in your native language, even for bookmarks in different languages
+- 📁 AI-driven suggestions for collections & tags
 - 🔍 [Search through the entire content](../using/search/index.md#full-text-search) of every bookmark, PDF and EPUB you’ve saved, making it extremely easy to find what you’re looking for. It's like having your personal Google.
 - 💾 Create forever copies of your saved items with [Permanent Library](../using/permanent-copy/index.md) so you can always return to them.
 - 🔔 Add [reminders](../using/reminders/index.md) and notifications to your bookmarks
