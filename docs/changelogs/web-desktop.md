@@ -5,16 +5,16 @@ slug: /changelog
 
 ### 5.6.24 (Apr 25, 2024)
 :::note
-All new AI features using our private LLM and user data is not used for training
+All new AI features are made with our private LLM and user data is not used for training
 :::
 - **New ✦ AI-Driven Collection and Tag Suggestions (Pro Only)**: When adding or editing an unsorted bookmark, you'll now see AI-generated suggestions above the collection and tag fields.
-- **New ✦ AI Semantic Search (Pro Only)**: Enhances your bookmark search with advanced natural language processing techniques that accurately understand the intent and context of your queries. For instance, find the ‘Sega Mega Drive’ bookmark with a ‘Sega Genesis’ query.
+- **New ✦ AI Semantic Search (Pro Only)**: Enhances your bookmark search with advanced natural language processing techniques that accurately understand the intent and context of your queries. No need to remember exact keywords, just type your query in natural language. For instance, find the `Sega Mega Drive` bookmark with a `Sega Genesis` query.
 - **New ✦ Multilingual Search Support (Pro Only)**: Our search feature now supports over 100 languages, allowing you to search in your native language, even for bookmarks in different languages.
 - **New Additional Search Operators**: Refine your search with specific fields:
     - `title:query`
     - `excerpt:query`
     - `note:query`
-- **New: Search Highlights**: Search results now emphasize highlighted phrases and words.
+- **New: Search Highlights**: Search results now emphasize highlighted phrases, words and parts of link.
 - **New: Partial Word Search**: Enhanced capability to find bookmarks by parts of words.
 - **Fixed Numeric Query Bug**: Corrected issues where numbers 0 and 1 were recognized incorrectly in searches.
 - **Fixed Collection Icon Padding**: Resolved excessive padding issues on collection icons.

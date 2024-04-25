@@ -2,8 +2,13 @@
 title: Search
 slug: /using-search
 ---
-Raindrop can search by bookmark details, URL, tag, type, date or [entire content](#full-text-search) of web-page, EPUB or PDF (no OCR).   
-Best in class support for 16 languages. Find precisely by crafting advanced searches with our [super power operators](#operators).
+
+Raindrop offers robust search capabilities, allowing you to locate bookmarks by various details, including title, description, notes, URL, tags, type, date, or the [full content](#full-text-search) of a webpage, EPUB, or PDF (without OCR).
+
+Enhance your search experience with the [Pro version](../../billing/premium-features.md), which supports natural language queries. This feature means you don't need to remember exact keywords—simply type your question as you would normally speak.
+Additionally, the [Pro version](../../billing/premium-features.md) allows you to search for bookmarks in multiple languages.
+
+Refine your search results further by using our [advanced search operators](#operators), designed to help you find exactly what you're looking for with precision.
 
 ![](intro.png)
 
@@ -68,10 +73,13 @@ Mix-and-match to find exactly what you're looking for.
 | `match:OR`              | superman batman match:OR  | Find items with either search term |
 | `created:YYYY-MM-DD` <br/> `created:YYYY-MM` <br/> `created:YYYY` |  | Search for items created in specific date. <br/> Put < or > in front of a date to find before or after specific date respectively |
 | `lastUpdate:YYYY-MM-DD` | lastUpdate:2021-07-15     | Search for items updated in specific date |
+| `title:sample`          | title:css <br/> title:"css grid" | Find items with a certain word (or words) in the title |
+| `excerpt:sample`        | excerpt:css <br/> excerpt:"css grid" | Find items with a certain word (or words) in the description |
+| `note:sample`           | note:css <br/> note:"css grid" | Find items with a certain word (or words) in the note |
 | `link:sample`           | link:drop <br/> link:"crunch base" | Find items with a certain word (or words) in the URL |
+| `type:sample`           | type:link <br/> type:article <br/> type:image <br/> type:video <br/> type:document <br/> type:audio | Find by content type |
 | `❤️`                     | ❤️                         | Find all favorites |
-| `type:sample`           | type:link <br/> type:article <br/> type:image <br/> type:video <br/> type:document <br/> type:audio | Find by type |
-| `file:true`             | file:true                 | Find files |
+| `file:true`             | file:true                 | Find uploaded files |
 | `notag:true`            | notag:true                | Find items without tags |
 | `cache.status:sample`   | cache.status:ready <br/> -cache.status:ready | Find items that have (or not) a [permanent copy](../permanent-copy/index.md) |
 
