@@ -3,6 +3,12 @@ title: iOS App
 slug: /changelog-ios
 ---
 
+### 5.1.20 (May 2, 2024)
+- **New ✦ AI-Driven Collection and Tag Suggestions (Pro Only)**: When adding or editing an unsorted bookmark, you'll now see AI-generated suggestions above the collection and tag fields.
+- **New ✦ AI Semantic Search (Pro Only)**: Enhances your bookmark search with advanced natural language processing techniques that accurately understand the intent and context of your queries. No need to remember exact keywords, just type your query in natural language. For instance, find the `Sega Mega Drive` bookmark with a `Sega Genesis` query.
+- **New ✦ Multilingual Search Support (Pro Only)**: Our search feature now supports over 100 languages, allowing you to search in your native language, even for bookmarks in different languages.
+- Performance improvements
+
 ### 5.1.15 (Jan 24, 2024)
 - Fix tags screen input bug
 
