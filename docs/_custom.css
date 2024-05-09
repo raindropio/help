@@ -34,6 +34,10 @@ html[data-theme='dark'] {
 	--ifm-heading-vertical-rhythm-bottom: .6;
 }
 
+.markdown img {
+	border-radius: 8px;
+}
+
 aside {
 	background: var(--alternative-background);
 }
@@ -42,13 +46,16 @@ aside {
 	display: none
 }
 
-.docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocPage- {
+.docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocRoot-Layout-Sidebar-styles-module {
 	border: 0 !important;
 	background: rgba(0,0,0,.02);
 }
 
 
 /* Navbar */
+.navbar {
+	box-shadow: 0 .5px 0 var(--ifm-toc-border-color);
+}
 .navbar__brand {
 	color: var(--ifm-heading-color) !important
 }
@@ -109,7 +116,7 @@ article header h1 {
 }
 
 .markdown img {
-	border: 1px solid var(--ifm-toc-border-color);
+	border: .5px solid var(--ifm-toc-border-color);
 	display: block;
 }
 

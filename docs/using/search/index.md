@@ -79,9 +79,10 @@ Mix-and-match to find exactly what you're looking for.
 | `link:sample`           | link:drop <br/> link:"crunch base" | Find items with a certain word (or words) in the URL |
 | `type:sample`           | type:link <br/> type:article <br/> type:image <br/> type:video <br/> type:document <br/> type:audio | Find by content type |
 | `❤️`                     | ❤️                         | Find all favorites |
-| `file:true`             | file:true                 | Find uploaded files |
+| `file:true`              | file:true                  | Find uploaded files |
 | `notag:true`            | notag:true                | Find items without tags |
 | `cache.status:sample`   | cache.status:ready <br/> -cache.status:ready | Find items that have (or not) a [permanent copy](../permanent-copy/index.md) |
+| `reminder:true`         | reminder:true             | Find items with reminder |
 
 
 ## Broken links

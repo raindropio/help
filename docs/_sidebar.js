@@ -25,8 +25,9 @@ module.exports = {docs: [
 			
 			'using/collections/index',
 			'using/bookmarks/index',
-			'using/files/index',
 			'using/highlights/index',
+			//'using/ai-suggestions/index',
+			'using/files/index',
 			'using/search/index',
 			'using/reminders/index',
 			'using/tags/index',
