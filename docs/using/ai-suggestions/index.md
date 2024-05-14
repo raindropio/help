@@ -15,8 +15,9 @@ We make sure to suggest **only your** collections and tags, keeping everything t
 Although some **manual sorting is necessary** to fine-tune the AI and fix any errors.
 
 :::info
-You get **your own private AI categorization model** based on your data.   
-Your data never used for training.
+You get **your own private AI categorization model** based on your data.
+Your data never used for training.   
+We use an **open-source model on our servers**, ensuring your data never leaves. **No public APIs are used** (such as OpenAI, ChatGPT, Google, etc).
 :::
 
 :::note
@@ -58,8 +59,8 @@ Editing an existing bookmark also provides refined suggestions for collections a
 
 No need to sort your bookmarks right away. Whenever you find some free time, just pop over to the [organization tips page](https://app.raindrop.io/suggestions). There, you'll discover ready-to-use tips for enhancing your bookmark organization:
 
-- Move unsorted bookmarks to the ideal collection
-- Correct misplaced bookmarks
+- Move unsorted bookmarks to the correct collection
+- Fix misplaced bookmarks
 - Tag bookmarks
 - Simplify tags
 - More in the future
