@@ -28,10 +28,10 @@ What's even cooler is that you can simply drag new links and images into the pan
 ![](sidebar.jpg)
 
 #### Chrome
-In a toolbar click `Sidepanel` icon, then make sure `Raindrop.io` is selected as current panel.
+Press `Alt+Shift+B` or in a toolbar right click on Raindrop.io icon and select `Open sidebar`.
 
 #### Firefox
-In main menu click `View / Sidebar / Raindrop.io`.   
+Press `Alt+Shift+B` or in main menu click `View / Sidebar / Raindrop.io`.   
 Or <a href="https://support.mozilla.org/kb/use-firefox-sidebar-access-bookmarks-history-synced" target="_blank">pin sidebar button in a toolbar</a> to have a quick access
 
 #### Opera
@@ -180,6 +180,7 @@ Command | macOS | Windows / Linux
 ------- | ------ | --------------
 Save current page / highlight | ⌘+⇪+S | Ctrl+Shift+S
 Open browser extension | ⌘+⇪+E | Ctrl+Shift+E
+Open sidepanel | ⌥+⇪+B | Alt+Shift+B
 
 :::note
 **Firefox only**: the hotkey for save current page / highlight is `Alt+Shift+S`
