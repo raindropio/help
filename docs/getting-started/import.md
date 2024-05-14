@@ -60,9 +60,6 @@ Txt file should have a url per row
 You can transfer all your web-clips (bookmarks) from Evernote to Raindrop.io, description and tags will be imported as well.
 Be sure to select `ENEX` as a file format of [export in Evernote](https://help.evernote.com/hc/en-us/articles/209005557-Export-notes-and-notebooks).
 
-### X (Twitter) Bookmarks
-You can transfer all your bookmarks from X to Raindrop.io. [Request your export file](https://xbe.pages.dev/) in a few clicks
-
 ### Pinterest
 Pinterest itself doesn't have any tools to export your data. But you can try to use great third-party app called [Pinback](https://pinbackit.github.io/) that can help you download export file.
 Just follow instructions on [Pinback](https://pinbackit.github.io/) site.
