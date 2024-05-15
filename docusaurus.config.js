@@ -99,7 +99,7 @@ export default {
 
 	scripts: [
 		{
-			src: '/pb/site.js',
+			src: '/pb/js/script.js',
 			defer: true,
 			'data-domain': 'help.raindrop.io',
 			'data-api': '/pb/api/event'
