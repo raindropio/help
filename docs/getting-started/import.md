@@ -76,11 +76,10 @@ Before you start import, please select how much data you want to transfer:
 Mode | Description
 ---- | -----------
 **Only new folders and bookmarks** | When you upload the same import file again but with new data, this mode will prevent uploading duplicates and ensure structure untouched, only new folders and bookmarks will be imported. <br/><br/> If you not sure select this mode
-**Import all** | Select this mode if you want to import everything as is (including duplicates)
-**Start from scratch** | This mode is the best way to clean your account data completely and replace it with data from import file. <br/> Be sure if you already have any data in Raindrop it will be removed and replaced.
+**Start from scratch** | This mode is the best way to clean your account data completely and replace it with data from import file. <br/> **Be sure if you already have any data in Raindrop it will be removed and replaced**.
 
 ## Limitations
-- We support files up to 50 MB in size. If you have a larger file:
+- We support files up to 100 MB in size. If you have a larger file:
     1. [Optimize](https://optimize-bookmarks-html.glitch.me/)
     2. And upload to Raindrop as ZIP archive
 - Evernote attachments are not supported yet
