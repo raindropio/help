@@ -1,5 +1,6 @@
 {
     "$schema": "https://openapi.vercel.sh/vercel.json",
+
     "rewrites": [
         {
             "source": "/pb/js/script.js",
@@ -10,6 +11,7 @@
             "destination": "https://plausible.io/api/event"
         }
     ],
+
     "headers": [
         {
             "source": "/assets/(.*)",
@@ -19,6 +21,49 @@
                     "value": "public, max-age=365000000, immutable"
                 }
             ]
+        },
+        {
+            "source": "/favicon.ico",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=365000000, immutable"
+                }
+            ]
+        },
+        {
+            "source": "/brand/icon_raw.svg",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=365000000, immutable"
+                }
+            ]
         }
+    ],
+
+    "redirects": [
+        { "source": "/open-multiple-links",             "destination": "/bookmarks#open-multiple-links-at-once", "permanent": true },
+        { "source": "/full-text-search",                "destination": "/using-search#full-text-search", "permanent": true },
+        { "source": "/search",                          "destination": "/using-search", "permanent": true },
+        { "source": "/broken",                          "destination": "/tags-filters#broken-links", "permanent": true },
+        { "source": "/mac-safari",                      "destination": "/browser-extension", "permanent": true },
+        { "source": "/pro-faq",                         "destination": "/billing-faq", "permanent": true },
+        { "source": "/contact",                         "destination": "/?open-contact-form", "permanent": true },
+        { "source": "/article/41-broken-links-finder",   "destination": "/tags-filters#broken-links", "permanent": true },
+        { "source": "/article/17-importing-bookmarks",  "destination": "/import", "permanent": true },
+        { "source": "/article/55-omnibox",              "destination": "/browser-extension#search-in-address-bar", "permanent": true },
+        { "source": "/article/10-login-problems",       "destination": "/login-problems", "permanent": true },
+        { "source": "/article/51-change-billing-cycle", "destination": "/change-billing-cycle", "permanent": true },
+        { "source": "/category/11-pro-account",         "destination": "/billing-faq", "permanent": true },
+        { "source": "/article/25-add-bookmark-ios",     "destination": "/mobile-app#share-ios", "permanent": true },
+        { "source": "/article/26-add-bookmark-android", "destination": "/mobile-app#share-android", "permanent": true },
+        { "source": "/category/24-mobile-app",          "destination": "/mobile-app", "permanent": true },
+        { "source": "/article/35-web-and-desktop-app",  "destination": "/download-app#desktop-app", "permanent": true },
+        { "source": "/article/18-export-your-data",     "destination": "/export", "permanent": true },
+        { "source": "/article/31-privacy-policy",       "destination": "/privacy", "permanent": true },
+        { "source": "/article/32-terms-of-service",     "destination": "/terms", "permanent": true },
+        { "source": "/article/37-safari-extension",     "destination": "/browser-extension", "permanent": true },
+        { "source": "/article/46-permanent-copy",       "destination": "/permanent-copy", "permanent": true }
     ]
 }
