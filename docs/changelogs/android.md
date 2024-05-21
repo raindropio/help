@@ -3,6 +3,16 @@ title: Android App
 slug: /changelog-android
 ---
 
+### 4.5.24 (May 21, 2024)
+- Fix issue when tap stop responding
+
+### 4.5.22 (May 20, 2024)
+- **New: Nested collections** now appear when viewing root collection
+- **New ✦ AI-Driven Collection and Tag Suggestions (Pro Only)**: When adding or editing an unsorted bookmark, you'll now see AI-generated suggestions above the collection and tag fields.
+- **New ✦ AI Semantic Search (Pro Only)**: Enhances your bookmark search with advanced natural language processing techniques that accurately understand the intent and context of your queries. No need to remember exact keywords, just type your query in natural language. For instance, find the `Sega Mega Drive` bookmark with a `Sega Genesis` query.
+- **New ✦ Multilingual Search Support (Pro Only)**: Our search feature now supports over 100 languages, allowing you to search in your native language, even for bookmarks in different languages.
+- Performance improvements
+
 ### 4.5.11 (Jan 23, 2024)
 - Fix "Add collaborator" button
 - Fix PDF preview
