@@ -7,6 +7,10 @@ slug: /changelog
 All new AI features are made with our private LLM and user data is not used for training
 :::
 
+### 5.6.35 (June 9, 2024)
+- Better more reliable web highlighter
+    - It uses new native browser custom highlights engine that never alter original content of a page
+
 ### 5.6.3 (May 14, 2024)
 - **New ✦ AI Organization Tips (Pro Only)**: No need to sort your bookmarks right away. Whenever you find some free time, just pop over to the [organization tips page](../using/ai-suggestions/index.md#tips). There, you'll discover ready-to-use tips for enhancing your bookmark organization
 

@@ -3,6 +3,9 @@ title: Android App
 slug: /changelog-android
 ---
 
+### 4.5.26 (June 9, 2024)
+- Better more reliable web highlighter
+
 ### 4.5.24 (May 21, 2024)
 - Fix issue when tap stop responding
 
