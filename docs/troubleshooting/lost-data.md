@@ -1,7 +1,7 @@
 ---
 title: Lost All Bookmarks
 ---
-Calm down. All you data safely stored in our servers. Seems you have logged to a different or new account.
 
-Try to login with several social networks or emails.
-If you still does not see your bookmarks <a onClick={()=>Intercom('showNewMessage')} target="_self">let us know</a>.
+Please calm down. Your data is safely stored on our servers. It looks like you might have logged into a different or new account.
+
+Try logging in with Google, Apple, or another email. If you still don't see your bookmarks, [let us know](/contact-us).

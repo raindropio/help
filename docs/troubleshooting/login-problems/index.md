@@ -83,6 +83,17 @@ In the bottom of the page click `Add` (in `Allow` section) and paste this string
 
 <details><summary>
 
+#### Arc {#arc-whitelist}
+
+</summary>
+
+Paste this URL `arc://settings/cookies` to address bar and press enter.
+In the bottom of the page click `Add` (in `Allow` section) and paste this string **`[*.]raindrop.io`**
+</details>
+
+
+<details><summary>
+
 #### Firefox
 
 </summary>

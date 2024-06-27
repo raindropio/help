@@ -17,5 +17,5 @@ Not sure what to do first? Start here:
 There’s no one-size-fits-all way to use Raindrop.io.
 The best system is the one you stick with. Start simple to build strong productivity habits, then explore new features and ways of organizing your bookmarks as you go.
 
-Explore the Help Center and if you have any questions at all, <a onClick={()=>Intercom('showNewMessage')} target="_self">let us know</a>.  
+Explore the Help Center and if you have any questions at all, [let us know](/contact-us).  
 We’re happy to help any time.

@@ -61,7 +61,7 @@ export default {
 				},
 				{
 					type: 'html',
-					value: '<button class="contact clean-btn" onclick="Intercom(\'showNewMessage\')">Contact us</button>',
+					value: '<a class="contact clean-btn" href="/contact-us">Contact us</a>',
 				}
 			],
 		},
@@ -93,7 +93,6 @@ export default {
 	],
 	
 	clientModules: [
-		require.resolve('./docs/_intercom.js'),
 		require.resolve('./docs/_details_anchor.js')
 	],
 
