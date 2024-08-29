@@ -8,7 +8,7 @@ Raindrop.io can be easly integrated to other apps you use.
 ## Alfred
 Search and add bookmarks to Raindrop.io right from [Alfred macOS app](https://www.alfredapp.com/)
 
-[**Install Workflow**](https://www.packal.org/workflow/search-raindropio)
+[**Install Workflow**](https://github.com/westerlind/alfred-raindrop-search)
 
 ## Raycast
 Search your Raindrop.io bookmarks in [Raycast](https://www.raycast.com/) app

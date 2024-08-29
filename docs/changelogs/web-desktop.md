@@ -3,6 +3,17 @@ title: Web, Desktop App & Extension
 slug: /changelog
 ---
 
+### 5.6.53 (Aug 29, 2024)
+- We’ve enhanced our suggestions for collections and tags! Unlike before, our smarter suggestions no longer need prior training, meaning even empty collections are considered, and the list of suggested tags will include new, relevant ones.
+
+### 5.6.50 (Jul 23, 2024)
+- Fix not working extension shortcuts in Edge browser. [Learn more new shortcuts](../using/browser-extension/index.md#hotkeys)
+- Fix compatability of highlights with Dark Reader extension
+- Web app now support dropping multiple URLs. Feel free to drop your browser bookmarks folder from a toolbar, to save them all.
+- Web app now support multiline highlight note
+- Fix collapse/expand all collections action
+- Fix "save all tabs" when there more than 1000 open tabs
+
 :::note
 All new AI features are made with our private LLM and user data is not used for training
 :::

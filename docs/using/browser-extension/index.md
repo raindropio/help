@@ -22,16 +22,16 @@ If you cannot locate the Raindrop.io cloud toolbar button, please click on the "
 <p><img src={require('./pintoolbar.jpg').default} style={{width:'auto', maxHeight:350,display:'inline'}} /></p>
 
 ### Side panel
-In Chrome, Firefox, and Opera, you have the option to open the Raindrop.io side panel, providing you with constant and convenient access to your bookmarks.
+In Chrome, Edge, Firefox, and Opera, you have the option to open the Raindrop.io side panel, providing you with constant and convenient access to your bookmarks.
 What's even cooler is that you can simply drag new links and images into the panel to save them.
 
 ![](sidebar.jpg)
 
-#### Chrome
-Press `Alt+Shift+B` or in a toolbar right click on Raindrop.io icon and select `Open sidebar`.
+#### Chrome, Edge
+Press `Ctrl+.` on Windows or Linux and `⌘.` on a macOS or in a toolbar right click on Raindrop.io icon and select `Open sidebar`.
 
 #### Firefox
-Press `Alt+Shift+B` or in main menu click `View / Sidebar / Raindrop.io`.   
+Press `Ctrl+.` on Windows or Linux and `⌘.` on a macOS or in main menu click `View / Sidebar / Raindrop.io`.   
 Or <a href="https://support.mozilla.org/kb/use-firefox-sidebar-access-bookmarks-history-synced" target="_blank">pin sidebar button in a toolbar</a> to have a quick access
 
 #### Opera
@@ -52,7 +52,7 @@ Right click anywhere on the page and select one of available Raindrop.io actions
 </summary>
 
 1. Browse to a website or video you would like to save to Raindrop.io 
-2. Click the Raindrop.io extension button or press `⌘+⇪+S` (on a Mac), `Ctrl+Shift+S` (on a Windows)
+2. Click the Raindrop.io extension button or press a [keyboard shortcut](#hotkeys)
 3. Click the `Save` button to send the content to the `Unsorted` or chosen collection
 
 </details>
@@ -175,38 +175,49 @@ Follow few simple steps to enable one click save mode:
 </details>
 
 
-## Hotkeys {#hotkeys}
-Command | macOS | Windows / Linux
+## Shortcuts {#hotkeys}
+
+### Chrome, Brave
+Command | macOS | Windows, Linux
 ------- | ------ | --------------
-Save current page / highlight | ⌘+⇪+S | Ctrl+Shift+S
-Open browser extension | ⌘+⇪+E | Ctrl+Shift+E
-Open sidepanel | ⌥+⇪+B | Alt+Shift+B
+Open extension | ⌃R | Alt+R
+Bookmark / highlight | ⌘⇪S | Ctrl+Shift+S
+Open sidepanel | ⌘. | Ctrl+.
 
-:::note
-**Firefox only**: the hotkey for save current page / highlight is `Alt+Shift+S`
-:::
+#### Change shortcuts
+Paste `chrome://extensions/shortcuts` URL into browser address bar and press Enter
 
-<details><summary>
 
-### Change hotkey
+### Edge
+Command | macOS | Windows, Linux
+------- | ------ | --------------
+Open extension | ⌃R | Alt+R
+Bookmark / highlight | ⌃X | Alt+X
+Open sidepanel | ⌘. | Ctrl+.
 
-</summary>
+#### Change shortcuts
+Paste `chrome://extensions/shortcuts` URL into browser address bar and press Enter
 
-Here how to access and change all available hotkeys (keyboard shortcuts):
 
-#### Chrome, Opera, Edge, Brave
-1. Paste `chrome://extensions/shortcuts` URL into browser address bar and press Enter
-2. Find `Raindrop.io`
+### Firefox
+Command | macOS | Windows, Linux
+------- | ------ | --------------
+Open extension | ⌃R | Alt+R
+Bookmark / highlight | ⌃X | Alt+X
+Open sidepanel | ⌘. | Ctrl+.
 
-#### Firefox
-1. Paste `about:addons` URL into browser address bar and press Enter
-2. Click on a cog icon
-3. Click `Manage Extension Shortcuts`
-4. Find `Raindrop.io`
+[How to change extension shortcuts](https://support.mozilla.org/en-US/kb/manage-extension-shortcuts-firefox)
 
-#### Safari
-Not supported to change hotkeys
-</details>
+
+### Safari
+Command | macOS | Windows, Linux
+------- | ------ | --------------
+Open extension | ⌃R | Alt+R
+Bookmark / highlight | ⌃X | Alt+X
+Open sidepanel | ⌘. | Ctrl+.
+
+Not possible to customize shortcuts yet
+
 
 ## Privacy & FAQ
 ### What data does the extension collect?
