@@ -17,7 +17,7 @@ Permanent copy is fully portable (single file), static and doesn't have any exte
 Content of web-pages, PDF's and EPUB's is fully searchable as described in [full-text search documentation](../search/index.md).
 
 Space for your copies is unlimited. Link to your copy is private and can't be made public.
-When PRO subscription is expired, permanent copies become unaccessible and could be removed in future.
+When PRO subscription is expired, permanent copies become inaccessible and could be removed in future.
 
 ## How long it takes to copy all of my bookmarks? {#time}
 It's depends on count of your bookmarks and global queue. Usually 1000 bookmarks will be copied in half an hour. If it takes a lot longer, [let us know](/contact-us).
@@ -35,7 +35,7 @@ Tap "..." next to bookmark, then tap "Open permanent copy"
 :::
 
 ## How to download a permanent copy?
-[Open permanent copy](#open-permanent-copy), then click `Download` and follow the intructions
+[Open permanent copy](#open-permanent-copy), then click `Download` and follow the instructions
 
 ## Limitations
 Some bookmarks or files can't be saved by several reasons described below. 

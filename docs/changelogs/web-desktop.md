@@ -8,9 +8,9 @@ slug: /changelog
 
 ### 5.6.50 (Jul 23, 2024)
 - Fix not working extension shortcuts in Edge browser. [Learn more new shortcuts](../using/browser-extension/index.md#hotkeys)
-- Fix compatability of highlights with Dark Reader extension
-- Web app now support dropping multiple URLs. Feel free to drop your browser bookmarks folder from a toolbar, to save them all.
-- Web app now support multiline highlight note
+- Fix compatibility of highlights with Dark Reader extension
+- Web app now supports dropping multiple URLs. Feel free to drop your browser bookmarks folder from a toolbar, to save them all.
+- Web app now supports multiline highlight note
 - Fix collapse/expand all collections action
 - Fix "save all tabs" when there more than 1000 open tabs
 

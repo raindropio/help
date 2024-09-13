@@ -28,7 +28,7 @@ You can connect your Apple, Google, Facebook or Twitter account to be able to lo
 If you want to start from scratch and remove all data:
 1. Visit [Account Settings](https://app.raindrop.io/settings/account)
 2. Click "Remove all my bookmarks and collections"
-3. Confirm remove
+3. Confirm removal
 
 :::note
 This action will remove all your bookmarks and collections!  
