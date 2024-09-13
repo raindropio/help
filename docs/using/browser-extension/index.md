@@ -148,7 +148,7 @@ See if a page already saved: special [✔] indicator will be showed when you vis
 1. Click on a Raindrop.io extension button
 2. Click on your profile avatar
 3. Click `Settings`
-4. Enable `Tabs access` in `Permissions` section
+4. Enable `Saved page indicator` in `Permissions` section
 
 </details>
 
@@ -210,11 +210,10 @@ Open sidepanel | ⌘. | Ctrl+.
 
 
 ### Safari
-Command | macOS | Windows, Linux
-------- | ------ | --------------
-Open extension | ⌃R | Alt+R
-Bookmark / highlight | ⌃X | Alt+X
-Open sidepanel | ⌘. | Ctrl+.
+Command | macOS
+------- | ------
+Open extension | ⌃R
+Bookmark / highlight | ⌃X
 
 Not possible to customize shortcuts yet
 
