@@ -44,7 +44,7 @@ Be sure that newly added bookmark will not appear in search results immediately.
 
 </summary>
 
-If you want to temporarly disable full-text search please select `In title/description` filter from suggestions.
+If you want to temporarily disable full-text search please select `In title/description` filter from suggestions.
 
 Or type `info:` before your search query.
 
