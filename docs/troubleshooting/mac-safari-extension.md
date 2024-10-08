@@ -3,49 +3,15 @@ title: Safari Extension (macOS)
 slug: /safari-mac-problems
 ---
 
-:::warning System requirements
-- macOS 10.14 Mojave or newer
-- Safari 14 or newer
-- [Save to Raindrop.io](https://raindrop.io/r/extension/safari) 5.4.5 or newer
-:::
+### Prompt for login even when already logged into the web app
+Safari 18 introduces a new feature called Profiles. Unfortunately, when you use a profile other than the default one, extensions that require a login may fail to work properly.
+This is a known issue that has been reported multiple times online. Unfortunately, it’s unclear when Apple will address this problem, and there’s not much we can do from our end to fix this bug.
 
-<!------------------------------>
-<details><summary>
+For more information, you can refer to these discussions:
+https://forums.developer.apple.com/forums/thread/764279
+https://www.reddit.com/r/Safari/comments/1fk22oe/sequoia_safari_extensions_are_not_working/
 
-### Safari extension does not appear {#not-appear}
-
-</summary>
-
-It's known bug first seen in Safari 14. I reported it to Apple, but no reply yet.
-This bug affects any extension made specificially for latest Safari 14 (completely new API).
-
-If the extension does not show up in Safari, try **running the below command** in the terminal and restart your computer:
-```bash
-/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -f /Applications/Safari.app
-```
-
-If command above doesn't help, try another workaround:
-1. Download and install [**Safari Technology Preview**](https://developer.apple.com/safari/download/)
-2. Open and close Safari Technology Preview
-3. Now extensions should appear in regular Safari
-
-</details>
-
-<!------------------------------>
-<details><summary>
+If you’re not using profiles, you can try [these workarounds](./login-problems/index.md).
 
 ### Permissions reset on Safari restart {#permissions-reset}
-
-</summary>
-
-Apologies for the inconvenience. 
-Unfortunately, I don't currently have a solution for Safari. 
-They have changed their permissions policy, causing extensions that specify certain permissions as optional to lose them whenever the user restarts the browser.
-
-There only two options at the moment:
-1. Follow all the steps to give permission each time you restart Safari
-2. Use our desktop app instead to add highlights https://raindrop.io/download
-
-Hope to find better solution in the future
-
-</details>
+If you’re using a version of Safari older than 18, please update to the latest version. This will resolve the annoying permissions reset bug.
