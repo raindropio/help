@@ -180,7 +180,6 @@ Follow few simple steps to enable one click save mode:
 ### Chrome, Brave
 Command | macOS | Windows, Linux
 ------- | ------ | --------------
-Open extension | ⌃R | Alt+R
 Bookmark / highlight | ⌘⇪S | Ctrl+Shift+S
 Open sidepanel | ⌘. | Ctrl+.
 
@@ -191,7 +190,6 @@ Paste `chrome://extensions/shortcuts` URL into browser address bar and press Ent
 ### Edge
 Command | macOS | Windows, Linux
 ------- | ------ | --------------
-Open extension | ⌃R | Alt+R
 Bookmark / highlight | ⌃X | Alt+X
 Open sidepanel | ⌘. | Ctrl+.
 
@@ -202,7 +200,6 @@ Paste `chrome://extensions/shortcuts` URL into browser address bar and press Ent
 ### Firefox
 Command | macOS | Windows, Linux
 ------- | ------ | --------------
-Open extension | ⌃R | Alt+R
 Bookmark / highlight | ⌃X | Alt+X
 Open sidepanel | ⌘. | Ctrl+.
 
@@ -212,8 +209,7 @@ Open sidepanel | ⌘. | Ctrl+.
 ### Safari
 Command | macOS
 ------- | ------
-Open extension | ⌃R
-Bookmark / highlight | ⌃X
+Bookmark / highlight | ⌘⇪S
 
 Not possible to customize shortcuts yet
 

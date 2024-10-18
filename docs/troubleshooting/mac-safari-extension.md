@@ -4,7 +4,7 @@ slug: /safari-mac-problems
 ---
 
 ### Prompt for login even when already logged into the web app
-Safari 18 introduces a new feature called Profiles. Unfortunately, when you use a profile other than the default one, extensions that require a login may fail to work properly.
+Safari 17 introduces a new feature called Profiles. Unfortunately in Safari 18, when you use a profile other than the default one, extensions that require a login may fail to work properly.
 This is a known issue that has been reported multiple times online. Unfortunately, it’s unclear when Apple will address this problem, and there’s not much we can do from our end to fix this bug.
 
 For more information, you can refer to these discussions:
