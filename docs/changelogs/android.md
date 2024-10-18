@@ -3,6 +3,11 @@ title: Android App
 slug: /changelog-android
 ---
 
+### 4.7.2 (Sep 23, 2024)
+- Fixed push notifications. Now reminders delivered properly.
+- Fixed crash on cover screen
+- You can now invite collaborators without sending an email. Instead, you’ll receive a shareable link to distribute manually. This update was made to prevent misuse of the email feature for spamming.
+
 ### 4.5.26 (June 9, 2024)
 - Better more reliable web highlighter
 

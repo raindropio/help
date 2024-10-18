@@ -3,6 +3,16 @@ title: Web, Desktop App & Extension
 slug: /changelog
 ---
 
+### 5.6.58 (Oct 17, 2024)
+- Fixed the drag-to-move feature on Windows 8.1
+
+### 5.6.57 (Sep 16, 2024)
+- You can now invite collaborators without sending an email. Instead, you’ll receive a shareable link to distribute manually. This update was made to prevent misuse of the email feature for spamming.
+- Renamed “Remove” to “Delete.”
+- Fixed Safari extension highlights for iOS 18.
+- Broken links are now automatically re-checked every 6 months, whereas they previously weren’t re-checked after the initial check.
+- Fixed duplicate reminders sent via email when notifications are enabled on the mobile app.
+
 ### 5.6.53 (Aug 29, 2024)
 - We’ve enhanced our suggestions for collections and tags! Unlike before, our smarter suggestions no longer need prior training, meaning even empty collections are considered, and the list of suggested tags will include new, relevant ones.
 

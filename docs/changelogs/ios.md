@@ -3,6 +3,20 @@ title: iOS App
 slug: /changelog-ios
 ---
 
+### 5.1.33 (Sep 24, 2024)
+- Fixed an issue with collections not syncing.
+- Resolved a rare network errors.
+- Improved the animation for suggestions.
+- Enhanced overall performance.
+
+### 5.1.31 (Sep 16, 2024)
+- You can now invite collaborators without sending an email. Instead, a shareable link will be provided to distribute manually. This change helps prevent misuse of the email feature for spamming.
+- Added dark and tinted icon versions for iOS 18.
+
+### 5.1.28 (Sep 4, 2024)
+- Fixed Safari extension highlights in iOS 18 beta.
+- Universal links now open in native apps by default (e.g., YouTube, Instagram).
+
 ### 5.1.24 (June 9, 2024)
 - Better more reliable web highlighter
 
