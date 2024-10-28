@@ -50,5 +50,7 @@ Enable
 </details>
 
 ## Limitations
-- You can store up to 30 last backups on your account. Whenever a new backup is created, the oldest backup automatically gets deleted
-- At the moment backup file contains: Collections, Links, Tags & Highlights. Uploaded files not included
+- Your account can store up to 30 recent backups. When a new backup is created, the oldest one is automatically deleted.
+- Currently, backup files include: Collections, Links, Tags, and Highlights.
+- Uploaded files are not included in backups.
+- Collection icons are not included in backups.
