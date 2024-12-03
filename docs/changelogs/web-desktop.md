@@ -3,6 +3,15 @@ title: Web, Desktop App & Extension
 slug: /changelog
 ---
 
+### 5.6.63 (Dec 3, 2024)
+- PDF highlighting is now supported! Simply upload your PDF and select “Preview” to get started.
+- Article previews are now significantly faster and produce cleaner results.
+- Epub previews have been greatly enhanced for improved speed and clarity.
+- You can now download all uploaded files or select specific ones to download.
+- Resolved the empty window issue for the Safari web extension on iPad.
+- Fixed the Markdown preview issue in the “Note” field.
+- Addressed the visibility bug with the expand/collapse collection button in Safari 18.
+
 ### 5.6.58 (Oct 17, 2024)
 - Fixed the drag-to-move feature on Windows 8.1
 

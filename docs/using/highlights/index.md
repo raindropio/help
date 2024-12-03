@@ -11,10 +11,10 @@ It helps you engage more deeply with the text, comprehend dense subjects, and ea
 You can create highlights in Raindrop.io [Browser extension](../../getting-started/install-extension/index.md), [Desktop](https://raindrop.io/download), [Web](https://app.raindrop.io) and [Mobile](https://raindrop.io/download) app.
 
 :::note
-Highlighting is available for all users. There's no limit on total number of pages and highlights.  
+Highlighting is available for all users. There's no limit on total number of pages and highlights.
 But annotations (notes) is [premium feature](../../billing/premium-features.md).
 
-PDF files not supported yet.
+PDF highlighting is currently supported only in the Web and Desktop apps.
 :::
 
 
@@ -228,6 +228,9 @@ You can apply the `Highlights` filter to see all of your highlights across all o
 
 
 ## FAQ
+### Can I highlight PDF?
+Yes, you can! However, PDF highlighting is currently only available in the [Web and Desktop apps](#add-web).
+
 ### Why you need additional browser extension permission? {#extension-permission}
 To be able to see highlights next time you visit same page we need additional permission called `Access data on websites`.
 Don't worry we not track you or send data to third-parties. We just check URL of a page and then load your saved highlights.
