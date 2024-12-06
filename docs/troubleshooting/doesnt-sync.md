@@ -21,4 +21,4 @@ In other words when you add new bookmark through browsers built-in "Add bookmark
 
 You need to always use our extension to add new bookmarks.
 
-Please [read this pinned message](https://better.raindrop.io/feature-requests/p/full-sync-with-chrome-and-safari) to learn more why there is no browser-to-browser bookmarks sync in Raindrop.io.
+Please [read this pinned message](https://raindropio.canny.io/feature-requests/p/full-sync-with-chrome-and-safari) to learn more why there is no browser-to-browser bookmarks sync in Raindrop.io.

@@ -55,7 +55,7 @@ export default {
 						},
 						{
 							label: 'Suggest new feature',
-							href: 'https://better.raindrop.io',
+							href: 'https://raindropio.canny.io',
 						},
 					],
 				},
