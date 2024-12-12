@@ -95,8 +95,11 @@ When you have many tabs open, saving them one at a time is a bit tedious. Instea
 <p><img src={require('./tabs.jpg').default} style={{maxHeight:496}} /></p>
 
 **How to use?**
-- If you have `Clipper` appearance just click `Tabs…` in bottom left corner of a window.
-- If you have `Mini App` appearance just mouse over `Save` and select `Save tabs…`.
+1. Right-click on the Raindrop.io extension
+    - If you don’t see the Raindrop.io extension icon, click the `puzzle` icon
+2. Click `Save tabs`
+
+<p><img src={require('./save-tabs.png').default} style={{maxHeight:422}} /></p>
 
 By default saved tabs will have a tag with a date. That way you can find them easily later.
 
