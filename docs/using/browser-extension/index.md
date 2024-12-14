@@ -22,20 +22,19 @@ If you cannot locate the Raindrop.io cloud toolbar button, please click on the "
 <p><img src={require('./pintoolbar.jpg').default} style={{width:'auto', maxHeight:350,display:'inline'}} /></p>
 
 ### Side panel
-In Chrome, Edge, Firefox, and Opera, you have the option to open the Raindrop.io side panel, providing you with constant and convenient access to your bookmarks.
+In Chrome, Edge and Firefox, you have the option to open the Raindrop.io side panel, providing you with constant and convenient access to your bookmarks.
 What's even cooler is that you can simply drag new links and images into the panel to save them.
 
 ![](sidebar.jpg)
 
+![](open-sidebar.jpg)
+
 #### Chrome, Edge
-Press `Ctrl+.` on Windows or Linux and `⌘.` on a macOS or in a toolbar right click on Raindrop.io icon and select `Open sidebar`.
+Press `Ctrl + .` on Windows or Linux, or `⌘ + .` on macOS. Alternatively, right-click the Raindrop.io icon in the toolbar and select `Open Sidebar`.
 
 #### Firefox
-Press `Ctrl+.` on Windows or Linux and `⌘.` on a macOS or in main menu click `View / Sidebar / Raindrop.io`.   
+Press `Ctrl + .` on Windows or Linux, or `⌘ + .` on macOS. Alternatively, go to the main menu and select `View > Sidebar > Raindrop.io`.   
 Or <a href="https://support.mozilla.org/kb/use-firefox-sidebar-access-bookmarks-history-synced" target="_blank">pin sidebar button in a toolbar</a> to have a quick access
-
-#### Opera
-You can find a Raindrop.io cloud icon in browser sidebar
 
 ### Context menu
 Right click anywhere on the page and select one of available Raindrop.io actions like:

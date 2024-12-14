@@ -3,6 +3,11 @@ title: Android App
 slug: /changelog-android
 ---
 
+### 4.7.4 (Dec 13, 2024)
+- PDF highlighting
+- Ensure photo sharing via extension does not redirect focus to the main app
+- Bug Fix: Resolve issues with saving from DailyMail
+
 ### 4.7.2 (Sep 23, 2024)
 - Fixed push notifications. Now reminders delivered properly.
 - Fixed crash on cover screen

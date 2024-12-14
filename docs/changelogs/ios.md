@@ -3,6 +3,12 @@ title: iOS App
 slug: /changelog-ios
 ---
 
+### 5.1.41 (Dec 12, 2024)
+- Resolve crash encountered when swiping from “All bookmarks” to the home screen.
+- Restore the last visited collection upon app restart.
+- PDF highlighting is now supported! Just upload your PDF and tap preview.
+- Fix Safari web extension (Mini app) on a iPad
+
 ### 5.1.33 (Sep 24, 2024)
 - Fixed an issue with collections not syncing.
 - Resolved a rare network errors.
