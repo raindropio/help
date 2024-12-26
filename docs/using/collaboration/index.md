@@ -7,7 +7,7 @@ When someone is added to your collection as a collaborator, they’ll be able to
 
 ![](hero.jpg)
 
-If the owner of the collection is on the [Pro plan](../../billing/premium-features.md), every collaborator will also have access full-text search and permanent copies on that collection, even if they’re not on a Pro plan.
+If the owner of the collection is subscribed to the [Pro plan](../../billing/premium-features.md), all collaborators will also gain access to full-text search capabilities (albeit without permanent copies) on that collection, even if they are not themselves subscribed to the Pro plan.
 
 Don’t want the person to be able to add / edit / delete items, but do want them to view your collection? [Read about permissions](#permissions) below.
 
