@@ -57,8 +57,14 @@ folder,url,title,note,tags,created
 Txt file should have a url per row
 
 ### ENEX (Evernote)
-You can transfer all your web-clips (bookmarks) from Evernote to Raindrop.io, description and tags will be imported as well.
-Be sure to select `ENEX` as a file format of [export in Evernote](https://help.evernote.com/hc/en-us/articles/209005557-Export-notes-and-notebooks).
+:::warning
+We only support transferring web clips (notes created using the [Evernote Web Clipper](https://evernote.com/features/webclipper)). Other types of notes, including those containing bunch of links, are not supported.
+:::
+
+You can transfer all your web clips (bookmarks) from Evernote to Raindrop.io, including descriptions and tags.
+To do this, [export your notes from Evernote](https://help.evernote.com/hc/en-us/articles/209005557-Export-notes-and-notebooks) in the **ENEX** file format.
+
+When exporting, ensure you only select `Created Date`, `Tags`, and `Source URL`, as other fields take up unnecessary space and will be ignored during the import process.
 
 ### Pinterest
 Pinterest itself doesn't have any tools to export your data. But you can try to use great third-party app called [Pinback](https://pinbackit.github.io/) that can help you download export file.
@@ -79,7 +85,5 @@ Mode | Description
 **Start from scratch** | This mode is the best way to clean your account data completely and replace it with data from import file. <br/> **Be sure if you already have any data in Raindrop it will be removed and replaced**.
 
 ## Limitations
-- We support files up to 300 MB in size. If you have a larger file:
-    1. [Optimize](https://optimize-bookmarks-html.glitch.me/)
-    2. And upload to Raindrop as ZIP archive
+- Ensure the file size is no larger than 300 MB; if it is, compress it into a ZIP file
 - Evernote attachments are not supported yet
