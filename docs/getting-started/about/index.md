@@ -27,5 +27,13 @@ Unlike many discontinued bookmarking apps, Raindrop.io has been around for over 
 Raindrop.io is developed and managed by one person - Rustem Mussabekov.
 🇰🇿 Kazakhstan based designer/developer with a 15+ years of experience in crafting beautiful and well made apps.
 
-## Where data is located?
-Your data is securely stored in the cloud on Amazon AWS servers located in Frankfurt, Germany.
+## Where is my data stored, and how is it secured?
+Your data is securely stored in the cloud on Amazon Web Services (AWS) servers located in Frankfurt, Germany.
+
+Raindrop.io leverages AWS for data processing and storage, benefiting from their industry-leading security measures. The infrastructure includes a dedicated firewall, key-based SSH authentication, and advanced monitoring capabilities.
+
+To ensure ongoing security, the hosting environment is continuously updated and actively monitored for potential intrusions. All user connections to Raindrop.io are encrypted using HTTPS with RSA 2048-bit keys. The platform’s security configuration supports modern standards, including Perfect Forward Secrecy (PFS) and SHA-256 digests, earning a Qualys SSL rating of “A.”
+
+To protect direct file access, direct file URLs are temporary and expire after 10 minutes. Unauthorized access is prevented unless a collection is explicitly made public.
+
+Ensuring the safety of your data is a fundamental priority for Raindrop.io. At all times, three copies of your data are maintained across distributed data centers in Germany. In the event of a failure, data restoration is possible to any point in time within the past year, thanks to continuous database backups.
