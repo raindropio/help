@@ -36,7 +36,7 @@ Notice that parameter and value is divided by `=`, and there `&` between each pa
 
 Parameter | Possible values | Default value | Description
 --- | --- | --- | ---
-`sort` | `-created`, `created`, `-title`, `title` | `-created` | Bookmarks order
+`sort` | `-created`, `created`, `-title`, `title`, `-sort` | `-sort` | Bookmarks order
 `search` | `#tag` or `apple`, etc... | none | Search query
 `theme` | `light`, `dark` or `auto` | `light` | Theme
 `page` | `0`, `1`, `2`, etc... | `0` | Pagination
