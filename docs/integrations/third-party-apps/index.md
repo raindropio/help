@@ -51,3 +51,7 @@ With RSS, you can subscribe using your favorite reader and get notifications whe
 You can grab collection RSS feed link from the share window:
 
 ![](share.png)
+
+:::note
+If the `Share` button is not visible, it means you are not viewing a collection. To enable sharing, create a collection and navigate to it—once you’re inside a specific collection, the Share button will appear.
+:::

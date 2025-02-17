@@ -24,6 +24,8 @@ Anyone with the link (sign-up is not required) will be able to view your wall bu
 <p><img src={require('./bylink.png').default} style={{maxHeight:496}} /></p>
 
 :::note
+If the `Share` button is not visible, it means you are not viewing a collection. To enable sharing, create a collection and navigate to it—once you’re inside a specific collection, the Share button will appear.
+
 If you need to embed bookmarks to your website or blog read [this article](../embed/index.md)
 :::
 
