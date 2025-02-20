@@ -3,6 +3,17 @@ title: Web, Desktop App & Extension
 slug: /changelog
 ---
 
+### 5.6.72 (Feb 20, 2025)
+- Many webpages behind paywalls are now successfully and permanently copied. Any failed permanent copies will be retried over the next few weeks.
+- Significantly improved collection and tag suggestions with a smarter AI model.
+- Fixed an issue where pasted tags separated by commas were recognized as a single tag instead of multiple tags.
+- Fixed the Safari extension’s “Open in New Tab” functionality.
+- Your own tags and newly suggested tags are now visually distinguished in tag suggestions.
+- If an imported file contains duplicates, a warning message will now be displayed.
+- Improved handling of bulk uploads, fixing issues with uploading hundreds of files at once.
+- Fixed Raindrop HTML export files—no more issues when importing them back into Safari.
+- Added the ability to hide covers and highlights on public pages (can be toggled in the web app’s view settings).
+
 ### 5.6.63 (Dec 3, 2024)
 - PDF highlighting is now supported! Simply upload your PDF and select “Preview” to get started.
 - Article previews are now significantly faster and produce cleaner results.

@@ -3,6 +3,14 @@ title: Android App
 slug: /changelog-android
 ---
 
+### 4.7.7 (Feb 18, 2025)
+- Many webpages behind paywalls are now successfully and permanently copied. Any failed permanent copies will be retried over the next few weeks.
+- Significantly improved collection and tag suggestions with a smarter AI model.
+- Your own tags and newly suggested tags are now visually distinguished in tag suggestions.
+- Fixed an issue where text could not be selected in the preview on certain devices.
+- Fixed a bug where text was automatically selected in the description and cover search fields.
+- Fixed an issue where thumbnails appeared in low quality on some devices.
+
 ### 4.7.4 (Dec 13, 2024)
 - PDF highlighting
 - Ensure photo sharing via extension does not redirect focus to the main app

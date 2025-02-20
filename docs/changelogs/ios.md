@@ -3,6 +3,12 @@ title: iOS App
 slug: /changelog-ios
 ---
 
+### 5.1.43 (Jan 14, 2025)
+- Many webpages behind paywalls are now successfully and permanently copied. Any failed permanent copies will be retried over the next few weeks.
+- Significantly improved collection and tag suggestions with a smarter AI model.
+- Your own tags and newly suggested tags are now visually distinguished in tag suggestions.
+- Resolve issues with audio and video playback, ensuring support for inline playback and autoplay.
+
 ### 5.1.41 (Dec 12, 2024)
 - Resolve crash encountered when swiping from “All bookmarks” to the home screen.
 - Restore the last visited collection upon app restart.
