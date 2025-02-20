@@ -5,19 +5,18 @@ slug: /import
 Raindrop.io supports importing bookmarks from web browsers and services in [various formats](#supported-formats). 
 
 ## How to import?
-1. Grab export file. Check [supported formats](#supported-formats) and [limitations](#limitations) below
-2. Upload this file [**here**](https://app.raindrop.io/settings/import)
-3. *Optional: Fine tune [import settings](#settings)*
-4. Click **Start import** and wait for upload is complete
+1. Download the export file. Check the [supported formats](#supported-formats) and [limitations](#limitations) below
+2. [**Upload the file to Raindrop.io**](https://app.raindrop.io/settings/import)
+3. Click **Start import** and wait for the upload to complete
 
-:::note
-* Do not close browser tab until upload is complete
-* Bookmark thumbnails and search filters will be fetched shortly after import is complete. You will receive an email notification.
+:::warning
+* Keep the browser tab open until the upload is complete.
+* Bookmark thumbnails and search filters will be processed shortly after the import finishes. You’ll receive an email notification once it’s done.
 :::
 
 ## Supported Formats
 ### Chrome, Safari, Firefox, Opera, Edge, Brave (HTML)
-We support importing any bookmarks from browser or third-party service.   
+We support importing any bookmarks from browser or third-party service.
 Here how to get export file from popular browsers:
 [Chrome](https://www.wikihow.com/Export-Bookmarks-from-Chrome),
 [Safari](https://www.ionos.com/digitalguide/websites/web-development/export-safari-bookmarks/),
@@ -57,10 +56,6 @@ folder,url,title,note,tags,created
 Txt file should have a url per row
 
 ### ENEX (Evernote)
-:::warning
-We only support transferring web clips (notes created using the [Evernote Web Clipper](https://evernote.com/features/webclipper)). Other types of notes, including those containing bunch of links, are not supported.
-:::
-
 You can transfer all your web clips (bookmarks) from Evernote to Raindrop.io, including descriptions and tags.
 To do this, [export your notes from Evernote](https://help.evernote.com/hc/en-us/articles/209005557-Export-notes-and-notebooks) in the **ENEX** file format.
 
@@ -76,14 +71,8 @@ Go to specific collection, click `... / Copy All` then create a `.txt` file and 
 ### Pocket, Pinterest, Diigo, Dropmark, GoodLinks, Cubox, Are.na, etc...
 You can transfer bookmarks from almost any other service. Simply request an `HTML`, `CSV`, or `JSON` file from service that you use.
 
-## Settings
-Before you start import, please select how much data you want to transfer:
-
-Mode | Description
----- | -----------
-**Only new folders and bookmarks** | When you upload the same import file again but with new data, this mode will prevent uploading duplicates and ensure structure untouched, only new folders and bookmarks will be imported. <br/><br/> If you not sure select this mode
-**Start from scratch** | This mode is the best way to clean your account data completely and replace it with data from import file. <br/> **Be sure if you already have any data in Raindrop it will be removed and replaced**.
-
 ## Limitations
 - Ensure the file size is no larger than 300 MB; if it is, compress it into a ZIP file
-- Evernote attachments are not supported yet
+- Evernote limitations:
+    - Attachments are not supported yet
+    - We only support transferring Evernote web clips (notes created using the Evernote Web Clipper). Other types of notes, including those containing bunch of links, are not supported.
