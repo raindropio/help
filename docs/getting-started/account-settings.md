@@ -36,14 +36,14 @@ import TabItem from '@theme/TabItem';
         </ol>
     </TabItem>
     <TabItem value="ios">
+        Unfortunately, the iOS app is available only in English.
+    </TabItem>
+    <TabItem value="android">
         <ol>
-            <li>Go to home screen and tap Settings app.</li>
-            <li>Scroll down and find Raindrop.io, tap on it.</li>
+            <li>Open Raindrop.io app.</li>
+            <li>Tap Settings icon.</li>
             <li>Tap Language.</li>
             <li>Select your preferred language.</li>
         </ol>
-    </TabItem>
-    <TabItem value="android">
-        Not possible yet to change language in Android app :(
     </TabItem>
 </Tabs>
