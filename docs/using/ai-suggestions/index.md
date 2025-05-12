@@ -46,11 +46,8 @@ For mobile users, share any intriguing link to Raindrop.io. A bookmark form with
 <p><img src={require('./ios.png').default} style={{width:'auto', maxHeight:565,display:'inline'}} /></p>
 
 ### Web ⁄ Desktop app
-To add bookmarks via the web or desktop app, click Add at the top right corner, paste the URL, and immediately see the suggested collections. Select the preferred collection to save your bookmark.
 
-![](web-add.png)
-
-Editing an existing bookmark also provides refined suggestions for collections and tags, making organization simpler.
+Editing an existing bookmark provides refined suggestions for collections and tags, making organization simpler.
 
 ![](web.png)
 
