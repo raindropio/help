@@ -3,6 +3,23 @@ title: iOS App
 slug: /changelog-ios
 ---
 
+### 5.1.49 (May 26, 2025)
+- Fixed issue where the share extension was not appearing in the Chrome browser
+
+### 5.1.48 (May 19, 2025)
+- Fixed crash when sharing large files to Raindrop
+- Improved reliability of file uploads
+- Resolved duplicate detection issues for single-page app (SPA) links
+
+### 5.1.47 (Mar 5, 2025)
+- Exact position of the highlight is now saved when highlighting text in the app.
+
+### 5.1.45 (Mar 4, 2025)
+- Fix universal links support
+
+### 5.1.44 (Feb 22, 2025)
+- Improve Add to Unsorted extension speed
+
 ### 5.1.43 (Jan 14, 2025)
 - Many webpages behind paywalls are now successfully and permanently copied. Any failed permanent copies will be retried over the next few weeks.
 - Significantly improved collection and tag suggestions with a smarter AI model.

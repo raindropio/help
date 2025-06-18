@@ -3,6 +3,40 @@ title: Web, Desktop App & Extension
 slug: /changelog
 ---
 
+### 5.6.81 (May 19, 2025)
+- Permanent copies are now generated even for broken or offline links using the Wayback Machine
+- Article previews now always use the permanent copy as the source (Pro only), improving speed and privacy
+- Fixed caching issue that caused subsequent pages to stop loading
+- Resolved unsaved changes dialog error in Chrome-based browser extensions
+- Fixed issue where quick edits to new bookmarks in the extension were not saved
+- Removed deleted tags from recent tags list
+- Test tokens for personal apps no longer expire
+- Fixed issue with animated GIFs appearing incorrectly in thumbnails
+- Improved speed of permanent copy generation
+- Added support for importing Listy files (.json and .listy)
+- Improved loading speed for large PDFs
+- Enhanced previews for articles and embedded content
+- Significantly increased thumbnail generation speed
+- Removed annoying modals during website screenshot generation
+- Fixed thumbnail issues for Reddit posts
+
+### 5.6.78 (Apr 16, 2025)
+- Fixed issue preventing backups for users with over 400,000 bookmarks
+- Suggested tags now respect your preferred casing
+- Collection invite links are now reusable, allowing multiple invites without creating a new link each time
+- IFTTT integration: ensured the same bookmark can trigger multiple applets
+- Fixed issue with saving highlights when tab is closed quickly
+- Prevented errors on non-HTTPS pages
+- Improved performance of expand/collapse for sidebar collections
+- Made link uniqueness checks case-insensitive
+- Removed empty commands from Safari extension (previously appeared as a bug in Safari settings)
+- Enabled pinning to sidebar in Edge via PWA manifest
+- Description field is now always visible
+- Added error message for users with JavaScript disabled
+- Highlighted text now saves its exact position in the app
+- Display "file" label instead of up.raindrop.io domain
+- Added support for pasting multiple URLs in the Add form
+
 ### 5.6.72 (Feb 20, 2025)
 - Many webpages behind paywalls are now successfully and permanently copied. Any failed permanent copies will be retried over the next few weeks.
 - Significantly improved collection and tag suggestions with a smarter AI model.

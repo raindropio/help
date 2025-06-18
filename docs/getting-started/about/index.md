@@ -17,7 +17,7 @@ Save, resurface and manage your collection privately from any browser and any de
 - [Create a public page](../../using/public-page/index.md) (opt-in) - share with the entire web, sign-up is not required
 - [Sync with 2,000+ apps](../../integrations/automation.md)
 
-## Who use Raindrop.io?
+## Who uses Raindrop.io?
 Raindrop.io is used by a wide range of individuals and teams who rely heavily on internet-based knowledge, including developers, marketers, and creatives
 
 ## What sets Raindrop.io apart?

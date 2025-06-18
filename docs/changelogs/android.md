@@ -3,6 +3,12 @@ title: Android App
 slug: /changelog-android
 ---
 
+### 4.7.9 (Apr 28, 2025)
+- Support navigating back in internal browser
+
+### 4.7.8 (Mar 6, 2025)
+- Exact position of the highlight is now saved when highlighting text in the app.
+
 ### 4.7.7 (Feb 18, 2025)
 - Many webpages behind paywalls are now successfully and permanently copied. Any failed permanent copies will be retried over the next few weeks.
 - Significantly improved collection and tag suggestions with a smarter AI model.
