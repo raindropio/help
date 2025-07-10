@@ -86,8 +86,8 @@ Mix-and-match to find exactly what you're looking for.
 
 
 ## Broken links
-Raindrop.io can periodically check all your bookmarks for availability.
-If any URL hit dead you will notice a special 'ghost' icon next to bookmark domain name.
+Raindrop.io can regularly scan your bookmarks to see if the links are still alive.
+If a page goes offline, you’ll spot a little "ghost" icon next to its domain name, letting you know it’s no longer available.
 
 ![](brokens.png)
 
