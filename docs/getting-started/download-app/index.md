@@ -12,11 +12,11 @@ Everything stays in sync and accessible across every platform so you’ll never 
 
 ### iOS / iPadOS
 [![](ios.svg)](https://raindrop.io/r/app/ios)  
-You can use our iOS app if your device is running iOS / iPadOS 11 or higher.
+You can use our iOS app if your device is running iOS / iPadOS 16 or higher.
 
 ### Android
 [![](android.svg)](https://raindrop.io/r/app/android)  
-You can use our Android app if your device is running Android 5.0 or higher.
+You can use our Android app if your device is running Android 7.0 or higher.
 
 :::note
 Be sure to check [**this article**](../../using/mobile-app/index.md) to know how to use mobile app.
