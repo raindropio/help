@@ -3,6 +3,11 @@ title: Android App
 slug: /changelog-android
 ---
 
+### 4.7.11 (Sep 1, 2025)
+- Added support for edge-to-edge on Android 15 and newer
+- Clearer messaging in the share extension when "Save automatically" is enabled
+- Fixed translation issues in several languages
+
 ### 4.7.9 (Apr 28, 2025)
 - Support navigating back in internal browser
 

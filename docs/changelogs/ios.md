@@ -3,6 +3,13 @@ title: iOS App
 slug: /changelog-ios
 ---
 
+### 5.2.1 (Sep 11, 2025)
+- Say hello to Liquid Glass! Raindrop now fully embraces the fresh, modern look of iOS 26
+- A simpler, more streamlined Search experience
+- Filters are now accessible via a dedicated button
+- Fixed an issue where tags could be lost when saving a bookmark too quickly from the share extension
+- Improved overall performance and reliability
+
 ### 5.1.49 (May 26, 2025)
 - Fixed issue where the share extension was not appearing in the Chrome browser
 

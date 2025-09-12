@@ -3,6 +3,15 @@ title: Web, Desktop App & Extension
 slug: /changelog
 ---
 
+### 5.6.91 (Sep 10, 2025)
+- Fixed issue with Safari ITP causing very short cookie expiration times
+- Fixed sidebar extension icon appearance in Firefox dark theme
+- Added support for toggling the side panel in Chrome extension
+- Fixed scrolling issue on Safari 26
+- Improved CSV export
+- Improved highlight styles so link styles are untouched
+- Fixed trailing slash detection in url/exists
+
 ### 5.6.81 (May 19, 2025)
 - Permanent copies are now generated even for broken or offline links using the Wayback Machine
 - Article previews now always use the permanent copy as the source (Pro only), improving speed and privacy
