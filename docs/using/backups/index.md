@@ -4,7 +4,7 @@ slug: /backups
 ---
 
 You do not need to create any special backups of your Raindrop.io items, all data is **securely stored** in the cloud.
-But backups can be handy when you **need to restore** some accidentialy deleted collections or bookmarks.
+But backups can be handy when you **need to restore** some accidentally deleted collections or bookmarks.
 Or transfer data to browser or third-party service.
 
 ## Downloading a backup
