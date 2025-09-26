@@ -4,14 +4,19 @@ slug: /safari-mac-problems
 ---
 
 ### Prompt for login even when already logged into the web app
-Safari 17 introduces a new feature called Profiles. Unfortunately in Safari 18, when you use a profile other than the default one, extensions that require a login may fail to work properly.
-This is a known issue that has been reported multiple times online. Unfortunately, it’s unclear when Apple will address this problem, and there’s not much we can do from our end to fix this bug.
+Safari 17 introduced a new feature called Profiles. Unfortunately, in Safari 18, using any profile other than the default can cause extensions that require login to stop working correctly. This is a known bug, widely reported online, and at the moment there’s no timeline for when Apple will fix it. Sadly, it’s not something we can resolve on our side. For more details, see these discussions:
+- https://forums.developer.apple.com/forums/thread/764279
+- https://www.reddit.com/r/Safari/comments/1fk22oe/sequoia_safari_extensions_are_not_working/
 
-For more information, you can refer to these discussions:
-https://forums.developer.apple.com/forums/thread/764279
-https://www.reddit.com/r/Safari/comments/1fk22oe/sequoia_safari_extensions_are_not_working/
+Workarounds:
+- If you’re not using profiles, the extension should work normally.
+- Alternatively, you can use the native **macOS Share Extension**:
 
-If you’re not using profiles, you can try [these workarounds](./login-problems/index.md).
+Enable it in a few steps:
+1. Open System Settings
+2. Go to General → Login Items & Extensions
+3. Find Raindrop.io and click (i)
+4. Switch on Sharing
 
 ### Safari keep asking for permissions
 If Safari keeps asking for permission to access certain websites every time you click the Raindrop button, try this quick fix:
@@ -29,6 +34,3 @@ By default, the Raindrop Safari extension works without needing broad permission
 
 Safari's permission system can be a bit tricky—if the permission process isn’t completed fully, Safari may keep asking for access over and over again.
 :::
-
-### Permissions reset on Safari restart {#permissions-reset}
-If you’re using a version of Safari older than 18, please update to the latest version. This will resolve the annoying permissions reset bug.
