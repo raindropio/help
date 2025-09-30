@@ -38,9 +38,16 @@ You can use our Windows app if your device is running Windows 10 (64bit) or high
 [**Download**](https://raindrop.io/r/app/linux)
 
 ### Universal (Progressive Web App)
-First open our [web app](https://app.raindrop.io). Then follow steps depending on your browser:
-- **Chrome**: click `⁞` in Chrome toolbar, then `Save and Share / Install Raindrop.io…`
-- **Edge**: click `···` in Edge toolbar, then `Apps / Install Raindrop.io…`
-- **Firefox** do not support PWA apps
-- **Brave**: click `≡` in Brave toolbar, then `Install Raindrop.io…`
-- Other browsers do not support PWA apps yet
+Progressive Web App (PWA) is a way to install a website so it behaves like a desktop app — with its own icon, window, and quick access.
+
+To install Raindrop.io as a PWA:
+
+1. Open the web app: [https://app.raindrop.io/](https://app.raindrop.io/)
+2. Follow the steps for your browser:
+
+   * **Chrome**: Click ⁞ in the toolbar → `Cast, Save and Share` → `Install Raindrop.io…`
+   * **Edge**: Click ··· in the toolbar → `Apps` → `Install Raindrop.io…`
+   * **Brave**: Click ≡ in the toolbar → `Install Raindrop.io…`
+   * **Safari** (macOS 14 Sonoma or newer): Click the `Share` button in the toolbar → `Add to Dock`
+   * **Firefox**: PWAs are not supported.
+   * **Other browsers**: PWA support is not available yet.
