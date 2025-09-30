@@ -27,12 +27,12 @@ Be sure to check [**this article**](../../using/mobile-app/index.md) to know how
 - [**Download for Intel chip**](https://raindrop.io/r/app/macos) *(use this if you not sure)*
 - [**Download for Apple chip**](https://raindrop.io/r/app/macos-arm)
 
-You can use our macOS app if your device is running macOS 10.11 or higher.
+You can use our macOS app if your device is running macOS 12 or higher.
 
 ### Windows
 [**Download**](https://raindrop.io/r/app/windows)
 
-You can use our Windows app if your device is running Windows 7 (64bit) or higher.
+You can use our Windows app if your device is running Windows 10 (64bit) or higher.
 
 ### Linux
 [**Download**](https://raindrop.io/r/app/linux)
