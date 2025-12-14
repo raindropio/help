@@ -3,6 +3,22 @@ title: Web, Desktop App & Extension
 slug: /changelog
 ---
 
+### 5.6.96 (Dec 5, 2025)
+* Fixed an error when uploading `.url` files
+* Fixed password reset for users with 2FA enabled
+* Allowed adding URLs without a TLD
+* Improved the refresh preview action
+* Improved metadata fetching for Google pages; always retrieves the English version
+* Improved metadata fetching and permanent copy generation for non-Latin pages (e.g., Japanese, Russian)
+* Improved PDF preview generation for files using custom fonts
+* Fixed previews for some video files
+
+### 5.6.94 (Sep 29, 2025)
+* Improved metadata URL parsing, especially for hard-to-parse domains such as x.com and Facebook
+* Fixed text truncation for Arabic and emojis
+* Added macOS Share Extension: [https://blog.raindrop.io/macos-share-extension-d52c292167e1](https://blog.raindrop.io/macos-share-extension-d52c292167e1)
+* Fixed collection path truncation
+
 ### 5.6.91 (Sep 10, 2025)
 - Fixed issue with Safari ITP causing very short cookie expiration times
 - Fixed sidebar extension icon appearance in Firefox dark theme
