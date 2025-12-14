@@ -21,13 +21,7 @@ Raindrop can search through the entire content of every bookmark, EPUB and PDF (
 
 Your bookmarks are indexed automatically, no need to do anything. Usually only meaningful content of web-page is indexed. Ads, navigation, comments and so on are stripped if possible.
 
-<!------------------------------>
-<details><summary>
-
-### How to use?
-
-</summary>
-
+### How to use full-text search?
 1. Be sure you have a [Pro plan](../../billing/premium-features.md)
 2. Focus on a search field, type your request and press Enter
 
@@ -35,22 +29,12 @@ Your bookmarks are indexed automatically, no need to do anything. Usually only m
 Be sure that newly added bookmark will not appear in search results immediately. We need some time as described in [this article](../permanent-copy/index.md#time) to copy and index each bookmark.
 :::
 
-</details>
-
-<!------------------------------>
-<details><summary>
-
-### Turn off
-
-</summary>
-
+### Turn off full-text search
 If you want to temporarily disable full-text search please select `In title/description` filter from suggestions.
 
 Or type `info:` before your search query.
 
 ![](filters.png)
-
-</details>
 
 ## Advanced Search Operators {#operators}
 
@@ -91,14 +75,7 @@ If a page goes offline, you’ll spot a little "ghost" icon next to its domain n
 
 ![](brokens.png)
 
-
-<!------------------------------>
-<details><summary>
-
 ### Find all broken links {#find-broken}
-
-</summary>
-
 Select `Broken links` filter from search field suggestions.
 
 :::info
@@ -107,34 +84,13 @@ Only available in [Pro plan](../../billing/premium-features.md)
 
 ![](filters.png)
 
-</details>
-
-
-<!------------------------------>
-<details><summary>
-
-### Remove broken links
-
-</summary>
-
-1. [Find broken links](#find-broken) you want to remove
-2. Highlight the items you want to remove by hovering over the items until the tick appears in the left corner, and then click on the tick.
-3. Highlight as many items as you like, then click Remove in the menu bar at the top.
-
-</details>
-
-
-<!------------------------------>
-<details><summary>
+### Delete broken links
+1. [Find broken links](#find-broken) you want to delete
+2. Highlight the items you want to delete by hovering over the items until the tick appears in the left corner, and then click on the tick.
+3. Highlight as many items as you like, then click Delete in the menu bar at the top.
 
 ### Troubleshooting
-
-</summary>
-
 Check [this article](../../troubleshooting/false-broken-links/index.md) if you have any problems with broken links checker.
-
-</details>
-
 
 
 
@@ -142,16 +98,9 @@ Check [this article](../../troubleshooting/false-broken-links/index.md) if you h
 Have you ever bookmarked a page more than once?
 
 Duplicate bookmarks take up space and needlessly add to a surplus of saved pages.
-Raindrop.io can help you locate and remove duplicates bookmarks.
-
-
-<!------------------------------>
-<details><summary>
+Raindrop.io can help you locate and delete duplicates bookmarks.
 
 ### Find all duplicates {#find-duplicates}
-
-</summary>
-
 Select `Duplicates` filter from search field suggestions.
 
 :::info
@@ -160,42 +109,22 @@ Only available in [Pro plan](../../billing/premium-features.md)
 
 :::tip
 When you click on `Duplicates` filter you will see **only** duplicate bookmarks.
-This list not includes **originals**. So it's safe to remove them all.
+This list not includes **originals**. So it's safe to delete them all.
 :::
 
 ![](filters.png)
 
+### Delete duplicates
+1. [Find duplicates](#find-duplicates) you want to delete
+2. Highlight the items you want to delete by hovering over the items until the tick appears in the left corner, and then click on the tick.
+3. Highlight as many items as you like, then click Delete in the menu bar at the top.
 
-</details>
-
-<!------------------------------>
-<details><summary>
-
-### Remove duplicates
-
-</summary>
-
-1. [Find duplicates](#find-duplicates) you want to remove
-2. Highlight the items you want to remove by hovering over the items until the tick appears in the left corner, and then click on the tick.
-3. Highlight as many items as you like, then click Remove in the menu bar at the top.
-
-</details>
-
-<!------------------------------>
-<details><summary>
-
-### How it works internally?
-
-</summary>
-
+### How duplicates finder works internally?
 Bookmark considered as duplicate only if it URL is exactly the same to previously saved bookmark.   
 
 All garbage from URL like different protocol, WWW, trailing slashes, useless query parameters (like referral id or advert source) and hash strings are ignored.
 
 ![](duplicates-how.jpg)
-
-</details>
-
 
 ## Limitations
 - Full-text search

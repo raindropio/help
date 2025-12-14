@@ -22,14 +22,7 @@ But annotations (notes) is [premium feature](../../billing/premium-features.md).
 Creating a highlight is as simple as selecting text.
 When you highlight a passage, the text background will turn yellow so it stands out from the rest of the page.
 
-
-
-<details><summary>
-
 ### Browser extension {#add-extension}
-
-</summary>
-
 1. Click & drag your mouse across the text that you would like to highlight
 2. Select `Save highlight` from context menu or:   
     a. *Google Chrome*: Press `Ctrl+Shift+S` (or `Cmd+Shift+S` on a Mac)    
@@ -44,16 +37,7 @@ In Safari (macOS) be sure to click **Always Allow on Every Website** when it ask
 <img src={require('./safari-macos-permissions.jpg').default} style={{maxHeight: 312}} />
 :::
 
-</details>
-
-
-
-<details><summary>
-
 ### Safari iOS extension {#add-extension-safari-ios}
-
-</summary>
-
 Select the text you would like to highlight, then tap the color button
 
 <p><img src={require('./safari-ios-select.png').default} style={{maxHeight: 180}} /></p>
@@ -61,22 +45,13 @@ Select the text you would like to highlight, then tap the color button
 ----
 
 #### Only once:
-
 1. Open iOS **Settings**
 2. Go to `Safari / Extensions / Raindrop.io`
 3. Tap `All Websites` or `Other Websites` and select **Allow**
 4. Restart Safari
 
-</details>
-
-
-
-<details><summary>
 
 ### iOS & Android app {#add-mobile}
-
-</summary>
-
 1. Tap on a bookmark
 2. Select the text you would like to highlight, then tap the color button
 
@@ -88,23 +63,12 @@ On iOS you can add highlights in Safari browser. [**Learn more**](#add-extension
 Unfortunately Chrome on Android doesn't support such functionality yet
 :::
 
-</details>
-
-
-
-<details><summary>
-
 ### Web & Desktop app {#add-web}
-
-</summary>
-
 1. Click on a bookmark, then go to `Web` or `Preview` tab
 2. Click & drag your mouse across the text that you would like to highlight
 3. Select desired highlight color and/or add annotation
 
 <img src={require('./web.png').default} style={{maxHeight: 417}} />
-
-</details>
 
 
 
@@ -125,83 +89,35 @@ When you click (or tap) on a highlight, it takes you to the additional actions. 
 ## View and Manage Highlights {#manage}
 You can see all of your highlights of particular page in one place
 
-<details><summary>
-
 ### Browser extension {#manage-extension}
-
-</summary>
-
 1. Click Raindrop.io extension icon in a browser toolbar
 2. Click `Highlights` button
 
-</details>
-
-
-<details><summary>
-
 ### iOS & Android app {#manage-mobile}
-
-</summary>
-
 1. Go to edit bookmark screen
 2. Tap `Highlights`
 
-</details>
-
-
-<details><summary>
-
 ### Web & Desktop app {#manage-web}
-
-</summary>
-
 1. Click on a bookmark
 2. Click `Highlights` button in the bottom of the page
 
 <img src={require('./manage.png').default} style={{maxHeight: 583}} />
 
-</details>
-
-
-
 ## Export Highlights {#export}
 You can export highlights of particular page as `text` or `CSV` file
 
-<details><summary>
-
 ### Browser extension {#export-extension}
-
-</summary>
-
 1. Click Raindrop.io extension icon in a browser toolbar
 2. Click `Highlights` button
 3. Click `Export` icon
 
-</details>
-
-
-<details><summary>
-
 ### iOS & Android app {#export-mobile}
-
-</summary>
-
 Not implemented yet
 
-</details>
-
-
-<details><summary>
-
 ### Web & Desktop app {#export-web}
-
-</summary>
-
 1. Click on a bookmark
 2. Click `Highlights` button in the bottom of the page
 3. Click `Export` icon
-
-</details>
 
 
 
@@ -214,16 +130,8 @@ You can apply the `Highlights` filter to see all of your highlights across all o
 
 ## Sync {#sync}
 
-<details><summary>
-
 ### Readwise {#sync-readwise}
-
-</summary>
-
 [Connect your Raindrop account](https://readwise.io/welcome/sync#raindrop)
-
-</details>
-
 
 ## FAQ
 ### Can I highlight PDF?

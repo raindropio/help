@@ -12,13 +12,7 @@ Raindrop.io generates handy thumbnails and extracts all relevant info about each
 
 ## Manage
 
-<!------------------------------>
-<details><summary>
-
 ### Add new bookmark
-
-</summary>
-
 Raindrop.io makes it easy to save interesting content you find on the web.
 This page outlines the methods you can use to save any link to your List.
 
@@ -38,37 +32,18 @@ It's available for many browsers. When clicked, it will save the current page to
 
 ![](web-add.png)
 
-</details>
-
-
-<!------------------------------>
-<details><summary>
 
 ### Change order {#sort}
-
-</summary>
-
 By default, bookmarks are shown in the order in which they were added (new on top).
 You can change the order by changing sort option or by manually dragging and dropping your bookmarks.
 
 ![](sorting.png)
 
-</details>
-
-
-<!------------------------------>
-<details><summary>
-
 ### Change collection
-
-</summary>
-
 #### Drag n drop
 You can transfer an item to a different collection by dragging it from its current collection onto the menu item of the collection you’d like to transfer it to.
 
 ![](move-drag.png)
-
----
 
 #### Move multiple items
 Start by highlighting the items that you want to copy by hovering over the items and clicking the tick mark that appears in the top left corner.
@@ -82,16 +57,7 @@ Once you have selected the items you wish to move, select ‘Move’ from the to
 A window will ask which collection you want to move the items into, select or type the collection’s name into the text box.
 Your items will now be moved into the second collection!
 
-</details>
-
-
-<!------------------------------>
-<details><summary>
-
 ### Change thumbnail
-
-</summary>
-
 When you add something, Raindrop.io will try to pull in an image from the site.
 Sometimes that image doesn’t work for you; it might be a shot generated from a video that is too grainy or an image of your old boss you never want to see again.
 Either way, it’s easy to change an image you hate.
@@ -106,16 +72,7 @@ If there are other images on the bookmarked webpage that Raindrop.io can pull fr
 
 Alternatively, you can upload an image that you like from your desktop by clicking on 'upload'.
 
-</details>
-
-
-<!------------------------------>
-<details><summary>
-
 ### Add note {#notes}
-
-</summary>
-
 You can add notes to your items already uploaded to Raindrop.io by clicking onto the `Edit` button.
 
 ![](note.png)
@@ -129,28 +86,10 @@ Limited [Markdown](https://daringfireball.net/projects/markdown/syntax) syntax i
 - Bold & italic emphasis
 :::
 
-</details>
-
-
-
-<!------------------------------>
-<details><summary>
-
 ### Add reminder
-
-</summary>
-
 [Learn more](../reminders/index.md#add-bookmark)
 
-</details>
-
-
-<!------------------------------>
-<details><summary>
-
 ### Manage tags {#tags}
-
-</summary>
 
 #### Adding a tag
 If you want to add tags to a single item, click `Edit` button.
@@ -168,57 +107,34 @@ First highlight the items you want to tag by hovering over the items until the t
 
 Highlight as many items as you like, then click `Add tags` in the menu bar at the top. When the pop-up appears, type in your tags separated by commas. 
 
-#### Remove tags from multiple items
+#### Delete tags from multiple items
 First highlight the items you want to tag by hovering over the items until the tick appears in the left corner, and then click on the tick.
 
 ![](bulk.png)
 
-Highlight as many items as you like, then click `More...` / `Remove tags` in the menu bar at the top. 
-</details>
+Highlight as many items as you like, then click `More...` / `Delete tags` in the menu bar at the top. 
 
+### Delete
 
-<!------------------------------>
-<details><summary>
-
-### Remove
-
-</summary>
-
-#### Remove single item
+#### Delete single item
 Mouse over any item and click "trash" icon
 
 ![](buttons.png)
 
 ---
 
-#### Remove multiple items
-First highlight the items you want to remove by hovering over the items until the tick appears in the left corner, and then click on the tick.
+#### Delete multiple items
+First highlight the items you want to delete by hovering over the items until the tick appears in the left corner, and then click on the tick.
 
 ![](bulk.png)
 
-Highlight as many items as you like, then click `Remove` in the menu bar at the top. 
-
-</details>
-
-
-<!------------------------------>
-<details><summary>
+Highlight as many items as you like, then click `Delete` in the menu bar at the top. 
 
 ### Export
 
-</summary>
-
 Learn more [here](../export/index.md)
 
-</details>
-
-
-<!------------------------------>
-<details><summary>
-
 ### Create a copy / save into multiple collections {#copy}
-
-</summary>
 
 You can't put same page into multiple collections in easy way. But here workaround you can use to do so:
 - Visit [web app](https://app.raindrop.io)
@@ -226,17 +142,10 @@ You can't put same page into multiple collections in easy way. But here workarou
 - Click `Add` in top right corner
 - Paste `URL` of a page and click `Save`
 
-</details>
-
 
 ## Navigate
 
-<!------------------------------>
-<details><summary>
-
 ### Preview
-
-</summary>
 
 If you just want to quickly check a link, you don't need to open it in new tab.
 Raindrop.io features a special viewer (and reader for articles) that allows you to have seamless experience.
@@ -257,16 +166,7 @@ Just right click on an item and select `Refresh preview` option.
 
 ![](context-menu.png)
 
-</details>
-
-
-<!------------------------------>
-<details><summary>
-
 ### Open Multiple Links at Once
-
-</summary>
-
 First highlight the items you want to open by hovering over the items until the tick appears in the left corner, and then click on the tick.
 
 ![](bulk.png)
@@ -275,116 +175,47 @@ Highlight as many items as you like, then click `Open` in the menu bar at the to
 
 [Check this article](../../troubleshooting/open-multiple-links/index.md) if you have any troubles with this feature.
 
-</details>
-
 
 ## Customize
 
-<!------------------------------>
-<details><summary>
-
 ### Customize appearance {#appearance}
-
-</summary>
-
 Raindrop.io fully embraces flexibility and understands that no one wants a one size fits all approach.
 With the layout and appearance settings - which can be found in the View settings, you can customize the way your collection look and how your items are organized.
 
-<!------------------------------>
-<details><summary>
-
 #### How to change view mode
-
-</summary>
-
 Click `List` button in top right corner
 
 ![](view.png)
 
-</details>
-
-<!------------------------------>
-<details><summary>
-
 #### List view
-
-</summary>
-
 You might recognize `list`, our default view mode.
 Useful information is surfaced (including who, what, and when the item was created), making it a great fit for alphabetical and date sorting.
 Ideal for bookmarks, files, and list building.
 
-![](list.png)
-
-</details>
-
-<!------------------------------>
-<details><summary>
-
 #### Grid view
-
-</summary>
-
 Ideal for the grid-obsessed, items get cropped to clean and tidy squares. 
 See your content on a level playing field (regardless of type), and drag to reorder your collection with ease. 
 For the visually inclined, toggle labels off and let the thumbnails stand out.
 
 ![](grid.png)
 
-</details>
-
-<!------------------------------>
-<details><summary>
-
 #### Headlines view
-
-</summary>
-
 When thumbnails aren’t a priority, Headlines mode gives you a quick and simple way to scan your items at a glance.
 
 ![](headlines.png)
 
-</details>
-
-<!------------------------------>
-<details><summary>
-
 #### Masonry view
-
-</summary>
-
 Masonry assembles your items like a jigsaw puzzle. This view is an excellent way to view mood boards or content streams where a strict order is not relevant.
 
 ![](masonry.png)
 
-</details>
-
----
-
-<!------------------------------>
-<details><summary>
-
 #### Hide labels
-
-</summary>
-
 Also, you can choose to hide labels (because sometimes images speak louder than words).   
 Click `List` button in top right corner
 
 ![](view.png)
 
-</details>
-
-</details>
-
-
-<!------------------------------>
-<details><summary>
-
 ### Customize default actions
-
-</summary>
-
 Adjust what buttons appear when you mouse over on each bookmark, change click behavior, and more. Tailor Raindrop.io to fit your style.
 
 ![](buttons.png)
@@ -392,5 +223,3 @@ Adjust what buttons appear when you mouse over on each bookmark, change click be
 1. Visit [settings page](https://app.raindrop.io/settings/app)
 2. Change `Click on a bookmark` behaviour
 3. Or change `Buttons` that appear on mouse over on a bookmark (you can add a maximum of 5 buttons)
-
-</details>

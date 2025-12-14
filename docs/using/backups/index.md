@@ -25,29 +25,19 @@ Automatic backups are created once a day on days you made any changes.
 In addition you can enable automatic backups to your `Dropbox`.   
 Backup files will be placed to `/Apps/Raindrop.io` folder.
 
-<details><summary>
-Enable
-</summary>
-
+#### Enable Dropbox Backup
 1. Visit [settings page](https://app.raindrop.io/settings/backups)
 2. Turn on/off particular account in `Cloud backup` section
 3. Shortly after first backup will be made
-
-</details>
 
 ### Google Drive
 In addition you can enable automatic backups to your `Google Drive`.   
 Backup will be saved to `Raindrop.io-Export.html` and `Raindrop.io-Export.csv` file
 
-<details><summary>
-Enable
-</summary>
-
+#### Enable Google Drive Backup
 1. Visit [settings page](https://app.raindrop.io/settings/backups)
 2. Turn on/off particular account in `Cloud backup` section
 3. Shortly after first backup will be made
-
-</details>
 
 ## Limitations
 - Your account can store up to 30 recent backups. When a new backup is created, the oldest one is automatically deleted.
