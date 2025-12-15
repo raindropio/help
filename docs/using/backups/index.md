@@ -31,8 +31,10 @@ Backup files will be placed to `/Apps/Raindrop.io` folder.
 3. Shortly after first backup will be made
 
 ### Google Drive
-In addition you can enable automatic backups to your `Google Drive`.   
-Backup will be saved to `Raindrop.io-Export.html` and `Raindrop.io-Export.csv` file
+You can also enable automatic backups to your Google Drive.   
+Backups are saved as `Raindrop.io-Export.html` and `Raindrop.io-Export.csv` in the root of your Drive.
+
+You can move these files to any folder—they will remain linked to Raindrop.
 
 #### Enable Google Drive Backup
 1. Visit [settings page](https://app.raindrop.io/settings/backups)
