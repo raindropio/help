@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "local": "env $(cat .env|xargs) docusaurus start --port 3129",
-    "local:build": "env $(cat .env|xargs) yarn build",
+    "local:build": "env $(cat .env|xargs) npm run build",
     "build": "docusaurus build",
     "deploy:prod": "git branch -f release/production master && git push --force origin release/production",
     "postinstall": "sync-dotenv || true"
@@ -29,7 +29,7 @@
     ]
   },
   "devDependencies": {
+    "@mendable/firecrawl-js": "^4.9.0",
     "sync-dotenv": "^2.7.0"
-  },
-  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
+  }
 }
