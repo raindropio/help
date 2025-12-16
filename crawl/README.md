@@ -1,10 +1,9 @@
-Crawl, embed and save documents to turbopuffer vector DB
+Crawl, embed and save documents to pinecone vector DB
 
 ## Requirements
 Environment variables:
 - FIRECRAWL_KEY
-- COHERE_TOKEN
-- TURBOPUFFER_TOKEN
+- PINECONE_KEY
 
 ## Usage
 `bun crawl/index.ts`
