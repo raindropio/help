@@ -24,7 +24,7 @@ Be sure to check [**this article**](../../using/mobile-app/index.md) to know how
 
 ## Desktop App
 ### macOS
-- [**Download for Intel chip**](https://raindrop.io/r/app/macos) *(use this if you not sure)*
+- [**Download for Intel chip**](https://raindrop.io/r/app/macos) *(use this if you're not sure)*
 - [**Download for Apple chip**](https://raindrop.io/r/app/macos-arm)
 
 You can use our macOS app if your device is running macOS 12 or higher.

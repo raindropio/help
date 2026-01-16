@@ -19,7 +19,7 @@ Or like this: <iframe style={{border: 0, width: '100%', height: 450}} allowfulls
 
 ### Hide some elements
 You can hide for example description or tags from embeded view.
-Follow the same stepts [described above](#collection), then put any keyword(s) below (separated by comma) to `Hide` field in embed settings:
+Follow the same steps [described above](#collection), then put any keyword(s) below (separated by comma) to `Hide` field in embed settings:
 
 Element | keyword
 ------- | -------

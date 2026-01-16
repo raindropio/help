@@ -5,9 +5,9 @@ slug: /troubleshooting/false-broken-links
 
 ## Local resources
 If you have bookmarks for resources that only accessible from your local network, they will be marked as broken.
-This happen because our automated scripts can't connect to such domains and by default we mark them as broken.
+This happens because our automated scripts can't connect to such domains and by default we mark them as broken.
 
-To change this behaviour:
+To change this behavior:
 
 1. Visit [settings](https://app.raindrop.io/settings/app)
 2. Select [Basic mode](#basic-mode) from `Broken links` dropdown

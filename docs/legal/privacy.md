@@ -40,7 +40,7 @@ If you disable cookies on your browser, some parts of the Services may not work 
 Be sure that when you add links to a Youtube videos you also accept a Youtube Terms of Service, learn more here https://www.youtube.com/static?template=terms
 
 #### Additional data gathered from our browser extension
-It's opt-in feature (disabled by default): We can mark currently opened browser tab as saved in your Raindrop.io account, in this case blue start icon will appear on browser action button.
+It's opt-in feature (disabled by default): We can mark currently opened browser tab as saved in your Raindrop.io account, in this case blue star icon will appear on browser action button.
 We use URL of currently open browser tab to determine this information.
 **We do not send this data to our server, nor other third parties**.
 

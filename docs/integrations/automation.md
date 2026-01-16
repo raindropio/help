@@ -5,7 +5,7 @@ slug: /automation
 ## Introduction
 
 You can add new items from different services like Youtube, Twitter, Google Docs, etc to Raindrop.io and vise-versa in automated way.
-To achive this you need to use a glue-app:
+To achieve this you need to use a glue-app:
 
 ## IFTTT (Recommended)
 IFTTT (If This Then That) allows you to link one service with another and come up with automated actions.

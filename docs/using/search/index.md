@@ -120,7 +120,7 @@ This list not includes **originals**. So it's safe to delete them all.
 3. Highlight as many items as you like, then click Delete in the menu bar at the top.
 
 ### How duplicates finder works internally?
-Bookmark considered as duplicate only if it URL is exactly the same to previously saved bookmark.   
+A bookmark is considered a duplicate only if its URL is exactly the same as a previously saved bookmark.   
 
 All garbage from URL like different protocol, WWW, trailing slashes, useless query parameters (like referral id or advert source) and hash strings are ignored.
 
@@ -128,6 +128,6 @@ All garbage from URL like different protocol, WWW, trailing slashes, useless que
 
 ## Limitations
 - Full-text search
-    - Indexing is happen with slight delay, usually few minutes
+    - Indexing happens with a slight delay, usually few minutes
     - We can index up to 300,000 characters in one document/page
     - Bookmark should have a [permanent copy](../permanent-copy/index.md) to support full-text search

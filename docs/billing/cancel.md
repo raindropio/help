@@ -13,7 +13,7 @@ Credit card payments made through Raindrop.io will be set to auto-renew by defau
 2. Click **your avatar** in the top-left corner and select **Settings**.
 3. Next, in menu, select the **Subscription** tab.
 4. Click the **Change subscription**
-4. Click the blue **Manage** button and confirm you want to cancel the subscription by clicking **Cancel subscription**.
+5. Click the blue **Manage** button and confirm you want to cancel the subscription by clicking **Cancel subscription**.
 
 ## App Store (macOS, iOS, iPadOS) {#app-store}
 App Store subscriptions auto-renew by default, so you need to manually cancel them. You can find the option to cancel the auto-renew by viewing your Apple ID in iTunes or the App Store and then selecting the “Subscriptions” option.

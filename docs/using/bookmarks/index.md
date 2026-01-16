@@ -24,7 +24,7 @@ It's available for many browsers. When clicked, it will save the current page to
 
 ---
 
-#### Manually Saving to a link to Raindrop.io
+#### Manually Saving a Link to Raindrop.io
 1. Visit [Raindrop.io App](https://app.raindrop.io)
 2. Click the + button in the top toolbar
 3. Insert the URL you’d like to save. Don’t forget the http://
@@ -136,7 +136,7 @@ Learn more [here](../export/index.md)
 
 ### Create a copy / save into multiple collections {#copy}
 
-You can't put same page into multiple collections in easy way. But here workaround you can use to do so:
+You can't put the same page into multiple collections in easy way. But here workaround you can use to do so:
 - Visit [web app](https://app.raindrop.io)
 - Go to desired collection you want to put a copy
 - Click `Add` in top right corner
@@ -221,5 +221,5 @@ Adjust what buttons appear when you mouse over on each bookmark, change click be
 ![](buttons.png)
 
 1. Visit [settings page](https://app.raindrop.io/settings/app)
-2. Change `Click on a bookmark` behaviour
+2. Change `Click on a bookmark` behavior
 3. Or change `Buttons` that appear on mouse over on a bookmark (you can add a maximum of 5 buttons)

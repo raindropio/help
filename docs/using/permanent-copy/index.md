@@ -39,7 +39,7 @@ Tap "..." next to bookmark, then tap "Open permanent copy"
 
 ## Limitations
 Some bookmarks or files can't be saved by several reasons described below. 
-When this happen you will see a special icon <img src={require('./icon.png').default} style={{maxHeight:20}} />
+When this happens you will see a special icon <img src={require('./icon.png').default} style={{maxHeight:20}} />
 
 ### Other known limitations:
 - Links that require login or not publicly accessible could not be saved

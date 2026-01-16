@@ -9,7 +9,7 @@ Whether you’re planning a presentation, preparing for an event or creating a w
 
 ![](./collections.jpg)
 
-Each collection have a unique icon selected from thousands [searchable icons library](#change-icon).
+Each collection has a unique icon selected from thousands [searchable icons library](#change-icon).
 You can choose [view modes](../bookmarks/index.md#appearance) to fit your needs better and make your content shine: list, grid, headlines or masonry.
 
 Also, you can choose to [hide labels](../bookmarks/index.md#appearance) (because sometimes images speak louder than words), 
@@ -43,7 +43,7 @@ This collection is useful to temporarily put new items in it and sort them later
 
 
 ### Nested collections
-Nested collections give your an extra level of flexibility and power.
+Nested collections give you an extra level of flexibility and power.
 
 <p><img src={require('./nested.png').default} style={{maxHeight:289}} /></p>
 
@@ -72,7 +72,7 @@ Learn more about groups [here](#create-rename-or-delete-group).
 ## Manage
 
 ### Create a collection
-When you log in to Raindrop.io and you’ll see the dashboard.   
+When you log in to Raindrop.io, you'll see the dashboard.   
 There’s a button `+` located in left side of a screen, click on it and a new collection field will appear right above currently active collection.
 
 You can also right-click on `My collections` or the name of a group and choose `Create collection`
@@ -80,7 +80,7 @@ You can also right-click on `My collections` or the name of a group and choose `
 <p><img src={require('./create-collection.png').default} style={{maxHeight:370}} /></p>
 
 Type a name then press `Enter`.  
-Or if you not happy with a location of new collection just drag and drop it to any other level/location.
+Or if you're not happy with a location of new collection just drag and drop it to any other level/location.
 
 Nested collections can be created by dragging and dropping an existing collection onto another collection or by right-clicking a collection and choosing `Create nested collection`.
 You can convert a nested collection into a top-level collection by dragging it out of the collection and dropping it into empty space in the left Raindrop.io pane.

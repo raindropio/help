@@ -3,7 +3,7 @@ title: Third-Party Apps
 slug: /third-party-apps
 ---
 ## Introduction
-Raindrop.io can be easly integrated to other apps you use.
+Raindrop.io can be easily integrated to other apps you use.
 
 ## Alfred
 Search and add bookmarks to Raindrop.io right from [Alfred macOS app](https://www.alfredapp.com/)
@@ -37,7 +37,7 @@ Add a [custom sharing tool](https://feedly.com/i/account/saving-sharing) to your
 
 
 ## One Click Save to Raindrop.io
-Many RSS Readers support configuring custom share option in they user-interface.
+Many RSS Readers support configuring custom share option in their user-interface.
 You can configure one click save to Raindrop.io using this special URL:
 
 `https://app.raindrop.io/add?link=${url}&title=${title}`

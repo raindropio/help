@@ -121,7 +121,7 @@ Not implemented yet
 
 
 
-## Search Highlighs {#search}
+## Search Highlights {#search}
 You can apply the `Highlights` filter to see all of your highlights across all of your bookmarks in one place.
 
 <img src={require('./web-filter.png').default} style={{maxHeight: 174}} />
