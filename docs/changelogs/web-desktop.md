@@ -3,6 +3,10 @@ title: Web, Desktop App & Extension
 slug: /changelog
 ---
 
+### 5.7.0 (Feb 5, 2026)
+* **New [✦ AI Assistant (Stella)](/stella)**: Click the **Ask** button to search by meaning, summarize articles, organize your library, and more — all powered by AI
+* Removed the [AI Suggestions](../using/ai-suggestions/index.md) page — all AI features are now part of the assistant, which is more flexible and capable
+
 ### 5.6.96 (Dec 5, 2025)
 * Fixed an error when uploading `.url` files
 * Fixed password reset for users with 2FA enabled

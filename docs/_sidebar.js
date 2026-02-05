@@ -25,12 +25,13 @@ module.exports = {docs: [
 			
 			'using/collections/index',
 			'using/bookmarks/index',
+			'using/stella/index',
 			'using/highlights/index',
-			'using/ai-suggestions/index',
+			'using/tags/index',
 			'using/files/index',
 			'using/search/index',
 			'using/reminders/index',
-			'using/tags/index',
+			'using/ai-suggestions/index',
 
 			'using/collaboration/index',
 			'using/public-page/index',
