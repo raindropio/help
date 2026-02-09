@@ -4,7 +4,7 @@ slug: /changelog
 ---
 
 ### 5.7.0 (Feb 5, 2026)
-* **New [✦ AI Assistant (Stella)](/stella)**: Click the **Ask** button to search by meaning, summarize articles, organize your library, and more — all powered by AI
+* **New [✦ AI Assistant (Stella)](../using/stella/index.md)**: Click the **Ask** button to search by meaning, summarize articles, organize your library, and more — all powered by AI
 * Removed the [AI Suggestions](../using/ai-suggestions/index.md) page — all AI features are now part of the assistant, which is more flexible and capable
 
 ### 5.6.96 (Dec 5, 2025)
@@ -116,10 +116,10 @@ All new AI features are made with our private LLM and user data is not used for 
     - It uses new native browser custom highlights engine that never alter original content of a page
 
 ### 5.6.3 (May 14, 2024)
-- **New ✦ AI Organization Tips (Pro Only)**: No need to sort your bookmarks right away. Whenever you find some free time, just pop over to the [organization tips page](../using/ai-suggestions/index.md#tips). There, you'll discover ready-to-use tips for enhancing your bookmark organization
+- **New ✦ AI Organization Tips (Pro Only)**: No need to sort your bookmarks right away. Whenever you find some free time, just pop over to the [organization tips page](../using/ai-suggestions/index.md). There, you'll discover ready-to-use tips for enhancing your bookmark organization
 
 ### 5.6.24 (Apr 25, 2024)
-- **New ✦ AI-Driven Collection and Tag Suggestions (Pro Only)**: When adding or editing an unsorted bookmark, you'll now see AI-generated suggestions above the collection and tag fields. [Learn more](../using/ai-suggestions/index.md#tips)
+- **New ✦ AI-Driven Collection and Tag Suggestions (Pro Only)**: When adding or editing an unsorted bookmark, you'll now see AI-generated suggestions above the collection and tag fields. [Learn more](../using/ai-suggestions/index.md)
 - **New ✦ AI Semantic Search (Pro Only)**: Enhances your bookmark search with advanced natural language processing techniques that accurately understand the intent and context of your queries. No need to remember exact keywords, just type your query in natural language. For instance, find the `Sega Mega Drive` bookmark with a `Sega Genesis` query.
 - **New ✦ Multilingual Search Support (Pro Only)**: Our search feature now supports over 100 languages, allowing you to search in your native language, even for bookmarks in different languages.
 - **New Additional Search Operators**: Refine your search with specific fields:

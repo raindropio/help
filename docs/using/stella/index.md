@@ -95,7 +95,7 @@ Stella can read full text of web pages, PDFs, plain text, and Markdown files. Im
 New bookmarks need a few minutes to be indexed before they become searchable. If you've just upgraded to Pro, it may take a bit longer — your entire library needs to be indexed for the first time.
 
 ### Can I use my own AI model? {#byom}
-No. But you can use your Raindrop.io library directly from ChatGPT, Claude, and other AI assistants via [MCP](../../../integrations/mcp.md).
+No. But you can use your Raindrop.io library directly from ChatGPT, Claude, and other AI assistants via [MCP](../../integrations/mcp.md).
 
 ---
 
