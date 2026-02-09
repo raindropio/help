@@ -54,8 +54,9 @@ module.exports = {docs: [
 		collapsed: true,
 		items: [
 			'integrations/automation',
-			'integrations/third-party-apps/index',
+			'integrations/mcp',
 			'integrations/api',
+			'integrations/third-party-apps/index',
 		]
 	},
 
