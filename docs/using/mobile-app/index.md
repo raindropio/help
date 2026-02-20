@@ -43,6 +43,11 @@ To install an extension, you need to [download our app from the ‌App Store‌]
 4. Turn the toggle to ON (green) for Raindrop.io.
 5. Next time you need Raindrop.io extension just tap puzzle icon again
 
+### iOS Shortcuts {#shortcuts-ios}
+Raindrop.io supports [Apple Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios), allowing you to automate common actions using the Shortcuts app or Siri.
+
+To get started, open the **Shortcuts** app on your iPhone or iPad, tap **+** to create a new shortcut, and search for **Raindrop.io** in the actions list.
+
 ## Import from mobile Safari
 You can't import bookmarks from Safari using our mobile app.
 

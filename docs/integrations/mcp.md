@@ -59,7 +59,7 @@ We're working on adding Raindrop.io to the ChatGPT Apps catalog for one-click se
 
 Requires ChatGPT Plus, Pro, Business, Enterprise, Education plan
 
-1. Go to **Settings → Apps → Advanced**
+1. Go to [**Settings → Apps → Advanced**](https://chatgpt.com/#settings/Connectors)
 2. Enable **Developer mode**
 3. Click **Create App**
 4. Set name to `Raindrop` and paste the MCP server URL

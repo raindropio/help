@@ -12,7 +12,7 @@ Stella is in beta — responses are usually accurate, but double-check anything 
 :::
 
 :::note
-Stella is currently in **early access** for [Pro](https://raindrop.io/pro/buy) users. Available in the [web app](https://app.raindrop.io) only.
+Stella is currently in **early access** for [Pro](https://raindrop.io/pro/buy) users. Available in the [web app](https://app.raindrop.io), desktop and iOS apps.
 :::
 
 ## Getting started {#start}

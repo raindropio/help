@@ -3,6 +3,13 @@ title: iOS App
 slug: /changelog-ios
 ---
 
+### 5.3.0 (Feb 19, 2026)
+- [Stella — built-in AI assistant](../using/stella/index.md), ask questions about specific bookmarks
+- [Shortcuts app support](../using/mobile-app/index.md) — add/get/delete bookmarks, manage tags & favorites, save files, get collections
+- Browser settings — option to disable Universal Links, fixed sluggish scroll
+- Performance — faster lists, network caching, optimized thumbnails
+- File upload details shown during upload
+
 ### 5.2.1 (Sep 11, 2025)
 - Say hello to Liquid Glass! Raindrop now fully embraces the fresh, modern look of iOS 26
 - A simpler, more streamlined Search experience
