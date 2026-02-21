@@ -46,17 +46,13 @@ export default {
 					label: 'Community',
 					items: [
 						{
-							label: 'Twitter',
-							href: 'https://twitter.com/raindrop_io',
+							label: 'X',
+							href: 'https://x.com/raindrop_io',
 						},
 						{
 							label: 'GitHub',
 							href: 'https://github.com/raindropio',
-						},
-						{
-							label: 'Suggest new feature',
-							href: 'https://raindropio.canny.io',
-						},
+						}
 					],
 				},
 				{
