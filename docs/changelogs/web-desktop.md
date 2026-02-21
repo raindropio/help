@@ -3,6 +3,12 @@ title: Web, Desktop App & Extension
 slug: /changelog
 ---
 
+### 5.7.2 (Feb 21, 2026)
+- [OneDrive](../using/backups/index.md#onedrive) as additional automatic backup destination (in addition to Dropbox and Google Drive)
+- Fix safari 26 preview height bug
+- Fix bug with modals close when they appear one on a another
+- Ability to turn off AI assistant completely in settings
+
 ### 5.7.0 (Feb 5, 2026)
 * **New [✦ AI Assistant (Stella)](../using/stella/index.md)**: Click the **Ask** button to search by meaning, summarize articles, organize your library, and more — all powered by AI
 * Removed the [AI Suggestions](../using/ai-suggestions/index.md) page — all AI features are now part of the assistant, which is more flexible and capable

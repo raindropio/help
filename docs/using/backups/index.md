@@ -41,6 +41,15 @@ You can move these files to any folder—they will remain linked to Raindrop.
 2. Turn on/off particular account in `Cloud backup` section
 3. Shortly after first backup will be made
 
+### Microsoft OneDrive {#onedrive}
+In addition you can enable automatic backups to your `OneDrive`.   
+Backup files will be placed to `/Apps/Raindrop.io` folder.
+
+#### Enable OneDrive Backup
+1. Visit [settings page](https://app.raindrop.io/settings/backups)
+2. Turn on/off particular account in `Cloud backup` section
+3. Shortly after first backup will be made
+
 ## Limitations
 - Your account can store up to 30 recent backups. When a new backup is created, the oldest one is automatically deleted.
 - Currently, backup files include: Collections, Links, Tags, and Highlights.
