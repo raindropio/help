@@ -3,6 +3,9 @@ title: Web, Desktop App & Extension
 slug: /changelog
 ---
 
+### 5.7.3 (Feb 25, 2026)
+- Now all public pages are hosted on a dedicated website `raindrop.page` and your profile will have a subdomain like `username.raindrop.page`. This change was made to improve performance and reliability of public pages, as well as to provide better security and isolation from the main app. Your old public page links will continue to work and will be redirected to the new domain. If possible change your public page links to the new domain to avoid unnecessary redirects and improve loading speed. If you have any questions or issues with the new domain, please contact our support team.
+
 ### 5.7.2 (Feb 21, 2026)
 - [OneDrive](../using/backups/index.md#onedrive) as additional automatic backup destination (in addition to Dropbox and Google Drive)
 - Fix safari 26 preview height bug
