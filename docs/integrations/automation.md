@@ -25,6 +25,11 @@ n8n has built-in support for a wide range of Raindrop features, including gettin
 
 [Learn more](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.raindrop/)
 
+## Node-RED
+For Node-RED users, there is a community-maintained project that provides nodes covering the whole Web API endpoints to interact with Raindrop.io.
+
+[Learn more](https://flows.nodered.org/node/@dotwee/node-red-raindrop)
+
 ## Make.com
 Connect Raindrop.io with any of your favorite apps in just a few clicks
 
