@@ -101,6 +101,8 @@ You can see all of your highlights of particular page in one place
 1. Click on a bookmark
 2. Click `Highlights` button in the bottom of the page
 
+Click on any highlight in the list to jump to it on the page. This navigation works only in the `Preview` tab within the desktop or web app, not in the browser extension.
+
 <img src={require('./manage.png').default} style={{maxHeight: 583}} />
 
 ## Export Highlights {#export}
