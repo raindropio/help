@@ -94,6 +94,9 @@ Stella can read full text of web pages, PDFs, plain text, and Markdown files. Im
 ### Why can't it find some of my bookmarks? {#indexing}
 New bookmarks need a few minutes to be indexed before they become searchable. If you've just upgraded to Pro, it may take a bit longer — your entire library needs to be indexed for the first time.
 
+### Can I disable Stella? {#disable}
+Stella doesn't run in the background or touch your data — it only activates when you open a chat and ask a question. If you'd like to hide the button from the app entirely, go to [Settings → App](https://app.raindrop.io/settings/app).
+
 ### Can I use my own AI model? {#byom}
 No. But you can use your Raindrop.io library directly from ChatGPT, Claude, and other AI assistants via [MCP](../../integrations/mcp.md).
 
