@@ -24,8 +24,8 @@ Be sure to check [**this article**](../../using/mobile-app/index.md) to know how
 
 ## Desktop App
 ### macOS
-- [**Download for Intel chip**](https://raindrop.io/r/app/macos) *(use this if you're not sure)*
-- [**Download for Apple chip**](https://raindrop.io/r/app/macos-arm)
+- [**Download for Apple chip**](https://raindrop.io/r/app/macos-arm) *(use this if you're not sure)*
+- [**Download for Intel chip**](https://raindrop.io/r/app/macos)
 
 You can use our macOS app if your device is running macOS 12 or higher.
 
@@ -33,9 +33,6 @@ You can use our macOS app if your device is running macOS 12 or higher.
 [**Download**](https://raindrop.io/r/app/windows)
 
 You can use our Windows app if your device is running Windows 10 (64bit) or higher.
-
-### Linux
-[**Download**](https://raindrop.io/r/app/linux)
 
 ### Universal (Progressive Web App)
 Progressive Web App (PWA) is a way to install a website so it behaves like a desktop app — with its own icon, window, and quick access.
