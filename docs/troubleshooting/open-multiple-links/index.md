@@ -43,4 +43,7 @@ Enter ``https://app.raindrop.io`` to "Address of website" field, click "Allow" a
 
 ![](./firefox3.png)
 
+## Known limitations
+
+By default only the first 40 bookmarks in a collection will be opened. If you need to open more, scroll down the collection to load additional bookmarks before clicking "Open all".
 
