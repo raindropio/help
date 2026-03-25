@@ -1,0 +1,23 @@
+---
+title: "Windsurf"
+---
+
+<Frame style={{padding: '48px'}}>
+	<img src="/assets/icon-windsurf.png" style={{width: '80px', height: '80px'}} />
+</Frame>
+
+[Windsurf](https://codeium.com/windsurf) is an AI-powered code editor by Codeium. With this integration it can search, read, and organize your bookmarks via [MCP](/integrations/mcp).
+
+## Connecting
+
+Add to `~/.codeium/windsurf/mcp_config.json`:
+
+```json
+{
+	"mcpServers": {
+		"raindrop": {
+			"serverUrl": "https://api.raindrop.io/rest/v2/ai/mcp"
+		}
+	}
+}
+```

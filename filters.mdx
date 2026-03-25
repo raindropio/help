@@ -1,0 +1,153 @@
+---
+title: "Filters"
+description: "Narrow down your bookmarks by tag, type, attributes, and more"
+icon: "filter"
+---
+
+<Frame style={{backgroundColor: '#FCE5E4', padding: '48px'}}>
+	<Icon icon="filter" iconType="duotone" size={80} color="#d32a57" />
+</Frame>
+
+As your library grows, you need a quick way to see only what matters right now. Filters narrow your bookmarks to exactly the subset you need — in one click, without any setup upfront.
+
+## Using filters
+
+<Tabs sync={false}>
+	<Tab title="Web & Desktop">
+		Filters live in the sidebar and apply across your entire library. Click any filter to apply it — the bookmark list updates instantly.
+
+		<Frame style={{padding:0}}>![](/assets/filters.png)</Frame>
+
+		To filter within a specific collection, open it, click the search field, and select **In current collection** from the dropdown to limit the scope.
+
+		<Frame style={{padding:0}}>![](/assets/filters-in-collection.png)</Frame>
+	</Tab>
+
+	<Tab title="iOS">
+		<Steps>
+			<Step>
+				Open **All bookmarks** to filter across your whole library, or go to a specific collection to filter within it.
+			</Step>
+			<Step>
+				Tap <Icon icon="ellipsis" /> in the top right corner, then **Filter**.
+			</Step>
+			<Step>
+				Pick one or more filters from the list.
+
+				<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-filter.png" style={{maxHeight: '333px'}} /></Frame>
+			</Step>
+		</Steps>
+	</Tab>
+
+	<Tab title="Android">
+		<Steps>
+			<Step>
+				Open **All bookmarks** to filter across your whole library, or go to a specific collection to filter within it.
+			</Step>
+			<Step>
+				Tap the search field.
+			</Step>
+			<Step>
+				Pick a filter from the suggestions.
+
+				<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/android-filter.png" style={{maxHeight: '333px'}} /></Frame>
+			</Step>
+		</Steps>
+	</Tab>
+</Tabs>
+
+A filter only appears when at least one bookmark matches it — so the list always reflects what's actually in your library. Inside a collection the list narrows further, showing only filters relevant to that collection's content.
+
+## Available filters
+
+### Tags
+
+Your <Icon icon="tag" size={16} /> [tags](/tags) show up as filters — each tag you use becomes a clickable filter.
+There's also a <Icon icon="tags" size={16} /> **Without tags** filter to find bookmarks that have no tags yet.
+
+### Attributes
+
+- <Icon icon="heart" size={16} /> **Favorites** — bookmarks you marked as favorite
+- <Icon icon="bell" size={16} /> **Reminder** — bookmarks with an active [reminder](/reminders)
+- <Icon icon="note" size={16} /> **Note** — bookmarks that have a note attached
+- <Icon icon="feather" size={16} /> **Highlights** — bookmarks with saved [highlights](/highlights)
+
+### Content type
+
+Raindrop.io detects what kind of content each bookmark holds and creates filters automatically —
+<Icon icon="book-open" size={16} /> [Article](/articles),
+<Icon icon="image" size={16} /> **Image**,
+<Icon icon="play" size={16} /> **Video**,
+<Icon icon="music-note" size={16} /> **Audio**,
+<Icon icon="file" size={16} /> **Document**, and
+<Icon icon="book" size={16} /> **Book**. No setup needed: save a YouTube link, and the **Video** filter appears on its own.
+
+### Creation date
+
+Narrow bookmarks to a specific month by selecting the date range in the filter list.
+
+### Library health
+
+- <Icon icon="link-slash" size={16} /> **[Broken links](/broken-links)** — bookmarks pointing to pages that may no longer work
+- <Icon icon="copy" size={16} /> **[Duplicates](/duplicates)** — the same URL saved more than once
+
+<Note>Broken links and Duplicates require a [Pro plan](/premium-features).</Note>
+
+## Combining and excluding filters
+
+Pick a filter, then open the filter list again to add another one. By default, all selected filters apply together — so picking two tags shows only bookmarks that have both.
+
+Once you have more than one filter selected, a **match:OR** option appears in the list; turn it on to show bookmarks matching **any** of them instead.
+
+To exclude a specific filter, select it first, then add `-` (minus) before it in the search field — for example, `-type:video` hides all videos from the results. You can also type keywords in the search field while filters are active to narrow things down even further.
+
+<AccordionGroup>
+	<Accordion title="Need more precise filtering?">
+		Every filter is a search operator under the hood — you can type them in the search field directly for extra flexibility, like searching within a specific field, using date ranges, or matching either of two terms.
+
+		| Operator | Example | What it does |
+		|---|---|---|
+		| `word` | `apple iphone` | Match in title, description, URL, or page content |
+		| `"phrase"` | `"css grid"` | Exact phrase match |
+		| `-word` | `-superman` | Exclude results containing this word |
+		| `#tag` | `#coffee` | Filter by tag (`#"coffee beans"` for multi-word tags) |
+		| `-#tag` | `-#coffee` | Exclude a tag |
+		| `match:OR` | `superman batman match:OR` | Match either term instead of both |
+		| `created:YYYY-MM-DD` | `created:2024-01` | By creation date. Use `<` or `>` for before/after |
+		| `lastUpdate:YYYY-MM-DD` | `lastUpdate:2024-07-15` | By last update date |
+		| `title:word` | `title:css` | Search only in title |
+		| `excerpt:word` | `excerpt:css` | Search only in description |
+		| `note:word` | `note:css` | Search only in notes |
+		| `link:word` | `link:github` | Search only in URL |
+		| `type:X` | `type:article` | By content type (article, image, video, audio, document) |
+		| `❤️` | | Favorites |
+		| `file:true` | | Uploaded files |
+		| `notag:true` | | Bookmarks without tags |
+		| `reminder:true` | | Bookmarks with a reminder |
+		| `cache.status:ready` | | Bookmarks with a [permanent copy](/permanent-copy) |
+	</Accordion>
+</AccordionGroup>
+
+## Related
+
+<CardGroup cols={2}>
+	<Card title="Search" icon="search" iconType="duotone" href="/using-search">
+		Combine text search with filters for precise results
+	</Card>
+
+	<Card title="Tags" icon="hashtag" iconType="duotone" href="/tags">
+		Label bookmarks with keywords — each tag becomes a filter
+	</Card>
+</CardGroup>
+
+## FAQ
+
+<AccordionGroup>
+	<Accordion title="Can I combine filters with text search?">
+		Yes. Type in the search field while one or more filters are active. The results show only bookmarks that match both your search query and every selected filter.
+	</Accordion>
+
+	<Accordion title="Why do I see fewer filters than expected?">
+		A filter only shows up when at least one bookmark matches it. If you don't have any video bookmarks, for example, the **Video** filter won't appear. Inside a collection the list narrows even further. Open **All bookmarks** to see every filter available across your whole library.
+	</Accordion>
+</AccordionGroup>

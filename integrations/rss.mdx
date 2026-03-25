@@ -1,0 +1,49 @@
+---
+title: "RSS"
+---
+
+<Frame style={{padding: '48px'}}>
+	<Icon icon="rss" iconType="duotone" size={80} color="#F26522" />
+</Frame>
+
+RSS is a standard format for subscribing to content updates from websites. With this integration you can automatically save articles from RSS feeds as bookmarks via [IFTTT](/integrations/ifttt), and subscribe to your collections as RSS feeds.
+
+## Saving RSS feeds
+
+<CardGroup cols={1}>
+	<Card title="RSS to Raindrop.io" icon="/assets/icon-ifttt.png" href="https://ifttt.com/applets/p4EeHCfr-rss-to-raindrop-io" horizontal>
+	</Card>
+</CardGroup>
+
+Browse [ready-made applets](https://ifttt.com/connect/raindrop/rss) or [create your own](https://ifttt.com/create) — including multi-step workflows. Learn how such [integrations work](/integrations/ifttt)
+
+
+## Subscribing to a collection RSS feed
+
+Every collection has a built-in RSS feed. You can subscribe to it in your favorite RSS reader and get notifications when new items are added.
+
+<Steps>
+	<Step>
+		Open the collection you want to subscribe to
+	</Step>
+	<Step>
+		Click the **Share** button
+
+		<Frame style={{padding: 0}}>![](/assets/collaboration-share.png)</Frame>
+	</Step>
+	<Step>
+		Copy the RSS feed link
+	</Step>
+</Steps>
+
+<Note>The **Share** button only appears when you are inside a specific collection — it's not visible in "All bookmarks" or other system views.</Note>
+
+## One-click save from any RSS reader
+
+Many RSS readers let you configure a custom share option. Use this URL to set up one-click save:
+
+```
+https://app.raindrop.io/add?link=${url}&title=${title}
+```
+
+Replace `${url}` and `${title}` with the appropriate variables as described in your RSS reader's documentation.

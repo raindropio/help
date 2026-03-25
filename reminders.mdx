@@ -1,0 +1,140 @@
+---
+title: "Reminders"
+description: "Get notified about saved bookmarks at the right time"
+icon: "bell"
+---
+
+<Frame style={{backgroundColor: '#E3EAFD', padding: '48px'}}>
+	<Icon icon="bell-on" iconType="duotone" size={80} color="#133A9A" />
+</Frame>
+
+You save an article to read later, a link to check before a deadline, or a page to revisit after an event — and then forget about it. Reminders bring bookmarks back to your attention at the right time via **push notification** or **email**.
+
+<Note>
+	Reminders are a [premium feature](/premium-features).
+</Note>
+
+## Setting a reminder
+
+<Tabs sync={false} borderBottom>
+	<Tab title="Web & Desktop">
+		<Steps>
+			<Step>
+				Right-click a bookmark to open the context menu and select **Edit**.
+
+                <Frame style={{padding:0}}>![Web archive of a saved page](/assets/bookmark-context-menu.png)</Frame>
+			</Step>
+			<Step>
+				Click the **Reminder** bell icon and pick a date and time
+
+				<Frame style={{padding:0}}><img src="/assets/bookmark-edit.png" /></Frame>
+			</Step>
+		</Steps>
+	</Tab>
+
+	<Tab title="Browser extension">
+		<Steps>
+			<Step>
+				Click the Raindrop.io extension icon.
+
+                <Frame style={{padding: 0}}>![](/assets/extension-button.png)</Frame>
+			</Step>
+			<Step>
+				Click the **Reminder** bell icon and pick a date and time
+
+                <Frame style={{padding: 0}}>![](/assets/extension-intro.png)</Frame>
+			</Step>
+			<Step>
+				Click **Save** for a new bookmark, or just close the extension window
+			</Step>
+		</Steps>
+	</Tab>
+
+	<Tab title="iOS">
+		<Steps>
+			<Step>
+				Long-press a bookmark and choose **Edit**.
+
+				<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-edit-bookmark.png" style={{maxHeight: '333px'}} /></Frame>
+			</Step>
+			<Step>
+				Tap **Add reminder** and pick a date and time
+
+				<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-add-reminder.png" style={{maxHeight: '333px'}} /></Frame>
+			</Step>
+		</Steps>
+	</Tab>
+
+	<Tab title="Android">
+		<Steps>
+			<Step>
+				Tap the <Icon icon="ellipsis" size={16} /> icon next to a bookmark to open the edit screen.
+
+				<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/android-edit-bookmark.png" style={{maxHeight: '333px'}} /></Frame>
+			</Step>
+			<Step>
+				Tap **Reminder** and pick a date and time
+
+				<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/android-reminder.png" style={{maxHeight: '333px'}} /></Frame>
+			</Step>
+		</Steps>
+	</Tab>
+</Tabs>
+
+## Finding bookmarks with active reminders
+
+<Tabs sync={false}>
+	<Tab title="Web & Desktop">
+		Click the **Reminder** filter in sidebar.
+
+		<Frame style={{padding:0}}>![](/assets/filters.png)</Frame>
+	</Tab>
+	<Tab title="iOS">
+		<Steps>
+			<Step>
+				Tap <Icon icon="ellipsis" /> in top right corner and then **Filter**.
+			</Step>
+			<Step>
+				Select the **Reminder** filter from the list.
+
+				<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-filter.png" style={{maxHeight: '333px'}} /></Frame>
+			</Step>
+		</Steps>
+	</Tab>
+	<Tab title="Android">
+		<Steps>
+			<Step>
+				Tap on the search field.
+			</Step>
+			<Step>
+				Select the **Reminder** filter from the suggestions.
+
+				<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/android-filter.png" style={{maxHeight: '333px'}} /></Frame>
+			</Step>
+		</Steps>
+	</Tab>
+</Tabs>
+
+## FAQ
+
+<AccordionGroup>
+	<Accordion title="How will I be notified?">
+		You'll receive a push notification (if the mobile app is installed) or an email at the scheduled time.
+	</Accordion>
+
+	<Accordion title="What timezone is used?">
+		Your local timezone. The reminder fires at the date and time you see in the picker.
+	</Accordion>
+
+	<Accordion title="Can I set recurring reminders?">
+		Not yet. Each reminder is a one-time notification.
+	</Accordion>
+</AccordionGroup>
+
+## Related
+
+<CardGroup cols={2}>
+	<Card title="Filters" icon="filter" iconType="duotone" href="/filters">
+		Narrow down bookmarks by type, tag, date, and more
+	</Card>
+</CardGroup>

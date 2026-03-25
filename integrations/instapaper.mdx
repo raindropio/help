@@ -1,0 +1,35 @@
+---
+title: "Instapaper"
+---
+
+<Frame style={{padding: '48px'}}>
+	<img src="/assets/icon-instapaper.png" style={{width: '80px', height: '80px'}} />
+</Frame>
+
+[Instapaper](https://www.instapaper.com/) is a read-later app for saving web articles. With this integration you can import your existing items and set up two-way sync so new articles flow between both apps.
+
+## Importing existing items
+
+<Steps>
+	<Step>
+		[Download CSV file](https://www.instapaper.com/user) from Instapaper (CSV preserves the most data)
+	</Step>
+	<Step>
+		Go to [Settings → Import](https://app.raindrop.io/settings/import)
+	</Step>
+	<Step>
+		Upload the file
+	</Step>
+</Steps>
+
+## Keeping in sync
+
+<CardGroup cols={1}>
+	<Card title="New articles → bookmarks" icon="/assets/icon-ifttt.png" href="https://ifttt.com/applets/byzA23tv-save-new-instapaper-articles-to-raindrop-io-bookmarks" horizontal>
+	</Card>
+
+	<Card title="New bookmarks → articles" icon="/assets/icon-ifttt.png" href="https://ifttt.com/applets/g9gEYh7F-save-new-raindrop-io-bookmarks-to-instapaper" horizontal>
+	</Card>
+</CardGroup>
+
+Browse [ready-made applets](https://ifttt.com/connect/raindrop/instapaper) or [create your own](https://ifttt.com/create) — including multi-step workflows. Learn how such [integrations work](/integrations/ifttt)

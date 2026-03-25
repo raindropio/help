@@ -1,0 +1,189 @@
+---
+title: "Tags"
+description: "Classify bookmarks with keywords"
+icon: "hashtag"
+---
+
+<Frame style={{backgroundColor: '#D1FAE4', padding: '48px'}}>
+    <Icon icon="hashtag" iconType="duotone" size={80} color="#166E3F" />
+</Frame>
+
+A bookmark lives in one collection, but tags let you label it with multiple keywords — `to-read`, `important`, `Q2` — so you can find it from different angles later. Any characters, any language, spaces included.
+
+## Adding tags
+
+You can add tags when you [save a bookmark](/bookmarks) or at any time later by editing it. Type tags separated by commas in the **Tags** field.
+
+<Tabs sync={false}>
+    <Tab title="Web & Desktop">
+        <Steps>
+            <Step>
+				Right-click a bookmark to open the context menu and select **Edit**.
+			</Step>
+            <Step>
+                Find the **Tags** field and type your tags.
+
+                ![](/assets/edit-tags.png)
+            </Step>
+            <Step icon="sparkle">
+                *Optionally*, pick from ✦ AI suggested tags based on the page content.
+            </Step>
+        </Steps>
+    </Tab>
+
+    <Tab title="Browser extension">
+        <Steps>
+            <Step>
+                Click the Raindrop.io extension icon.
+
+                <Frame style={{padding: 0}}>![](/assets/extension-button.png)</Frame>
+            </Step>
+            <Step>
+                Type tags in the **Tags** field.
+
+                <Frame style={{padding: 0}}>![](/assets/extension-intro.png)</Frame>
+            </Step>
+            <Step icon="sparkle">
+                *Optionally*, pick from ✦ AI suggested tags based on the page content.
+            </Step>
+        </Steps>
+    </Tab>
+
+    <Tab title="iOS">
+        <Steps>
+            <Step>
+                Long-press a bookmark and choose **Edit**.
+
+                <Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-edit-bookmark.png" style={{maxHeight: '333px'}} /></Frame>
+            </Step>
+            <Step>
+                Tap the **Tags** field and type your tags.
+
+                <Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-add-tags.png" style={{maxHeight: '333px'}} /></Frame>
+            </Step>
+        </Steps>
+    </Tab>
+
+    <Tab title="Android">
+        <Steps>
+            <Step>
+                Tap the <Icon icon="ellipsis" size={16} /> icon next to a bookmark to open the edit screen.
+
+                <Frame style={{padding: '20px 0 0 0'}}><img src="/assets/android-edit-bookmark.png" style={{maxHeight: '333px'}} /></Frame>
+            </Step>
+            <Step>
+                Tap the **Tags** field and type your tags.
+            </Step>
+        </Steps>
+    </Tab>
+</Tabs>
+
+<Accordion title="Managing tags on multiple bookmarks">
+	<Tabs sync={false}>
+		<Tab title="Web & Desktop">
+			<Steps>
+				<Step>
+					Select items by hovering over them and clicking the checkbox that appears.
+
+					<Frame>![](/assets/bookmarks-bulk.png)</Frame>
+				</Step>
+				<Step>
+					Click **Add tags** in the toolbar at the top, or **More…** → **Delete tags** to remove.
+				</Step>
+			</Steps>
+		</Tab>
+
+		<Tab title="iOS">
+			<Steps>
+				<Step>
+					Tap the **Select** button in the top right corner to start selection mode.
+				</Step>
+				<Step>
+					Select as many bookmarks as you want.
+				</Step>
+				<Step>
+					Tap **Add tags** or **Remove tags**.
+
+					<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-batch-actions.png" style={{maxHeight: '333px'}} /></Frame>
+				</Step>
+			</Steps>
+		</Tab>
+
+		<Tab title="Android">
+			<Steps>
+				<Step>
+					Long-press an item to enter selection mode. Tap more items to add them.
+				</Step>
+				<Step>
+					Tap **⋮** → **Add tags** or **Remove tags**.
+				</Step>
+			</Steps>
+		</Tab>
+	</Tabs>
+</Accordion>
+
+## Managing tags
+
+Rename or delete a tag itself — the change applies to every bookmark that uses it.
+
+<Tip>**Pro tip**: need to tag, rename, or merge tags across your library? Ask [Stella](/stella) — just describe what you need in plain language.</Tip>
+
+<Tabs sync={false}>
+	<Tab title="Web & Desktop">
+		Right-click any tag in the sidebar and choose **Rename tag** or **Delete tag**.
+	</Tab>
+
+	<Tab title="iOS">
+		On the main screen, scroll to the tag list at the bottom. Swipe a tag to the left — tap **Rename** or **Delete**.
+	</Tab>
+
+	<Tab title="Android">
+		On the main screen, scroll to the tag list at the bottom. Swipe a tag to the left — tap **Rename** or **Delete**.
+	</Tab>
+</Tabs>
+
+
+## Finding tagged bookmarks
+
+Each tag appears as a clickable [filter](/filters) — select it to see all bookmarks with that tag. There's also a **Without tags** filter to find bookmarks that have no tags yet.
+
+<Tabs sync={false}>
+	<Tab title="Web & Desktop">
+		Click any tag in the sidebar filter list.
+
+		<Frame style={{padding:0}}>![](/assets/filters.png)</Frame>
+	</Tab>
+	<Tab title="iOS">
+		<Steps>
+			<Step>
+				Tap <Icon icon="ellipsis" /> in top right corner and then **Filter**.
+			</Step>
+			<Step>
+				Select a tag from the list.
+
+				<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-filter.png" style={{maxHeight: '333px'}} /></Frame>
+			</Step>
+		</Steps>
+	</Tab>
+	<Tab title="Android">
+		<Steps>
+			<Step>
+				Tap on the search field.
+			</Step>
+			<Step>
+				Select a tag from the suggestions.
+
+				<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/android-filter.png" style={{maxHeight: '333px'}} /></Frame>
+			</Step>
+		</Steps>
+	</Tab>
+</Tabs>
+
+## Related
+
+<CardGroup cols={2}>
+    <Card title="Filters" icon="filter" iconType="duotone" href="/filters">
+		Narrow down bookmarks by type, tag, date, and more
+	</Card>
+    <Card title="AI Assistant" icon="sparkles" iconType="duotone" href="/stella" />
+</CardGroup>

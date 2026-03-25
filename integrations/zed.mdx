@@ -1,0 +1,28 @@
+---
+title: "Zed"
+---
+
+<Frame style={{padding: '48px'}}>
+	<img src="/assets/icon-zed.png" style={{width: '80px', height: '80px'}} />
+</Frame>
+
+[Zed](https://zed.dev) is a high-performance code editor with built-in AI features. With this integration it can search, read, and organize your bookmarks via [MCP](/integrations/mcp).
+
+Zed doesn't support HTTP MCP servers natively yet. Use [mcp-remote](https://www.npmjs.com/package/mcp-remote) as a bridge. Make sure you have [Node.js](https://nodejs.org) installed.
+
+## Connecting
+
+Add to your Zed settings JSON:
+
+```json
+{
+	"context_servers": {
+		"raindrop": {
+			"command": {
+				"path": "npx",
+				"args": ["-y", "mcp-remote", "https://api.raindrop.io/rest/v2/ai/mcp"]
+			}
+		}
+	}
+}
+```

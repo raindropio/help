@@ -1,0 +1,187 @@
+---
+title: "Articles"
+description: "Read saved articles in a clean, ad-free view"
+icon: "book-open"
+---
+
+<Frame style={{backgroundColor: '#FEF9C3', padding: '48px'}}>
+	<Icon icon="book-open" iconType="duotone" size={80} color="#A16207" />
+</Frame>
+
+When you [save a bookmark](/bookmarks), Raindrop detects articles automatically and lets you read them in a clean built-in preview — just the content, nothing else.
+
+The same preview works for videos, PDFs, EPUBs, and images.
+
+## Reading an article
+
+<Tabs sync={false}>
+	<Tab title="Web & Desktop">
+		<Steps>
+			<Step>
+				Right-click a bookmark and select **Preview**.
+
+				<Frame style={{padding:0}}>![](/assets/bookmark-context-menu.png)</Frame>
+			</Step>
+
+			<Step>
+				Adjust the **theme**, **font**, and **text size** to make reading comfortable.
+
+				<Frame>![](/assets/articles-preview.png)</Frame>
+			</Step>
+
+			<Step icon="feather">
+				*Optionally*, [add highlights](/highlights) to important passages.
+			</Step>
+		</Steps>
+	</Tab>
+
+	<Tab title="iOS">
+		<Steps>
+			<Step>
+				Tap a bookmark — the article opens in preview automatically when available, otherwise the original page loads.
+			</Step>
+
+			<Step>
+				Adjust the **theme**, **font**, and **text size** by tapping <Badge><Icon icon="font-case" size={16} /></Badge> in top bar to make reading comfortable.
+
+				<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-highlight.png" style={{maxHeight: '333px'}} /></Frame>
+			</Step>
+
+			<Step icon="feather">
+				*Optionally*, [add highlights](/highlights) to important passages.
+			</Step>
+		</Steps>
+
+		<Check>Make sure in-app browser is set to Raindrop.io: **Settings** → **Browser** → **Open links in** → **Raindrop.io**.</Check>
+	</Tab>
+
+	<Tab title="Android">
+		<Steps>
+			<Step>
+				Tap a bookmark — the article opens in preview automatically when available, otherwise the original page loads.
+			</Step>
+
+			<Step>
+				Adjust the **theme**, **font**, and **text size** by tapping <Badge><Icon icon="font-case" size={16} /></Badge> in bottom bar to make reading comfortable.
+
+				<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/android-highlight.png" style={{maxHeight: '333px'}} /></Frame>
+			</Step>
+
+			<Step icon="feather">
+				*Optionally*, [add highlights](/highlights) to important passages.
+			</Step>
+		</Steps>
+
+		<Check>Make sure in-app browser is enabled: **Settings** → **Open in browser** → **In app**.</Check>
+	</Tab>
+</Tabs>
+
+## Chatting with an article
+
+Not sure what the article is about? [Stella](/stella) can summarize it, extract key points, translate into another language, or answer your questions about the content.
+
+<Tabs sync={false}>
+	<Tab title="Web & Desktop">
+		Switch to the <Badge>Ask</Badge> tab in the preview panel.
+
+		<Frame style={{padding:0}}>![Stella](/assets/stella-intro.png)</Frame>
+	</Tab>
+
+	<Tab title="Browser extension">
+        When saving or editing a bookmark in the extension, click the <Icon icon="sparkles" size={16} /> button — it opens a chat about that web page.
+
+        <Frame style={{padding:0}}>![](/assets/extension-intro.png)</Frame>
+    </Tab>
+
+	<Tab title="iOS">
+		Tap <Icon icon="sparkles" size={16} color="red" /> at the bottom of the screen.
+
+		<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-stella.png" style={{maxHeight: '333px'}} /></Frame>
+	</Tab>
+
+	<Tab title="Android">
+		Tap <Icon icon="sparkles" size={16} /> at the bottom of the screen.
+
+		<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-stella.png" style={{maxHeight: '333px'}} /></Frame>
+	</Tab>
+</Tabs>
+
+## Finding articles
+
+Over time you'll save dozens of articles alongside other bookmarks. Filter to see just your articles, [search](/using-search) through their text — whatever helps you find what you need.
+
+<Tabs sync={false}>
+	<Tab title="Web & Desktop">
+		Click the **Articles** filter in the sidebar.
+
+		<Frame style={{padding:0}}>![](/assets/filters.png)</Frame>
+	</Tab>
+	<Tab title="iOS">
+		<Steps>
+			<Step>
+				Tap <Icon icon="ellipsis" /> in top right corner and then **Filter**.
+			</Step>
+			<Step>
+				Select the **Article** filter from the list.
+
+				<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-filter.png" style={{maxHeight: '333px'}} /></Frame>
+			</Step>
+		</Steps>
+	</Tab>
+	<Tab title="Android">
+		<Steps>
+			<Step>
+				Tap on the search field.
+			</Step>
+			<Step>
+				Select the **Type** filter and then **Articles** from the suggestions.
+
+				<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/android-filter.png" style={{maxHeight: '333px'}} /></Frame>
+			</Step>
+		</Steps>
+	</Tab>
+</Tabs>
+
+## Related
+
+<CardGroup cols={2}>
+	<Card title="Highlights" icon="feather" iconType="duotone" href="/highlights">
+		Save key passages from articles, PDFs, and EPUBs
+	</Card>
+
+	<Card title="Search" icon="search" iconType="duotone" href="/using-search">
+		Find articles by content across your library
+	</Card>
+
+	<Card title="Stella" icon="sparkles" iconType="duotone" href="/stella">
+		Summarize, translate, and ask questions about articles
+	</Card>
+
+	<Card title="Web archive" icon="cloud-check" iconType="duotone" href="/permanent-copy">
+		A saved copy of every page in case the original disappears
+	</Card>
+</CardGroup>
+
+## FAQ
+
+<AccordionGroup>
+	<Accordion title="How does Raindrop know it's an article?">
+		It analyzes the page when you save it and detects the content type automatically — no manual action needed.
+	</Accordion>
+
+	<Accordion title="What if the original page gets deleted?">
+		You can still read it. The article text is saved in Raindrop at the time the bookmark is created.
+	</Accordion>
+
+	<Accordion title="What if the article doesn't open in preview?">
+		Right-click the bookmark → **Refresh preview**. If the problem persists, contact support at info@raindrop.io.
+	</Accordion>
+
+	<Accordion title="Does it work with paywalled content?">
+		No. Only publicly accessible pages can be parsed.
+	</Accordion>
+
+	<Accordion title="Can I highlight text in preview?">
+		Yes — in articles, PDFs, and EPUBs. See [Highlights](/highlights).
+	</Accordion>
+</AccordionGroup>

@@ -1,0 +1,132 @@
+---
+title: "Duplicates"
+description: "Find and remove duplicate bookmarks from your library"
+icon: "copy"
+---
+
+<Frame style={{backgroundColor: '#ECDFFB', padding: '48px'}}>
+    <Icon icon="copy" iconType="duotone" size={80} color="#5314A3" />
+</Frame>
+
+Over time it's easy to bookmark the same page more than once. Raindrop.io can detect duplicate bookmarks and show them in a single list, so you can clean up your library in seconds.
+
+<Note>
+  Duplicate detection is a [premium feature](/premium-features).
+</Note>
+
+## Finding duplicates
+
+<Tabs sync={false}>
+	<Tab title="Web & Desktop">
+		Click the **Duplicates** filter in sidebar
+
+		<Frame style={{padding:0}}>![](/assets/filters.png)</Frame>
+	</Tab>
+	<Tab title="iOS">
+		<Steps>
+			<Step>
+				Tap <Icon icon="ellipsis" /> in top right corner and then **Filter**.
+			</Step>
+			<Step>
+				Select the **Duplicates** filter from the suggestions list.
+
+        		<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-filter.png" style={{maxHeight: '333px'}} /></Frame>
+			</Step>
+		</Steps>
+	</Tab>
+	<Tab title="Android">
+		<Steps>
+			<Step>
+				Tap on the search field.
+			</Step>
+			<Step>
+				Select the **Duplicates** filter from the suggestions list.
+
+				<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/android-filter.png" style={{maxHeight: '333px'}} /></Frame>
+			</Step>
+		</Steps>
+	</Tab>
+</Tabs>
+
+The results show **only** duplicate copies — originals are not included. This means you can safely remove everything in the list without losing any bookmark.
+
+## Removing duplicates
+
+<Tabs sync={false}>
+	<Tab title="Web & Desktop">
+		<Steps>
+			<Step>
+				Find duplicates using the steps above.
+			</Step>
+			<Step>
+				Hover over each item and click the checkbox that appears, or use **Select all**.
+			</Step>
+			<Step>
+				Click **Delete** in the toolbar at the top.
+			</Step>
+		</Steps>
+	</Tab>
+	<Tab title="iOS">
+		<Steps>
+			<Step>
+				Find duplicates using the steps above.
+			</Step>
+			<Step>
+				Tap the **Select** button in the top right corner to start selection mode.
+			</Step>
+			<Step>
+				Select as many bookmarks as you want.
+			</Step>
+			<Step>
+				Tap **Actions** → **Delete**.
+
+				<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-batch-actions.png" style={{maxHeight: '333px'}} /></Frame>
+			</Step>
+		</Steps>
+	</Tab>
+	<Tab title="Android">
+		<Steps>
+			<Step>
+				Find duplicates using the steps above.
+			</Step>
+			<Step>
+				Tap and hold an item to select it, or use **Select all**.
+			</Step>
+			<Step>
+				Tap **Delete** in the toolbar at the top.
+			</Step>
+		</Steps>
+	</Tab>
+</Tabs>
+
+## How detection works
+
+A bookmark counts as a duplicate only when its URL matches another saved bookmark exactly.
+
+Before comparing, Raindrop.io strips away differences that don't affect the actual page: protocol (`http` vs `https`), `www` prefix, trailing slashes, tracking query parameters (like referral or ad source IDs), and hash fragments.
+
+<Frame style={{padding:0}}>![](/assets/duplicates-how.png)</Frame>
+
+## FAQ
+
+<AccordionGroup>
+  <Accordion title="Can I find duplicates across all collections at once?">
+    Yes. Open **All bookmarks** and apply the Duplicates filter — it scans your entire library.
+  </Accordion>
+
+  <Accordion title="Will removing duplicates delete the original bookmark too?">
+    No. The duplicate list only contains extra copies. Originals stay in place.
+  </Accordion>
+</AccordionGroup>
+
+## Related
+
+<CardGroup cols={2}>
+  <Card title="Filters" icon="filter" iconType="duotone" href="/filters">
+    Narrow down bookmarks by type, tag, date, and more
+  </Card>
+
+  <Card title="Broken links" icon="link-slash" iconType="duotone" href="/broken-links">
+    Find bookmarks that point to pages that no longer exist
+  </Card>
+</CardGroup>

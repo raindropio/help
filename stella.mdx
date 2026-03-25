@@ -1,0 +1,203 @@
+---
+title: "Ask Stella"
+description: "Chat with your bookmarks, organize library, and more"
+---
+
+<Frame style={{backgroundColor: '#FCE5E4', padding: '48px'}}>
+    <Icon icon="sparkles" iconType="duotone" size={80} color="#d32a57" style={{overflow:'auto'}} />
+</Frame>
+
+Over time your library becomes your personal knowledge base. **Stella** lets you chat with it — ask questions, get summaries, find things you vaguely remember, or have it organize your collections for you.
+
+<Check>
+    Stella is in beta and available for [Pro](/premium-features) users. Your data stays on Raindrop.io's own servers — never shared with third parties or used for training. [More on privacy](#faq)
+</Check>
+
+## Starting a chat
+
+<Tabs sync={false}>
+    <Tab title="Web & Desktop">
+        Click the <Icon icon="sparkles" size={16} /> **Ask** button in the top right corner of the app and type what you need.
+
+        <Frame style={{padding:0}}>![](/assets/stella-add.png)</Frame>
+
+        To ask about a specific bookmark:
+        - **Right-click** any bookmark and select <Badge>Ask</Badge>
+        - Open a bookmark and switch to the <Badge>Ask</Badge> tab
+    </Tab>
+
+    <Tab title="Browser extension">
+        When saving or editing a bookmark in the extension, click the <Icon icon="sparkles" size={16} /> button — it opens a chat about that web page.
+
+        <Frame style={{padding:0}}>![](/assets/extension-intro.png)</Frame>
+    </Tab>
+
+    <Tab title="iOS">
+        - Tap the <Icon icon="sparkles" size={16} color="red" /> button in the bottom left corner of the app.
+        - To ask about a specific bookmark, open it and tap <Icon icon="sparkles" size={16} color="red" /> at the bottom.
+
+        <Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-stella.png" style={{maxHeight: '333px'}} /></Frame>
+    </Tab>
+
+    <Tab title="Android">
+        - Tap the <Icon icon="sparkles" size={16} /> button in the top right corner of the app.
+        - To ask about a specific bookmark, open it and tap <Icon icon="sparkles" size={16} /> at the bottom.
+
+        <Frame style={{padding: '20px 0 0 0'}}><img src="/assets/android-highlight.png" style={{maxHeight: '333px'}} /></Frame>
+    </Tab>
+</Tabs>
+
+## Asking Stella
+
+Just describe the end result in your language — even if it takes several steps, like `find everything about Japan and move it to Travel`. No need to remember exact names or where you saved things. Every answer links to the source, and any big changes need your confirmation first.
+
+<Frame style={{padding:0}}>![](/assets/stella-intro.png)</Frame>
+
+### Find
+
+Stella understands meaning, not just keywords. Describe what you're looking for however you remember it.
+
+<Accordion title="Examples">
+    ```
+    that article about morning routines I saved last spring
+    ```
+    ```
+    the Italian recipe with the weird ingredient
+    ```
+    ```
+    travel recommendations for Tokyo from that blogger
+    ```
+    ```
+    Which bookmarks mention "machine learning" but aren't too technical?
+    ```
+    ```
+    Find articles similar to this one
+    ```
+</Accordion>
+
+### Summarize
+
+Get the gist of an article, compare sources, or decide if something is worth reading.
+
+<Accordion title="Examples">
+    ```
+    Summarize this article in 3 bullet points
+    ```
+    ```
+    Explain this in simple terms
+    ```
+    ```
+    What do my bookmarks say about productivity?
+    ```
+    ```
+    Compare these two articles
+    ```
+    ```
+    What questions does this article answer?
+    ```
+    ```
+    Is this worth reading if I'm interested in [topic]?
+    ```
+</Accordion>
+
+### Organize
+
+Sort, tag, clean up duplicates, and reorganize. Stella suggests changes — you review and approve before anything is applied.
+
+<Accordion title="Examples">
+    ```
+    Organize my Unsorted bookmarks into collections
+    ```
+    ```
+    Suggest a better structure for my library
+    ```
+    ```
+    Find articles about Formula 1 and tag them by team
+    ```
+    ```
+    Find everything about Japan and move it to Travel
+    ```
+    ```
+    Clean up my tags — merge duplicates like "recipe" and "recipes"
+    ```
+    ```
+    Find broken links
+    ```
+    ```
+    Show duplicate bookmarks
+    ```
+</Accordion>
+
+### Rediscover
+
+Surface patterns, forgotten bookmarks, and insights from what you've collected over time.
+
+<Accordion title="Examples">
+    ```
+    What topics do I save the most?
+    ```
+    ```
+    What have I been saving lately?
+    ```
+    ```
+    Create a reading list from my design bookmarks
+    ```
+    ```
+    Show my highlights about productivity
+    ```
+</Accordion>
+
+### Get help
+
+Have a question about Raindrop.io features, plans, or setup? Ask Stella directly.
+
+<Accordion title="Examples">
+    ```
+    How do I share a collection publicly?
+    ```
+    ```
+    Where can I change keyboard shortcuts?
+    ```
+    ```
+    How do I set up the browser extension?
+    ```
+</Accordion>
+
+## Reopening chats
+
+All conversations are saved automatically. Click the chat name (or New chat) in the top left corner to see the list of previous chats and continue any of them.
+
+## Limitations
+
+- New bookmarks need a few minutes to be indexed before Stella can find them
+- Responses are usually accurate but not guaranteed — verify anything critical
+
+## FAQ
+
+<AccordionGroup>
+    <Accordion title="Is my data private?">
+        Yes. Raindrop.io uses an open-source LLM hosted on its own infrastructure — your data never leaves the servers and is never used for training. All communication is encrypted with TLS 1.2+.
+    </Accordion>
+
+    <Accordion title="Can I disable Stella?">
+        Stella only activates when you open a chat and ask a question — it doesn't run in the background. To hide the button, go to [Settings → App](https://app.raindrop.io/settings/app).
+    </Accordion>
+
+    <Accordion title="Are there limits on messages or chats?">
+        No hard caps on messages. A temporary cooldown may apply during heavy use. All chats are saved, but only the 100 most recent are displayed for now.
+    </Accordion>
+
+    <Accordion title="What languages are supported?">
+        Stella supports many languages: Arabic, Catalan, Chinese, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hebrew, Hungarian, Indonesian, Italian, Japanese, Korean, Malay, Norwegian, Polish, Portuguese, Romanian, Russian, Spanish, Swedish, Thai, Turkish, Ukrainian, and Vietnamese. Just write in your language, no settings needed.
+    </Accordion>
+
+    <Accordion title="Can I use my own AI model?">
+        No. But you can get all of Stella's capabilities inside ChatGPT, Claude, and other AI assistants via [MCP](/integrations/mcp).
+    </Accordion>
+</AccordionGroup>
+
+## Related
+
+<Card title="MCP" icon="puzzle-piece" iconType="duotone" href="/integrations/mcp" horizontal>
+    Use your library in ChatGPT, Claude, and other AI tools
+</Card>

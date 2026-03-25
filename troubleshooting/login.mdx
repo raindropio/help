@@ -1,0 +1,92 @@
+---
+title: "Can't log in"
+description: "Login fails, keeps logging out, or password doesn't work"
+icon: "right-to-bracket"
+---
+
+You're trying to sign in but something goes wrong — the page won't load, you see an error, or the extension keeps asking for credentials. Most login problems come down to one of a few causes.
+
+## Check the basics first
+
+- **Forgot your password?** — [reset it here](https://app.raindrop.io/account/lost). A link to set a new one will be sent to your email.
+- **Using a VPN, proxy, or ad blocker?** — try disabling it temporarily. These tools can block the requests Raindrop.io needs to authenticate you.
+- **Using Safari with non-default Profile?** — this is a [known Safari bug](#extension-keeps-asking-for-login) that breaks extensions. See below.
+
+## Browser blocks Raindrop.io cookies
+
+Some browsers or privacy extensions block third-party cookies by default. Without them Raindrop.io can't keep you logged in.
+
+**Fix: add Raindrop.io to your browser's allowed list.**
+
+<Tabs sync={false}>
+	<Tab title="Chrome / Edge / Brave">
+		Paste `chrome://settings/content/cookies` into the address bar, scroll to **Allow**, click **Add**, and enter `[*.]raindrop.io`.
+	</Tab>
+
+	<Tab title="Firefox">
+		Go to **Settings** → **Privacy & Security** → **Cookies and Site Data** → **Manage Permissions**. Enter `https://api.raindrop.io`, click **Allow**, then **Save Changes**.
+
+		Also make sure **Browser Privacy** is set to **Standard** (not Strict) in **Settings** → **Privacy & Security**.
+	</Tab>
+</Tabs>
+
+## Keeps logging me out
+
+If you have to sign in every time you open the browser, it's likely set to clear cookies on close.
+
+<Tabs sync={false}>
+	<Tab title="Chrome / Brave">
+		Paste `chrome://settings/cookies` into the address bar and turn off **Clear cookies and site data when you quit Chrome**.
+	</Tab>
+
+	<Tab title="Edge">
+		Paste `edge://settings/clearBrowsingDataOnClose` into the address bar. In the **Do not clear** list under **Cookies and other site data**, click **Add** and enter `[*.]raindrop.io`.
+	</Tab>
+</Tabs>
+
+## Extension keeps asking for login
+
+The browser extension works fine for a while, then suddenly asks you to log in again — or asks every time you click it. This usually happens because the browser blocks or deletes the cookies the extension needs to stay authenticated.
+
+<Tabs sync={false}>
+	<Tab title="Safari">
+		**Safari Profiles** — Safari 17 introduced Profiles, but using any profile other than the default can break extensions. This is a known Safari bug — not something that can be fixed on our side.
+
+		**Workarounds:**
+		- Use the default profile — the extension works normally there
+		- Use the native **macOS Share Extension** instead:
+
+		<Steps>
+			<Step>
+				Open **System Settings** → **General** → **Login Items & Extensions**
+			</Step>
+			<Step>
+				Find **Raindrop.io**, click **(i)**, and turn on **Sharing**
+			</Step>
+		</Steps>
+	</Tab>
+
+	<Tab title="Firefox">
+		Firefox's strict privacy settings can block the cookies Raindrop.io needs.
+
+		<Steps>
+			<Step>
+				Go to **Settings** → **Privacy & Security** and make sure **Browser Privacy** is set to **Standard**
+			</Step>
+			<Step>
+				Check that First-Party Isolate is off: open a new tab, type `about:config`, search for `privacy.firstparty.isolate`, and set it to `false`
+			</Step>
+			<Step>
+				Restart Firefox
+			</Step>
+		</Steps>
+
+		**Using Containers?** Raindrop.io can't run from inside containers. Unassign `raindrop.io` from its permanent container, disable Temporary Containers, log in to Raindrop.io in a regular tab, then re-enable containers.
+
+		**Private mode?** The extension does not fully work in Firefox's private browsing mode. This is a known Firefox limitation.
+	</Tab>
+</Tabs>
+
+## Still can't log in?
+
+Contact us at [info@raindrop.io](mailto:info@raindrop.io) with a description of the problem, your browser name and version, and what you've already tried.

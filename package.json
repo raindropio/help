@@ -1,35 +1,10 @@
 {
-  "name": "help",
-  "version": "0.0.1",
+  "name": "docs",
   "private": true,
   "scripts": {
-    "local": "env $(cat .env|xargs) docusaurus start --port 3129",
-    "local:build": "env $(cat .env|xargs) npm run build",
-    "build": "docusaurus build",
-    "deploy:prod": "git branch -f release/production master && git push --force origin release/production",
-    "postinstall": "sync-dotenv || true"
-  },
-  "dependencies": {
-    "@docusaurus/core": "^3.6.3",
-    "@docusaurus/preset-classic": "^3.6.3",
-    "@mdx-js/react": "^3.1.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
-  },
-  "browserslist": {
-    "production": [
-      ">0.5%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "local": "mintlify dev"
   },
   "devDependencies": {
-    "@mendable/firecrawl-js": "^4.9.0",
-    "sync-dotenv": "^2.7.0"
+    "mintlify": "latest"
   }
 }

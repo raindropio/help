@@ -1,0 +1,109 @@
+---
+title: "Broken links"
+description: "Automatic detection of outdated and unavailable bookmarks"
+icon: "link-slash"
+---
+
+<Frame style={{backgroundColor: '#E3EAFD', padding: '48px'}}>
+	<Icon icon="link-slash" iconType="duotone" size={80} color="#133A9A" />
+</Frame>
+
+Web pages go offline, get deleted, or move to a new address — and there is no way to know until you click. Raindrop.io scans your bookmarks automatically and marks the ones that may no longer work, so you can decide what to do before you need them.
+
+<Note>Requires a [Pro plan](https://raindrop.io/pro/buy).</Note>
+
+## Finding broken links
+
+Bookmarks flagged as broken show a ghost icon next to the domain name. To see all of them at once:
+
+<Tabs sync={false}>
+	<Tab title="Web & Desktop">
+		Click the **Broken links** filter in sidebar
+
+		<Frame style={{padding:0}}>![](/assets/filters.png)</Frame>
+	</Tab>
+
+	<Tab title="iOS">
+		<Steps>
+			<Step>
+				Tap <Icon icon="ellipsis" /> in top right corner and then **Filter**.
+			</Step>
+			<Step>
+				Select the **Broken links** from available filters.
+
+        		<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-filter.png" style={{maxHeight: '333px'}} /></Frame>
+			</Step>
+		</Steps>
+	</Tab>
+
+	<Tab title="Android">
+		<Steps>
+			<Step>
+				Tap the search field.
+			</Step>
+			<Step>
+				Select the **Broken links** filter from the suggestions.
+
+				<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/android-filter.png" style={{maxHeight: '333px'}} /></Frame>
+			</Step>
+		</Steps>
+	</Tab>
+</Tabs>
+
+## What to do with a broken link
+
+A broken-link flag is a hint, not a verdict — the page may be temporarily down or simply moved. You have several options:
+
+- **Do nothing.** If you have a [web archive](/permanent-copy) copy, the content is safe even if the original page is gone.
+- **Fix the URL.** If the page moved to a new address, update the URL in the bookmark editor. The broken flag clears automatically within a few hours.
+- **Delete.** If the bookmark is no longer relevant, select it and press **Delete**.
+
+## Reducing false positives
+
+Some pages appear broken even though they work fine — for example, local network resources, sites behind aggressive firewalls, or slow servers. You can adjust how strictly Raindrop.io checks links in [Settings → App](https://app.raindrop.io/settings/app) under the **Broken links** dropdown.
+
+![Detection modes comparison](/assets/broken-links-modes.jpg)
+
+| Mode | What gets flagged |
+|---|---|
+| **Basic** | Only explicit "not found" responses (404, 410). Best if you have many intranet or local-network bookmarks. |
+| **Default** | Basic + domain does not exist or cannot be resolved. |
+| **Strict** | Default + slow responses, server errors, and too many redirects. |
+
+To turn off checking entirely, set the mode to **Off**.
+
+## FAQ
+
+<AccordionGroup>
+	<Accordion title="How often are bookmarks scanned?">
+		Scans run automatically on a regular schedule. After you change a URL or switch detection mode, allow a few hours for results to update.
+	</Accordion>
+
+	<Accordion title="Why is a working page marked as broken?">
+		Some sites block automated requests, causing a false positive. This also applies to local network resources that Raindrop.io servers cannot reach. Switch to **Basic** mode in [Settings → App](https://app.raindrop.io/settings/app) to reduce these cases.
+	</Accordion>
+
+	<Accordion title="Is the content lost when a link breaks?">
+		Not if you have a Pro plan. Raindrop.io automatically saves a [web archive](/permanent-copy) copy of every bookmark. Even if the original page disappears, you can open the archived version.
+	</Accordion>
+
+	<Accordion title="Can I turn off broken-link checking entirely?">
+		Yes. Set the detection mode to **Off** in [Settings → App](https://app.raindrop.io/settings/app).
+	</Accordion>
+</AccordionGroup>
+
+## Related
+
+<CardGroup cols={2}>
+	<Card title="Filters" icon="filter" iconType="duotone" href="/filters">
+		Narrow down bookmarks by type, tag, date, and more
+	</Card>
+
+	<Card title="Web Archive" icon="cloud-check" iconType="duotone" href="/permanent-copy">
+		Automatic saved copies of every web page
+	</Card>
+
+	<Card title="Duplicates" icon="copy" iconType="duotone" href="/duplicates">
+		Find and remove duplicate bookmarks
+	</Card>
+</CardGroup>

@@ -1,0 +1,115 @@
+---
+title: "Import"
+description: "Bring your existing bookmarks from browsers and other apps"
+---
+
+<Frame style={{backgroundColor: '#DBEAFE', padding: '48px'}}>
+	<Icon icon="cloud-arrow-up" iconType="duotone" size={80} color="#1E40AF" />
+</Frame>
+
+Switching to Raindrop.io doesn't mean starting over. Your bookmarks, folders, tags, notes, highlights, and annotations can all come with you.
+
+## Getting export file
+
+First, download an export file from where you currently keep your bookmarks.
+
+### From a browser
+
+Every browser lets you export bookmarks from settings — look for `Export bookmarks` or `Bookmark manager`.
+
+<Frame style={{padding:0}}>![](/assets/import-chrome-export.png)</Frame>
+
+Here are guides for
+<Icon icon="chrome" size={16} color="red" /> [Chrome](https://www.wikihow.com/Export-Bookmarks-from-Chrome),
+<Icon icon="safari" size={16} color="blue" /> [Safari](https://www.ionos.com/digitalguide/websites/web-development/export-safari-bookmarks/),
+<Icon icon="firefox" size={16} color="orange" /> [Firefox](https://support.mozilla.org/en-US/kb/export-firefox-bookmarks-to-backup-or-transfer),
+and <Icon icon="edge" size={16} color="green" /> [Edge](https://www.ionos.com/digitalguide/websites/web-development/export-edge-bookmarks/).
+
+### From another app
+
+Works with most bookmark managers, read-later apps, PKM, and even some note-taking apps. In most cases you just need to find the export option in your current app's settings and upload the file to Raindrop.io.
+
+<AccordionGroup>
+	<Accordion title="Verified apps" icon="badge-check">
+		- **Raindrop.io** — import your own [backup](/export)
+		- **Instapaper** — [export as CSV](https://www.instapaper.com/user)
+		- **Diigo** — [export](https://www.diigo.com/tools/export) as CSV for the most complete transfer, including tags and annotations
+		- **Pinboard** — [export as JSON](https://pinboard.in/settings/backup) for the most complete transfer
+		- **GoodLinks** — click File / Export data in menu
+        - **Mymind** — [export](https://access.mymind.com/account) and get CSV file
+		- **Evernote** — [export your notes](https://help.evernote.com/hc/en-us/articles/209005557-Export-notes-and-notebooks) in ENEX format. Select only **Created Date**, **Tags**, and **Source URL** — other fields are ignored. Only web clips (created via Web Clipper) are imported, not regular notes
+		- **Edge Collections** — open the collection, click **… → Copy All**, paste into a `.txt` file
+		- **Pinterest** — doesn't offer a built-in export. Use [Pinback](https://pinbackit.github.io/), a free third-party tool that downloads your pins as an importable file
+	</Accordion>
+
+	<Accordion title="I can't find my app in the list">
+		Raindrop.io supports HTML, CSV, JSON, TXT, and ENEX file formats — so if your app can export in any of these, it will work.
+
+		If you're having trouble or your app uses a different format, [contact us](mailto:info@raindrop.io) — we'll help you move.
+	</Accordion>
+</AccordionGroup>
+
+## Importing
+
+Once you have your export file, open the <Icon icon="file-import" size={16} /> [Import page](https://app.raindrop.io/settings/import) and upload it. Raindrop.io will show how many bookmarks, folders, tags, and highlights were found. Review the summary and click **Start import**.
+
+<Tip>Keep the browser tab open until the upload finishes</Tip>
+
+<Frame style={{padding:0}}>![](/assets/import-settings.png)</Frame>
+
+Your bookmarks appear in collections that match the original folder structure. Thumbnails, search filters, and [web archive](/permanent-copy) copies are processed in the background — you'll get an email when everything is ready.
+
+## Next steps
+
+<CardGroup cols={2}>
+	<Card title="Browser extension" icon="puzzle-piece" iconType="duotone" href="/install-extension">
+		Save bookmarks, highlights, and tabs as you browse
+	</Card>
+
+	<Card title="Mobile app" icon="mobile" iconType="duotone" href="/mobile-app">
+		Access and save your bookmarks on iOS and Android
+	</Card>
+</CardGroup>
+
+## FAQ
+
+<AccordionGroup>
+	<Accordion title="What happens with duplicates?">
+		Duplicates are skipped automatically. If the export file contains duplicate URLs, only the first one is imported. If a bookmark already exists in your Raindrop.io account, it's skipped too — the summary before import shows how many duplicates were found.
+
+		Existing bookmarks are never overwritten. If you need to update a bookmark, delete it from Raindrop.io first, then re-import.
+	</Accordion>
+
+	<Accordion title="Can I import into a specific collection?">
+		Imported bookmarks are placed into collections matching the folder structure from the export file. Bookmarks without a folder go to Unsorted.
+	</Accordion>
+
+	<Accordion title="My file is too large">
+		Compress it into a ZIP archive and upload that instead. Maximum file size is 300 MB.
+	</Accordion>
+
+	<Accordion title="What file formats are supported?">
+		HTML, CSV, TXT, JSON, and ENEX (Evernote). Most apps export in one of these formats.
+	</Accordion>
+
+	<Accordion title="Can I prepare my own import file?">
+		Yes. Raindrop.io accepts TXT and CSV.
+        
+        **TXT** — one URL per line.
+        
+        **CSV** — comma-delimited with these columns:
+
+		- `url` (required), `folder`, `title`, `note`, `tags`, `created` (optional)
+		- Use `/` for nested folders — e.g. `a/b/c`
+		- Multiple tags go in quotes — e.g. `"tag1, tag2"`
+		- `created` accepts a Unix timestamp or ISO 8601 date
+
+		```csv
+		folder,url,title,note,tags,created
+		"Folder",http://google.com,Google,"Note","search, app",1629980125
+		"Folder/Nested folder",http://yahoo.com,Yahoo,"Note","search, app",1629980125
+		```
+
+		[Validate your CSV](https://csvlint.io/) before uploading.
+	</Accordion>
+</AccordionGroup>

@@ -1,0 +1,244 @@
+{
+	"$schema": "https://mintlify.com/docs.json",
+
+	"name": "Raindrop.io Help",
+
+	"theme": "luma",
+	"colors": {
+		"primary": "#1988E0",
+		"light": "#4DA6F0",
+		"dark": "#1570C0"
+	},
+	"favicon": "/favicon.ico",
+	"logo": {
+		"light": "/favicon.svg",
+		"dark": "/favicon.svg",
+		"href": "https://raindrop.io"
+	},
+	"appearance": {
+		"default": "light",
+		"strict": true
+	},
+	
+	"navbar": {
+		"primary": {
+			"type": "button",
+			"label": "Open app",
+			"href": "https://app.raindrop.io"
+		}
+	},
+
+	"contextual": {
+		"options": [
+			{
+                "title": "Contact us",
+				"description": "",
+				"icon": "envelope",
+				"href": "mailto:info@raindrop.io"
+            }
+		]
+	},
+
+	"navigation": {
+		"tabs": [
+			{
+				"tab": "Download",
+				"href": "https://raindrop.io/download"
+			},
+			{
+				"tab": "Pricing",
+				"href": "https://raindrop.io/pro/buy"
+			},
+			{
+				"tab": "Docs",
+				"groups": [
+					{
+						"group": "Get started",
+						"pages": [
+							"/index",
+							"/quickstart",
+							"/import",
+							"/install-extension",
+							"/mobile-app",
+							"/stella"
+						]
+					},
+					{
+						"group": "Save",
+						"pages": [
+							"/bookmarks",
+							"/articles",
+							"/files",
+							"/highlights",
+							"/tabs"
+						]
+					},
+					{
+						"group": "Organize",
+						"pages": [
+							"/collections",
+							"/tags",
+							"/reminders"
+							
+						]
+					},
+					{
+						"group": "Find",
+						"pages": [
+							"/using-search",
+							"/filters",
+							"/permanent-copy",
+							"/duplicates",
+							"/broken-links"
+						]
+					},
+					{
+						"group": "Share",
+						"pages": [
+							"/public-page",
+							"/embed",
+							"/collaboration"
+						]
+					},
+					{
+						"group": "Account",
+						"pages": [
+							"/authentication",
+							"/security",
+							"/premium-features",
+							"/export",
+							"/limitations",
+							"/transfer"
+						]
+					},
+					{
+						"group": "Learn more",
+						"pages": [
+							"/shortcuts",
+							"/troubleshooting/index",
+							{
+								"group": "Changelog",
+								"icon": "history",
+								"root": "/changelog/index",
+								"pages": [
+									"/changelog/web",
+									"/changelog/ios",
+									"/changelog/android"
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"tab": "Integrations",
+				"pages": [
+					"/integrations/index",
+					{
+						"group": "Connect",
+						"pages": [
+							"/integrations/alfred",
+							"/integrations/apple-shortcuts",
+							"/integrations/chatgpt",
+							"/integrations/claude",
+							"/integrations/coda",
+							"/integrations/cursor",
+							"/integrations/dropbox",
+							"/integrations/evernote",
+							"/integrations/feedbin",
+							"/integrations/feedly",
+							"/integrations/google-drive",
+							"/integrations/google-sheets",
+							"/integrations/ifttt",
+							"/integrations/inoreader",
+							"/integrations/instapaper",
+							"/integrations/make",
+							"/integrations/mcp",
+							"/integrations/medium",
+							"/integrations/n8n",
+							"/integrations/notion",
+							"/integrations/onedrive",
+							"/integrations/pinterest",
+							"/integrations/raycast",
+							"/integrations/readwise",
+							"/integrations/reddit",
+							"/integrations/rss",
+							"/integrations/soundcloud",
+							"/integrations/spotify",
+							"/integrations/telegram",
+							"/integrations/trello",
+							"/integrations/unread",
+							"/integrations/vimeo",
+							"/integrations/vscode",
+							"/integrations/windsurf",
+							"/integrations/x",
+							"/integrations/youtube",
+							"/integrations/zed"
+						]
+					}
+				]
+			},
+			{
+				"tab": "Blog",
+				"href": "https://blog.raindrop.io"
+			}
+		]
+	},
+
+	"footer": {
+		"socials": {
+			"x": "https://x.com/raindrop_io",
+			"github": "https://github.com/raindropio"
+		},
+		"links": [
+			{
+				"header": "Legal",
+				"items": [
+					{"label": "Terms of Service", "href": "/terms"},
+					{"label": "Privacy Policy", "href": "/privacy"}
+				]
+			},
+			{
+				"header": "Contact",
+				"items": [
+					{"label": "Support email", "href": "mailto:info@raindrop.io"}
+				]
+			},
+			{
+				"header": "More",
+				"items": [
+					{
+						"label": "Developer docs",
+						"href": "https://developer.raindrop.io"
+					}
+				]
+			}
+		]
+	},
+
+	"redirects": [
+		{"source": "/browser-extension", "destination": "/install-extension"},
+		{"source": "/login-problems", "destination": "/troubleshooting/login"},
+		{"source": "/troubleshooting/false-broken-links", "destination": "/broken-links"},
+		{"source": "/about", "destination": "/"},
+		{"source": "/account-basics", "destination": "/authentication"},
+		{"source": "/account-settings", "destination": "/authentication"},
+		{"source": "/tfa", "destination": "/security"},
+		{"source": "/backups", "destination": "/export"},
+		{"source": "/billing-faq", "destination": "/premium-features"},
+		{"source": "/change-payment-method", "destination": "/premium-features"},
+		{"source": "/change-billing-cycle", "destination": "/premium-features"},
+		{"source": "/cancel", "destination": "/premium-features"},
+		{"source": "/refund", "destination": "/premium-features"},
+		{"source": "/ios-app-problems", "destination": "/troubleshooting/ios"},
+		{"source": "/mac-os-problems", "destination": "/troubleshooting/macos"},
+		{"source": "/safari-mac-problems", "destination": "/troubleshooting/login"},
+		{"source": "/firefox-extension-problems", "destination": "/troubleshooting/login"},
+		{"source": "/forgot-password", "destination": "/authentication"},
+		{"source": "/doesnt-sync", "destination": "/troubleshooting/lost-data"},
+		{"source": "/automation", "destination": "/integrations/ifttt"},
+		{"source": "/third-party-apps", "destination": "/integrations"},
+		{"source": "/mcp", "destination": "/integrations/mcp"},
+		{"source": "/api", "destination": "/integrations/api"}
+	]
+}

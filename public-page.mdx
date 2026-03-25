@@ -1,0 +1,145 @@
+---
+title: "Public page"
+description: "Share your bookmarks and collections with anyone via a public link"
+icon: "globe"
+---
+
+<Frame style={{backgroundColor: '#E3EAFD', padding: '48px'}}>
+    <Icon icon="globe-pointer" iconType="duotone" size={80} color="#133A9A" />
+</Frame>
+
+You've put together a reading list, a resource collection, or a portfolio in Raindrop.io — and now you want to share it with someone who doesn't have an account.
+
+A public page turns any collection into a read-only webpage with its own link that anyone can open in a browser.
+
+## How it works
+
+- You publish individual collections — each gets its own link like `username.raindrop.page/collection-name`
+- Nested collections are included automatically
+- Everything you don't publish stays private
+- Once you have at least one public collection, your personal page at `username.raindrop.page` becomes accessible — it lists all your public collections in one place
+
+![](/assets/public-page.jpg)
+
+## Publishing
+
+<Tabs sync={false}>
+    <Tab title="Web & Desktop">
+        <Steps>
+            <Step>
+                Open the collection you want to share.
+            </Step>
+
+            <Step>
+                Click the **Share** button in the top-right corner.
+
+                <Frame style={{padding:0}}>![](/assets/collaboration-share.png)</Frame>
+
+                <Note>If the **Share** button is not visible, make sure you are inside a specific collection — sharing is not available from "All bookmarks" or "Unsorted".</Note>
+            </Step>
+
+            <Step>
+                Turn on **Public Page** and copy the link.
+
+                ![](/assets/public-page-bylink.png)
+            </Step>
+        </Steps>
+    </Tab>
+
+    <Tab title="iOS">
+        <Steps>
+            <Step>
+                Open the collection you want to share.
+            </Step>
+
+            <Step>
+                Tap **…** (more) at the top, then select **Share**.
+            </Step>
+
+            <Step>
+                Turn on **Public Page** and copy the link.
+
+                <Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-share-collection.png" style={{maxHeight: '333px'}} /></Frame>
+            </Step>
+        </Steps>
+    </Tab>
+
+    <Tab title="Android">
+        <Steps>
+            <Step>
+                Open the collection you want to share.
+            </Step>
+
+            <Step>
+                Tap **…** (more) at the top, then select **Share**.
+            </Step>
+
+            <Step>
+                Turn on **Public Page** and copy the link.
+            </Step>
+        </Steps>
+    </Tab>
+</Tabs>
+
+## Unpublishing
+
+To take a collection off the web, go back to **Share** and turn off **Public Page**. The link stops working immediately. If it was your only public collection, your personal page at `username.raindrop.page` becomes inaccessible too.
+
+## Personal page
+
+Your personal page at `username.raindrop.page` is created automatically once you publish at least one collection. It shows all your public collections in one place.
+
+<Frame style={{padding: 0}}>![](/assets/public-profile.png)</Frame>
+
+To change the username or avatar displayed on the page, go to [Account Settings](https://app.raindrop.io/settings/account).
+
+## Customizing
+
+You can control the appearance of any public page by appending `/view/` and parameters to the URL:
+
+```
+https://exentrich.raindrop.page/design-66/view/theme=dark&sort=-title&page=3
+```
+
+| Parameter | Values | Default | Description |
+| --- | --- | --- | --- |
+| `sort` | `-created`, `created`, `-title`, `title`, `-sort` | `-sort` | Bookmark order |
+| `search` | `#tag`, `apple`, etc. | — | Search query |
+| `theme` | `light`, `dark`, `auto` | `light` | Color theme |
+| `page` | `0`, `1`, `2`... | `0` | Page number |
+| `perpage` | `1`–`50` | `30` | Bookmarks per page |
+
+## FAQ
+
+<AccordionGroup>
+    <Accordion title="Can visitors see my tags?">
+        Yes. Tags assigned to bookmarks in a public collection are visible to anyone viewing the page.
+    </Accordion>
+
+    <Accordion title="Are public pages indexed by search engines?">
+        Yes. Public pages are accessible to search engine crawlers and may appear in search results.
+    </Accordion>
+
+    <Accordion title="Can I make all bookmarks public at once?">
+        No. You publish each collection individually. Nested collections within a published collection are included automatically.
+    </Accordion>
+
+    <Accordion title="Can I hide a public collection from my personal page?">
+        Not at the moment — every public collection appears on your personal page.
+    </Accordion>
+
+    <Accordion title="Can I password-protect a public page?">
+        No. Anyone with the link can view it. If you need restricted access, use [collaboration](/collaboration) to invite specific people.
+    </Accordion>
+</AccordionGroup>
+
+## Related
+
+<CardGroup cols={2}>
+    <Card title="Embed" icon="code" iconType="duotone" href="/embed">
+        Place bookmarks as a widget directly on your website
+    </Card>
+    <Card title="Collaboration" icon="user-group" iconType="duotone" href="/collaboration">
+        Add people to a collection with view or edit access
+    </Card>
+</CardGroup>

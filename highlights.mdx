@@ -1,0 +1,235 @@
+---
+title: "Highlights"
+description: "Save key passages from web pages, PDFs, and books"
+icon: "feather"
+---
+
+<Frame style={{backgroundColor: '#FEF9C3', padding: '48px'}}>
+    <Icon icon="feather" iconType="duotone" size={80} color="#A16207" />
+</Frame>
+
+Reading online means scanning dozens of pages a day — and losing the important parts just as fast.
+Select and save key passages from any web page, PDF, or EPUB to revisit them later without re-reading the whole page.
+
+Color-code your highlights, add annotations, then search or export them across all your bookmarks.
+
+<Note>Highlights are free for all users with no limit on pages or highlights. [Annotations](#adding-a-note) (notes on highlights) require a [Pro plan](https://raindrop.io/pro/buy).</Note>
+
+## Saving highlights
+
+Select any text and pick a color — the highlight is saved instantly. You can also add an optional note. See how it works on each platform below.
+
+<Tabs sync={false} borderBottom>
+    <Tab title="Web & Desktop">
+        <Steps>
+            <Step>
+                Right-click a bookmark and select **Preview**.
+            </Step>
+            <Step>
+                Select text by clicking and dragging over the passage you want to save.
+
+                <Frame>![](/assets/highlights-manage.png)</Frame>
+            </Step>
+            <Step>
+                Pick a highlight color from the toolbar that appears, and optionally add an annotation.
+            </Step>
+        </Steps>
+    </Tab>
+
+    <Tab title="Browser extension">
+        <Steps>
+            <Step>
+                Select text on any web page — click and drag over the passage you want to save.
+
+                <Frame>![](/assets/highlights-extension.png)</Frame>
+            </Step>
+            <Step>
+                Choose **Save highlight** from the context menu, or use a keyboard shortcut:
+
+                | Browser | Shortcut |
+                |---------|----------|
+                | Chrome, Safari | `Ctrl+Shift+S` (Mac: `Cmd+Shift+S`) |
+                | Edge, Firefox, others | `Alt+X` (Mac: `⌃X`) |
+            </Step>
+            <Step>
+                Accept the permission request (first time only). The extension needs **Access data on websites** to show your highlights when you revisit a page. [Why?](#why-does-the-browser-extension-need-extra-permissions)
+
+                <Warning>In Safari on macOS, click **Always Allow on Every Website** when prompted — otherwise highlights won't appear on revisits.</Warning>
+            </Step>
+        </Steps>
+    </Tab>
+
+    <Tab title="iOS">
+        To highlight inside the Raindrop.io app:
+        <Steps>
+            <Step>
+                Tap on any bookmark to open its content.
+            </Step>
+            <Step>
+                Select the text you would like to highlight, then tap the color button.
+
+                <Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-highlight.png" style={{maxHeight: '333px'}} /></Frame>
+            </Step>
+        </Steps>
+
+        To highlight directly in Safari:
+        <Steps>
+            <Step>
+                Install the [Raindrop.io mobile app](/mobile-app) if you haven't already.
+            </Step>
+            <Step>
+                Enable the Safari extension: go to iOS **Settings** → **Safari** → **Extensions** → **Raindrop.io** and turn it on.
+            </Step>
+            <Step>
+                Select the text you would like to highlight, then tap the color button.
+            </Step>
+        </Steps>
+    </Tab>
+
+    <Tab title="Android">
+        <Steps>
+            <Step>
+                Tap on any bookmark to open its content.
+            </Step>
+            <Step>
+                Select the text you would like to highlight, then tap the color button.
+
+                <Frame style={{padding: '20px 0 0 0'}}><img src="/assets/android-highlight.png" style={{maxHeight: '333px'}} /></Frame>
+            </Step>
+        </Steps>
+    </Tab>
+</Tabs>
+
+## Revisiting highlights
+
+Highlights sync across all your devices automatically. With the browser extension, they also appear right on the original page when you revisit it.
+
+<Tabs sync={false} borderBottom>
+    <Tab title="Browser extension">
+        With the [browser extension](/install-extension) installed, saved highlights appear directly on the original page when you revisit it.
+
+        <Frame style={{padding: 0}}>![](/assets/highlights-intro.png)</Frame>
+
+        <Info>
+            The extension needs permission to display highlights on pages.
+            To enable it, right-click the extension icon → **Settings** → **Permissions** and turn on **Highlights**.
+            In Safari on macOS, click **Always Allow on Every Website** when prompted. [Why is this needed?](#why-does-the-browser-extension-need-extra-permissions)
+        </Info>
+    </Tab>
+
+    <Tab title="Web & Desktop">
+        <Steps>
+            <Step>
+				Right-click a bookmark to open the context menu and select **Preview**.
+
+                <Frame style={{padding:0}}>![Web archive of a saved page](/assets/bookmark-context-menu.png)</Frame>
+			</Step>
+            <Step>
+                Click **Highlights** at the bottom of the page. Click any highlight in the list to jump to its position (works in the **Preview** tab).
+
+                <Frame>![](/assets/highlights-manage.png)</Frame>
+            </Step>
+        </Steps>
+    </Tab>
+
+    <Tab title="iOS">
+        Tap on any bookmark to open its content
+
+        <Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-highlight.png" style={{maxHeight: '333px'}} /></Frame>
+    </Tab>
+
+    <Tab title="Android">
+        Tap on any bookmark to open its content
+
+        <Frame style={{padding: '20px 0 0 0'}}><img src="/assets/android-highlight.png" style={{maxHeight: '333px'}} /></Frame>
+    </Tab>
+</Tabs>
+
+## Annotating
+
+Leave a note on any highlight — useful for capturing your thoughts in context.
+Tap or click a highlight, then tap the note icon to write your note.
+
+<Note>Annotations require a [Pro plan](https://raindrop.io/pro/buy). Highlights themselves are free.</Note>
+
+## Editing highlights
+
+Tap or click any saved highlight to open an action toolbar (available on all platforms):
+
+- **Change color** — switch between available highlight colors
+- **Add note** — attach an annotation to the highlight
+- **Delete** — remove the highlight from the page
+
+## Finding highlighted bookmarks
+
+<Tabs sync={false}>
+	<Tab title="Web & Desktop">
+		Click the **Highlights** filter in sidebar.
+
+		<Frame style={{padding:0}}>![](/assets/filters.png)</Frame>
+	</Tab>
+	<Tab title="iOS">
+		<Steps>
+			<Step>
+				Tap <Icon icon="ellipsis" /> in top right corner and then **Filter**.
+			</Step>
+			<Step>
+				Select the **Highlights** filter from the list.
+
+				<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-filter.png" style={{maxHeight: '333px'}} /></Frame>
+			</Step>
+		</Steps>
+	</Tab>
+	<Tab title="Android">
+		<Steps>
+			<Step>
+				Tap on the search field.
+			</Step>
+			<Step>
+				Select the **Highlights** filter from the suggestions.
+
+				<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/android-filter.png" style={{maxHeight: '333px'}} /></Frame>
+			</Step>
+		</Steps>
+	</Tab>
+</Tabs>
+
+## Related
+
+<CardGroup cols={2}>
+    <Card title="Upload files" icon="file" iconType="duotone" href="/files">
+        Highlight text in uploaded PDFs and EPUBs
+    </Card>
+
+    <Card title="Search highlights" icon="search" iconType="duotone" href="/using-search">
+        Find specific highlights across your entire library
+    </Card>
+
+    <Card title="Export" icon="arrow-up-from-bracket" iconType="duotone" href="/export">
+        Download your highlights as a file
+    </Card>
+
+    <Card title="Integrations" icon="plug" iconType="duotone" href="/integrations">
+        Export highlights to Readwise, Notion, and other apps
+    </Card>
+</CardGroup>
+
+## FAQ
+
+<AccordionGroup>
+    <Accordion title="Can I highlight PDFs and EPUBs?">
+        Yes. Save a PDF as a bookmark or [upload it as a file](/files), then open it inside Raindrop.io to highlight. EPUBs work the same way — upload to any collection and open. The browser's built-in PDF viewer doesn't support Raindrop.io highlights.
+    </Accordion>
+
+    <Accordion title="Why does the browser extension need extra permissions?">
+        To display your saved highlights when you revisit a page, the extension needs **Access data on websites**. It checks the page URL and loads matching highlights — no tracking or third-party data sharing involved. Many extensions request this permission by default; Raindrop.io asks explicitly.
+    </Accordion>
+
+    <Accordion title="Are highlights included in backups?">
+        Yes. Highlights are part of your [backup](/export) data alongside collections, bookmarks, and tags.
+    </Accordion>
+
+    <Accordion title="Do highlights sync across devices?">
+        Yes. Highlights are stored on Raindrop.io servers and appear everywhere you're signed in.
+    </Accordion>
+</AccordionGroup>

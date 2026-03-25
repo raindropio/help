@@ -1,0 +1,39 @@
+---
+title: "ChatGPT"
+---
+
+<Frame style={{padding: '48px'}}>
+	<Icon icon="openai" size={80} color="#10A37F" />
+</Frame>
+
+[ChatGPT](https://chatgpt.com/) is an AI assistant by OpenAI. With this integration it can search, read, and organize your bookmarks via [MCP](/integrations/mcp).
+
+We're working on adding Raindrop.io to the ChatGPT Apps catalog for one-click setup. In the meantime, you can connect manually using Developer mode.
+
+Requires ChatGPT Plus, Pro, Business, Enterprise, or Education plan.
+
+## Connecting
+
+<Steps>
+	<Step>
+		Go to [**Settings → Apps → Advanced**](https://chatgpt.com/#settings/Connectors)
+	</Step>
+	<Step>
+		Enable **Developer mode**
+	</Step>
+	<Step>
+		Click **Create App**
+	</Step>
+	<Step>
+		Set name to `Raindrop` and paste the MCP server URL:
+		```
+		https://api.raindrop.io/rest/v2/ai/mcp
+		```
+	</Step>
+	<Step>
+		Check **I understand and want to continue**
+	</Step>
+	<Step>
+		Click **Create App**
+	</Step>
+</Steps>

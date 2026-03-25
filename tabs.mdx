@@ -1,0 +1,105 @@
+---
+title: "Tabs"
+description: "Save all open browser tabs to a collection in one click"
+icon: "window-restore"
+---
+
+<Frame style={{backgroundColor: '#ECDFFB', padding: '48px'}}>
+    <Icon icon="window-restore" iconType="duotone" size={80} color="#5314A3" />
+</Frame>
+
+Too many open tabs piling up? Save them all as bookmarks and come back to them when you're ready.
+Each saved session is automatically tagged with today's date, so you can tell one apart from another.
+
+## Saving tabs
+
+<Tabs sync={false}>
+    <Tab title="Browser extension">        
+        <Steps>
+            <Step>
+                Right-click the Raindrop.io extension icon and choose **Save tabs**.
+
+                <Frame style={{padding: '20px 0 0 0'}}><img src="/assets/save-tabs.png" style={{maxHeight: '259px', marginRight: 'auto'}} /></Frame>
+
+                <Check>Make sure you have the [browser extension](/install-extension) installed.</Check>
+            </Step>
+
+            <Step>
+                Pick a collection or leave the default, then click **Save tabs**.
+
+                <Frame style={{padding: '10px 0 0 0'}}><img src="/assets/tabs.png" style={{marginRight: 'auto'}} /></Frame>
+            </Step>
+        </Steps>
+    </Tab>
+
+    <Tab title="iOS">
+        <Steps>
+            <Step>
+                Install the [Raindrop.io mobile app](/mobile-app) if you haven't already.
+            </Step>
+
+            <Step>
+                Enable the Safari extension: go to iOS **Settings** → **Safari** → **Extensions** → **Raindrop.io** and turn it on.
+            </Step>
+
+            <Step>
+                In Safari, tap the **puzzle** icon in the address bar, then tap **Raindrop.io**.
+            </Step>
+
+            <Step>
+                Tap **Tabs**. Pick a collection or leave the default, then tap **Save tabs**.
+            </Step>
+        </Steps>
+    </Tab>
+
+    <Tab title="Android">
+        Not available. Chrome on Android doesn't support extensions, which are required for this feature.
+    </Tab>
+</Tabs>
+
+## Reopening saved tabs
+
+<Tabs sync={false}>
+    <Tab title="Web & Desktop">
+        You can open all bookmarks in a collection at once, or select specific ones.
+
+        **Open entire collection:**   
+        Right-click a collection in the sidebar and choose **Open all bookmarks**.
+
+        <Frame style={{padding:0}}>![](/assets/collection-context-menu.png)</Frame>
+
+        **Open specific bookmarks:**
+
+        <Steps>
+            <Step>
+                Hover over a bookmark and click the tick mark in the top-left corner. Repeat for each bookmark you want to open.
+
+                <Frame style={{padding:0}}>![](/assets/bookmarks-bulk.png)</Frame>
+            </Step>
+
+            <Step>
+                Click **Open** in the toolbar that appears at the top.
+            </Step>
+        </Steps>
+    </Tab>
+
+    <Tab title="iOS">
+        Opening all bookmarks at once is not yet supported. Saved tabs are regular bookmarks — you can open them one by one from the collection.
+    </Tab>
+
+    <Tab title="Android">
+        Opening all bookmarks at once is not yet supported. Saved tabs are regular bookmarks — you can open them one by one from the collection.
+    </Tab>
+</Tabs>
+
+## FAQ
+
+<AccordionGroup>
+    <Accordion title="Can I choose which tabs to save?">
+        By default all tabs in the current window are included. To exclude a tab, hover over it in the list and click the **trash** icon.
+    </Accordion>
+
+    <Accordion title="What happens if I save tabs twice?">
+        A new set of bookmarks is created each time. You can use the [duplicates](/duplicates) tool to find and merge them.
+    </Accordion>
+</AccordionGroup>

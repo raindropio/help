@@ -1,0 +1,200 @@
+---
+title: "Files"
+description: "Upload documents, images, videos, and books to your collections"
+icon: "file"
+---
+
+<Frame style={{backgroundColor: '#ECDFFB', padding: '48px'}}>
+    <Icon icon="file" iconType="duotone" size={80} color="#5314A3" />
+</Frame>
+
+Not all useful materials exist as web pages — research PDFs, design mockups, receipts, ebooks live as files on your devices.
+Upload them to your collections to keep everything in one place, right next to related bookmarks.
+
+They work just like bookmarks: [tag](/tags), [search](/using-search), organize into [collections](/collections), [highlight](/highlights), and share.
+
+## Supported types
+
+| Type | Formats |
+|------|---------|
+| <Icon icon="image" size={16} /> Images | `jpeg`, `gif`, `png`, `webp`, `heic` |
+| <Icon icon="play" size={16} /> Videos | `mp4`, `mov`, `wmv`, `webm` |
+| <Icon icon="book" size={16} /> Books | `epub` |
+| <Icon icon="file" size={16} /> Documents | `pdf`, `md`, `txt` |
+
+## Uploading files
+
+<Tabs sync={false}>
+    <Tab title="Web & Desktop">
+        <Steps>
+            <Step>
+                Click **+** in a collection to open the add menu.
+            </Step>
+            <Step>
+                Choose **File** to open the file picker.
+
+                <Frame style={{padding: 0}}>![](/assets/add-menu.png)</Frame>
+            </Step>
+            <Step>
+                Select files on your computer. Chosen files are uploaded into the collection.
+            </Step>
+            <Step>
+                *Optionally:* you can also drag files from your desktop straight into a collection — upload starts immediately.
+            </Step>
+        </Steps>
+    </Tab>
+
+    <Tab title="iOS">
+        <Steps>
+            <Step>
+                Tap **+** in a collection to open the add menu.
+            </Step>
+            <Step>
+                Choose **File** or **Media** to open the picker.
+            </Step>
+            <Step>
+                Select items on your device. Chosen items are uploaded into the collection.
+            </Step>
+        </Steps>
+    </Tab>
+
+    <Tab title="Android">
+        <Steps>
+            <Step>
+                Tap **+** in a collection to open the add menu.
+            </Step>
+            <Step>
+                Choose **Add images** or **Add file** to open the picker.
+            </Step>
+            <Step>
+                Select items on your device. Chosen items are uploaded into the collection.
+            </Step>
+        </Steps>
+    </Tab>
+</Tabs>
+
+See [Limits](/limitations) for a full plan comparison.
+
+## Sharing from other apps
+
+On mobile you can send files to Raindrop.io from any app that supports the system share menu. Make sure the [mobile app](/mobile-app) is installed first.
+
+<Tabs sync={false}>
+    <Tab title="iOS">
+        <Steps>
+            <Step>
+                Open a file and tap **Share**.
+
+                <Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-share-sheet.png" style={{maxHeight: '333px'}} /></Frame>
+            </Step>
+            <Step>
+                Choose **Raindrop.io** from the share sheet. If you don't see it, scroll the top row of icons to the right and tap **More** at the end to enable Raindrop.io.
+            </Step>
+            <Step>
+                Pick a collection and tap **Save**.
+            </Step>
+        </Steps>
+    </Tab>
+
+    <Tab title="Android">
+        <Steps>
+            <Step>
+                Open a file and tap **Share**.
+
+                <Frame style={{padding: '20px 0 0 0'}}><img src="/assets/android-share-sheet.png" style={{maxHeight: '333px'}} /></Frame>
+            </Step>
+            <Step>
+                Choose **Raindrop** from the share list.
+            </Step>
+            <Step>
+                Pick a collection and tap **Save**.
+            </Step>
+        </Steps>
+    </Tab>
+</Tabs>
+
+## Finding uploaded files
+
+<Tabs sync={false}>
+	<Tab title="Web & Desktop">
+		Click a content type filter like **Document**, **Image**, or **Video** in sidebar.
+
+		<Frame style={{padding:0}}>![](/assets/filters.png)</Frame>
+
+		To see only uploaded files (without web bookmarks), type `file:true` in the search field.
+	</Tab>
+	<Tab title="iOS">
+		<Steps>
+			<Step>
+				Tap <Icon icon="ellipsis" /> in top right corner and then **Filter**.
+			</Step>
+			<Step>
+				Select a content type like **Document**, **Image**, or **Video** from the list.
+
+				<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-filter.png" style={{maxHeight: '333px'}} /></Frame>
+			</Step>
+		</Steps>
+	</Tab>
+	<Tab title="Android">
+		<Steps>
+			<Step>
+				Tap on the search field.
+			</Step>
+			<Step>
+				Select a content type like **Document**, **Image**, or **Video** from the suggestions.
+
+				<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/android-filter.png" style={{maxHeight: '333px'}} /></Frame>
+			</Step>
+		</Steps>
+	</Tab>
+</Tabs>
+
+## Downloading files
+
+<Tabs sync={false}>
+    <Tab title="Web & Desktop">
+        **Single file** — right-click a file and choose **Download**.
+
+        **Multiple files** — select the files, click [**Export**](/export), and choose **ZIP**.
+    </Tab>
+
+    <Tab title="iOS">
+        Tap a file to open the preview, then tap **Share** and choose where to save it.
+    </Tab>
+
+    <Tab title="Android">
+        Not available yet.
+    </Tab>
+</Tabs>
+
+## Related
+
+<CardGroup cols={2}>
+    <Card title="Highlights" icon="feather" iconType="duotone" href="/highlights">
+        Save text selections from PDFs and web pages
+    </Card>
+
+    <Card title="Limits" icon="gauge-high" iconType="duotone" href="/limitations">
+        Upload quotas and plan comparison
+    </Card>
+</CardGroup>
+
+## FAQ
+
+<AccordionGroup>
+    <Accordion title="Can I search inside uploaded files?">
+        Yes, with a Pro plan. [Full-text search](/using-search) works with text-based PDFs, EPUBs, and plain text files. Scanned documents and photos of pages are not searchable — only PDFs where text was typed or copy-pasted.
+    </Accordion>
+
+    <Accordion title="What happens when I reach the monthly upload limit?">
+        New uploads are blocked until the next month. Existing files are not affected.
+    </Accordion>
+
+    <Accordion title="Can I replace a file after uploading?">
+        No. Delete the old file and upload the new version.
+    </Accordion>
+
+    <Accordion title="What happens to files if I downgrade from Pro?">
+        Your files stay in your collections. The monthly upload limit drops to the Free plan level.
+    </Accordion>
+</AccordionGroup>

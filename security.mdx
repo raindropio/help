@@ -1,0 +1,83 @@
+---
+title: "Security & privacy"
+description: "How your data is stored, protected, and kept private"
+icon: "shield"
+---
+
+<Frame style={{backgroundColor: '#ECDFFB', padding: '48px'}}>
+	<Icon icon="shield-halved" iconType="duotone" size={80} color="#5314A3" />
+</Frame>
+
+Your bookmarks, files, and personal data are private by default. Raindrop.io runs on a paid subscription model — no ads, no tracking, no selling your data. This page explains what's happening behind the scenes to keep everything safe.
+
+## Data storage
+
+All data is stored in the cloud on **Amazon Web Services (AWS)** servers in **Frankfurt, Germany**. Three copies of your data are kept across distributed data centers in Germany at all times.
+
+AWS provides industry-leading infrastructure security including a dedicated firewall, key-based SSH authentication, and continuous monitoring. The hosting environment is regularly updated and actively checked for potential intrusions.
+
+## Encryption
+
+Every connection to Raindrop.io is encrypted over **HTTPS** with RSA 2048-bit keys. The security configuration supports modern standards including Perfect Forward Secrecy (PFS) and SHA-256 digests, earning a **Qualys SSL rating of "A"**.
+
+## Backups & data recovery
+
+Your data is continuously backed up. In the event of a failure, it can be restored to any point in time within the past year.
+
+On top of that, you can create your own backups at any time — see [Export & backup](/export) for details.
+
+## Access control
+
+- Your collections are **private by default** — no one can see them unless you explicitly [make them public](/public-page) or [share with collaborators](/collaboration)
+- Uploaded files require authentication to access. Even if someone gets a direct link, it is temporary and expires after 10 minutes
+- [Two-factor authentication](/authentication#two-factor-authentication-2fa) is available for an extra layer of login security
+
+## Privacy & business model
+
+Raindrop.io is an independent, bootstrapped product with over 13 years on the market — no investors, no corporate parent.
+
+Revenue comes entirely from [Pro subscriptions](/premium-features). There is no advertising, no data mining, and no selling of user data — your information is used only to run the service.
+
+For full legal details, see the [Privacy Policy](/privacy) and [Terms of Service](/terms).
+
+## FAQ
+
+<AccordionGroup>
+	<Accordion title="Where exactly is my data stored?">
+		On Amazon Web Services (AWS) servers in Frankfurt, Germany. Three copies are maintained across distributed data centers.
+	</Accordion>
+
+	<Accordion title="Is my data encrypted?">
+		All connections between you and Raindrop.io are encrypted over HTTPS with RSA 2048-bit keys, Perfect Forward Secrecy, and SHA-256 digests.
+	</Accordion>
+
+	<Accordion title="Can someone access my uploaded files directly?">
+		No. File access requires authentication, and direct links are temporary — they expire after 10 minutes. Collections are private unless you explicitly share them.
+	</Accordion>
+
+	<Accordion title="Does Raindrop.io sell my data?">
+		No. Revenue comes from Pro subscriptions. There is no advertising or data selling.
+	</Accordion>
+
+	<Accordion title="What happens if something goes wrong with the servers?">
+		Data is backed up continuously and can be restored to any point within the past year. Three copies are always maintained across multiple data centers.
+	</Accordion>
+
+	<Accordion title="How can I delete my data?">
+		You can [delete your account](/transfer) at any time. You can also email info@raindrop.io to request data deletion.
+	</Accordion>
+</AccordionGroup>
+
+## Related
+
+<CardGroup cols={2}>
+	<Card title="Authentication" icon="user-lock" iconType="duotone" href="/authentication">
+		Manage sign-in methods, passwords, and 2FA
+	</Card>
+	<Card title="Export & backup" icon="arrow-up-from-bracket" iconType="duotone" href="/export">
+		Download your data or set up automatic backups
+	</Card>
+	<Card title="Transfer & delete" icon="truck" iconType="duotone" href="/transfer">
+		Move data between accounts or remove your account
+	</Card>
+</CardGroup>

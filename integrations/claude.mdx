@@ -1,0 +1,55 @@
+---
+title: "Claude"
+---
+
+<Frame style={{padding: '48px'}}>
+	<Icon icon="asterisk" size={80} color="orange" />
+</Frame>
+
+[Claude](https://claude.ai/) is an AI assistant by Anthropic. With this integration it can search, read, and organize your bookmarks via [MCP](/integrations/mcp).
+
+## Connecting via claude.ai
+
+Requires Claude Pro, Max, Team, or Enterprise plan.
+
+<Steps>
+	<Step>
+		Go to **Settings → Connectors**
+	</Step>
+	<Step>
+		Click **Add connector** and paste the MCP server URL:
+		```
+		https://api.raindrop.io/rest/v2/ai/mcp
+		```
+	</Step>
+	<Step>
+		Click **Connect** and authorize Raindrop.io in the browser
+	</Step>
+</Steps>
+
+<Tip>Click **Configure** next to Raindrop and set **Read-only tools** permission to **Always allow** so Claude doesn't ask for confirmation every time.</Tip>
+
+## Connecting via Claude Desktop
+
+Requires [Node.js](https://nodejs.org) installed. Add to your `claude_desktop_config.json`:
+
+```json
+{
+	"mcpServers": {
+		"raindrop": {
+			"command": "npx",
+			"args": ["-y", "mcp-remote", "https://api.raindrop.io/rest/v2/ai/mcp"]
+		}
+	}
+}
+```
+
+Restart Claude Desktop after saving the file.
+
+## Connecting via Claude Code
+
+Run in terminal:
+
+```bash
+claude mcp add --transport http raindrop https://api.raindrop.io/rest/v2/ai/mcp
+```

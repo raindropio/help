@@ -1,0 +1,34 @@
+---
+title: "Feedly"
+---
+
+<Frame style={{padding: '48px'}}>
+	<img src="/assets/icon-feedly.png" style={{width: '80px', height: '80px'}} />
+</Frame>
+
+[Feedly](https://feedly.com/) is an RSS feed reader and news aggregator. With this integration you can save articles with a single click or automatically sync your Read Later list.
+
+## Adding a share button
+
+<Steps>
+	<Step>
+		Go to Feedly [Saving & Sharing settings](https://feedly.com/i/account/saving-sharing)
+	</Step>
+	<Step>
+		Add a custom sharing tool with this URL:
+		```
+		https://app.raindrop.io/add?link=${url}&title=${title}
+		```
+	</Step>
+</Steps>
+
+## Syncing Read Later automatically
+
+You can automatically save your Feedly Read Later items using IFTTT.
+
+<CardGroup cols={1}>
+	<Card title="Save Feedly read laters to Raindrop.io" icon="/assets/icon-ifttt.png" href="https://ifttt.com/applets/VYGBWd4R-save-feedly-read-laters-to-raindrop-io" horizontal>
+	</Card>
+</CardGroup>
+
+Browse [ready-made applets](https://ifttt.com/connect/raindrop/feedly) or [create your own](https://ifttt.com/create) — including multi-step workflows. Learn how such [integrations work](/integrations/ifttt)

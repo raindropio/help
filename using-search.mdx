@@ -1,0 +1,103 @@
+---
+title: "Search"
+description: "By keyword, content, or meaning"
+icon: "search"
+---
+
+<Frame style={{backgroundColor: '#E3EAFD', padding: '48px'}}>
+	<Icon icon="search" iconType="duotone" size={80} color="#133A9A" />
+</Frame>
+
+Search for [bookmarks](/bookmarks), [collections](/collections), [tags](/tags), [highlights](/highlights), and annotations — all from one search field.
+
+## How to search
+
+<Tabs sync={false}>
+	<Tab title="Web & Desktop">
+		Click the search field at the top of the page and start typing.
+
+		<Frame style={{padding:0}}>![](/assets/search-results.png)</Frame>
+
+		<Tip>**Pro tip**: To search within a specific collection, open it first, then click the search field and select **In current collection** from the dropdown.</Tip>
+	</Tab>
+
+	<Tab title="iOS">
+		Tap the search field at the top of the screen and type your query.
+
+		<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-search.png" style={{maxHeight: '333px'}} /></Frame>
+
+		<Tip>**Pro tip**: To search within a specific collection, open it first, then tap the search field.</Tip>
+	</Tab>
+
+	<Tab title="Android">
+		Tap the <Icon icon="search" size={16} /> button at the top of the screen and type your query.
+
+		<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/android-filter.png" style={{maxHeight: '333px'}} /></Frame>
+
+		<Tip>**Pro tip**: To search within a specific collection, open it first, then tap the search field.</Tip>
+	</Tab>
+</Tabs>
+
+Results are grouped by type so you can jump to the right one.
+For bookmarks, results match against title, description, URL, notes and page content.
+Need to narrow things down? Use [filters](/filters) to refine your results by attributes, date, and more.
+
+<Note>Searching inside web pages, PDF, and EPUB files requires a [Pro plan](/premium-features).</Note>
+
+## Don't remember the exact words?
+
+Ask [Stella](/stella) — the built-in AI assistant that understands meaning, not just keywords.
+
+<Frame style={{padding:0}}>![](/assets/stella-intro.png)</Frame>
+
+Open a chat and describe what you're looking for in your own words — `that article about morning routines`, `the Italian recipe with the weird ingredient`, `travel tips for Tokyo from that blogger`.
+
+## Searching from the browser address bar
+
+You don't even need to open Raindrop.io — search straight from your browser's address bar without leaving the page you're on. Enter `rd` in the address bar, press **Tab**, and type your query.
+
+<Frame style={{padding:0}}>![](/assets/extension-omnibox.png)</Frame>
+
+<Check>Available in Chrome, Firefox, and Edge with installed [Raindrop.io extension](/install-extension)</Check>
+
+## Limitations
+
+- New bookmarks need a few minutes before page content is indexed
+- Text inside images is not searchable (no OCR)
+- Video and audio transcripts are not supported
+
+## Related
+
+<CardGroup cols={2}>
+	<Card title="Filters" icon="filter" iconType="duotone" href="/filters">
+		Narrow results by type, tag, date, and operators
+	</Card>
+
+	<Card title="Ask Stella" icon="sparkles" iconType="duotone" href="/stella">
+		Describe what you're looking for in plain language
+	</Card>
+</CardGroup>
+
+## FAQ
+
+<AccordionGroup>
+	<Accordion title="Can I combine text search with filters?">
+		Yes. Type in the search field while one or more [filters](/filters) are active. The results will match both your search query and every selected filter.
+	</Accordion>
+
+	<Accordion title="Can't find something?">
+		- **Saved it just now?** Title, description, and URL are searchable right away, but page content needs a few minutes to index.
+		- **Deleted it?** Bookmarks in [Trash](/bookmarks#where-deleted-bookmarks-go) don't appear in search results. Restore the bookmark first.
+		- **Try asking [Stella](/stella)** — describe what you're looking for in your own words, it's often the fastest way.
+		- **Can't find text from the page?** Make sure the bookmark has a [web archive](/permanent-copy) copy — it's required for page content search.
+	</Accordion>
+
+	<Accordion title="How do I search for an exact phrase?">
+		Wrap it in quotes: `"css grid"`. You can also exclude words with a minus sign: `-superman`. See [all available operators](/filters#need-more-precise-filtering) in the Filters article.
+	</Accordion>
+
+	<Accordion title="Can I limit search to title and description only?">
+		Yes. Select **In title/description** from the search field suggestions, or type `info:` before your query.
+	</Accordion>
+
+</AccordionGroup>

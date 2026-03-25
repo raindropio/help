@@ -1,0 +1,39 @@
+---
+title: "Can't open multiple links at once"
+icon: "window-restore"
+---
+
+You click **Open all bookmarks** or select several bookmarks and click **Open**, but nothing happens — or only one tab opens. This is because your browser blocks pop-ups from Raindrop.io by default.
+
+<Tabs sync={false}>
+	<Tab title="Chrome / Edge / Brave">
+		After you try to open multiple tabs, a small icon appears in the address bar. Click it and allow pop-ups for Raindrop.io.
+
+		{/* Screenshot: Chrome pop-up blocked icon */}
+
+		**Alternative:** paste `chrome://settings/content/popups` into the address bar, scroll to **Allow**, click **Add**, and enter `[*.]raindrop.io`.
+	</Tab>
+
+	<Tab title="Safari">
+		<Steps>
+			<Step>
+				Right-click the address bar and choose **Settings for app.raindrop.io**
+			</Step>
+			<Step>
+				Set **Pop-up Windows** to **Allow**
+			</Step>
+		</Steps>
+	</Tab>
+
+	<Tab title="Firefox">
+		After you try to open multiple tabs, Firefox shows a notification bar at the top. Click **Preferences** and select **Allow pop-ups for app.raindrop.io**.
+
+		{/* Screenshot: Firefox pop-up blocked bar */}
+
+		**Alternative:** go to `about:preferences#privacy`, scroll to **Permissions**, click **Exceptions** next to **Block pop-up windows**, add `https://app.raindrop.io`, and click **Allow**.
+	</Tab>
+</Tabs>
+
+## Limitations
+
+Only the first 40 bookmarks in a collection will be opened at once. If you need to open more, scroll down the collection to load additional bookmarks before clicking **Open all**.

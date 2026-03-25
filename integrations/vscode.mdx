@@ -1,0 +1,24 @@
+---
+title: "VS Code"
+---
+
+<Frame style={{padding: '48px'}}>
+	<img src="/assets/icon-vscode.png" style={{width: '80px', height: '80px'}} />
+</Frame>
+
+[VS Code](https://code.visualstudio.com/) is a code editor by Microsoft with built-in GitHub Copilot. With this integration Copilot can search, read, and organize your bookmarks via [MCP](/integrations/mcp).
+
+## Connecting
+
+Add to `.vscode/mcp.json` in your project:
+
+```json
+{
+	"servers": {
+		"raindrop": {
+			"type": "http",
+			"url": "https://api.raindrop.io/rest/v2/ai/mcp"
+		}
+	}
+}
+```

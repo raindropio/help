@@ -1,0 +1,159 @@
+---
+title: "Browser extension"
+description: "The quickest way to save bookmarks, highlights, and tabs"
+---
+
+<Frame style={{padding: 0}}>![Browser extension](/assets/extension-intro.png)</Frame>
+
+Save anything to Raindrop.io as you browse the web — just click the extension icon or use a keyboard shortcut.
+
+## Installing
+
+<CardGroup cols={4}>
+    <Card title="Chrome" icon="/assets/icon-chrome.svg" href="https://raindrop.io/r/extension/chrome" />
+    <Card title="Safari" icon="/assets/icon-safari.svg" href="https://raindrop.io/r/extension/safari" />
+    <Card title="Edge" icon="/assets/icon-edge.svg" href="https://raindrop.io/r/extension/edge" />
+    <Card title="Firefox" icon="/assets/icon-firefox.svg" href="https://raindrop.io/r/extension/firefox" />
+</CardGroup>
+
+Using Arc, Vivaldi, Opera, or Brave? Install the [Chrome extension](https://raindrop.io/r/extension/chrome) — it works in these browsers too.
+For iOS and Android, check out the [mobile app](/mobile-app).
+
+## Pinning toolbar icon
+
+After installing, <Icon icon="thumbtack" size={16} color="blue" /> pin the Raindrop.io icon to your browser toolbar so it's always one click away.
+
+<Frame style={{padding:0}}>
+    <img src="/assets/extension-pintoolbar.png" style={{maxHeight: '328px', marginRight: 'auto'}} />
+</Frame>
+
+<Steps>
+    <Step>
+        Click the <Icon icon="puzzle-piece" size={16} /> puzzle piece (extensions) icon in the toolbar
+    </Step>
+    <Step>
+        Find **Raindrop.io** in the list and click the <Icon icon="thumbtack" size={16} /> pin button
+    </Step>
+</Steps>
+
+
+## Enabling saved page indicator
+
+Enable the saved page indicator to see a small <Icon icon="square-check" size={16} color="blue" iconType="solid" /> badge on the extension icon whenever you visit a page that's already in your bookmarks.
+
+<img src='/assets/extension-highlight.jpg' style={{maxHeight:100, borderRadius: '.5em'}} />
+
+<Steps>
+    <Step>
+        Right-click the Raindrop.io extension icon and select **Settings**
+    </Step>
+    <Step>
+        Turn on **Saved page indicator** in the **Permissions** section
+    </Step>
+</Steps>
+
+## Next steps
+
+You're all set! Now explore what you can do with the extension:
+
+<CardGroup cols={2}>
+    <Card title="Save bookmark" icon="bookmark" iconType="duotone" href="/bookmarks">
+        Save the current page or any link
+    </Card>
+
+    <Card title="Add highlights" icon="feather" iconType="duotone" href="/highlights">
+        Select and save text on any page
+    </Card>
+
+    <Card title="Save tabs" icon="window-restore" iconType="duotone" href="/tabs">
+        Save all open browser tabs at once
+    </Card>
+
+    <Card title="Ask AI" icon="sparkles" iconType="duotone" href="/stella">
+        Ask questions about the web page
+    </Card>
+</CardGroup>
+
+## Advanced features
+
+Once you're comfortable with the basics, try these features to get more out of the extension:
+
+<AccordionGroup>
+    <Accordion title="Open as a sidebar" icon="sidebar">
+        Keep the full Raindrop.io app open as a persistent sidebar alongside your current page — browse collections, search, and drag links or images directly into it.
+
+        ![](/assets/extension-sidebar.jpg)
+
+        <Tabs sync={false}>
+            <Tab title="Chrome / Edge">
+                Press `Ctrl+.` (Windows/Linux) or `Cmd+.` (Mac). Or right-click the Raindrop.io toolbar icon and select **Open Sidebar**.
+
+                ![](/assets/extension-open-sidebar.jpg)
+            </Tab>
+
+            <Tab title="Firefox">
+                Press `Ctrl+.` (Windows/Linux) or `Cmd+.` (Mac). Or go to **View → Sidebar → Raindrop.io**.
+
+                You can also [pin the sidebar button in the toolbar](https://support.mozilla.org/kb/use-firefox-sidebar-access-bookmarks-history-synced) for quicker access.
+            </Tab>
+
+            <Tab title="Other browsers">
+                Sidebar is not supported in Safari and other browsers.
+            </Tab>
+        </Tabs>
+    </Accordion>
+
+    <Accordion title="Search from the address bar" icon="search">
+        Type `rd` in the address bar, press `Tab`, and search your bookmarks without opening Raindrop.io. See [Search](/using-search) for details.
+
+        ![](/assets/extension-omnibox.png)
+
+        <Warning>
+            Not available in Safari and Vivaldi. In Chrome, make sure **Settings → Search engine → Keyboard shortcut** is set to **Space or tab**.
+        </Warning>
+    </Accordion>
+</AccordionGroup>
+
+## FAQ
+
+<AccordionGroup>
+    <Accordion title="Can I save bookmarks with one click?">
+        Yes. Right-click the extension icon → **Settings → Appearance → Clipper**, then enable **Save automatically**. New bookmarks are saved to **Unsorted** (or the last used collection) with a single click.
+    </Accordion>
+
+    <Accordion title="Can I save pages without installing an extension?">
+        Yes — you can add bookmarks directly in the [Raindrop.io app](/bookmarks) by pasting a URL or using the built-in browser share menu.
+
+        Alternatively, you can use a bookmarklet — it opens a small save dialog for the current page, no permissions required, works in any browser.
+
+        <Steps>
+            <Step>
+                Create a new bookmark in your browser and name it **Save to Raindrop.io**
+            </Step>
+            <Step>
+                Paste the following code as the bookmark URL:
+
+                ```
+                javascript:(function(){var rspW=450,rspH=600,rspL=parseInt((screen.width/2)-(rspW/2)),rspT=parseInt((screen.height/2)-(rspH/2));window.open("https://app.raindrop.io/add?link="+encodeURIComponent(window.location.href)+"&title="+encodeURIComponent(document.title),"raindrop-save","width="+rspW+",height="+rspH+",resizable=yes,scrollbars=yes,status=false,location=false,toolbar=false,left="+rspL+",top="+rspT)})()
+                ```
+            </Step>
+            <Step>
+                Click the bookmark on any page to save it to Raindrop.io
+            </Step>
+        </Steps>
+    </Accordion>
+
+    <Accordion title="Does the extension work on mobile browsers?">
+        Only in Safari on iOS and iPadOS. To enable it, install the [Raindrop.io mobile app](/mobile-app) first — the Safari extension is included.
+
+        Other mobile browsers (Chrome, Firefox, etc.) don't support extensions. Use the Raindrop.io app with the browser share menu instead.
+    </Accordion>
+
+    <Accordion title="What permissions does the extension need?">
+        By default, only minimal permissions — the extension can access the current tab only when you click it. No data is collected or sent in the background.
+
+        Additional permissions are requested only if you enable features like the [saved page indicator](#enabling-saved-page-indicator) or [highlights](/highlights), which need the **Access data on websites** permission to check URLs against your bookmarks and display highlights on revisited pages.
+    </Accordion>
+</AccordionGroup>
+
+Having issues with the extension? Check the [Troubleshooting](/troubleshooting) guide.

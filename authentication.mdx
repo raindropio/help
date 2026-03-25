@@ -1,0 +1,153 @@
+---
+title: "Authentication"
+description: "Sign-in methods, password management, and two-factor authentication"
+icon: "user-lock"
+---
+
+<Frame style={{backgroundColor: '#D1FAE4', padding: '48px'}}>
+    <Icon icon="user-lock" iconType="duotone" size={80} color="#166E3F" />
+</Frame>
+
+Raindrop.io supports several ways to sign in: email or username with a password, Google, and Apple.
+
+You can use any combination — for example, register with Google and later add a password, or use all methods at once. All sign-in settings are in [Account Settings](https://app.raindrop.io/settings/account).
+
+## Changing your password
+
+Go to [Account Settings](https://app.raindrop.io/settings/account) and click **Change password**. You'll need to enter your current password first. All other sessions will end automatically.
+
+If you don't remember your current password, use [password recovery](#password-recovery) instead.
+
+## Changing your email or username
+
+Go to [Account Settings](https://app.raindrop.io/settings/account), update the corresponding field and save. All other sessions will end automatically.
+
+## Password recovery
+
+To regain access to your account:
+
+<Steps>
+    <Step>
+        Go to the [Reset password](https://app.raindrop.io/account/lost) page
+    </Step>
+    <Step>
+        Enter your email address
+    </Step>
+    <Step>
+        Check your inbox for a reset link and set a new password
+    </Step>
+</Steps>
+
+## Connecting Google or Apple
+
+Go to [Account Settings](https://app.raindrop.io/settings/account) and find the **Sign in with** section. Toggle Google or Apple on to connect, off to disconnect. You can add or remove providers at any time.
+
+If you registered through a social provider and want to also sign in with a password, click **Change password** in Account Settings. After that you can use both methods or disconnect the social provider.
+
+To switch from one provider to another, connect the new one first, then disconnect the old one.
+
+## Two-factor authentication (2FA)
+
+2FA adds an extra step when you log in: after your password, you enter a one-time code from an authentication app (e.g. Google Authenticator, Authy). Enabling or disabling 2FA automatically ends all other sessions.
+
+<Tabs sync={false}>
+    <Tab title="Enabling">
+        <Steps>
+            <Step>
+                Install an authentication app (Google Authenticator, Authy, or similar) on your phone if you don't have one yet.
+            </Step>
+
+            <Step>
+                Go to [2FA settings](https://app.raindrop.io/settings/tfa) and click **Add**.
+            </Step>
+
+            <Step>
+                Scan or copy the secret code into your authentication app.
+            </Step>
+
+            <Step>
+                Type the six-digit code from the app and click **Continue**.
+            </Step>
+
+            <Step>
+                Save your recovery codes in a safe place — you'll need them if you lose access to the authentication app.
+            </Step>
+        </Steps>
+
+        <Warning>If you lose both your authentication app and recovery codes, you won't be able to access your account.</Warning>
+    </Tab>
+
+    <Tab title="Disabling">
+        <Steps>
+            <Step>
+                Go to [2FA settings](https://app.raindrop.io/settings/tfa)
+            </Step>
+            <Step>
+                Click **Disable**
+            </Step>
+            <Step>
+                Enter a one-time passcode from your authentication app or a recovery code
+            </Step>
+        </Steps>
+    </Tab>
+
+    <Tab title="Disabling during login">
+        <Steps>
+            <Step>
+                Start the [login](https://app.raindrop.io/account) process
+            </Step>
+            <Step>
+                When asked for an authentication code, click **Disable**
+            </Step>
+            <Step>
+                Enter your recovery code and confirm
+            </Step>
+        </Steps>
+    </Tab>
+</Tabs>
+
+## Logging out
+
+Go to [Account Settings](https://app.raindrop.io/settings/account) and click **Logout** to sign out of the current device.
+
+If you need to end all active sessions — for example, after using a shared computer — click **Logout from all devices** instead.
+
+## FAQ
+
+<AccordionGroup>
+    <Accordion title="Can I use email/password and Google/Apple at the same time?">
+        Yes. You can connect any combination of sign-in methods and use whichever is most convenient.
+    </Accordion>
+
+    <Accordion title="I registered with Google/Apple. Can I switch to email and password?">
+        Yes. Set a password in Account Settings, then disconnect the social provider if you no longer need it.
+    </Accordion>
+
+    <Accordion title="Can I switch from Apple to Google or vice versa?">
+        Yes. Connect the new provider first, then disconnect the old one.
+    </Accordion>
+
+    <Accordion title="Does 2FA work with physical security keys?">
+        Not yet. Currently only authentication apps are supported.
+    </Accordion>
+
+    <Accordion title="I lost my authentication app and recovery codes. What now?">
+        Unfortunately, if both are lost, there is no way to regain access to the account.
+    </Accordion>
+</AccordionGroup>
+
+## Related
+
+<CardGroup cols={2}>
+    <Card title="Troubleshooting" icon="bug" iconType="duotone" href="/troubleshooting">
+        Fix login issues, sync problems, and more
+    </Card>
+
+    <Card title="Subscription" icon="badge-check" iconType="duotone" href="/premium-features">
+        Manage your Pro plan and billing
+    </Card>
+
+    <Card title="Transfer & delete" icon="truck" iconType="duotone" href="/transfer">
+        Move data between accounts
+    </Card>
+</CardGroup>

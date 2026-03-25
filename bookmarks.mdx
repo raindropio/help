@@ -1,0 +1,314 @@
+---
+title: "Bookmarks"
+description: "Save what catches your eye on the web"
+icon: "bookmark"
+---
+
+<Frame style={{backgroundColor: '#E3EAFD', padding: '48px'}}>
+	<Icon icon="bookmark" iconType="duotone" size={80} color="#133A9A" />
+</Frame>
+
+Bookmarks are at the heart of Raindrop.io. Save a link — and it's stored with a clean preview, ready to organize into [collections](/collections), label with [tags](/tags), and annotate with notes.
+
+## Saving bookmarks
+
+<Tabs sync={false}>
+	<Tab title="Browser extension">
+		<Steps>
+			<Step>
+				Click the Raindrop.io icon in your browser toolbar.
+
+				<Frame style={{padding: 0}}>![](/assets/extension-button.png)</Frame>
+
+                <Check>Make sure you have the [browser extension](/install-extension) installed.</Check>
+			</Step>
+			<Step>
+				Pick a collection, add tags if you want, and click **Save**.
+
+				<Frame style={{padding: 0}}>![](/assets/extension-intro.png)</Frame>
+			</Step>
+		</Steps>
+	</Tab>
+
+	<Tab title="Web & Desktop">
+		<Steps>
+			<Step>
+				Open a collection and click **+ Add** in the toolbar.
+
+				<Frame style={{padding: 0}}>![](/assets/add-menu.png)</Frame>
+			</Step>
+			<Step>
+				Paste the URL and click **Save**.
+			</Step>
+		</Steps>
+	</Tab>
+
+	<Tab title="iOS">
+		<Steps>
+			<Step>
+				Tap **Share** in any app (Safari, YouTube, Twitter, etc.).
+
+				<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-share-sheet.png" style={{maxHeight: '333px'}} /></Frame>
+			</Step>
+			<Step>
+				Choose **Raindrop.io** from the share sheet. If you don't see it, scroll the top row of icons to the right and tap **More** at the end to enable Raindrop.io.
+
+                <Check>Make sure you have the [mobile app](/mobile-app) installed.</Check>
+			</Step>
+			<Step>
+				Pick a collection, add tags if you want, and tap **Save**.
+
+                <Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-edit-bookmark.png" style={{maxHeight: '333px'}} /></Frame>
+			</Step>
+		</Steps>
+	</Tab>
+
+	<Tab title="Android">
+		<Steps>
+			<Step>
+				Tap **Share** in any app.
+			</Step>
+			<Step>
+				Choose **Raindrop** from the share list.
+
+                <Frame style={{padding: '20px 0 0 0'}}><img src="/assets/android-share-sheet.png" style={{maxHeight: '333px'}} /></Frame>
+
+                <Check>Make sure you have the [mobile app](/mobile-app) installed.</Check>
+			</Step>
+			<Step>
+				Pick a collection, add tags if you want, and tap **Save**.
+			</Step>
+		</Steps>
+	</Tab>
+</Tabs>
+
+The title, description, and thumbnail are grabbed from the page automatically.
+If the bookmark is an article or video, you can view it later in a [clean built-in preview](/articles) — no ads or clutter.
+
+## Managing a bookmark
+
+<Tabs sync={false}>
+	<Tab title="Web & Desktop">
+        Hover over a bookmark and click **Edit**, or right-click and select **Edit** from the context menu.
+
+        <Frame style={{padding:0}}><img src="/assets/bookmark-edit.png" /></Frame>
+	</Tab>
+
+	<Tab title="iOS">
+		Long-press a bookmark and choose **Edit**.
+
+		<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-edit-bookmark.png" style={{maxHeight: '333px'}} /></Frame>
+	</Tab>
+
+	<Tab title="Android">
+		Tap the <Icon icon="ellipsis" size={16} /> icon next to a bookmark to open the edit screen.
+
+		<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/android-edit-bookmark.png" style={{maxHeight: '333px'}} /></Frame>
+	</Tab>
+</Tabs>
+
+From here you can edit the title, description, or thumbnail, and also:
+- Add a **note** — your own comments, context, or anything you want to remember about the page. Notes are written in Markdown (bold, italic, lists, links) and are included in [search](/using-search) and [export](/export)
+- Move the bookmark to another [collection](/collections)
+- Add [tags](/tags) for easier filtering
+- Set a [reminder](/reminders) so you don't forget about it
+- Mark as **favorite** to keep it at hand
+- Or **delete** — the bookmark goes to <Icon icon="trash" size={16} /> [Trash](#where-deleted-bookmarks-go), not permanently removed
+
+## Sorting bookmarks
+
+By default bookmarks appear newest first. You can also manually reorder them — drag the ones that deserve more attention to the top.
+
+<Tabs sync={false}>
+	<Tab title="Web & Desktop">
+		<Steps>
+			<Step>
+				Click <Icon icon="arrow-down-wide-short" /> in the toolbar.
+			</Step>
+			
+			<Step>
+				Choose how to order: by date added, by name, or arrange manually.
+
+				<Frame style={{padding:0}}>![](/assets/sort.png)</Frame>
+			</Step>
+
+			<Step>
+				*Optionally*: when manual sorting is active, you can drag and drop bookmarks to reorder them.
+			</Step>
+		</Steps>
+	</Tab>
+
+	<Tab title="iOS">
+		<Steps>
+			<Step>
+				Tap <Icon icon="ellipsis" /> in the top right corner, then **Sort**.
+			</Step>
+			
+			<Step>
+				Choose how to order: by date added, by name, or arrange manually.
+
+				<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-sort.png" style={{maxHeight: '333px'}} /></Frame>
+			</Step>
+
+			<Step>
+				*Optionally*: when manual sorting is active, you can drag and drop bookmarks to reorder them.
+			</Step>
+		</Steps>
+	</Tab>
+
+	<Tab title="Android">
+		<Steps>
+			<Step>
+				Tap <Icon icon="arrow-down-arrow-up" /> in the top right corner.
+			</Step>
+			
+			<Step>
+				Choose how to order: by date added, by name, or arrange manually.
+
+				<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/android-sort.png" style={{maxHeight: '333px'}} /></Frame>
+			</Step>
+
+			<Step>
+				*Optionally*: when manual sorting is active, you can drag and drop bookmarks to reorder them.
+			</Step>
+		</Steps>
+	</Tab>
+</Tabs>
+
+## Finding bookmarks
+
+Find any bookmark by name, URL, or content. Use [filters](/filters) to narrow results by type, date, tag, and more.
+
+<Tabs sync={false}>
+	<Tab title="Web & Desktop">
+		Click the search field at the top of the page and start typing.
+
+		<Frame style={{padding:0}}>![](/assets/search-results.png)</Frame>
+	</Tab>
+
+	<Tab title="iOS">
+		Tap the search field at the top of the screen and type your query.
+
+		<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-search.png" style={{maxHeight: '333px'}} /></Frame>
+	</Tab>
+
+	<Tab title="Android">
+		Tap the <Icon icon="search" size={16} /> button at the top of the screen and type your query.
+
+		<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/android-filter.png" style={{maxHeight: '333px'}} /></Frame>
+	</Tab>
+</Tabs>
+
+Learn more about other ways to [search](/using-search) and [filter](/filters) your bookmarks.
+
+## Managing multiple bookmarks
+
+<Tip>**Pro tip**: need to sort, tag, or reorganize a lot of bookmarks at once? Ask [Stella](/stella) — just describe what you need in plain language.</Tip>
+
+<Tabs sync={false}>
+	<Tab title="Web & Desktop">
+		<Steps>
+			<Step>
+				Hover over a bookmark and click the checkbox that appears.
+
+				<Frame style={{padding: 0}}>![](/assets/bookmarks-bulk.png)</Frame>
+			</Step>
+			<Step>
+				Click additional bookmarks to add them to the selection.
+			</Step>
+			<Step>
+				Use the toolbar actions:
+				- **Move** — transfer to another [collection](/collections)
+				- **Add tags** — apply [tags](/tags) to all selected items
+				- **Open** — open all selected links in new browser tabs at once
+				- **Delete** — move to [Trash](#where-deleted-bookmarks-go)
+			</Step>
+		</Steps>
+	</Tab>
+
+	<Tab title="iOS">
+		<Steps>
+			<Step>
+				Tap **Select** in the top right corner.
+			</Step>
+			<Step>
+				Tap bookmarks to add them to the selection.
+			</Step>
+			<Step>
+				Use the action bar at the bottom — **Move**, **Add tags**, **Delete**, and more.
+
+				<Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-batch-actions.png" style={{maxHeight: '333px'}} /></Frame>
+			</Step>
+		</Steps>
+	</Tab>
+
+	<Tab title="Android">
+		<Steps>
+			<Step>
+				Long-press a bookmark to enter selection mode.
+			</Step>
+			<Step>
+				Tap more bookmarks to add them to the selection.
+			</Step>
+			<Step>
+				Use the toolbar: **⋮** → **Move**, **Add tags**, **Delete**, and more.
+			</Step>
+		</Steps>
+	</Tab>
+</Tabs>
+
+## Where deleted bookmarks go
+
+Deleted bookmarks are moved to <Icon icon="trash" size={16} /> **Trash** collection. It works like any other collection: you can browse it, drag bookmarks out to restore them, or drag bookmarks into it to delete them.
+
+Nothing is removed permanently until you choose to. Bookmarks in Trash don't appear in search results or filters.
+
+## Related
+
+Dive deeper into organizing, finding, and working with your bookmarks.
+
+<CardGroup cols={2}>
+    <Card title="Search" icon="search" iconType="duotone" href="/using-search">
+		Find anything across your entire library
+	</Card>
+
+	<Card title="Collections" icon="folder" iconType="duotone" href="/collections">
+		Group bookmarks by topic, project, or interest
+	</Card>
+
+	<Card title="Tags" icon="hashtag" iconType="duotone" href="/tags">
+		Add keywords to find bookmarks from different angles
+	</Card>
+
+	<Card title="Highlights" icon="feather" iconType="duotone" href="/highlights">
+		Save key passages from articles, PDFs, and books
+	</Card>
+
+	<Card title="Reminders" icon="bell" iconType="duotone" href="/reminders">
+		Get notified about bookmarks at the right time
+	</Card>
+
+	<Card title="Stella" icon="sparkles" iconType="duotone" href="/stella">
+		Let AI organize, summarize, and clean up your library
+	</Card>
+</CardGroup>
+
+## FAQ
+
+<AccordionGroup>
+	<Accordion title="Can I save a bookmark into multiple collections?">
+		A bookmark lives in one collection. To have it in two places, open the target collection, click **+**, paste the URL, and save — this creates a separate copy.
+	</Accordion>
+
+	<Accordion title="What information is extracted automatically?">
+		Title, description, thumbnail, and content type (article, video, image, document, audio). For articles, the full text is also saved for [search](/using-search) and offline reading.
+	</Accordion>
+
+	<Accordion title="What if preview is missing or shows wrong content?">
+		Right-click the bookmark → **Refresh preview**. Raindrop.io will re-extract content from the original page. If the problem persists, contact support at info@raindrop.io.
+	</Accordion>
+
+	<Accordion title="Where do deleted bookmarks go?">
+		To [Trash](#where-deleted-bookmarks-go). They stay there until you empty it manually, so you can always restore accidentally deleted bookmarks.
+	</Accordion>
+</AccordionGroup>

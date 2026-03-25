@@ -1,0 +1,136 @@
+---
+title: "Mobile app"
+description: "Access and save your bookmarks on iOS and Android"
+---
+
+<Frame style={{padding: 0}}>![](/assets/mobile-app-intro.png)</Frame>
+
+Save links on the go, manage your library from your phone, and keep everything in sync across devices.
+
+## Installing app
+Download the app and log in with your Raindrop.io account.
+
+<CardGroup cols={2}>
+    <Card title="iOS / iPadOS" icon="apple" iconType="duotone" href="https://raindrop.io/r/app/ios">
+        Requires iOS / iPadOS 17 or higher
+    </Card>
+    <Card title="Android" icon="android" iconType="duotone" href="https://raindrop.io/r/app/android">
+        Requires Android 7.0 or higher
+    </Card>
+</CardGroup>
+
+## Enabling share button
+
+Once enabled, you can save any link or file to Raindrop.io straight from the share menu of any app.
+
+<Tabs sync={false} borderBottom>
+    <Tab title="iOS">
+        <Note>
+            Enable **Share extension** to save links from any app.
+
+            Optionally enable **Safari extension** for [highlighting](/highlights) in the Safari, and **"Add to Unsorted"** for one-tap saving.
+        </Note>
+
+        <AccordionGroup>
+            <Accordion title="Share extension" icon="arrow-up-from-bracket" defaultOpen>
+                <Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-share-sheet.png" style={{maxHeight: '333px'}} /></Frame>
+
+                <Steps>
+                    <Step>
+                        Tap the **Share** button in Safari or any other app
+
+                    </Step>
+                    <Step>
+                        Swipe the top row (with the colored icons) and tap **More**
+                    </Step>
+                    <Step>
+                        Enable **Raindrop.io**
+                    </Step>
+                    <Step>
+                        (Optional) Move Raindrop.io to the top of the list, then tap **Done**
+                    </Step>
+                </Steps>
+            </Accordion>
+
+            <Accordion title="Safari extension" icon="safari">
+                <Steps>
+                    <Step>
+                        Open **Safari** on your iPhone or iPad
+                    </Step>
+                    <Step>
+                        Tap the **Extensions** button in the toolbar (puzzle icon next to "AA")
+                    </Step>
+                    <Step>
+                        Tap **Manage Extensions** and turn on **Raindrop.io**
+                    </Step>
+                </Steps>
+            </Accordion>
+
+            <Accordion title="&quot;Add to Unsorted&quot; action" icon="inbox">
+                <Steps>
+                    <Step>
+                        Tap the **Share** button in Safari or any other app
+                    </Step>
+                    <Step>
+                        Swipe the list down and tap **Edit Actions...**
+                    </Step>
+                    <Step>
+                        Find **Add to Unsorted**, tap **+** to enable it
+                    </Step>
+                    <Step>
+                        (Optional) Move it to the top of the list, then tap **Done**
+                    </Step>
+                </Steps>
+            </Accordion>
+        </AccordionGroup>
+    </Tab>
+
+    <Tab title="Android">
+        <Check>No extra setup needed</Check>
+
+        After installing the app, **Raindrop.io** will appear in the share sheet of any app. If you don't see it right away, scroll through the list — after the first use it moves closer to the top automatically.
+
+        <Frame style={{padding: '20px 0 0 0'}}><img src="/assets/android-share-sheet.png" style={{maxHeight: '333px'}} /></Frame>
+    </Tab>
+</Tabs>
+
+## Next steps
+
+You're all set. Here's what you can do from the mobile app:
+
+<CardGroup cols={2}>
+    <Card title="Save bookmark" icon="bookmark" iconType="duotone" href="/bookmarks">
+    </Card>
+
+    <Card title="Add highlights" icon="feather" iconType="duotone" href="/highlights">
+    </Card>
+
+    <Card title="Ask AI" icon="sparkles" iconType="duotone" href="/stella">
+        Talk with your bookmarks
+    </Card>
+
+    <Card title="Apple Shortcuts" icon="wand-magic-sparkles" iconType="duotone" href="/integrations/apple-shortcuts">
+        Integrate with other apps
+    </Card>
+</CardGroup>
+
+<Tip>
+    These are just a few examples. The mobile app is a full-featured Raindrop.io client — [tags](/tags), [filters](/filters), [collections](/collections), [search](/using-search), and everything else work the same way as on desktop. Browse the rest of the documentation to learn more.
+</Tip>
+
+## FAQ
+
+<AccordionGroup>
+    <Accordion title="Does the app work offline?">
+        No. An internet connection is required to sync changes and save new bookmarks.
+    </Accordion>
+
+    <Accordion title="Can I use the app on multiple devices?">
+        Yes, as many as you need. Your library syncs automatically across all devices where you're signed in.
+    </Accordion>
+
+    <Accordion title="What if the share extension crashes or doesn't appear?">
+        Try a full reinstall: go to **Settings → General → iPhone Storage → Raindrop.io → Delete App**, then install the app again from the App Store.
+    </Accordion>
+</AccordionGroup>
+

@@ -1,2 +1,4 @@
-# Raindrop.io help site
-Not yet complete
+# Local preview
+```bash
+bunx mintlify@latest dev
+```

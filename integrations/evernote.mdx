@@ -1,0 +1,42 @@
+---
+title: "Evernote"
+---
+
+<Frame style={{padding: '48px'}}>
+	<Icon icon="evernote" size={80} color="#00A82D" />
+</Frame>
+
+[Evernote](https://evernote.com/) is a note-taking app with web clipping. With this integration you can import your existing web clips and set up automatic sync so new notes flow between both apps.
+
+## Importing existing web clips
+
+Only notes with a source URL (created via Web Clipper) are imported — regular text notes are skipped.
+
+<Steps>
+	<Step>
+		[Export your notes](https://help.evernote.com/hc/en-us/articles/209005557-Export-notes-and-notebooks) in ENEX format. Select only **Created Date**, **Tags**, and **Source URL** — other fields are ignored
+	</Step>
+	<Step>
+		Go to [Settings → Import](https://app.raindrop.io/settings/import)
+	</Step>
+	<Step>
+		Upload the ENEX file
+	</Step>
+</Steps>
+
+## Keeping in sync
+
+Once you've imported, set up automatic sync so new items flow between the apps.
+
+<CardGroup cols={1}>
+<Card title="New notes → bookmarks" icon="/assets/icon-ifttt.png" href="https://ifttt.com/applets/JFN7U6et-save-new-evernote-notes-as-raindrop-io-bookmarks" horizontal>
+</Card>
+
+<Card title="New bookmarks → link notes" icon="/assets/icon-ifttt.png" href="https://ifttt.com/applets/epkYMRf8-save-new-raindrop-io-items-to-evernote-as-link-notes" horizontal>
+</Card>
+
+<Card title="New highlights → notes" icon="/assets/icon-ifttt.png" href="https://ifttt.com/applets/GDUJNbQj-save-new-raindrop-io-highlights-to-evernote" horizontal>
+</Card>
+</CardGroup>
+
+Browse [ready-made applets](https://ifttt.com/connect/raindrop/evernote) or [create your own](https://ifttt.com/create) — including multi-step workflows. Learn how such [integrations work](/integrations/ifttt)

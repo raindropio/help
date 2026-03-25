@@ -1,0 +1,100 @@
+---
+title: "Data is missing"
+icon: "ghost"
+---
+
+You open Raindrop.io and your bookmarks are gone — or some of them are missing, or changes you made on one device don't show up on another. Don't panic — your data is almost certainly safe. Here's how to figure out what happened.
+
+## You may be in the wrong account
+
+This is the most common cause. It's easy to end up with two accounts without realizing it — for example, one created with Google and another with email, or you accidentally signed up again instead of logging in.
+
+Go to [Account Settings](https://app.raindrop.io/settings/account) and check the email shown there. If it doesn't look right, log out and try signing in with a different method — Google, Apple, or another email. If your bookmarks appear, that's your real account.
+
+## Bookmarks were deleted
+
+Deleted bookmarks go to [Trash](/bookmarks#where-deleted-bookmarks-go) — they stay there until you empty it manually. Open Trash, select the items you need, and click **Restore**.
+
+## Browser shows stale data
+
+Sometimes data stored in your browser gets corrupted — especially after browser updates or clearing history. Raindrop.io may show an empty or outdated library even though everything is fine on the server.
+
+**Fix: clear Raindrop.io data in your browser and log in again.**
+
+<Tabs sync={false}>
+	<Tab title="Chrome / Edge / Brave">
+		<Steps>
+			<Step>
+				Open [app.raindrop.io](https://app.raindrop.io)
+			</Step>
+			<Step>
+				Open developer console — press `Ctrl+Shift+I` (Windows/Linux) or `Cmd+Option+I` (Mac)
+			</Step>
+			<Step>
+				Go to the **Application** tab, click **Clear site data** (check "Including third-party cookies")
+			</Step>
+			<Step>
+				Refresh the page and log in again
+			</Step>
+		</Steps>
+	</Tab>
+
+	<Tab title="Safari">
+		<Steps>
+			<Step>
+				Open Safari → **Settings** → **Privacy** → **Manage Website Data**
+			</Step>
+			<Step>
+				Search for `raindrop.io`, select it, and click **Remove**
+			</Step>
+			<Step>
+				Refresh the page and log in again
+			</Step>
+		</Steps>
+	</Tab>
+
+	<Tab title="Firefox">
+		<Steps>
+			<Step>
+				Open **Settings** → **Privacy & Security** → **Cookies and Site Data** → **Manage Data**
+			</Step>
+			<Step>
+				Search for `raindrop.io`, select it, and click **Remove All Shown**
+			</Step>
+			<Step>
+				Refresh the page and log in again
+			</Step>
+		</Steps>
+	</Tab>
+</Tabs>
+
+## Changes don't sync between devices
+
+Raindrop.io syncs automatically, but if something looks off:
+
+- **Refresh or reopen the app** — close and reopen, or refresh the web page to force a sync
+- **Log out and back in** — this resets the local session and pulls fresh data from the server
+- **Check that you're using the same account** — open [Account Settings](https://app.raindrop.io/settings/account) on each device and compare the email. If they differ, you're in different accounts
+- **Browser bookmarks ≠ Raindrop.io** — Raindrop.io does not sync with your browser's built-in bookmarks. The browser's native "Add bookmark" saves to the browser only — use the [Raindrop.io extension](/install-extension) or app instead
+
+## Restore from a backup
+
+If nothing above helps, you can roll back to a previous state:
+
+<Steps>
+	<Step>
+		Go to [Settings → Backups](https://app.raindrop.io/settings/backups)
+	</Step>
+	<Step>
+		Pick a backup from before the issue occurred and download it
+	</Step>
+	<Step>
+		Go to [Import](https://app.raindrop.io/settings/import) and upload the file
+	</Step>
+</Steps>
+
+<Note>Automatic daily backups require a [Pro plan](/premium-features). If you don't have one, check if you've ever created a manual backup on the same page.</Note>
+
+## Still missing?
+
+Contact us at [info@raindrop.io](mailto:info@raindrop.io) — we keep server-side backups and can help recover your data.

@@ -1,0 +1,76 @@
+---
+title: "Keyboard shortcuts"
+sidebarTitle: "Shortcuts"
+icon: "keyboard"
+---
+
+<Frame style={{backgroundColor: '#E3EAFD', padding: '48px'}}>
+    <Icon icon="keyboard" iconType="duotone" size={80} color="#133A9A" />
+</Frame>
+
+## Browser extension
+
+### Default shortcuts
+
+<Tabs sync={false}>
+    <Tab title="Chrome">
+        | Command | macOS | Windows / Linux |
+        | --- | --- | --- |
+        | Save bookmark / highlight | `⌘⇧S` | `Ctrl+Shift+S` |
+        | Open sidebar | `⌘.` | `Ctrl+.` |
+    </Tab>
+
+    <Tab title="Edge">
+        | Command | macOS | Windows / Linux |
+        | --- | --- | --- |
+        | Save bookmark / highlight | `⌃X` | `Alt+X` |
+        | Open sidebar | `⌘.` | `Ctrl+.` |
+    </Tab>
+
+    <Tab title="Firefox">
+        | Command | macOS | Windows / Linux |
+        | --- | --- | --- |
+        | Save bookmark / highlight | `⌃X` | `Alt+X` |
+        | Open sidebar | `⌘.` | `Ctrl+.` |
+    </Tab>
+
+    <Tab title="Safari">
+        | Command | macOS |
+        | --- | --- |
+        | Save bookmark / highlight | `⌘⇧S` |
+    </Tab>
+</Tabs>
+
+### Changing shortcuts
+
+<Tabs sync={false}>
+    <Tab title="Chrome / Edge">
+        <Steps>
+            <Step>
+                Paste `chrome://extensions/shortcuts` into the address bar and press Enter
+            </Step>
+            <Step>
+                Find **Raindrop.io** in the list and click the pencil icon next to the shortcut you want to change
+            </Step>
+            <Step>
+                Press your new key combination
+            </Step>
+        </Steps>
+    </Tab>
+
+    <Tab title="Firefox">
+        Follow the official guide: [Manage extension shortcuts in Firefox](https://support.mozilla.org/en-US/kb/manage-extension-shortcuts-firefox)
+    </Tab>
+
+    <Tab title="Safari">
+        Custom shortcuts are not supported in Safari.
+    </Tab>
+</Tabs>
+
+## FAQ
+
+<AccordionGroup>
+    <Accordion title="The shortcut doesn't work — what should I do?">
+        Another extension or the browser itself may be using the same key combination. Try [changing the shortcut](#changing-shortcuts) to a different one, or check [Troubleshooting](/troubleshooting) for more help.
+    </Accordion>
+</AccordionGroup>

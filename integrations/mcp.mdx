@@ -1,0 +1,91 @@
+---
+title: "MCP server"
+---
+
+<Frame style={{padding: '48px'}}>
+	<Icon icon="microchip" iconType="duotone" size={80} color="#7C3AED" />
+</Frame>
+
+The [Model Context Protocol](https://modelcontextprotocol.io) (MCP) server provides a standardized interface that allows any compatible AI model or agent to access your Raindrop.io data in a simple and secure way.
+
+<Info>MCP is currently in **beta** for [Pro](https://raindrop.io/pro/buy) users.</Info>
+
+## Server address
+
+Our MCP server uses Streamable HTTP transport with OAuth 2.1 authentication at the following address:
+
+```
+https://api.raindrop.io/rest/v2/ai/mcp
+```
+
+On first connection your browser will open to authorize access to your Raindrop.io account.
+
+## Supported clients
+
+<CardGroup cols={1}>
+	<Card title="Claude" icon="/assets/icon-claude.png" href="/integrations/claude" horizontal>
+		claude.ai, Desktop, and Claude Code
+	</Card>
+	<Card title="ChatGPT" icon="openai" href="/integrations/chatgpt" horizontal>
+		Plus, Pro, Business, Enterprise, Education
+	</Card>
+	<Card title="VS Code" icon="/assets/icon-vscode.png" href="/integrations/vscode" horizontal>
+		GitHub Copilot
+	</Card>
+	<Card title="Cursor" icon="/assets/icon-cursor.png" href="/integrations/cursor" horizontal>
+		AI code editor
+	</Card>
+	<Card title="Windsurf" icon="/assets/icon-windsurf.png" href="/integrations/windsurf" horizontal>
+		AI code editor
+	</Card>
+	<Card title="Zed" icon="/assets/icon-zed.png" href="/integrations/zed" horizontal>
+		Code editor (via mcp-remote bridge)
+	</Card>
+</CardGroup>
+
+## Other MCP clients
+
+Hundreds of other tools now support MCP servers. You can configure them to use Raindrop.io MCP server with the following settings:
+
+- **Command:** `npx`
+- **Arguments:** `-y mcp-remote https://api.raindrop.io/rest/v2/ai/mcp`
+- **Environment:** None
+
+For cloud-based or other hosted clients not listed on this page, please reach out to [info@raindrop.io](mailto:info@raindrop.io) so we can enable support.
+
+## FAQ
+
+<AccordionGroup>
+	<Accordion title="Why am I seeing an error when trying to connect?">
+		Run the following in Terminal to clear saved auth info, then try again:
+
+		```bash
+		rm -rf ~/.mcp-auth
+		```
+
+		If the issue persists, make sure you have the latest version of [Node.js](https://nodejs.org) installed.
+	</Accordion>
+
+	<Accordion title="Does the MCP support Streamable HTTP?">
+		Yes, at the `https://api.raindrop.io/rest/v2/ai/mcp` endpoint. This is the only supported transport.
+	</Accordion>
+
+	<Accordion title="Can I authenticate with my own API keys or OAuth access tokens?">
+		Yes. You can pass your [Raindrop.io API](https://developer.raindrop.io) token directly in the `Authorization: Bearer <your-token>` header instead of using the interactive OAuth flow.
+	</Accordion>
+
+	<Accordion title="I'm using WSL on Windows, and seeing an error">
+		Try this configuration instead:
+
+		```json
+		{
+			"mcpServers": {
+				"raindrop": {
+					"command": "wsl",
+					"args": ["npx", "-y", "mcp-remote", "https://api.raindrop.io/rest/v2/ai/mcp"]
+				}
+			}
+		}
+		```
+	</Accordion>
+</AccordionGroup>

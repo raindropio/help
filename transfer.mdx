@@ -1,0 +1,99 @@
+---
+title: "Transfer or delete"
+description: "Move data between accounts, reset, or remove your account"
+icon: "truck"
+---
+
+<Frame style={{backgroundColor: '#FCE5E4', padding: '48px'}}>
+    <Icon icon="truck" iconType="duotone" size={80} color="#d32a57" />
+</Frame>
+
+Sometimes you need to move your data to a different account, start over, or leave entirely. All these actions are available in [Account Settings](https://app.raindrop.io/settings/account).
+
+## Transferring data between accounts
+
+To move all bookmarks, collections, tags, highlights, and notes from one account to another:
+
+<Steps>
+    <Step>
+        Log in to the source account and go to [Backup settings](https://app.raindrop.io/settings/backups)
+    </Step>
+    <Step>
+        Create a new backup and wait for an email notification
+    </Step>
+    <Step>
+        Download the **HTML** file from the [Backups page](https://app.raindrop.io/settings/backups)
+    </Step>
+    <Step>
+        Log out and sign in to the destination account
+    </Step>
+    <Step>
+        Go to [Import](https://app.raindrop.io/settings/import), upload the file, and click **Start import**
+    </Step>
+</Steps>
+
+After import, thumbnails and metadata will be downloaded by the server within a few hours.
+
+## Resetting your account
+
+To start fresh without creating a new account — remove all bookmarks and collections while keeping your profile and settings.
+
+<Steps>
+    <Step>
+        Go to [Account Settings](https://app.raindrop.io/settings/account)
+    </Step>
+    <Step>
+        Click **Remove all my bookmarks and collections**
+    </Step>
+    <Step>
+        Confirm the removal
+    </Step>
+</Steps>
+
+<Check>Deleted bookmarks can be restored from [Trash](/bookmarks#where-deleted-bookmarks-go).</Check>
+
+## Removing your account
+
+Deleting your account permanently removes all data — bookmarks, collections, files, tags, highlights, and notes. This action cannot be undone.
+
+<Steps>
+    <Step>
+        Go to [Account Settings](https://app.raindrop.io/settings/account)
+    </Step>
+    <Step>
+        Click **Remove account**
+    </Step>
+    <Step>
+        Confirm the removal
+    </Step>
+</Steps>
+
+<Warning>If you have an active Pro subscription, [cancel it](/premium-features) before removing your account.</Warning>
+
+## FAQ
+
+<AccordionGroup>
+    <Accordion title="Does transfer copy my collections structure?">
+        Yes. Collections, nested collections, tags, highlights, and notes are all included in the backup file.
+    </Accordion>
+
+    <Accordion title="What happens to shared collections if I delete my account?">
+        All your data, including shared collections, will be permanently removed. Collaborators will lose access.
+    </Accordion>
+
+    <Accordion title="Can I undo account deletion?">
+        No. Once confirmed, the account and all associated data are permanently deleted.
+    </Accordion>
+</AccordionGroup>
+
+## Related
+
+<CardGroup cols={2}>
+    <Card title="Export" icon="arrow-up-from-bracket" iconType="duotone" href="/export">
+        Download a backup of your data
+    </Card>
+
+    <Card title="Import" icon="cloud-arrow-up" iconType="duotone" href="/import">
+        Import bookmarks from a file or browser
+    </Card>
+</CardGroup>

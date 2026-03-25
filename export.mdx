@@ -1,0 +1,186 @@
+---
+title: "Export & backup"
+icon: "arrow-up-from-bracket"
+---
+
+<Frame style={{backgroundColor: '#D1FAE4', padding: '48px'}}>
+    <Icon icon="arrow-up-from-bracket" iconType="duotone" size={80} color="#166E3F" />
+</Frame>
+
+Your data is yours.
+You can download everything at any time — the whole account, a single collection, or just a few selected items — and move it to another app, back to your browser, or to a different Raindrop.io account.
+
+Available formats are **HTML**, **CSV**, and **TXT**.
+
+<Check>Not sure which format to pick? Choose **HTML** — it produces a Netscape Bookmarks file supported by all browsers and most third-party apps.</Check>
+
+## Backing up the whole account
+
+All your bookmarks, collections, tags, highlights, and notes — keep as a safety copy or use to move to another service.
+
+<Steps>
+    <Step>
+        Go to [Settings → Backups](https://app.raindrop.io/settings/backups).
+    </Step>
+    <Step>
+        Click **Create new**.
+    </Step>
+    <Step>
+        Wait for an email notification, then download the files from the same page.
+    </Step>
+    <Step>
+        *(Optional)* To restore from a backup see [Import](/import).
+    </Step>
+</Steps>
+
+The backup covers everything except [uploaded files](/files) (PDFs, images, etc.) — those are stored separately and can be downloaded as a ZIP archive, as described below.
+
+<Accordion title="How do I download uploaded files?">
+    [Uploaded files](/files) (PDFs, images, etc.) are not included in the backup. To download them separately:
+
+    <Steps>
+        <Step>
+            Open **All bookmarks** in the [web app](https://app.raindrop.io).
+        </Step>
+        <Step>
+            Click **Export → ZIP**. The archive will contain all original files across your collections.
+        </Step>
+    </Steps>
+</Accordion>
+
+## Automatic daily backups
+
+<Note>Requires a [Pro subscription](/premium-features).</Note>
+
+If you accidentally delete something or want to roll back recent changes, automatic backups have you covered.
+With a Pro plan, a backup is created once a day when you make changes.
+
+Up to 30 recent backups are kept in your account at [Settings → Backups](https://app.raindrop.io/settings/backups) — pick any of them and [restore](/import) to get your data back.
+
+Optionally, backups can also be sent to your cloud storage — enable each provider under **Cloud backup** on the same page.
+
+| Service | Where files are stored |
+|---|---|
+| Dropbox | `/Apps/Raindrop.io` |
+| Google Drive | Root folder (as `Raindrop.io-Export.html` and `Raindrop.io-Export.csv`) |
+| Microsoft OneDrive | `/Apps/Raindrop.io` |
+
+
+## Exporting a collection
+If you don't need the whole account, you can export just a collection or a handful of selected bookmarks.
+
+<Tabs sync={false}>
+    <Tab title="Web & Desktop">
+        <Steps>
+            <Step>
+                Open the collection you want to export.
+            </Step>
+            <Step>
+                Click **Export** and choose a format.
+
+                <Frame style={{padding: 0}}>![](/assets/export-collection.png)</Frame>
+            </Step>
+        </Steps>
+    </Tab>
+
+    <Tab title="iOS">
+        <Steps>
+            <Step>
+                Open the collection you want to export.
+            </Step>
+            <Step>
+                Tap **Select** in the toolbar.
+            </Step>
+            <Step>
+                Tap **Select all** in the toolbar.
+            </Step>
+            <Step>
+                Tap **Actions** → **Share**.
+
+                <Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-batch-actions.png" style={{maxHeight: '333px'}} /></Frame>
+            </Step>
+        </Steps>
+    </Tab>
+
+    <Tab title="Android">
+        Not available yet.
+    </Tab>
+</Tabs>
+
+## Exporting selected bookmarks
+
+<Tabs sync={false}>
+    <Tab title="Web & Desktop">
+        <Steps>
+            <Step>
+                Hover over items and click the checkbox to select them.
+            </Step>
+            <Step>
+                Click **Export** in the toolbar and choose a format.
+
+                <Frame style={{padding: 0}}>![](/assets/bookmarks-bulk.png)</Frame>
+            </Step>
+        </Steps>
+    </Tab>
+
+    <Tab title="iOS">
+        <Steps>
+            <Step>
+                Open a collection and tap **Select** in the toolbar.
+            </Step>
+            <Step>
+                Tap the bookmarks you want to export.
+            </Step>
+            <Step>
+                Tap **Actions** → **Share**.
+
+                <Frame style={{padding: '20px 0 0 0'}}><img src="/assets/ios-batch-actions.png" style={{maxHeight: '333px'}} /></Frame>
+            </Step>
+        </Steps>
+    </Tab>
+
+    <Tab title="Android">
+        Not available yet.
+    </Tab>
+</Tabs>
+
+## Exporting highlights
+
+Highlights from a single bookmark can be exported as a **text** or **CSV** file.
+
+<Tabs sync={false}>
+    <Tab title="Web & Desktop">
+        Open a bookmark → **Highlights** → **Export** icon.
+    </Tab>
+
+    <Tab title="iOS">
+        Not available yet.
+    </Tab>
+
+    <Tab title="Android">
+        Not available yet.
+    </Tab>
+</Tabs>
+
+## FAQ
+
+<AccordionGroup>
+    <Accordion title="Which format should I choose?">
+        **HTML** is the most universal — any browser or bookmark manager can import it. **CSV** is convenient for spreadsheets and data analysis. **TXT** is a plain list of URLs.
+    </Accordion>
+
+    <Accordion title="Can I export from a mobile device?">
+        Export and backup are available in the web app. Open [app.raindrop.io](https://app.raindrop.io) in a mobile browser to access them.
+    </Accordion>
+</AccordionGroup>
+
+## Related
+
+<CardGroup cols={2}>
+    <Card title="Import" icon="cloud-arrow-up" iconType="duotone" href="/import">
+        Import bookmarks from a file or browser
+    </Card>
+    <Card title="Transfer & delete" icon="truck" iconType="duotone" href="/transfer">
+        Move data between accounts or remove your account
+    </Card>
+</CardGroup>

@@ -1,0 +1,95 @@
+---
+title: "Embed"
+description: "Add a live Raindrop.io bookmarks widget to any website or blog"
+icon: "code"
+---
+
+<Frame style={{backgroundColor: '#FEF9C3', padding: '48px'}}>
+    <Icon icon="code" iconType="duotone" size={80} color="#A16207" />
+</Frame>
+
+You have a collection of bookmarks and want to show it right on your website or blog — without sending visitors somewhere else. An embed places a live, interactive widget on any page. It updates automatically when you add, remove, or reorder bookmarks in Raindrop.io.
+
+You can embed a single collection or your entire profile page that lists all public collections.
+
+## Embedding a collection
+
+The collection must have [Public Page](/public-page) enabled before it can be embedded.
+
+<Steps>
+    <Step>
+        Go to [app.raindrop.io](https://app.raindrop.io/) and open the collection you want to embed.
+    </Step>
+
+    <Step>
+        Click **Share** in the top-right corner and turn on **Public Page** if it's not already enabled.
+    </Step>
+
+    <Step>
+        Switch to the **Embed** tab, copy the code, and paste it into your website's HTML.
+    </Step>
+</Steps>
+
+Here's how an embedded collection looks:
+
+<iframe style={{border: 0, width: '100%', height: 450}} allowfullscreen frameborder="0" src="https://press.raindrop.page/movies-53319321/embed" />
+
+## Embedding your profile
+
+Your profile page at `username.raindrop.page` lists all public collections in one place. It can also be embedded as a widget.
+
+<Note>The profile page only exists when you have at least one public collection.</Note>
+
+<Steps>
+    <Step>
+        Open your profile page at `https://your-username.raindrop.page` in a browser. You can find your username in [Account Settings](https://app.raindrop.io/settings/account).
+    </Step>
+
+    <Step>
+        Click **Embed** in the top-right corner, copy the code, and paste it into your website's HTML.
+    </Step>
+</Steps>
+
+Here's how an embedded profile page looks:
+
+<iframe style={{border: 0, width: '100%', height: 450}} allowfullscreen frameborder="0" src="https://press.raindrop.page/embed/me" />
+
+## Hiding elements
+
+When generating the embed code, you can type keywords into the **Hide** field (comma-separated) to remove specific parts of the widget:
+
+| Keyword | What it hides |
+| ------- | ------------- |
+| `header` | Top header bar |
+| `excerpt` | Description |
+| `note` | Note |
+| `tags` | Tags |
+| `info` | Domain & date |
+| `add` | "Add to Raindrop" button |
+
+## Limitations
+
+- The widget appearance cannot be customized with CSS — only the **Hide** field is available for adjustments
+
+## FAQ
+
+<AccordionGroup>
+    <Accordion title="Does the widget update when I change bookmarks?">
+        Yes. Any changes you make in Raindrop.io appear in the embed automatically.
+    </Accordion>
+
+    <Accordion title="Can I embed a private collection?">
+        No. You need to enable [Public Page](/public-page) for the collection before embedding it.
+    </Accordion>
+</AccordionGroup>
+
+## Related
+
+<CardGroup cols={2}>
+    <Card title="Public page" icon="globe" iconType="duotone" href="/public-page">
+        Share collections via a public link without embedding
+    </Card>
+    <Card title="Collaboration" icon="user-group" iconType="duotone" href="/collaboration">
+        Give others edit access to a collection
+    </Card>
+</CardGroup>
