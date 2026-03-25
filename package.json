@@ -2,7 +2,9 @@
   "name": "docs",
   "private": true,
   "scripts": {
-    "local": "mintlify dev"
+    "local": "mintlify dev",
+    "test": "mintlify validate && mintlify broken-links",
+    "deploy:prod": "git branch -f release/production master && git push --force origin release/production"
   },
   "devDependencies": {
     "mintlify": "latest"
