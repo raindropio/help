@@ -240,5 +240,11 @@
 		{"source": "/third-party-apps", "destination": "/integrations"},
 		{"source": "/mcp", "destination": "/integrations/mcp"},
 		{"source": "/api", "destination": "/integrations/api"}
-	]
+	],
+
+	"integrations": {
+		"plausible": {
+			"domain": "help.raindrop.io"
+		}
+	}
 }

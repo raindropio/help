@@ -6,19 +6,38 @@ title: "Notion"
 	<Icon icon="notion" size={80} color="black" />
 </Frame>
 
-[Notion](https://www.notion.so/) is an all-in-one workspace for notes, docs, and databases. With this integration you can sync bookmarks and highlights to Notion pages via [IFTTT](/integrations/ifttt).
+[Notion](https://www.notion.so/) is an all-in-one workspace for notes, docs, and databases. With this integration you can import your existing web links and set up sync so new bookmarks flow between both apps.
 
-## Available applets
+## Importing existing items
+
+<Steps>
+	<Step>
+		[Export your entire Notion workspace](https://www.notion.com/help/export-your-content#export-your-entire-workspace)
+	</Step>
+	<Step>
+		Unzip the archive and find the `My Links.csv` file inside
+	</Step>
+	<Step>
+		Go to [Settings → Import](https://app.raindrop.io/settings/import)
+	</Step>
+	<Step>
+		Upload the file
+	</Step>
+</Steps>
+
+Learn more about [importing bookmarks from other apps](/import).
+
+## Connecting
 
 <CardGroup cols={1}>
-	<Card title="Save new Raindrop.io bookmarks to Notion" icon="/assets/icon-ifttt.png" href="https://ifttt.com/applets/Hea7nhpG-save-new-raindrop-io-bookmarks-to-notion" horizontal>
-		Each new bookmark becomes a Notion page automatically
+	<Card title="Sync Notion web links to Raindrop.io" icon="/assets/icon-ifttt.png" href="https://ifttt.com/applets/fNkuSwrH-save-new-notion-pages-as-raindrop-io-bookmarks" horizontal>
 	</Card>
 
-	<Card title="Create a Notion page for each new Raindrop.io highlight" icon="/assets/icon-ifttt.png" href="https://ifttt.com/applets/n9WkF86C-create-a-notion-page-for-each-new-raindrop-io-highlight" horizontal>
-		Highlights are captured with their text, color, and source URL
+	<Card title="Sync bookmarks to Notion" icon="/assets/icon-ifttt.png" href="https://ifttt.com/applets/Hea7nhpG-save-new-raindrop-io-bookmarks-to-notion" horizontal>
+	</Card>
+
+	<Card title="Sync highlights to Notion" icon="/assets/icon-ifttt.png" href="https://ifttt.com/applets/n9WkF86C-create-a-notion-page-for-each-new-raindrop-io-highlight" horizontal>
 	</Card>
 </CardGroup>
 
-Browse [ready-made applets](https://ifttt.com/connect/raindrop/notion_so) or [create your own](https://ifttt.com/create) — including multi-step workflows.
-Learn more [how to use applets](/integrations/ifttt)
+Browse [ready-made applets](https://ifttt.com/connect/raindrop/notion_so) or [create your own](https://ifttt.com/create) — including multi-step workflows. Learn more [how to use applets](/integrations/ifttt)
