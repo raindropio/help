@@ -223,7 +223,7 @@
 		{"source": "/about", "destination": "/"},
 		{"source": "/account-basics", "destination": "/authentication"},
 		{"source": "/account-settings", "destination": "/authentication"},
-		{"source": "/tfa", "destination": "/security"},
+		{"source": "/tfa", "destination": "/authentication"},
 		{"source": "/backups", "destination": "/export"},
 		{"source": "/billing-faq", "destination": "/premium-features"},
 		{"source": "/change-payment-method", "destination": "/premium-features"},
@@ -239,7 +239,8 @@
 		{"source": "/automation", "destination": "/integrations/ifttt"},
 		{"source": "/third-party-apps", "destination": "/integrations"},
 		{"source": "/mcp", "destination": "/integrations/mcp"},
-		{"source": "/api", "destination": "/integrations/api"}
+		{"source": "/api", "destination": "/integrations/api"},
+		{"source": "/ai-suggestions", "destination": "/stella"}
 	],
 
 	"integrations": {
