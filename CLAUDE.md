@@ -14,7 +14,7 @@ When writing articles:
 - If screenshot is helpful in specific part of article and not yet added, add placeholder with description of what to capture
 - Indentation: use tabs, not spaces
 - Use <Steps /> for step by step instructions (without title in <Step />)
-- <Tabs sync={false} /> for platform differences. Order: `Web & Desktop` → `Browser extension` (if applicable) → `iOS` → `Android`
+- <Tabs /> for platform differences. Order: `Web & Desktop` → `Browser extension` (if applicable) → `iOS` → `Android`
 - Typical page structure (a guide, not a rigid template — some pages like onboarding/overview may differ):
 	intro → action sections → Limitations → Related → FAQ
 	All sections except intro are optional — only add them when there's real content, don't pad
