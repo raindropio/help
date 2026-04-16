@@ -51,6 +51,56 @@ Hundreds of other tools now support MCP servers. You can configure them to use R
 
 For cloud-based or other hosted clients not listed on this page, please reach out to [info@raindrop.io](mailto:info@raindrop.io) so we can enable support.
 
+## Available tools
+
+The server exposes the following tools. Read-only tools only fetch data; the rest modify your library.
+
+### Bookmarks
+
+| Tool | Description | Read-only |
+|------|-------------|-----------|
+| `find_bookmarks` | Find bookmarks with filters and semantic search | Yes |
+| `fetch_bookmark_content` | Get full text and metadata of a bookmark | Yes |
+| `find_misplaced_bookmarks` | Detect bookmarks that don't fit their collection | Yes |
+| `find_mistagged_bookmarks` | Detect bookmarks with unfitting tags | Yes |
+| `create_bookmarks` | Save one or many URLs to the library | |
+| `update_bookmarks` | Edit title, note, tags, collection and more | |
+| `delete_bookmarks` | Move to Trash, or delete permanently if already in Trash | |
+
+### Collections
+
+| Tool | Description | Read-only |
+|------|-------------|-----------|
+| `find_collections` | Find collections by name or bookmark count | Yes |
+| `create_collections` | Create one or many collections | |
+| `update_collections` | Rename, edit description, or move collections | |
+| `merge_collections` | Merge source collections into a target | |
+| `delete_collections` | Delete collections; their bookmarks go to Trash | |
+
+### Tags
+
+| Tool | Description | Read-only |
+|------|-------------|-----------|
+| `find_tags` | Find tags by exact name or semantic search | Yes |
+| `update_tags` | Rename or merge tags | |
+| `delete_tags` | Remove tags from the library | |
+
+### Highlights
+
+| Tool | Description | Read-only |
+|------|-------------|-----------|
+| `find_highlights` | Find highlights across the library | Yes |
+| `create_highlight` | Add a highlight to a bookmark | |
+| `update_highlight` | Edit highlight text, note, or color | |
+| `delete_highlights` | Delete specific highlights | |
+
+### Account
+
+| Tool | Description | Read-only |
+|------|-------------|-----------|
+| `fetch_current_user` | Get profile, subscription, and library stats | Yes |
+| `fetch_popular_keywords` | Get frequent keywords and domains across bookmarks | Yes |
+
 ## FAQ
 
 <AccordionGroup>
