@@ -87,7 +87,7 @@
 						"pages": [
 							"/using-search",
 							"/filters",
-							"/permanent-copy",
+							"/web-archive",
 							"/duplicates",
 							"/broken-links"
 						]
@@ -240,7 +240,8 @@
 		{"source": "/third-party-apps", "destination": "/integrations"},
 		{"source": "/mcp", "destination": "/integrations/mcp"},
 		{"source": "/api", "destination": "/integrations/api"},
-		{"source": "/ai-suggestions", "destination": "/stella"}
+		{"source": "/ai-suggestions", "destination": "/stella"},
+		{"source": "/permanent-copy", "destination": "/web-archive"}
 	],
 
 	"integrations": {
