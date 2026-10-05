@@ -8,47 +8,33 @@ title: "Claude"
 
 [Claude](https://claude.ai/) is an AI assistant by Anthropic. With this integration it can search, read, and organize your bookmarks via [MCP](/integrations/mcp).
 
-## Connecting via claude.ai
+## Connecting
 
-Requires Claude Pro, Max, Team, or Enterprise plan.
+Available on all Claude plans, including Free.
 
 <Steps>
 	<Step>
-		Go to [Settings → Connectors](https://claude.ai/customize/connectors)
+		Open [Raindrop.io in the Claude directory](https://claude.ai/directory/raindrop)
 	</Step>
 	<Step>
-		Click **Add connector** and paste the MCP server URL:
-		```
-		https://api.raindrop.io/rest/v2/ai/mcp
-		```
+		Click **Connect**
 	</Step>
 	<Step>
-		Click **Connect** and authorize Raindrop.io in the browser
+		Authorize Raindrop.io in the browser
 	</Step>
 </Steps>
 
-<Tip>Click **Configure** next to Raindrop and set **Read-only tools** permission to **Always allow** so Claude doesn't ask for confirmation every time.</Tip>
+You only need to connect once. After that Raindrop.io is available in Claude on the web, in the desktop app, and on iOS and Android.
 
-## Connecting via Claude Desktop
+<Tip>Go to [Customize → Connectors](https://claude.ai/customize/connectors), select Raindrop.io and set **Read-only tools** permission to **Always allow** so Claude doesn't ask for confirmation every time.</Tip>
 
-Requires [Node.js](https://nodejs.org) installed. Add to your `claude_desktop_config.json`:
-
-```json
-{
-	"mcpServers": {
-		"raindrop": {
-			"command": "npx",
-			"args": ["-y", "mcp-remote", "https://api.raindrop.io/rest/v2/ai/mcp"]
-		}
-	}
-}
-```
-
-Restart Claude Desktop after saving the file.
+<Note>On Team and Enterprise plans an Owner has to enable Raindrop.io for the organization first. After that each member connects their own Raindrop.io account.</Note>
 
 ## Connecting via Claude Code
 
-Run in terminal:
+If you are signed in to Claude Code with your Claude account, Raindrop.io connected in the steps above is already available there.
+
+Otherwise run in terminal:
 
 ```bash
 claude mcp add --transport http raindrop https://api.raindrop.io/rest/v2/ai/mcp
