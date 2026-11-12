@@ -151,6 +151,7 @@
 							"/integrations/glasp",
 							"/integrations/google-drive",
 							"/integrations/google-sheets",
+							"/integrations/grok-bot",
 							"/integrations/ifttt",
 							"/integrations/inoreader",
 							"/integrations/instapaper",

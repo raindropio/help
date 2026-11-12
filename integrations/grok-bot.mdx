@@ -1,0 +1,43 @@
+---
+title: "Grok Bot"
+---
+
+<Frame style={{padding: '48px'}}>
+	<img src="/assets/icon-grok-bot.svg" style={{width: '80px', height: '80px'}} />
+</Frame>
+
+[Grok Bot](https://x.ai/bot) is an AI agent by xAI. With this integration it can search, read, and organize your bookmarks via [MCP](/integrations/mcp).
+
+The bot works on a schedule and signs in to your other apps, so it can also bring links to Raindrop.io on its own. For example, [sync your X bookmarks](#syncing-x-bookmarks) or [collect links from newsletters](#saving-links-from-newsletters).
+
+## Connecting
+
+Send this message to your bot:
+
+```text wrap
+Add a custom MCP server called Raindrop.io at https://api.raindrop.io/rest/v2/ai/mcp
+```
+
+The bot does the setup on its own. When it asks, authorize Raindrop.io in the browser.
+
+## Ideas
+
+### Syncing X bookmarks
+
+Posts you bookmark on X can be copied to Raindrop.io automatically. Send this message once:
+
+```text wrap
+Save all my X bookmarks to Raindrop.io, in a collection called "X bookmarks". Then check every day and add the new ones.
+```
+
+### Saving links from newsletters
+
+Good links often get buried in email newsletters. The bot can go through your Gmail on a schedule and pick them out:
+
+```text wrap
+Every morning, go through the newsletters that arrived in my Gmail since yesterday. Save the links worth reading to Raindrop.io, in a collection called "Newsletters", and tag each one with the newsletter name.
+```
+
+The same works for other apps the bot can sign in to. Change the app, schedule, [collection](/collections), or [tags](/tags) in the message to fit your routine.
+
+If the bot doesn't have access to an app yet, it asks you to sign in first.
