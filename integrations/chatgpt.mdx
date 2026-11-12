@@ -8,18 +8,17 @@ title: "ChatGPT"
 
 [ChatGPT](https://chatgpt.com/) is an AI assistant by OpenAI. With this integration it can search, read, and organize your bookmarks via [MCP](/integrations/mcp).
 
-We're working on adding Raindrop.io to the ChatGPT Apps catalog for one-click setup. In the meantime, you can connect manually using Developer mode.
-
-Requires ChatGPT Plus, Pro, Business, Enterprise, or Education plan.
+<Callout icon="badge-check" color="#FFC107" iconType="regular">
+	On the free plan, the ChatGPT plugin is limited: text and semantic search are not available.
+	To get full access, consider upgrading to a [Pro plan](/premium-features).
+</Callout>
 
 ## Connecting
+Available on all ChatGPT plans, including Free.
 
 <Steps>
 	<Step>
-		Enable **Developer mode** in [**Security and login**](https://chatgpt.com/plugins#settings/Security)
-	</Step>
-	<Step>
-		Go to [**Settings → Apps**](https://chatgpt.com/plugins#settings/Connectors?create-connector=true&redirectAfter=%2Fplugins) and click **+**
+		Open [**Plugins**](https://chatgpt.com/plugins), click **Add** in top right corner and select **Add custom MCP server**
 	</Step>
 	<Step>
 		Set name to `Raindrop` and paste the URL to `Connection` field:
@@ -28,9 +27,18 @@ Requires ChatGPT Plus, Pro, Business, Enterprise, or Education plan.
 		```
 	</Step>
 	<Step>
-		Check **I understand and want to continue**
+		Check **I understand and want to continue** and click **Create as a plugin**
 	</Step>
 	<Step>
-		Click **Create**
+		Click **Connect Raindrop** and allow access
+	</Step>
+	<Step>
+		In a new chat, type `@` and select **Raindrop**
 	</Step>
 </Steps>
+
+You only need to connect once. After that Raindrop.io is available in ChatGPT on the web, in the desktop app, and on iOS and Android.
+
+<Callout>
+	We're working on adding Raindrop.io to the ChatGPT Plugins directory for one-click setup.
+</Callout>
